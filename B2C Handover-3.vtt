@@ -1,0 +1,2659 @@
+WEBVTT
+
+5fbad6f2-3d61-4a3c-bfe1-044e72656f27-0
+00:00:04.360 --> 00:00:16.519
+So I had so as I explained before,
+so the current set up that we got is we
+
+5fbad6f2-3d61-4a3c-bfe1-044e72656f27-1
+00:00:16.519 --> 00:00:22.680
+got B to C per CRM environment 1 to 1.
+
+0bbbff87-a42d-45bc-a71d-51c71af7e1c8-0
+00:00:23.720 --> 00:00:29.520
+So now what we want to do is we want to
+have one too many.
+
+cbeabb5f-314a-4d03-a536-9b5ffcbfe3b3-0
+00:00:29.520 --> 00:00:31.320
+We, we, we don't want it to.
+
+d7432fcf-b1f6-45cb-85d8-62fd5b8718a7-0
+00:00:33.040 --> 00:00:41.200
+So going back to this diagram,
+so we have B to CB to C is mapped to API
+
+d7432fcf-b1f6-45cb-85d8-62fd5b8718a7-1
+00:00:41.200 --> 00:00:47.320
+and API mapped to a database that's sort
+of 1 to one.
+
+a06af059-1834-4e74-8341-34373abaa986-0
+00:00:48.160 --> 00:00:52.806
+What we wanted to do is we want to have
+multiple dev or multiple test
+
+a06af059-1834-4e74-8341-34373abaa986-1
+00:00:52.806 --> 00:00:54.400
+environments now, right?
+
+ad9af7d7-f2e9-471c-bd87-1e840ad5ee23-0
+00:00:55.800 --> 00:01:00.040
+But we're trying to avoid creating
+additional resources.
+
+de200494-339b-4cb4-b9db-83af415f4cd9-0
+00:01:00.680 --> 00:01:05.840
+So what we plan to do is we use the same
+B to C environment.
+
+d632cee6-c776-49a0-9e9f-c1da5ad35d72-0
+00:01:07.800 --> 00:01:10.720
+In B to C you can sort of partition.
+
+b52044df-bfe7-4a56-944f-174e4e680762-0
+00:01:11.680 --> 00:01:21.720
+So remember that the policy that we've
+got, so we got policies.
+
+2b9e9673-ccac-4f71-a887-6452f091e366-0
+00:01:22.960 --> 00:01:26.480
+So all these policies can be partitioned.
+
+28c826bd-83d1-401d-8cb1-1e63c7432c7b-0
+00:01:26.680 --> 00:01:36.000
+Like if you go to policy, for example,
+policy has a policy ID here.
+
+01c03437-30d2-4e77-822b-f236679bdf1e-0
+00:01:37.400 --> 00:01:38.800
+So this is the policy ID.
+
+0a6f469f-3e12-4fac-8bfb-133d1d6328d1-0
+00:01:38.840 --> 00:01:46.680
+So this the first bit here is it's sort
+of like AB to C convention.
+
+60dba60e-ad5b-4ee2-b5cf-02b51e7d7afb-0
+00:01:46.920 --> 00:01:49.480
+It's the same for everything.
+
+5d1bc55d-eabf-490c-b2a6-64b8e0b73a04-0
+00:01:49.640 --> 00:01:52.040
+So you can't really rename it.
+
+7a55aea4-1b0b-4e0e-9282-9b7c2b101cd6-0
+00:01:52.640 --> 00:01:57.680
+And what you can name is what's after.
+
+3444d2a1-d2a1-47f0-8abd-32c16081efc6-0
+00:01:58.680 --> 00:02:04.554
+So what we're planning to do is if the
+environment is partitioned,
+
+3444d2a1-d2a1-47f0-8abd-32c16081efc6-1
+00:02:04.554 --> 00:02:10.867
+so when the policy is deployed,
+we're going to put the environment name
+
+3444d2a1-d2a1-47f0-8abd-32c16081efc6-2
+00:02:10.867 --> 00:02:11.920
+as a prefix.
+
+c176e6c6-82bf-4560-91b2-48ace197c66d-0
+00:02:12.120 --> 00:02:14.560
+So in a single BTC environment.
+
+3a7ee3e7-c11b-4d39-9020-1723888e58c4-0
+00:02:14.560 --> 00:02:16.600
+So we'll have dev.
+
+c4729cfa-89be-42a1-b592-6350b5068b4f-0
+00:02:17.520 --> 00:02:22.555
+So if we reuse dev B to C for dev in test
+verse,
+
+c4729cfa-89be-42a1-b592-6350b5068b4f-1
+00:02:22.555 --> 00:02:30.880
+so then we'll have dev this B to C policy
+and they will have the same policy for
+
+c4729cfa-89be-42a1-b592-6350b5068b4f-2
+00:02:30.880 --> 00:02:31.600
+dev in.
+
+692de265-722a-4f2a-94c8-7fd97f78ec3c-0
+00:02:31.920 --> 00:02:35.800
+So during deployment,
+we can deploy to those sort of like their
+
+692de265-722a-4f2a-94c8-7fd97f78ec3c-1
+00:02:35.800 --> 00:02:37.680
+partition and dev in partition.
+
+34290ad0-0407-4a5c-9e5c-40536e572d40-0
+00:02:38.160 --> 00:02:43.160
+They're not really physical partitions,
+they're just logical partitions by name.
+
+436191a7-456e-4901-8695-905c0ee6ccc3-0
+00:02:44.560 --> 00:02:50.620
+So we'll have in dev tenant,
+we'll have a bunch of dev prefixed
+
+436191a7-456e-4901-8695-905c0ee6ccc3-1
+00:02:50.620 --> 00:02:56.680
+policies and then we'll have a bunch of
+dev in prefix policies.
+
+a1b990b2-1ffe-40e5-8b7f-bbcdcbacc805-0
+00:02:57.560 --> 00:03:00.600
+So, so in, in, in the portal.
+
+54c68d82-07b0-49c7-bfb8-adc5a1931d9d-0
+00:03:01.040 --> 00:03:03.261
+So,
+so we have a dev portal and we have dev
+
+54c68d82-07b0-49c7-bfb8-adc5a1931d9d-1
+00:03:03.261 --> 00:03:04.120
+in portal, right?
+
+b3cdb866-3f4f-4f3d-9a9c-7118ee30d6f7-0
+00:03:04.720 --> 00:03:14.534
+So when we configure the BTC provider,
+so we need to to use the prefixed policy
+
+b3cdb866-3f4f-4f3d-9a9c-7118ee30d6f7-1
+00:03:14.534 --> 00:03:23.000
+names so the each portal can browse to
+the its correspondent policy.
+
+6a0ec347-b517-4e6a-9d2b-9e742ac5084c-0
+00:03:24.520 --> 00:03:26.720
+So how do you configure that, Tanuka?
+
+0d12454c-264b-4a13-bc1f-cf1fd782f749-0
+00:03:26.720 --> 00:03:30.640
+Like for dev, this is the prefix,
+for Devin, this is the prefix.
+
+c823c7c1-5f68-492e-8801-948e5210acfe-0
+00:03:30.640 --> 00:03:31.800
+How do you configure that?
+
+31d4b05a-64cd-497c-9800-898e4540c3eb-0
+00:03:32.160 --> 00:03:34.560
+Yeah, so, so I've done so that you coming?
+
+7b961954-22b7-4819-a507-feb342777dee-0
+00:03:34.880 --> 00:03:36.960
+OK, Yeah.
+
+f3c945b1-06f9-40bc-939f-ef64d457323f-0
+00:03:36.960 --> 00:03:39.880
+So let's go through the changes I've made,
+right?
+
+3f15b705-cb97-4587-b53d-857c54d0e6a0-0
+00:03:41.120 --> 00:03:44.920
+Let's go to Azure Dev OPS.
+
+d814d023-a0e3-435d-8621-c0b07ae81480-0
+00:03:48.280 --> 00:03:53.080
+Another question also like so you showed
+me that policy, right?
+
+222a4651-665c-4c2d-8475-cca88a757654-0
+00:03:53.080 --> 00:03:54.840
+You can put the logical partitioning
+there.
+
+9d39ecf3-8c14-49b4-b2b6-3e041ccab1cb-0
+00:03:55.240 --> 00:03:58.702
+So when you when you have those sections
+shown on that policy,
+
+9d39ecf3-8c14-49b4-b2b6-3e041ccab1cb-1
+00:03:58.702 --> 00:04:02.770
+you will have like a different section
+for a different environment in the
+
+9d39ecf3-8c14-49b4-b2b6-3e041ccab1cb-2
+00:04:02.770 --> 00:04:03.320
+partition.
+
+43b8c5fa-30e9-4636-874b-cc0ef921a739-0
+00:04:03.320 --> 00:04:08.517
+Is it or how do you how do you put the
+partition in inside the policy or where
+
+43b8c5fa-30e9-4636-874b-cc0ef921a739-1
+00:04:08.517 --> 00:04:10.360
+do you place this partition?
+
+01401a06-2036-4240-add8-77d1ef26fdd5-0
+00:04:10.360 --> 00:04:12.800
+Partition is not inside the policy.
+
+1c8257c8-145b-4e2c-be51-ac70b851f41b-0
+00:04:13.080 --> 00:04:15.840
+OK Policy is the partition OK?
+
+9303e46a-7ee8-4b68-abf5-186ea7222135-0
+00:04:16.640 --> 00:04:22.520
+So so maybe it's easier to it's easier to
+show.
+
+1df9d493-d570-4e0f-94ce-12185c774342-0
+00:04:24.040 --> 00:04:25.080
+So if I go to.
+
+9cd76ebe-ddb5-4fa2-88f4-704f6f9907a9-0
+00:04:47.760 --> 00:04:50.440
+So if I go to dev, let me switch to dev.
+
+5a755dac-4ebf-447b-981d-8393c4c266d1-0
+00:05:24.560 --> 00:05:38.164
+So if I go to policies,
+so you can see there are sets of policies
+
+5a755dac-4ebf-447b-981d-8393c4c266d1-1
+00:05:38.164 --> 00:05:47.440
+they went and there are dev policies,
+right?
+
+11e2511b-3abc-41f5-b076-126962fdf87a-0
+00:05:48.080 --> 00:05:48.400
+Yeah.
+
+1754aa32-48e1-4fef-b7e0-292bbf9de6c8-0
+00:05:48.800 --> 00:05:56.040
+So the policy content is the same, OK,
+But the policy configuration is different.
+
+acdcfb9a-259c-4692-bb3b-ae624cf7fc07-0
+00:05:57.880 --> 00:06:02.800
+So remember that in the in, in here, Yeah.
+
+695b219e-4d90-48d4-8e9a-b7390dc63b42-0
+00:06:02.800 --> 00:06:09.200
+So in policies we have placeholders for
+configuration, right?
+
+1a7847bf-c08a-438e-919d-46faebc88822-0
+00:06:09.480 --> 00:06:09.800
+Yeah.
+
+57fa99b8-80e8-441e-873d-4d074f387a7f-0
+00:06:10.200 --> 00:06:15.360
+And now you can see now there's dev
+configuration, yeah.
+
+ed0b7bfb-85ff-4c2a-acb9-512e9cb10633-0
+00:06:15.400 --> 00:06:17.200
+And there's dev in configuration.
+
+7544a81d-f4c4-4a95-a032-fd2ae21ac373-0
+00:06:17.320 --> 00:06:21.250
+So what it will do is it'll get the
+policy,
+
+7544a81d-f4c4-4a95-a032-fd2ae21ac373-1
+00:06:21.250 --> 00:06:28.040
+get the configuration and replace the
+policy with the configuration, right?
+
+513504dc-e4a0-4efc-91fb-f97f11ee02c4-0
+00:06:28.040 --> 00:06:31.160
+And deploy to the correct partition.
+
+2bf557fe-e05b-483a-9460-44df3ca03767-0
+00:06:34.320 --> 00:06:37.480
+So partition is just by convention, right?
+
+638ea768-bb9d-4a6c-b4b5-56813647bacb-0
+00:06:37.480 --> 00:06:38.400
+Just by name.
+
+eaea2f14-ed40-4cd7-8252-efcdf09e5326-0
+00:06:39.680 --> 00:06:41.360
+So it's not really a real partition.
+
+d101d602-9744-4072-97df-258a52316f8c-0
+00:06:41.800 --> 00:06:45.880
+So you can have trusted framework base.
+
+99adf786-e35d-44f3-9166-ceb7dff65717-0
+00:06:46.160 --> 00:06:49.216
+Yeah, for dev,
+you can have trusted framework for dev
+
+99adf786-e35d-44f3-9166-ceb7dff65717-1
+00:06:49.216 --> 00:06:51.480
+int you can have two different versions.
+
+32dce2e8-cee9-4a7b-98f6-4f7de0e26085-0
+00:06:51.760 --> 00:06:54.400
+OK, right.
+
+f841831a-cb37-4f4f-8808-e865d7eb2134-0
+00:06:54.400 --> 00:06:58.109
+So these are not like physical policy,
+which is there,
+
+f841831a-cb37-4f4f-8808-e865d7eb2134-1
+00:06:58.109 --> 00:07:01.280
+but you're just like configuring for this
+one.
+
+a59dfd50-30f9-479f-a68a-cf694ac576bc-0
+00:07:01.280 --> 00:07:04.493
+Just yeah,
+replace those placeholders with the devs
+
+a59dfd50-30f9-479f-a68a-cf694ac576bc-1
+00:07:04.493 --> 00:07:09.622
+int like kind of variable and then put it
+and then replace it and deploy something
+
+a59dfd50-30f9-479f-a68a-cf694ac576bc-2
+00:07:09.622 --> 00:07:10.240
+like that.
+
+b85b8e9d-adc0-4f7b-b03f-3d0ee1d2c2e8-0
+00:07:10.240 --> 00:07:11.480
+OK, that's correct.
+
+18fa21e6-de23-4c7a-9ee6-989f30f9fd34-0
+00:07:12.880 --> 00:07:13.520
+That's correct.
+
+f86a8083-abda-455c-9478-7adc0694cdb1-0
+00:07:15.760 --> 00:07:16.280
+OK, yeah.
+
+3cca7d49-c54c-4c21-b1fc-48205a62997c-0
+00:07:19.440 --> 00:07:21.400
+So let's look at the changes I've made.
+
+ee4e8bd7-68d7-4724-9248-e8ae80423451-0
+00:07:25.600 --> 00:07:33.240
+So we checking everything and we use the
+concept of pull request.
+
+83e89dc3-2fef-404c-aa1f-0d638a571bdb-0
+00:07:33.280 --> 00:07:39.800
+Pull request is, so you give the,
+you get someone to review the changes.
+
+d83395f4-5873-4b91-bf5e-ff49429e17d7-0
+00:07:44.920 --> 00:07:51.600
+So now you can see these are changes to
+support the dev int.
+
+5321a877-3c10-4934-a4f2-a8b73ff98718-0
+00:07:52.080 --> 00:07:52.400
+Yeah.
+
+d7efdcf1-b2e4-47a7-a4ea-22dbb7eab743-0
+00:07:54.200 --> 00:07:58.011
+But if you if you for example,
+you don't need to make this many changes
+
+d7efdcf1-b2e4-47a7-a4ea-22dbb7eab743-1
+00:07:58.011 --> 00:08:01.928
+if you're doing another partition
+environment because the partitions were
+
+d7efdcf1-b2e4-47a7-a4ea-22dbb7eab743-2
+00:08:01.928 --> 00:08:03.040
+not supported before.
+
+5e8a1098-ce52-4674-9e88-297de4db5b48-0
+00:08:04.880 --> 00:08:10.948
+So all you need to do is you need to tell
+the environment is partitioned in the
+
+5e8a1098-ce52-4674-9e88-297de4db5b48-1
+00:08:10.948 --> 00:08:11.480
+config.
+
+e7587e79-c070-446e-80c3-f984f14f5dce-0
+00:08:12.000 --> 00:08:12.920
+Yep, Right.
+
+6aae7b39-7d8e-4eab-8a8d-0ca8b712fddb-0
+00:08:13.440 --> 00:08:19.160
+And so I've created a new dev in config,
+Yeah, which is also partitioned.
+
+151a27b4-acc1-43b8-bf83-5f65934e5b7a-0
+00:08:19.320 --> 00:08:20.680
+So these two are partitioned.
+
+5d285f13-94b1-4fff-b568-08ace1aca878-0
+00:08:21.360 --> 00:08:26.280
+And so it's gonna go to the same tenant
+as dev.
+
+be437bd7-4b93-488f-b9a1-ddefbef64530-0
+00:08:26.280 --> 00:08:26.400
+Yep.
+
+5c49ca1f-ac08-4561-a39d-8c830908a243-0
+00:08:27.480 --> 00:08:32.760
+And it's gonna use all the settings
+pretty much as the same.
+
+b6533959-1717-4335-9d27-3dc65e09904c-0
+00:08:33.160 --> 00:08:34.360
+Yeah, right.
+
+f219257e-4278-4084-8914-e4c1ad3373cb-0
+00:08:34.920 --> 00:08:42.920
+But the difference is it's going to use
+the dev int API, OK, right.
+
+c7070cab-2924-4c22-9976-ff129673181e-0
+00:08:42.920 --> 00:08:49.736
+So so here dev policies will talk to dev
+API,
+
+c7070cab-2924-4c22-9976-ff129673181e-1
+00:08:49.736 --> 00:08:55.960
+Dev int policies will talk to dev int API.
+
+d5c6fa6e-e0f1-4d81-8c39-83b0cb7e614c-0
+00:08:56.160 --> 00:08:56.280
+Yep.
+
+f2540472-7f63-43a1-9a3a-d50f98352295-0
+00:08:56.840 --> 00:08:57.160
+Right.
+
+af937685-eaf0-4675-8ce4-960ab1d11741-0
+00:08:57.520 --> 00:09:03.401
+And dev API is connected to dev database,
+Dev int API is connected to dev int
+
+af937685-eaf0-4675-8ce4-960ab1d11741-1
+00:09:03.401 --> 00:09:04.080
+database.
+
+8d117e7e-7a36-454d-92eb-cabe0b7f4a23-0
+00:09:04.160 --> 00:09:04.280
+Yep.
+
+446953eb-203c-4ca7-ade5-e14f5dfc312c-0
+00:09:04.840 --> 00:09:09.626
+So you, so you,
+so you pretty much have A have two
+
+446953eb-203c-4ca7-ade5-e14f5dfc312c-1
+00:09:09.626 --> 00:09:14.600
+environments in single B to C logically
+partitioned.
+
+41567dbc-7d1a-4245-82f8-321b604c1001-0
+00:09:15.440 --> 00:09:19.413
+I mean, yeah,
+when you leave B to C they're physically
+
+41567dbc-7d1a-4245-82f8-321b604c1001-1
+00:09:19.413 --> 00:09:20.280
+partitioned.
+
+d16a68e5-2944-42f9-a1b6-3ac814da801e-0
+00:09:20.280 --> 00:09:26.760
+But within B to C they're logically
+partitioned, yes.
+
+0aeedf63-70be-4a87-ab0c-11d9cb6cbda9-0
+00:09:26.760 --> 00:09:30.090
+So for each of the environment,
+you will have a resource group in B to C,
+
+0aeedf63-70be-4a87-ab0c-11d9cb6cbda9-1
+00:09:30.090 --> 00:09:30.360
+right.
+
+036e921a-0405-410d-a8e1-7781c92cd796-0
+00:09:31.200 --> 00:09:33.828
+For dev alone,
+you're not putting a separate resource
+
+036e921a-0405-410d-a8e1-7781c92cd796-1
+00:09:33.828 --> 00:09:34.120
+group.
+
+f91df4ac-8caf-4bb0-bd32-0074a41ff6d0-0
+00:09:34.120 --> 00:09:36.920
+You're partitioning into dev and dev int.
+
+c2292782-c1a9-4648-89e7-0dc963e9c3d8-0
+00:09:37.400 --> 00:09:40.640
+Yeah, so, so in in dev.
+
+64964c9b-9a2c-4032-8e44-998dcdafc79e-0
+00:09:40.800 --> 00:09:45.800
+So we have we have everything dev, right?
+
+0f72360e-84b7-4071-9841-dec364f391af-0
+00:09:45.800 --> 00:09:49.560
+And we have additional dev int API.
+
+9248d65a-f2dc-4f75-8356-890d11d53b7e-0
+00:09:49.560 --> 00:09:55.428
+OK, so, so dev and dev int API,
+they both uses the same keyboard and uses
+
+9248d65a-f2dc-4f75-8356-890d11d53b7e-1
+00:09:55.428 --> 00:09:58.600
+the same application inside for logging.
+
+ce0dd13a-87af-41d5-a3a6-6ce5ef7716d1-0
+00:10:02.600 --> 00:10:03.840
+Yeah, yeah, yeah.
+
+bdca02d9-981b-47bb-9b1a-120e58bd9dd3-0
+00:10:06.080 --> 00:10:10.999
+So,
+so this is the signing bit I explained
+
+bdca02d9-981b-47bb-9b1a-120e58bd9dd3-1
+00:10:10.999 --> 00:10:17.520
+before any PowerShell changes requires
+signature change.
+
+87d8de00-a6dd-42c2-827a-8aecde22698d-0
+00:10:20.160 --> 00:10:24.040
+So this is the partitioning
+implementation.
+
+059f2cae-399d-4290-bc08-084acd048f0b-0
+00:10:24.200 --> 00:10:27.360
+I don't think you'll need to go into the
+details of it.
+
+c5b3a4f2-9678-4b5c-a67d-95b1e85b3496-0
+00:10:27.480 --> 00:10:34.950
+It's just read the values and append the
+so you can see the policy ID get appended
+
+c5b3a4f2-9678-4b5c-a67d-95b1e85b3496-1
+00:10:34.950 --> 00:10:39.000
+with the environment name to partition
+them.
+
+78b5826e-dc2f-49ed-9fcd-a348b0d2f774-0
+00:10:39.200 --> 00:10:45.708
+That's that's pretty much the logic to
+get the policies and read the
+
+78b5826e-dc2f-49ed-9fcd-a348b0d2f774-1
+00:10:45.708 --> 00:10:53.255
+corresponding configuration and rename
+the policy to prefix the environment and
+
+78b5826e-dc2f-49ed-9fcd-a348b0d2f774-2
+00:10:53.255 --> 00:10:56.840
+and and and replace the configuration.
+
+4ea538bc-fb94-4a8d-8474-9d713760fccc-0
+00:11:01.880 --> 00:11:04.040
+So pipeline also need to change.
+
+e1944bcf-6475-4bcc-bd8b-61acee06d29f-0
+00:11:04.720 --> 00:11:08.501
+So now if you go,
+so I haven't shown you the pipelines yet,
+
+e1944bcf-6475-4bcc-bd8b-61acee06d29f-1
+00:11:08.501 --> 00:11:08.880
+right.
+
+925ffc33-4852-4c1d-afe5-e30d5d39f3f7-0
+00:11:09.440 --> 00:11:17.320
+If I go to the pipelines,
+so there are two pipelines,
+
+925ffc33-4852-4c1d-afe5-e30d5d39f3f7-1
+00:11:17.320 --> 00:11:28.119
+1 is for B to C policy deployments,
+the other one is for the identity API
+
+925ffc33-4852-4c1d-afe5-e30d5d39f3f7-2
+00:11:28.119 --> 00:11:30.600
+deployment right?
+
+d3571e7a-8aea-496e-9a06-0355b01172c9-0
+00:11:31.240 --> 00:11:37.000
+So if you go to the so this is the
+partition environment, the branch.
+
+d309f9c1-6183-404f-849a-4e70a009e025-0
+00:11:37.440 --> 00:11:39.560
+So this is how it get deployed right?
+
+b7ea42d6-bce9-4e41-8995-1a04b2a1ec8d-0
+00:11:39.560 --> 00:11:45.360
+So the policies get built and get
+deployed to dev.
+
+4dec6951-42ab-424a-8a91-27bfe21db326-0
+00:11:45.760 --> 00:11:58.520
+After dev you can deploy to dev or test
+and then from there onwards pre prod.
+
+9a4cd4f2-8328-4494-82ed-a69d02ad7435-0
+00:11:58.880 --> 00:12:05.060
+So I haven't hooked up pre prod yet but
+when you guys are ready because I
+
+9a4cd4f2-8328-4494-82ed-a69d02ad7435-1
+00:12:05.060 --> 00:12:11.826
+intentionally didn't connect dev into pre
+port prod because RMS stuff for months
+
+9a4cd4f2-8328-4494-82ed-a69d02ad7435-2
+00:12:11.826 --> 00:12:15.000
+now I'm going to go to pre prod right?
+
+fabdc81e-921f-4604-8246-06907bfe022a-0
+00:12:15.000 --> 00:12:22.860
+Just going to stay in devint I believe,
+but the other branch you can take it to
+
+fabdc81e-921f-4604-8246-06907bfe022a-1
+00:12:22.860 --> 00:12:29.640
+pre prod if you want to make production
+changes all the way to prod.
+
+028f56cd-1e9b-4226-b2ab-c59c889dd4a3-0
+00:12:32.440 --> 00:12:37.480
+The same exists for the APIAPI.
+
+6c69ddbc-77ee-4e91-9b64-67b88ecafa9a-0
+00:12:37.480 --> 00:12:48.440
+Similar, yeah, the event test likewise.
+
+c384b338-543a-479c-a07e-d91135afe6ad-0
+00:12:49.400 --> 00:12:53.160
+So you DevOps also have this concept of
+environment.
+
+b6e34191-ec8a-452d-9e6b-7307b8f38a03-0
+00:12:53.480 --> 00:12:59.802
+So environments you can put you can
+control security who can deploy to
+
+b6e34191-ec8a-452d-9e6b-7307b8f38a03-1
+00:12:59.802 --> 00:13:00.960
+environments.
+
+d93c9d96-c0cd-4f46-9112-de2dc6612a1e-0
+00:13:01.480 --> 00:13:04.440
+So normally dev and above.
+
+12689837-71ad-42be-80bf-259cac903366-0
+00:13:05.440 --> 00:13:11.240
+So we've set approvers who need to
+approve the deployment.
+
+6c3396d6-29e3-49a6-9e39-4e25c7fe679e-0
+00:13:11.240 --> 00:13:14.480
+So not not everyone can deploy to those
+environments.
+
+336aff15-92fd-4662-a3f8-745ea36c1401-0
+00:13:14.480 --> 00:13:16.880
+So I think I disabled this.
+
+327823e3-61fd-4161-b86f-fa04e6480318-0
+00:13:16.880 --> 00:13:18.040
+I'll enable it.
+
+94cf0a34-1718-45a1-92a3-e26330c36bb0-0
+00:13:18.320 --> 00:13:25.120
+So Pradeep is on all the environment
+approval checklists?
+
+513f7211-2588-4b5f-a4c3-7c03fcd57005-0
+00:13:26.280 --> 00:13:26.520
+Yes.
+
+ab00caad-c4eb-4c92-920b-d1e3484ac37d-0
+00:13:26.520 --> 00:13:32.273
+So if you want to get something deployed
+to test or pre prod,
+
+ab00caad-c4eb-4c92-920b-d1e3484ac37d-1
+00:13:32.273 --> 00:13:35.800
+pre prod this check who's on pre prod.
+
+77f0c3bc-9e7e-4740-8cfb-8307cbf080f2-0
+00:13:35.800 --> 00:13:42.316
+Yeah,
+Jamie and Pradeep prod I think again,
+
+77f0c3bc-9e7e-4740-8cfb-8307cbf080f2-1
+00:13:42.316 --> 00:13:52.240
+Jamie and Pradeep, Pradeep test,
+I think because we, I think test.
+
+bd58cfca-9340-4c84-af89-c3405d10e03e-0
+00:13:52.240 --> 00:13:56.560
+I had Amit in there because Amit was the
+test.
+
+468de526-0cc5-4102-9a36-f148a68bbf56-0
+00:13:56.560 --> 00:13:57.400
+We don't want to.
+
+dcc82193-b499-44d2-81fa-669f1a9bd48e-0
+00:13:58.960 --> 00:14:03.720
+Yeah, Deep is in there, so he can.
+
+db22ca40-4475-474e-8d64-8b63a7827987-0
+00:14:04.280 --> 00:14:06.360
+If you want to change it later on, we can.
+
+828848f5-71c4-4f34-962f-22ef7072dda8-0
+00:14:06.360 --> 00:14:07.240
+We can change it.
+
+f4519b98-638e-4083-b4a7-52b0f5d9d896-0
+00:14:09.120 --> 00:14:17.840
+So what we'll do is will merge this pull
+request.
+
+36e0e91b-ba41-4902-958c-d300228b27b7-0
+00:14:17.920 --> 00:14:23.508
+So what what will happen is once you
+merge this pull request,
+
+36e0e91b-ba41-4902-958c-d300228b27b7-1
+00:14:23.508 --> 00:14:29.277
+the build get run and it will get
+deployed to its corresponding
+
+36e0e91b-ba41-4902-958c-d300228b27b7-2
+00:14:29.277 --> 00:14:31.080
+environments, right.
+
+ee2bd286-0efc-4c7f-8abe-4271175b1b4c-0
+00:14:33.600 --> 00:14:37.400
+Let's complete squash.
+
+1ea23807-8f92-40a9-9e27-6b8223f5fb67-0
+00:14:40.880 --> 00:14:45.920
+Yeah, so it's now merged.
+
+9b479632-3d12-4dfe-8348-129576b10c74-0
+00:14:48.000 --> 00:14:51.280
+You should see the builds got kicked off.
+
+bf791715-3d9b-45da-af16-642d08fbb224-0
+00:14:52.400 --> 00:15:00.480
+So now I'll start deploying the partition
+stuff into different environments.
+
+d258199b-50ce-471d-9f1f-4ca2faab898e-0
+00:15:03.000 --> 00:15:06.120
+So meanwhile it'll take a little while to
+deploy.
+
+05084eed-a519-4314-813a-59758807dafa-0
+00:15:07.440 --> 00:15:21.880
+So I already deployed the API partition
+API to to Devint Devint API.
+
+16198ce1-e2d9-486d-bd1c-7bef9f057fbf-0
+00:15:22.400 --> 00:15:27.822
+So for example,
+if you go to the Devint API,
+
+16198ce1-e2d9-486d-bd1c-7bef9f057fbf-1
+00:15:27.822 --> 00:15:31.920
+so you have the Azure default DNS.
+
+8edf06aa-dbff-48cf-b86c-ba1463f85000-0
+00:15:32.840 --> 00:15:39.960
+So this DNS cannot be accessed outside of
+ASCO network.
+
+7d48e66c-72e0-4c17-8e57-fccbfea87f0a-0
+00:15:40.120 --> 00:15:46.785
+So that's why we need a gateway change to
+get the request through the gateway into
+
+7d48e66c-72e0-4c17-8e57-fccbfea87f0a-1
+00:15:46.785 --> 00:15:50.640
+the ASCO network and to the app service,
+right?
+
+7325eba8-698f-44a6-a65a-a7dfb415716b-0
+00:15:51.120 --> 00:15:52.680
+So that part is pending.
+
+1d81d2fe-36b6-4495-bacc-9602a343d137-0
+00:15:52.680 --> 00:15:57.925
+So, so we've,
+we've raised change requests to be
+
+1d81d2fe-36b6-4495-bacc-9602a343d137-1
+00:15:57.925 --> 00:16:00.280
+actioned on Wednesday.
+
+094e498e-9add-4757-a605-4b82a95e7391-0
+00:16:00.280 --> 00:16:02.240
+So hopefully we'll get the DNS.
+
+25cd13ec-d472-415b-a533-f0534ff302f2-0
+00:16:02.320 --> 00:16:08.400
+So it'll be like DEVINT dot API dot asco.
+gov dot AU.
+
+e5bea65d-d4ef-4972-9500-70a018a4906d-0
+00:16:09.000 --> 00:16:14.520
+So currently we got that right.
+
+e05feeb8-ec29-4c27-88eb-548afc6cdb9b-0
+00:16:16.480 --> 00:16:19.600
+So let's maybe try.
+
+1107d49d-04b2-4e11-9b16-8dec067e0428-0
+00:16:21.360 --> 00:16:23.560
+So so dev is like this, right?
+
+595af5cf-6cbe-4d5c-b1bd-16af0cbd51d9-0
+00:16:24.240 --> 00:16:34.200
+Like that, yeah, for for example,
+this is test, right?
+
+fb3d6a6b-504f-4b1f-89ac-6197eb723b05-0
+00:16:34.400 --> 00:16:40.320
+So this is the proper DNS for test dev is
+like this, right?
+
+af855126-002f-43a5-946f-9c8e02fd4c73-0
+00:16:41.200 --> 00:16:49.160
+Because we don't have we don't have the
+full DNS set it up yet.
+
+32781863-27a4-47e3-a446-eb26b02c3712-0
+00:16:49.200 --> 00:16:52.680
+So we'll just try to use the ask for DNS.
+
+05de654a-5781-40d1-8efc-0dd936f46bd2-0
+00:16:53.480 --> 00:16:58.380
+Sorry,
+the Azure DNS we which we can hit it from
+
+05de654a-5781-40d1-8efc-0dd936f46bd2-1
+00:16:58.380 --> 00:17:01.480
+our machine because we are VPN.
+
+bc1e3cd1-c555-42bf-9035-c236b80dce29-0
+00:17:04.880 --> 00:17:12.440
+So for example, let's go, let's try this.
+
+5d275afc-680f-43d0-bfb6-61d241430050-0
+00:17:23.360 --> 00:17:26.600
+So you can see the API return for O1.
+
+89380de6-c7ba-4b9f-8df3-77b1ba3f534d-0
+00:17:29.080 --> 00:17:35.640
+So the reason being so the access so API
+requires access token to be accessed.
+
+b4572af9-2f5c-4438-970f-9907a291a9ee-0
+00:17:36.560 --> 00:17:48.080
+So this access token is expired,
+so we need to get a new access token so.
+
+5e67deb0-e15b-42d8-a87b-5dbcf08f2826-0
+00:17:48.280 --> 00:17:59.451
+So I'm using the same credentials as B to
+C when you said you need that DNS enabled,
+
+5e67deb0-e15b-42d8-a87b-5dbcf08f2826-1
+00:17:59.451 --> 00:18:00.240
+right?
+
+4074e2b9-60fd-4301-9f46-1a4734aa4fc3-0
+00:18:00.240 --> 00:18:04.120
+The change request is not yet done right
+Will it allow when you hit the endpoint?
+
+f4acf6c3-5e94-4f94-886b-32cce909bcce-0
+00:18:04.960 --> 00:18:10.640
+Yeah, because we it, it will,
+because we are trying to access from VPN.
+
+756ef7ec-9ea6-4400-bc06-28fb61a92576-0
+00:18:11.200 --> 00:18:11.760
+All right, OK.
+
+70eb81a9-30be-4109-b2c4-091c58675636-0
+00:18:11.760 --> 00:18:13.880
+But it won't work from B to C external
+network.
+
+99e7b14f-f21d-44b9-9a87-09a241372289-0
+00:18:14.280 --> 00:18:16.385
+Yeah,
+external network B to C is in external
+
+99e7b14f-f21d-44b9-9a87-09a241372289-1
+00:18:16.385 --> 00:18:16.760
+network.
+
+b9071666-ab61-47d3-8d35-d14bd9d29e40-0
+00:18:16.760 --> 00:18:23.040
+So B to C won't be able to hit the event
+yet until they get the requests are made.
+
+e2c7ecb2-1c71-4fe2-93e1-ccba396dc426-0
+00:18:23.040 --> 00:18:28.400
+But the postman can because postman runs
+in a machine and yeah, yeah, yeah, got it.
+
+9ec673b8-f74c-445f-8c6f-4aabaf1cacbd-0
+00:18:28.800 --> 00:18:30.640
+Route the request through the VPN.
+
+56a54525-407b-4ab8-aba8-1c419154e98a-0
+00:18:33.000 --> 00:18:34.360
+So we need to get access token.
+
+b2bfa22e-123a-43e7-9b3e-d5253a0822c1-0
+00:18:34.360 --> 00:18:39.737
+I'll get the access token,
+access token I'm using the same the
+
+b2bfa22e-123a-43e7-9b3e-d5253a0822c1-1
+00:18:39.737 --> 00:18:45.200
+credentials to connect to B to CI showed
+you guys before right?
+
+0815a85e-5c1f-4518-8f25-f26a9efc0d79-0
+00:18:45.200 --> 00:18:49.120
+So it's in keyboard so you can get the
+these settings.
+
+22d211ad-4b0e-4d88-b8d7-842da347b09a-0
+00:18:49.400 --> 00:19:00.291
+So I've created the Postman collection so
+I can I can export it and give it to you
+
+22d211ad-4b0e-4d88-b8d7-842da347b09a-1
+00:19:00.291 --> 00:19:04.360
+guys, then you guys can use it.
+
+38767bb2-d937-4e4b-b7b9-a813b793017c-0
+00:19:06.880 --> 00:19:13.623
+So for example, if I get a token,
+So if you when you get a token,
+
+38767bb2-d937-4e4b-b7b9-a813b793017c-1
+00:19:13.623 --> 00:19:18.118
+if you're having any issues with the
+token,
+
+38767bb2-d937-4e4b-b7b9-a813b793017c-2
+00:19:18.118 --> 00:19:23.840
+if you want to see what's in this token,
+you can go to.
+
+41c2abe4-761f-4139-ab08-070192be6770-0
+00:19:25.600 --> 00:19:28.240
+There's a website called Ms.
+
+d4e4ee17-d28c-47ec-8424-cb086409e1ad-0
+00:19:34.520 --> 00:19:42.699
+Or you can go to JWT dot IOOJWT dot Ms
+you can see this,
+
+d4e4ee17-d28c-47ec-8424-cb086409e1ad-1
+00:19:42.699 --> 00:19:48.440
+you can see this what this token is for.
+
+6f14309c-c6e2-46b2-b7fc-3aeb410715f7-0
+00:19:49.080 --> 00:19:53.480
+And I think the important thing is you
+can see the expiry date,
+
+6f14309c-c6e2-46b2-b7fc-3aeb410715f7-1
+00:19:53.480 --> 00:19:55.200
+so this is in epoch time.
+
+8e4f2eb8-92c8-455f-aa35-bbc60e88b86c-0
+00:19:57.120 --> 00:19:58.400
+So you can convert the.
+
+24a5db7b-9a72-4869-bad7-c2f056b74d7f-0
+00:20:04.120 --> 00:20:13.280
+You go to UTC time, so you can.
+
+d71f92ef-5136-4907-ab2e-009b936b9831-0
+00:20:13.280 --> 00:20:21.120
+Yeah, you can see the timestamp.
+
+7adb90bc-de7c-43fc-b61e-9b2feec3bc18-0
+00:20:21.120 --> 00:20:27.440
+This is the UTC timestamp when that token
+is going to expire anyway.
+
+0befc475-119b-4a3c-b25a-01dd9248fde9-0
+00:20:28.560 --> 00:20:29.720
+So we've got the token.
+
+a1478cc5-15a9-4074-88d5-2e0564ec891a-0
+00:20:29.800 --> 00:20:42.740
+We're going to use the token to hit the
+DEVINT for each transaction.
+
+fdabf7b4-632d-4e0d-942b-94dc6e76d6c6-0
+00:20:42.740 --> 00:20:43.620
+The token varies.
+
+6d9f94ab-d1ad-4f84-946f-6ef5c59ef224-0
+00:20:43.620 --> 00:20:43.940
+Is it?
+
+315f4ad2-29c4-454f-a8d5-bdfac57f760e-0
+00:20:44.660 --> 00:20:49.043
+No, No,
+because it's a it's a application token,
+
+315f4ad2-29c4-454f-a8d5-bdfac57f760e-1
+00:20:49.043 --> 00:20:49.580
+right?
+
+bb48c1bc-1804-442b-b9b4-fd9e3d9ecf8f-0
+00:20:49.580 --> 00:20:50.860
+So it's not a user token.
+
+91c62951-ceb9-4fb3-b0c7-bcce70d37776-0
+00:20:51.340 --> 00:20:53.900
+OK, so it's a app registration token.
+
+c07435f8-490b-4c20-a09d-78afdf1aa270-0
+00:20:53.900 --> 00:21:01.380
+So it will keep the token in the cache
+until it expires.
+
+90e31fb6-4dc9-4ed1-a9e8-d70d1870abea-0
+00:21:01.500 --> 00:21:04.620
+Once it expires, it will renew the token.
+
+ab5633e3-9aa9-4415-a90a-9155804c97b0-0
+00:21:06.960 --> 00:21:08.760
+Do you know what's the validity of that
+token?
+
+2fa123e8-9fe3-449f-b5f8-a6d0ec506344-0
+00:21:08.760 --> 00:21:11.240
+Like how long, how often does it expire?
+
+9685dce5-a48e-4a1e-9f5f-43bcf5ca31bb-0
+00:21:12.080 --> 00:21:14.640
+So you can, you can figure it out here,
+right.
+
+c953a3c8-4562-40c2-aaca-6162c03ca705-0
+00:21:14.640 --> 00:21:16.640
+So you can look at the expiry.
+
+43fa4961-7213-40a8-89a5-505df930e9f5-0
+00:21:16.640 --> 00:21:17.400
+OK, OK.
+
+02cb7748-4787-4b63-9e28-35b726e45b2f-0
+00:21:18.240 --> 00:21:20.560
+That's expiry issue.
+
+6f1165dc-bcd3-4ca8-a503-e09b6c3de94f-0
+00:21:20.680 --> 00:21:23.240
+This is the issue at and this is expiring.
+
+db9879a4-3751-47d1-ae50-9e629020e74c-0
+00:21:23.640 --> 00:21:24.800
+So you can figure it out.
+
+39544b1b-39cc-49ff-ab21-fe7a8a54d96a-0
+00:21:25.840 --> 00:21:27.697
+Yeah,
+I think it's probably half an hour or
+
+39544b1b-39cc-49ff-ab21-fe7a8a54d96a-1
+00:21:27.697 --> 00:21:28.120
+something.
+
+64a6df48-c94c-444b-a44c-495a570363fd-0
+00:21:28.120 --> 00:21:31.240
+But you can verify that by comparing
+these two epoch times.
+
+cc3e9f78-21f7-4f54-b6e3-c1f4ce0e069f-0
+00:21:34.240 --> 00:21:34.920
+Yeah, let's.
+
+ca8e77a9-ce5f-43cd-9263-136d81250c36-0
+00:21:34.920 --> 00:21:35.600
+What's the token?
+
+957a53e4-f28d-408f-94a4-e02f48660da4-0
+00:21:42.440 --> 00:21:47.960
+The right session copy.
+
+3f24f40f-e48a-4da7-a0a3-b7a1e39821d1-0
+00:22:15.880 --> 00:22:17.680
+Like it's doing something.
+
+6005637b-bf6d-49fb-be27-54ffe89bce70-0
+00:22:21.080 --> 00:22:22.720
+Yeah, it returned the response.
+
+74e8313a-8056-499f-aa26-9b2a484352f9-0
+00:22:22.720 --> 00:22:26.800
+Where is the body?
+
+03e3e552-23a7-4fe7-968c-179ba18e1f4e-0
+00:22:27.880 --> 00:22:28.120
+Yeah.
+
+6c32b6bc-baf8-40db-a387-46f7f92c3992-0
+00:22:28.120 --> 00:22:30.240
+So, so I put this ARN.
+
+a581c0c8-f4ec-4b68-b4fe-8152e9b9ad70-0
+00:22:30.240 --> 00:22:34.040
+Devin doesn't have this ARN,
+so it returned there.
+
+1249e341-0798-4aad-802b-54a500317760-0
+00:22:34.040 --> 00:22:35.320
+There is no matching.
+
+269a9b09-8361-47a6-bdef-a51e372e5cb3-0
+00:22:38.200 --> 00:22:43.440
+Ask a reference number and date of birth
+so we can validate that.
+
+0e75e19b-0405-435b-a885-bb59a3c38d15-0
+00:22:44.360 --> 00:22:56.312
+So we can go to,
+we can go to dev and so we can go to the
+
+0e75e19b-0405-435b-a885-bb59a3c38d15-1
+00:22:56.312 --> 00:23:07.440
+application inside and see what did it
+actually work.
+
+f6cdafd4-c6d7-4c93-9764-cad22707cd73-0
+00:23:22.760 --> 00:23:23.040
+Yeah.
+
+9f70298f-f89f-454d-8251-9979f538f1db-0
+00:23:23.080 --> 00:23:28.080
+So this is the first four O 1,
+so you can see.
+
+4d9099e8-162a-4f72-a7e8-8dbf507a3aeb-0
+00:23:28.080 --> 00:23:33.982
+So if you go look at this,
+so you can see it's a four O 1
+
+4d9099e8-162a-4f72-a7e8-8dbf507a3aeb-1
+00:23:33.982 --> 00:23:36.120
+authentication field.
+
+56a6c119-be39-44bf-b278-966036bf37f8-0
+00:23:38.400 --> 00:23:47.814
+But so if you go to this now that's the
+four O 1,
+
+56a6c119-be39-44bf-b278-966036bf37f8-1
+00:23:47.814 --> 00:23:57.040
+it takes few minutes for for it to come
+through.
+
+d1113abf-60e7-458f-ab6c-d9c00b72d0ef-0
+00:24:12.990 --> 00:24:15.750
+While we're waiting,
+let's see what happened with the pipeline.
+
+b700bb5f-5501-4ac0-8566-dafa344e755b-0
+00:24:16.950 --> 00:24:26.779
+OK,
+so pipeline it's failing to be deployed
+
+b700bb5f-5501-4ac0-8566-dafa344e755b-1
+00:24:26.779 --> 00:24:28.790
+to event.
+
+d839a036-f9f9-4b81-9444-c9c1682c48ec-0
+00:24:30.910 --> 00:24:32.550
+I should be able to.
+
+4c8ef3b4-ba7a-4c06-8583-edee5d83debe-0
+00:24:38.840 --> 00:24:43.120
+Is Pradeep there because I can't approve
+my own?
+
+2b49dbc2-62ce-4d14-bf04-d70678ce61d7-0
+00:24:44.400 --> 00:24:45.040
+Yes, yeah.
+
+d770f73c-9560-4bb1-9f97-0801006285e5-0
+00:24:49.960 --> 00:24:52.240
+Is Pradeep in there in the meeting?
+
+a30786f3-b6bd-4aab-8719-af0a030f9c4e-0
+00:24:52.400 --> 00:24:52.920
+Yeah, Yeah.
+
+38997d21-c0a1-4bfc-a45b-50ac1cd1ef54-0
+00:24:53.840 --> 00:24:57.880
+Pradeep,
+could you approve these pipelines please?
+
+fbdc4840-e623-4cba-b918-182d4c1569b9-0
+00:25:02.960 --> 00:25:06.640
+Just just for the event environment for
+both the pipelines.
+
+90b69e46-0561-41a5-975a-05f58fea3b9e-0
+00:25:34.160 --> 00:25:38.160
+So let's go back while it's been approved,
+let's go back in here.
+
+44650bf9-7d3f-448c-8f45-e8fb553b0a96-0
+00:25:42.520 --> 00:25:50.183
+OK,
+so verify 400 so you can see the DEVINT
+
+44650bf9-7d3f-448c-8f45-e8fb553b0a96-1
+00:25:50.183 --> 00:25:56.280
+API is calling the DEVINT database.
+
+5cb90e5a-532c-49f8-937a-c5719b730996-0
+00:25:56.960 --> 00:26:02.068
+So it's it's all looking good,
+no connection issues,
+
+5cb90e5a-532c-49f8-937a-c5719b730996-1
+00:26:02.068 --> 00:26:07.080
+but it didn't verify because the data
+didn't match.
+
+909847f2-e5a6-4ef7-9f96-d721194680b3-0
+00:26:09.000 --> 00:26:14.280
+So is it because the data didn't match it
+is showing as red?
+
+9a61fcac-f50c-4963-a8f4-2956ef35e167-0
+00:26:16.000 --> 00:26:17.600
+Yeah, because it it's error.
+
+7651a7cb-3bbc-4390-85b7-b315b7e55b73-0
+00:26:17.880 --> 00:26:21.927
+So oh, OK,
+because ARN didn't match API return error
+
+7651a7cb-3bbc-4390-85b7-b315b7e55b73-1
+00:26:21.927 --> 00:26:22.920
+response 400.
+
+f40ffddd-6e8f-4132-92d2-45ccc76523e0-0
+00:26:23.840 --> 00:26:25.400
+So that's what we saw here.
+
+9c324469-acf6-4317-a84c-9c4972860bb0-0
+00:26:27.280 --> 00:26:32.760
+OK, if you go to, if you go to dev end.
+
+350c9c5c-4aa2-4938-adbd-aa1a4d9568fe-0
+00:26:53.900 --> 00:27:04.465
+I go to the event and if I find the ARN
+that matches tables,
+
+350c9c5c-4aa2-4938-adbd-aa1a4d9568fe-1
+00:27:04.465 --> 00:27:11.220
+I hope David environment have some ARN.
+
+c7dbbe40-5c56-4d51-bddc-b8582bf26e24-0
+00:27:17.120 --> 00:27:19.920
+I need to find something with date of
+birth as well.
+
+00262ca5-8368-4347-8190-abb59efd2303-0
+00:27:27.450 --> 00:27:29.290
+Yeah, it doesn't have any errands yet.
+
+b0a245ba-edf0-4cad-be2a-2cc6e8d409a7-0
+00:27:33.610 --> 00:27:35.090
+So this 400 error, right?
+
+60e1b52d-b988-407e-a226-c3916cdb71fc-0
+00:27:35.490 --> 00:27:40.490
+Is it being configured like when you're
+executing an API, right?
+
+f1dc991b-5c51-48c8-b660-e1b8e3f51f4a-0
+00:27:40.890 --> 00:27:43.558
+It has gone to CRM,
+it has hit the database,
+
+f1dc991b-5c51-48c8-b660-e1b8e3f51f4a-1
+00:27:43.558 --> 00:27:47.650
+the query does not respond like it
+doesn't return any result, right?
+
+5aadd982-75a1-40e0-b820-88de95fed897-0
+00:27:47.650 --> 00:27:52.040
+But this transaction is successful there
+Yes, it has gone it has queried.
+
+0cc195fc-6b2a-423c-b39a-9a4eb92d418a-0
+00:27:52.040 --> 00:27:53.640
+But why it is returning 400?
+
+76ead54b-24a2-4813-868b-b41a2b836e83-0
+00:27:53.640 --> 00:27:59.168
+It is like do you customise it or it is
+Azure API behaviour to return that if it
+
+76ead54b-24a2-4813-868b-b41a2b836e83-1
+00:27:59.168 --> 00:28:01.080
+is not there like 400 error.
+
+99b663c5-4e0e-41e3-96f8-7ac7dd8141e8-0
+00:28:01.080 --> 00:28:03.000
+Let's have a look at the verify code
+right.
+
+6d26b2fb-2cf4-4c90-bfcc-b849dcbdb7fb-0
+00:28:03.000 --> 00:28:08.135
+So,
+so this is the code base so impacted
+
+6d26b2fb-2cf4-4c90-bfcc-b849dcbdb7fb-1
+00:28:08.135 --> 00:28:12.520
+individual controller yeah, verify.
+
+b797e829-8e71-44ff-9ade-18aacf96ed50-0
+00:28:13.600 --> 00:28:24.966
+So the first thing is it cheques whether
+the incoming request has correct ARN and
+
+b797e829-8e71-44ff-9ade-18aacf96ed50-1
+00:28:24.966 --> 00:28:29.680
+a date of birth both are provided.
+
+1836d76f-d115-4af9-a4b5-4ec948468215-0
+00:28:30.240 --> 00:28:30.400
+So.
+
+b9cb97ce-7fda-4467-9f91-ca4ebaa24939-0
+00:28:30.840 --> 00:28:37.080
+So if if I go into this verify method so
+it does bunch of cheques, right?
+
+1db27ca8-7516-46b9-90cf-45cbc9b53b82-0
+00:28:37.560 --> 00:28:44.920
+So first it try to call this method and
+call database and try to find ARN.
+
+0a9d4663-3b7c-4dbc-858f-c52cff99e783-0
+00:28:45.360 --> 00:28:49.760
+Yeah, So ARN has what do you guys call it?
+
+534707d3-23b6-4e5f-be8a-9402ef53b422-0
+00:28:51.200 --> 00:28:52.360
+Related entity, right?
+
+c3cff095-ec3e-48d9-97e9-be350e1d1840-0
+00:28:52.360 --> 00:28:57.640
+So a contact is related entity to ARN,
+right?
+
+6f4955a8-ea51-47f2-9324-def4faaf0b1a-0
+00:28:58.480 --> 00:29:02.182
+So,
+so it gets the contact and if the contact
+
+6f4955a8-ea51-47f2-9324-def4faaf0b1a-1
+00:29:02.182 --> 00:29:05.000
+is now, then it returns this error.
+
+89308c8b-565f-4d94-aeb3-724841d6e3ee-0
+00:29:05.400 --> 00:29:08.388
+So,
+So what we're seeing here is we've
+
+89308c8b-565f-4d94-aeb3-724841d6e3ee-1
+00:29:08.388 --> 00:29:11.760
+provided ARN and we went to Devin
+database.
+
+c297f791-1eda-4e99-bb04-a24304aaa1d2-0
+00:29:12.200 --> 00:29:14.320
+Yeah, but it can't find it.
+
+d424f41b-943a-47e8-a16f-50a72e02f10e-0
+00:29:14.960 --> 00:29:16.880
+So it returns this error.
+
+65b392ce-3bd9-4834-b018-3cf027815e13-0
+00:29:20.800 --> 00:29:22.920
+That's that's what happening in that
+instance.
+
+7830398f-35fd-44a7-8535-901eebd55554-0
+00:29:24.560 --> 00:29:33.375
+And then the next check is it cheques the
+date of birth provided matches with the
+
+7830398f-35fd-44a7-8535-901eebd55554-1
+00:29:33.375 --> 00:29:36.600
+contacts date of birth, right.
+
+281c2c61-30a6-4494-8391-c939c6673545-0
+00:29:36.600 --> 00:29:46.616
+So if it doesn't then it returns these
+errors and it also then cheques if that
+
+281c2c61-30a6-4494-8391-c939c6673545-1
+00:29:46.616 --> 00:29:50.800
+ARN is already registered, right.
+
+b6274752-134f-4e59-80d6-c54392d06e79-0
+00:29:50.800 --> 00:29:53.920
+So by looking at the external identity
+table.
+
+b7172f65-b8cd-45d3-bb6e-dcf0e3de1023-0
+00:29:55.280 --> 00:29:58.840
+So if it if it's already registered then
+it returns this error.
+
+1dd6adfb-5863-4b02-8e51-e791ab7595c0-0
+00:30:00.160 --> 00:30:05.393
+So all the cheques passes,
+then it returns the impacted individuals
+
+1dd6adfb-5863-4b02-8e51-e791ab7595c0-1
+00:30:05.393 --> 00:30:07.240
+contacts back to B to C.
+
+ca1cf928-d2d5-492a-b84c-30777cafce74-0
+00:30:08.200 --> 00:30:09.440
+So then B to C can proceed.
+
+48636d4c-e12c-45a0-a24d-22638d87c362-0
+00:30:12.960 --> 00:30:13.080
+OK.
+
+86aee184-caac-446f-a89a-fdbb9c349516-0
+00:30:13.200 --> 00:30:14.480
+Yep, Yeah.
+
+77059eb3-a96f-48b5-9f05-5657ce628471-0
+00:30:15.480 --> 00:30:19.920
+So at the moment, I mean in Devon,
+we don't have any ARNS.
+
+1a630da1-3a59-4438-af7f-e01c2661165e-0
+00:30:19.920 --> 00:30:30.143
+So if we need to set that up,
+you had issues and so right,
+
+1a630da1-3a59-4438-af7f-e01c2661165e-1
+00:30:30.143 --> 00:30:40.020
+we're still waiting for it,
+but I've deployed it before,
+
+1a630da1-3a59-4438-af7f-e01c2661165e-2
+00:30:40.020 --> 00:30:43.140
+so let's continue.
+
+1cb8cf35-a24a-44d4-ac2f-deb8340467bf-0
+00:30:45.380 --> 00:30:58.560
+So going back to the B to C,
+so now we got partitioned policies, right?
+
+09e19273-fda2-4f5b-ba79-5416c753a42d-0
+00:30:59.120 --> 00:31:03.960
+So we need to now be able to configure
+dev.
+
+d604f381-603f-4221-977a-36fbf5664d4b-0
+00:31:04.080 --> 00:31:13.840
+So dev was so dev dev is referring to
+these sort of like root policies, right?
+
+f0eb5751-fc1d-45be-9429-408bad0a08be-0
+00:31:14.200 --> 00:31:19.840
+But even dev now should be looking at the
+dev policies, not this fruit policies.
+
+62763e24-e490-4c1e-974b-fa50055ff66d-0
+00:31:20.120 --> 00:31:23.520
+We should be we we can later on clean up
+and delete this.
+
+d59e285b-6fdf-4826-8b2e-5be6ace95cd3-0
+00:31:23.960 --> 00:31:26.600
+But instead of using dev should be.
+
+33ceae8e-4067-477c-9dfc-ff21989178b0-0
+00:31:27.080 --> 00:31:36.400
+Instead of using this dev should be using
+dev II sign up or sign in its own policy.
+
+471ee6f1-2b92-4423-8b69-89e62480a009-0
+00:31:37.800 --> 00:31:39.080
+So if you go to.
+
+66809ccf-e2ec-4f48-8516-065138fa51af-0
+00:31:56.360 --> 00:32:04.720
+Go to the power pages and let's change
+the dev to use the dev policies.
+
+12adaabb-64dc-4340-b6ec-7adc53ce5ba8-0
+00:32:04.720 --> 00:32:25.450
+Now security sign in providers B to C We
+already have B to C configured.
+
+7587a9f6-fd30-4dba-869e-a835f5cfabbb-0
+00:32:27.690 --> 00:32:28.090
+Yeah.
+
+d8f8efbb-51b4-4e16-94d8-0f83c0df7b08-0
+00:32:28.090 --> 00:32:31.250
+Why is it this?
+
+dbf6d9e8-9c10-4349-8368-92aa2c88479e-0
+00:32:31.250 --> 00:32:32.930
+This thing is so buggy.
+
+a64a0b58-658f-42c4-a37e-abef432f618c-0
+00:32:37.680 --> 00:32:43.320
+This test still test have B to C
+configured.
+
+0530593c-b62f-4624-ad91-90ff4710ca5d-0
+00:32:43.320 --> 00:32:49.120
+But why is it,
+I don't know F-01 what happened with test?
+
+128d846f-ed9a-44ba-80fb-17cc62e83ad5-0
+00:32:49.120 --> 00:32:53.680
+You mean see it has B to C configured,
+right?
+
+c27b9ba2-d1b2-4db9-8fc4-5cbbf0d07335-0
+00:32:53.680 --> 00:32:56.172
+But yeah,
+when you go to that user interface,
+
+c27b9ba2-d1b2-4db9-8fc4-5cbbf0d07335-1
+00:32:56.172 --> 00:32:57.960
+it says that it's not configured.
+
+27f92807-23a1-4141-809e-69bb36dc4b22-0
+00:33:01.920 --> 00:33:05.333
+He was trying to configure it again,
+but let's see whether dev does the same
+
+27f92807-23a1-4141-809e-69bb36dc4b22-1
+00:33:05.333 --> 00:33:05.600
+thing.
+
+01fc4065-8bc3-42cf-9054-896aa8c85087-0
+00:33:06.080 --> 00:33:17.800
+Yeah, no, I think dev is fine.
+
+35594b29-9cc6-4de5-a1ef-2893b611ad4d-0
+00:33:17.800 --> 00:33:19.800
+So dev has things populated.
+
+3c37bfc9-564e-4858-927b-646af7ca7c3b-0
+00:33:20.800 --> 00:33:28.752
+So what we're going to do is we're going
+to change the dev to use the dev policies,
+
+3c37bfc9-564e-4858-927b-646af7ca7c3b-1
+00:33:28.752 --> 00:33:29.320
+right?
+
+a538e3e5-9c40-48bc-a1df-80504d0d799d-0
+00:33:29.360 --> 00:33:35.560
+So their policies is dev.
+
+a6dc72f9-327f-4c81-b405-08e7b185866d-0
+00:33:36.920 --> 00:33:40.840
+So instead of so we're gonna use dev.
+
+01436c11-8fa8-49ca-baba-187163c42b13-0
+00:33:42.760 --> 00:34:19.210
+Yeah, dev saved, I believe.
+
+edfbf25c-f285-4f87-93f9-a547ea81ff03-0
+00:34:19.210 --> 00:34:24.930
+So do I need to probably need to do a
+sync, right?
+
+535d5bf9-db28-4c56-9001-35919a9283ec-0
+00:34:26.410 --> 00:34:27.570
+Yeah, just right.
+
+d9493f4d-50cf-4351-879f-faf3b6b3d2b3-0
+00:34:29.250 --> 00:34:32.730
+So this redirect URA will be the same for
+dev and dev.
+
+bb94f3ce-329e-4544-9591-ebe4d6eee617-0
+00:34:32.730 --> 00:34:33.290
+And is it?
+
+f5c7b8a5-8193-49d5-93fe-66a9f26f4011-0
+00:34:34.120 --> 00:34:35.520
+No, it's gonna be different.
+
+acb79667-fe9e-43e3-9345-2d4edaf3d970-0
+00:34:36.000 --> 00:34:39.800
+I'll show it because now it's prefix,
+right?
+
+b0772d1b-f80b-43e4-91d9-488a510f315b-0
+00:34:39.800 --> 00:34:42.280
+So dev policy will be dev prefix.
+
+8dd2454c-878d-4577-90b4-efeaf3707269-0
+00:34:42.640 --> 00:34:45.520
+Yeah, dev in policy is dev in prefixed.
+
+1835638b-a1e9-47cd-909a-740371c4be33-0
+00:34:45.600 --> 00:34:45.840
+Yeah.
+
+1e3bc2b9-1ca0-4f9e-8f86-6da269e6d3d6-0
+00:34:46.320 --> 00:34:50.360
+So the URL policy URLs are prefixed by
+the name.
+
+8f42474e-577f-467e-9f94-9b296f773697-0
+00:34:53.600 --> 00:35:13.151
+So it is sync if I go to the dev portal
+now and if I run the dev tools sign in,
+
+8f42474e-577f-467e-9f94-9b296f773697-1
+00:35:13.151 --> 00:35:27.814
+it's still cached,
+still using the it's doesn't reflect the
+
+8f42474e-577f-467e-9f94-9b296f773697-2
+00:35:27.814 --> 00:35:29.770
+changes.
+
+7cf91c54-94bf-4dae-91c2-c9f60cc82ee0-0
+00:35:30.890 --> 00:35:33.770
+How are you seeing OK the viewer looking?
+
+2ecb07f7-46ef-4ffa-91e6-fe4ab4f223f6-0
+00:35:35.250 --> 00:35:37.170
+Do we need to do a restart or something?
+
+35eee8cc-676d-466b-a34a-389039b01438-0
+00:35:38.090 --> 00:35:40.610
+Still not showing this these changes.
+
+fdea4fb4-a23c-4bc9-a0ca-acd823f6b27c-0
+00:35:54.920 --> 00:35:57.160
+Is it OK if I restart dev 01?
+
+5e2c7ea5-e07e-4b39-9ae9-a6f5dde3e19c-0
+00:35:59.160 --> 00:36:02.320
+I think it's one second Anuka.
+
+aec54dcf-8d40-4e6b-bae3-69cb8e7a53c2-0
+00:36:02.400 --> 00:36:06.640
+So I'm yeah, I'm in dev 011 second.
+
+1398ae2d-829a-4999-ac24-ba9345fddac9-0
+00:36:06.720 --> 00:36:08.440
+I'll let me close my screens.
+
+0a2e440e-85d1-480d-8dce-a8fa3fea17fb-0
+00:36:08.720 --> 00:36:17.520
+Yeah, still not reflecting policy.
+
+a5d144e7-cf5d-4b4c-8cc2-44ce7c16a2ce-0
+00:36:17.680 --> 00:36:19.160
+Change to go into the.
+
+73449e8e-debe-4e78-ab3f-97cfa5c22121-0
+00:36:19.160 --> 00:36:27.555
+Yeah, you can restart it,
+Close my screens,
+
+73449e8e-debe-4e78-ab3f-97cfa5c22121-1
+00:36:27.555 --> 00:36:33.280
+go to to restart admin centre.
+
+067383a1-0db3-440a-8b43-7bcd07efce43-0
+00:36:34.640 --> 00:36:50.340
+Yeah, right.
+
+7ded05cc-c79d-4881-9d1b-8f20e4339dff-0
+00:36:50.420 --> 00:36:53.940
+Actions restarts, right?
+
+cdb579ea-6c1d-4044-9d90-1f9544fba15f-0
+00:37:16.440 --> 00:37:17.720
+What's the dev int?
+
+a7b23e8b-6024-410c-8e08-f22917b361aa-0
+00:37:19.200 --> 00:37:21.280
+Let's change the dev int as well.
+
+dd6b778d-8776-4275-b600-dcf535a68232-0
+00:37:24.280 --> 00:37:26.800
+Make all pages.
+
+e69f25d6-185f-480e-8416-69815f512299-0
+00:37:35.030 --> 00:37:37.510
+Actually,
+let's have a look at site settings.
+
+028e394e-7672-4ba6-86e0-f492cc1f6a02-0
+00:38:12.800 --> 00:38:23.520
+Side settings so it has PDC configured.
+
+9da9ed27-b0fc-49e3-b5f4-56a66d5e3805-0
+00:38:25.440 --> 00:38:32.080
+Hang on and that this is so did we change
+the wrong settings?
+
+491f5e1e-f8ca-4104-91bd-c1e46d0c8f59-0
+00:38:32.520 --> 00:38:36.080
+So it went and changed to they went.
+
+efa2a656-1738-4ca5-ae30-4aa40baf8b94-0
+00:38:37.680 --> 00:38:42.030
+Can you go back and see if it is devent
+that one the window that you have,
+
+efa2a656-1738-4ca5-ae30-4aa40baf8b94-1
+00:38:42.030 --> 00:38:44.640
+but we definitely change for dev right
+here.
+
+8a8b7133-b340-4f0a-a7fd-bae7037b3553-0
+00:38:45.760 --> 00:38:49.240
+Yeah,
+I thought so it was saved to dev end.
+
+fe050237-f9e2-4c25-8f30-7d63199f6aac-0
+00:38:59.240 --> 00:39:10.760
+Let's go back again to dev that's dev
+identified as yeah.
+
+b0362e9b-34dd-4a79-b198-ae04bc1a0138-0
+00:39:10.760 --> 00:39:13.240
+So it's dev is showing these.
+
+1874ab30-e364-42b8-8269-2e5c862cd74f-0
+00:39:15.480 --> 00:39:21.972
+But if I go to side settings,
+the dev that's Dev 01,
+
+1874ab30-e364-42b8-8269-2e5c862cd74f-1
+00:39:21.972 --> 00:39:25.280
+what you've opened hang on.
+
+a8024c7a-1dbc-4e3a-87b9-def032b5d0a4-0
+00:39:25.640 --> 00:39:27.520
+But but the site is DEVINT, right?
+
+b3b592a1-a5c3-4539-9f57-39b4a1cefd29-0
+00:39:28.440 --> 00:39:31.760
+No, no, we didn't.
+
+b383bc0c-c92b-4aad-8b7e-46565a1967d3-0
+00:39:32.000 --> 00:39:34.760
+This DEVINT it's common for all the
+environment.
+
+0f06d24d-6f5e-44dc-ab7f-a80dd568e22a-0
+00:39:34.840 --> 00:39:38.600
+The actual site name is DEVINT in all the
+environment.
+
+6f7d70f0-1470-450d-ab00-a703358a3789-0
+00:39:39.040 --> 00:39:42.906
+Yeah, because we,
+we built this site initially in DEVINT
+
+6f7d70f0-1470-450d-ab00-a703358a3789-1
+00:39:42.906 --> 00:39:43.720
+environment.
+
+31ad0129-b0a8-4dec-bffd-bb57251c535c-0
+00:39:43.720 --> 00:39:46.346
+That's why the URL,
+the website name is DEVINT all the
+
+31ad0129-b0a8-4dec-bffd-bb57251c535c-1
+00:39:46.346 --> 00:39:46.920
+environment.
+
+cb7c7142-a10b-4612-b7b3-7d2130789aa8-0
+00:39:46.920 --> 00:39:50.440
+So do not confuse with that you are in
+Dev 01 actually.
+
+26c1a4c9-b47f-4934-9957-2f5c46894544-0
+00:39:51.840 --> 00:39:53.080
+So this is dev 01.
+
+e72e52cc-25ea-407a-a34b-b3241de165f4-0
+00:39:53.760 --> 00:39:56.600
+Yeah, in the URL you can see 01 dev 01.
+
+687d92cf-8314-481f-97c6-76fceda4ce44-0
+00:39:56.680 --> 00:40:00.440
+So you are in dev 01 power pages settings.
+
+79d658c2-0c99-42a1-a57b-202859f1f469-0
+00:40:01.240 --> 00:40:03.915
+OK,
+let's create the dev 01 working out and
+
+79d658c2-0c99-42a1-a57b-202859f1f469-1
+00:40:03.915 --> 00:40:05.800
+then we shouldn't get confused.
+
+7771aeb9-5aaa-4c04-b86a-4f95be1606c4-0
+00:40:05.800 --> 00:40:07.600
+Let's, let's see.
+
+616d38f5-d171-4ff8-ad17-eec944715bab-0
+00:40:07.640 --> 00:40:13.840
+Let's see whether this can go to We see
+those changes reflected.
+
+70f92490-7621-460f-83a9-21b087e2f450-0
+00:40:19.480 --> 00:40:20.240
+It's still.
+
+2cc14ffe-2217-49fc-960b-3b2e41b614da-0
+00:40:23.080 --> 00:40:24.480
+Still not using dev.
+
+7ef65af6-6f11-495f-812a-0dca93fc7f47-0
+00:40:37.280 --> 00:40:38.040
+Why is it?
+
+142f04e1-fbb1-4836-b98a-2eafa8ed1898-0
+00:40:40.000 --> 00:40:41.960
+Do you need to change the redirect Uri?
+
+87712163-fc99-4c25-9d8e-2b9d127c133f-0
+00:40:41.960 --> 00:40:50.293
+You know call like which redirect Uri
+that one the redirect that is common
+
+87712163-fc99-4c25-9d8e-2b9d127c133f-1
+00:40:50.293 --> 00:40:50.960
+right?
+
+1e7bbf3a-09cf-4e37-821b-e0deb44a5ba2-0
+00:40:51.680 --> 00:40:52.800
+So these are common right?
+
+cb7d4cfb-3f5f-49d8-9cca-095d8cec8091-0
+00:40:52.800 --> 00:40:57.040
+So this is generic dev BTC URL.
+
+a3e4f23e-d440-426c-bc19-1d02d6e86656-0
+00:40:57.320 --> 00:41:03.226
+But what you see the valid issuers, right,
+It will replace that with the default
+
+a3e4f23e-d440-426c-bc19-1d02d6e86656-1
+00:41:03.226 --> 00:41:04.320
+policy ID, Yes.
+
+f359e57c-0a40-44ac-b47f-624c7445459d-0
+00:41:04.320 --> 00:41:05.760
+So no, no, no, not replace.
+
+0842069a-708d-4441-b274-818064812690-0
+00:41:05.760 --> 00:41:09.080
+It's append, OK.
+
+353a1496-e21b-49c4-aca4-bf575cdb3547-0
+00:41:09.120 --> 00:41:21.008
+So what I expect it to be like this so
+that, so if you look at this value here,
+
+353a1496-e21b-49c4-aca4-bf575cdb3547-1
+00:41:21.008 --> 00:41:26.210
+OK, So yeah, it's coming like that.
+
+a4db277b-2340-4ad4-8bca-8e4089c3b997-0
+00:41:26.210 --> 00:41:27.170
+There's this one here.
+
+0eabd459-1a1c-43c1-b808-0a79de9b8ce3-0
+00:41:28.410 --> 00:41:30.010
+Yeah, this one here need to change.
+
+6912129f-3931-4b2e-a95f-760ebfa297de-0
+00:41:30.010 --> 00:41:37.320
+OK, Yeah, I think need to be changed.
+
+dc1ecdb4-7dd7-41ef-b07d-1586407eb20b-0
+00:41:38.720 --> 00:41:39.080
+Yeah.
+
+356c4e18-f868-419b-8526-7d03222e9afd-0
+00:41:39.080 --> 00:41:50.380
+So Yep.
+
+5f14224b-b5eb-4ebd-b60e-5667a1d6e9ed-0
+00:41:51.460 --> 00:41:53.180
+OK, let's try now.
+
+45f7bd71-1b2b-414f-a876-e91d93975b98-0
+00:41:58.940 --> 00:41:59.980
+Think it's saved?
+
+4da89eba-daf1-4737-a881-335c3a9e7e71-0
+00:42:09.430 --> 00:42:10.230
+Lost it?
+
+a4079e6d-739b-4937-9c71-61b2565c6e29-0
+00:42:24.320 --> 00:42:27.720
+Why is it showing configure wait to see
+again?
+
+02187825-6b40-439f-904a-b46082e49d1b-0
+00:42:28.640 --> 00:42:30.240
+It's, it's a bug, right?
+
+7069639a-1ffc-4fe9-95ed-59e0dc7141fa-0
+00:42:30.280 --> 00:42:31.960
+It, it's a bug in portal.
+
+88fd3814-d55f-4122-9b4c-d63f2e78a75f-0
+00:42:33.080 --> 00:42:39.186
+It can't,
+it sometimes loses and it does weird,
+
+88fd3814-d55f-4122-9b4c-d63f2e78a75f-1
+00:42:39.186 --> 00:42:40.840
+weird things.
+
+24080258-5c09-42db-90d6-b2fbeb1f8653-0
+00:42:50.530 --> 00:42:51.650
+So is it saved?
+
+cb48c9c8-8a56-4b1a-8356-54e7b7cbabf2-0
+00:42:52.610 --> 00:42:53.130
+It's saved.
+
+0bc84b9c-995d-4627-8652-fa55f143f75a-0
+00:42:53.130 --> 00:43:02.920
+Yeah, yeah,
+this is saved and that's retrieved URL.
+
+dfd3b2c7-05c8-4d7b-886d-8d70de394051-0
+00:43:03.360 --> 00:43:03.880
+There was.
+
+264fd1d5-66a5-461a-b963-078cfb8cfbe6-0
+00:43:03.920 --> 00:43:04.880
+Yeah, valid issues.
+
+cb94dae0-907a-4da9-a429-4ae732599ff0-0
+00:43:04.880 --> 00:43:06.400
+Yeah, it's all saved.
+
+63f445e9-47f8-43df-b613-2e7d77ee560f-0
+00:43:12.080 --> 00:43:13.200
+OK what happens now?
+
+ec3064ea-28d6-4559-813e-63146fb0a9eb-0
+00:43:19.220 --> 00:43:22.300
+Try to sync and then maybe sync again.
+
+64cc0432-71d8-4b65-a0d2-d89554ce2edb-0
+00:43:22.340 --> 00:43:23.100
+Yeah, yeah.
+
+580e1a64-fc79-45a8-993e-f2130e44c6f0-0
+00:43:44.960 --> 00:44:10.240
+Think right,
+is it not connecting to the policy?
+
+2c7b1fd4-9f62-417e-82ad-eb4a4895a3fd-0
+00:44:13.520 --> 00:44:22.300
+I think I'm,
+I think what's happening here is so the B
+
+2c7b1fd4-9f62-417e-82ad-eb4a4895a3fd-1
+00:44:22.300 --> 00:44:31.080
+to C has a client application
+representing the portal.
+
+54f53fcc-8bfd-43d3-a621-39dbd68231a9-0
+00:44:33.880 --> 00:44:43.400
+So that client application is so client
+application.
+
+ec0f71f3-33f0-48d0-a979-61e6b427a297-0
+00:44:43.400 --> 00:44:45.360
+Is this OK?
+
+ed4444c0-3b4c-4676-9c66-e1bcfe944398-0
+00:44:49.280 --> 00:44:52.720
+I think the redirect URL doesn't match
+redirect URL.
+
+d1cc63cb-3cf1-4d69-b025-71e0edbe1c2a-0
+00:44:53.480 --> 00:44:54.880
+No, that should be fine.
+
+3d63ddf5-d9da-49bb-95d4-6fdb0c80f459-0
+00:44:54.880 --> 00:45:12.600
+That should let's check so this is the
+yesterday test application.
+
+fa76daa0-283c-4f32-a3a8-9e388ddfd652-0
+00:45:30.040 --> 00:45:32.520
+So this is the redirect URL accepted.
+
+64f9c4dd-2d69-48a0-9e40-dc7d7fb22ad5-0
+00:45:33.200 --> 00:45:36.770
+So redirect,
+I don't think the redirect URL has
+
+64f9c4dd-2d69-48a0-9e40-dc7d7fb22ad5-1
+00:45:36.770 --> 00:45:41.160
+changed because we haven't changed the
+redirect URL, Yeah.
+
+1e2f92be-24c1-44f9-b781-616c328bf0af-0
+00:45:43.440 --> 00:45:56.720
+So what is it that's clear this portal?
+
+2a91b30d-3f07-4dad-9474-a059c503a409-0
+00:46:00.640 --> 00:46:01.800
+Clear it again.
+
+39df0041-c3f3-4864-bb0b-3448ea6dbbb1-0
+00:46:19.100 --> 00:46:22.420
+See, for some reason,
+maybe it needs another restart.
+
+5c168a5a-36ae-44eb-a5f7-a911b8ee0d40-0
+00:46:22.940 --> 00:46:24.580
+See, this doesn't have the.
+
+db15b5e2-2004-4cb5-a0c0-3e78d2ba8a65-0
+00:46:24.980 --> 00:46:26.540
+It's still the sort of cache.
+
+f2c52afa-449e-4db4-98fa-efda06bd874b-0
+00:46:26.620 --> 00:46:28.580
+This doesn't have the dev in it.
+
+bbb1b256-64a8-46f0-a56e-b827387eb776-0
+00:46:28.940 --> 00:46:29.340
+Yeah.
+
+774ed3a7-24f0-46e3-bae8-5a7e6efd9a86-0
+00:46:31.500 --> 00:46:33.780
+Can I give it another restart?
+
+3a88bef4-dd53-41da-811a-6ea2244789ff-0
+00:46:34.860 --> 00:46:36.140
+Yep, I think OK.
+
+107f1b69-6b01-4a1e-aa30-d8a1ddf8140d-0
+00:46:49.560 --> 00:46:51.880
+So side settings were definitely updated.
+
+c0a4dd99-3ca0-45dd-93b5-36cb35ca2f7b-0
+00:46:57.800 --> 00:47:06.479
+Everything have dev has dev says dev
+redirect URL doesn't need,
+
+c0a4dd99-3ca0-45dd-93b5-36cb35ca2f7b-1
+00:47:06.479 --> 00:47:08.920
+it's just generic.
+
+7c515045-88cc-4e2a-99df-ccab874a30fb-0
+00:47:10.800 --> 00:47:15.840
+This is yeah.
+
+792fa551-6646-4c62-b71e-5cc2df1de825-0
+00:47:16.360 --> 00:47:17.080
+And then that's it.
+
+ed910103-804b-472d-86b2-996c44e1889f-0
+00:47:18.000 --> 00:47:19.960
+What about the login button type?
+
+fb69d501-2e44-4740-ace9-075c6f8f171b-0
+00:47:20.520 --> 00:47:21.320
+What's this?
+
+c429c2a9-0b93-47bb-9488-6f10cdf364d8-0
+00:47:25.280 --> 00:47:26.920
+I have no idea what that is.
+
+81668d95-64a2-4571-a2b5-d05e3f23fa57-0
+00:47:29.000 --> 00:47:32.581
+Do you have the list of settings that you
+modify when you change anything from B to
+
+81668d95-64a2-4571-a2b5-d05e3f23fa57-1
+00:47:32.581 --> 00:47:32.880
+C side?
+
+166300f9-9256-4730-aa78-6aaa4a75fdd5-0
+00:47:35.520 --> 00:47:39.720
+No, it's it's just OK,
+we just portal should just do it, right?
+
+6c4fa75f-b434-4b4e-b710-f0d1fb8177c5-0
+00:47:40.560 --> 00:47:44.360
+So we should not we should not need to
+come and check the settings here.
+
+56c3b068-e8b2-4709-9cf6-27cbae1305d6-0
+00:47:44.760 --> 00:47:49.943
+It should be done from the UI,
+but that UI is so buggy,
+
+56c3b068-e8b2-4709-9cf6-27cbae1305d6-1
+00:47:49.943 --> 00:47:52.720
+so it does some random things.
+
+011c05f0-115a-4f0e-8fdb-f57a37183834-0
+00:47:53.280 --> 00:48:14.970
+So now if you go to the with the security
+and it just Oh no, it still has it.
+
+0a275bfe-b050-46ec-877c-9e8167d7d626-0
+00:48:14.970 --> 00:48:16.450
+No, it's still enabled.
+
+3080c0bd-d9dc-4c55-8a39-5fb1e63e90de-0
+00:48:18.320 --> 00:48:20.880
+OK, so it's back.
+
+373d5b0a-1634-4171-b447-e0f2757fd547-0
+00:48:26.670 --> 00:48:26.990
+Let's see.
+
+b3d14acb-4679-4542-8616-94f78940c25a-0
+00:48:26.990 --> 00:48:28.430
+It's restarted.
+
+fb57fe0f-6c35-42eb-8e6c-fb872fc969e0-0
+00:48:30.830 --> 00:48:32.350
+Yeah, the portal is back.
+
+59f8311f-caa3-4aa6-82f8-02fc2dbe08c6-0
+00:48:33.150 --> 00:48:33.990
+Portal is back.
+
+09a3b491-f640-4a1c-b4b7-8bb68f3865cd-0
+00:48:34.110 --> 00:48:37.110
+Let's Yep, try again.
+
+00aea5d8-7c6c-496e-bf4e-06f426a7d625-0
+00:48:38.910 --> 00:48:43.070
+Trying to say again no.
+
+a95fd258-780c-4fc9-b2c5-e78000da92bc-0
+00:48:48.600 --> 00:48:50.240
+So you saw something, right, Dhanuka?
+
+5cfcdf72-d159-40d4-8b93-2d1052ea2ba3-0
+00:48:50.240 --> 00:48:54.360
+There was another one setting which was
+showing up right where it didn't reflect.
+
+83541f4c-f9c4-4571-8264-863fc80cd6b5-0
+00:48:54.360 --> 00:48:56.920
+So I think that's the URL that is showing
+here.
+
+fe02fd08-0ab8-42b9-b36e-5024f87edd4b-0
+00:48:57.080 --> 00:48:57.640
+V2.
+
+22ba0d4d-0365-4aa0-a22b-06a861596f47-0
+00:48:57.920 --> 00:48:59.440
+It's a registration button.
+
+3b628e4a-df85-4cb7-b1cf-c92c937227d4-0
+00:49:00.600 --> 00:49:02.480
+I think that's not part of the settings.
+
+cdc310a8-37da-42d8-8ae2-16aaed4eecb7-0
+00:49:02.480 --> 00:49:05.800
+So these were the settings that is coming
+from that.
+
+f3df6ac2-94f0-46bb-a3e3-58c70d00a414-0
+00:49:05.800 --> 00:49:12.080
+But we can change it definitely because
+yeah, that URL had AV 2 on it.
+
+ca8cc493-60e1-4b15-b9ad-07fa4b6ec2bf-0
+00:49:12.080 --> 00:49:19.297
+I'm not sure if it is related, but yeah,
+I'm able to sign in inside using B to C
+
+ca8cc493-60e1-4b15-b9ad-07fa4b6ec2bf-1
+00:49:19.297 --> 00:49:21.080
+You can, yeah, yeah.
+
+7a47a4a6-6748-477c-b6bf-b5a091730a2a-0
+00:49:22.440 --> 00:49:27.526
+But using that custom button, I tried,
+I didn't try from the URL the navigation
+
+7a47a4a6-6748-477c-b6bf-b5a091730a2a-1
+00:49:27.526 --> 00:49:28.480
+sign in button.
+
+501c3e6d-9a50-407d-9277-cbc5617ba2b2-0
+00:49:28.520 --> 00:49:29.440
+So it's interesting.
+
+24f81e11-74da-45c9-a511-3e83c1a9b084-0
+00:49:29.440 --> 00:49:31.160
+What is the custom button redirect to?
+
+6684c176-9e46-4211-8195-b4a809124b8d-0
+00:49:31.200 --> 00:49:35.680
+Need to check it out one second.
+
+2ef50fee-4ddd-41f6-b662-f02dd51c47b5-0
+00:49:41.990 --> 00:49:43.190
+Yeah, that is taking dev.
+
+26bdd21d-77b5-4362-86c3-2d637950ae80-0
+00:49:43.870 --> 00:49:48.720
+It is taking dev, but yeah,
+that is that is the code behind, right?
+
+499d4012-2d98-4607-9f46-a3f9c332753f-0
+00:49:48.720 --> 00:49:51.720
+So we yeah, modified the URL in the core.
+
+c682cdaf-d046-4d71-bdce-5b46d5310d72-0
+00:49:51.840 --> 00:49:51.960
+Yeah.
+
+e567376f-e2d3-459d-aca9-9361108a4a5b-0
+00:49:52.840 --> 00:49:53.800
+So some URL.
+
+7c2e31d3-b0fc-46ea-a7b6-02c9ba7961b4-0
+00:49:53.920 --> 00:49:56.520
+No, no, that's fine.
+
+09344c25-478a-4698-940c-b68fc5e85f8c-0
+00:49:56.520 --> 00:50:00.541
+But yeah,
+for some reason these settings are not
+
+09344c25-478a-4698-940c-b68fc5e85f8c-1
+00:50:00.541 --> 00:50:01.280
+actually.
+
+2a6c0904-a198-4d12-a857-73f64ff8c123-0
+00:50:01.280 --> 00:50:06.600
+So this is not set as default,
+set as default.
+
+94bc66ed-152c-4190-8e0e-c9faa779c1da-0
+00:50:06.600 --> 00:50:08.400
+Let me set this as default.
+
+56425dd5-a211-4139-8469-080919026c19-0
+00:50:09.560 --> 00:50:11.040
+It came out of default.
+
+291721ff-59a9-4fb9-b104-4cf12d6b0711-0
+00:50:12.760 --> 00:50:13.760
+Sync it.
+
+6788d9a3-ed14-483a-baf3-309774431ced-0
+00:50:23.160 --> 00:50:25.320
+I think now it is working.
+
+d45900f5-098a-4442-a6a2-7668eb4a742a-0
+00:50:25.440 --> 00:50:27.440
+Renuka, it's now working, yeah.
+
+ae304763-986a-4758-9b0e-76230598c8a9-0
+00:50:27.520 --> 00:50:29.240
+Yeah, sign in is working.
+
+bbf56e4c-a2c4-4044-9280-24b53e6e6a7f-0
+00:50:29.240 --> 00:50:31.560
+It is redirecting to that, Yeah.
+
+f9839aa6-a8d7-4d72-98d5-6f52e54faaca-0
+00:50:32.760 --> 00:50:37.520
+So could you guys try signing in today?
+
+28e45df3-a55f-4fcf-8e04-0f98ae115e3d-0
+00:50:38.080 --> 00:50:42.840
+Yep, it should work.
+
+2d79d1a7-4458-44ab-a056-cfbb2067a60d-0
+00:51:09.640 --> 00:51:13.160
+So now if so, let's go to dev int now.
+
+8730cb6d-cfd8-44ae-bc83-ff213ce864f3-0
+00:51:14.160 --> 00:51:17.840
+So if I configured there one is working,
+I will log in inside.
+
+18162904-8672-48b8-a282-91208911b91d-0
+00:51:17.840 --> 00:51:20.040
+Yeah, yeah, nice, cool.
+
+19433569-3d10-48e7-b4c5-482d0dc8c6c9-0
+00:51:20.520 --> 00:51:21.000
+All good.
+
+5d40e73e-cc59-46b8-bbc4-65dc4f8e8b53-0
+00:51:22.040 --> 00:51:25.280
+So now I'm in dev int, right?
+
+8a928426-48ce-44f6-8d30-1673857c1280-0
+00:51:30.280 --> 00:51:33.040
+So there's no B2C configured here, right?
+
+df68ad0b-3ed0-43bf-a2c5-fe0a2b40c2cc-0
+00:51:35.400 --> 00:51:38.114
+Yeah,
+we didn't configure before then when's
+
+df68ad0b-3ed0-43bf-a2c5-fe0a2b40c2cc-1
+00:51:38.114 --> 00:51:39.080
+this first time?
+
+be1f130a-7a5b-4d90-b854-62c823f57439-0
+00:51:40.560 --> 00:51:51.679
+OK, So if I just copy the stuff from here,
+it's not going to override the dev
+
+be1f130a-7a5b-4d90-b854-62c823f57439-1
+00:51:51.679 --> 00:51:53.960
+settings, right?
+
+9aa6cb15-dc71-46c7-99c3-9b40d1fe1cd9-0
+00:51:54.000 --> 00:51:54.360
+It should.
+
+d88b3b56-bb78-421d-b94e-6f027a3620de-0
+00:51:54.360 --> 00:51:57.570
+No, no,
+that is different website then it won't,
+
+d88b3b56-bb78-421d-b94e-6f027a3620de-1
+00:51:57.570 --> 00:51:58.160
+it won't.
+
+4dbc1bc9-6651-4244-afe8-0bbf83f6a879-0
+00:51:58.160 --> 00:52:05.160
+OK, let's yeah copy this next.
+
+e920677d-ef6f-4d75-8b71-59bd7dc1bfbf-0
+00:52:10.320 --> 00:52:19.040
+Replace this to dev int, client ID,
+client ID.
+
+ef98d0a5-3886-4c74-bed2-135a538eac36-0
+00:52:19.040 --> 00:52:26.120
+Can we use the same client dev int here?
+
+3102e19f-e13d-4fb8-8dbe-ce8bbd020881-0
+00:52:31.980 --> 00:52:36.228
+OK,
+maybe we'll do the dev int another time
+
+3102e19f-e13d-4fb8-8dbe-ce8bbd020881-1
+00:52:36.228 --> 00:52:44.147
+because I think if Pradeep is not here,
+Pradeep need to add dev went to this list
+
+3102e19f-e13d-4fb8-8dbe-ce8bbd020881-2
+00:52:44.147 --> 00:52:44.920
+of URLs.
+
+72893300-03a4-45bf-bf0a-fe074cebc7a5-0
+00:52:47.360 --> 00:52:50.680
+OK, or we create or create a new separate.
+
+dd68f11e-d323-48a2-ab7e-f4dbf73f35bf-0
+00:52:51.120 --> 00:52:54.525
+I think we'll instead of creating a
+separate temporary session,
+
+dd68f11e-d323-48a2-ab7e-f4dbf73f35bf-1
+00:52:54.525 --> 00:52:57.240
+we'll just use the same thing,
+but we need to add.
+
+145705c1-a6b0-4946-b5ef-d1579a0d3226-0
+00:52:57.560 --> 00:52:59.520
+So I think one of the things you guys
+need.
+
+e163a9ad-7237-4a2f-87c6-28641f43be6b-0
+00:52:59.680 --> 00:53:00.040
+I'm here.
+
+ee85e604-9b96-499b-b7b9-9c2efd852be4-0
+00:53:00.200 --> 00:53:02.280
+Denuka, I'm not sure if you can hear me.
+
+a2e06473-ec1e-4375-98e6-860b0a2a9824-0
+00:53:03.280 --> 00:53:03.840
+I can hear now.
+
+1739b1d0-237f-45bb-9f3d-380a07fb0c49-0
+00:53:04.320 --> 00:53:08.520
+I mean, I mean all the time here,
+but I think you guys sorry.
+
+44008ea6-13d0-4c10-ba87-0f05169c7f65-0
+00:53:08.520 --> 00:53:10.000
+I I have one screen.
+
+0cb810c7-0bd5-4aca-8118-d21bc498dcdb-0
+00:53:10.200 --> 00:53:11.240
+I Oh, I see.
+
+2afde839-be17-488f-8910-c40bc99b435a-0
+00:53:11.440 --> 00:53:13.120
+Yeah, I see.
+
+76e23edf-75fa-4bfb-ba55-90b94b5b859b-0
+00:53:13.360 --> 00:53:15.400
+OK, so could could we add?
+
+c4122e8d-7187-4486-a9eb-5f162aff0ef4-0
+00:53:15.400 --> 00:53:19.320
+No way could we add the dev int URL here.
+
+283e4327-5456-48b7-916f-3609108805df-0
+00:53:26.080 --> 00:53:27.560
+I don't think I have permissions.
+
+42f6af6f-dcaa-421f-ab48-2b3f0fb2ba77-0
+00:53:27.920 --> 00:53:34.240
+I think you probably are owner or yeah,
+you are owner.
+
+94721c6d-9dfe-4c44-b3b2-5132a0373a05-0
+00:53:36.840 --> 00:53:43.087
+I I can configure this, but yeah,
+let's do it the next time because next
+
+94721c6d-9dfe-4c44-b3b2-5132a0373a05-1
+00:53:43.087 --> 00:53:47.195
+time I have only 5 minutes left and yeah,
+Yeah,
+
+94721c6d-9dfe-4c44-b3b2-5132a0373a05-2
+00:53:47.195 --> 00:53:52.159
+by the time I'm login and everything,
+it will be be over.
+
+79626086-4943-461b-a59c-ec4261014074-0
+00:53:52.760 --> 00:53:55.960
+All right,
+Let's configure the dev int next Monday.
+
+5e99d5f0-f670-4722-a351-1e54aeeb93e7-0
+00:53:56.040 --> 00:53:56.880
+Yeah, We can do on Monday.
+
+caeeb61b-8ae9-4318-8874-280a4c5e1b6c-0
+00:53:56.880 --> 00:53:57.800
+Yeah, yeah, Monday.
+
+58272f58-4852-438a-8017-6925c0a2eaf1-0
+00:53:58.160 --> 00:53:59.320
+So I'll have it ready.
+
+d293e4bf-15d7-4310-b177-9859bc7b1391-0
+00:53:59.520 --> 00:53:59.880
+OK.
+
+ce4c2986-1b9a-4ea2-abf7-370c72e5768c-0
+00:53:59.920 --> 00:54:01.520
+Yeah, I'll have it ready.
+
+4026a6af-b925-4f1b-af02-de6d51bc661f-0
+00:54:02.000 --> 00:54:02.240
+Yeah.
+
+3ae6872d-1427-4fdd-b48e-041a142e9db2-0
+00:54:02.360 --> 00:54:03.480
+And we can just.
+
+f86449a0-f99f-4346-9054-1c3e6d7eabd0-0
+00:54:04.440 --> 00:54:05.920
+Yeah, take it from there.
+
+a922abbe-f3c9-4dd2-8e95-deac3c3038ab-0
+00:54:07.400 --> 00:54:14.600
+If you can share the URL with me,
+redial to all, I'll use the same.
+
+b6cc7007-8120-423d-a6b8-b977d5feef95-0
+00:54:14.600 --> 00:54:14.920
+OK.
+
+fc5ec6f5-5598-4fc0-acab-97e4eff379de-0
+00:54:14.960 --> 00:54:15.800
+Yep, it's the same.
+
+9adabf83-8987-43cb-bc73-35b64f5d858a-0
+00:54:15.880 --> 00:54:16.600
+It's the same.
+
+43d6be43-a94c-4330-9bdc-2ba69bcd0693-0
+00:54:16.880 --> 00:54:17.840
+This bit is same.
+
+c2e032bb-bac9-45c8-98ff-fddea62f1e72-0
+00:54:17.840 --> 00:54:19.040
+And this should be dev int.
+
+abdca407-d314-4227-ac7f-ebf465c5e820-0
+00:54:19.040 --> 00:54:19.880
+Just the prefix.
+
+2b8a9f80-eaf9-4942-b34c-17c3565a0a66-0
+00:54:19.880 --> 00:54:20.360
+Yeah, yeah.
+
+0b8185f4-4aa1-469c-80e4-b63d1016e597-0
+00:54:21.920 --> 00:54:23.280
+So one and two both, right.
+
+887eb007-6be0-4802-a5ca-3e324fba9546-0
+00:54:25.560 --> 00:54:25.720
+OK.
+
+5572ed05-14d7-4e72-8160-c6f257591c95-0
+00:54:25.800 --> 00:54:31.160
+For the, you want to do 1 and 2 both,
+not just one, just one for now.
+
+4fff5efd-542a-464f-a068-c20923bb7cdf-0
+00:54:32.120 --> 00:54:32.720
+OK, just one.
+
+3f016338-03e3-494b-a952-83df783a0aaa-0
+00:54:32.720 --> 00:54:32.840
+OK.
+
+95e0442a-f6ef-4d59-967b-460c7f93d6c6-0
+00:54:32.840 --> 00:54:33.800
+Yeah, just one for now.
+
+0d746342-a140-4219-8c54-512533da9492-0
+00:54:34.600 --> 00:54:39.003
+OK, maybe maybe while you add it,
+just add 2 as well,
+
+0d746342-a140-4219-8c54-512533da9492-1
+00:54:39.003 --> 00:54:43.080
+because we need the RMA policy added in
+in there.
+
+8dc1877e-4349-4b01-9ae5-4236cd516d63-0
+00:54:43.960 --> 00:54:45.360
+Probably need the second one as well.
+
+dc459c8d-8111-47d4-8b41-c39afaecdd9a-0
+00:54:45.360 --> 00:54:46.600
+So yeah.
+
+e09664cc-9d4c-4256-ac98-ddddf762bfac-0
+00:54:46.640 --> 00:54:49.320
+So please add 1 and 2.
+
+5cabfc53-e675-47e2-a4e4-33ffa8c58193-0
+00:54:54.560 --> 00:54:57.040
+I think that's it for today.
+
+4f08d9e8-5a04-4c69-86d2-c4e444aa23e6-0
+00:54:57.520 --> 00:55:01.600
+We'll do the event next time.
+
+f93e8bec-843f-4dbf-b6a0-a20da2b4debb-0
+00:55:04.440 --> 00:55:05.000
+Thanks guys.

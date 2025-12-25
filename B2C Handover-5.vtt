@@ -1,0 +1,3521 @@
+WEBVTT
+
+4af5d466-57f9-4ebf-b5d8-45a1a43d2883-0
+00:00:02.040 --> 00:00:03.120
+I can open.
+
+e6c32d3f-5d9c-4a66-815d-a8f993d396a2-0
+00:00:03.160 --> 00:00:05.560
+I, I OK, have I think let me open that.
+
+fbc6cf69-b58d-4675-969e-a01da9282b1a-0
+00:00:05.560 --> 00:00:10.840
+Just give me a minute to share.
+
+c4ddbfd6-84da-4e2e-b6f2-e8ece70cc32e-0
+00:00:15.800 --> 00:00:17.280
+Can you guys see my screen?
+
+bad0bde0-61d8-431e-b833-3a40113d2cc4-0
+00:00:17.800 --> 00:00:18.040
+Yeah.
+
+93c91efc-bdc8-4438-8494-d5ffcfb0db57-0
+00:00:18.560 --> 00:00:18.880
+OK.
+
+e265bb7c-3ccb-4447-a8b6-48f2c0840320-0
+00:00:19.080 --> 00:00:20.160
+Let me open David.
+
+07f2f064-37a1-43ce-85b5-5be8d7902865-0
+00:00:23.240 --> 00:00:29.521
+I think what's happening in the event if
+you go to the portal and the sign button
+
+07f2f064-37a1-43ce-85b5-5be8d7902865-1
+00:00:29.521 --> 00:00:31.360
+is already there, right.
+
+2f2ec457-ac54-4f30-a903-6595ff978c04-0
+00:00:32.760 --> 00:00:38.067
+I think it's happening because it's not
+fully BTC is fully not configured,
+
+2f2ec457-ac54-4f30-a903-6595ff978c04-1
+00:00:38.067 --> 00:00:41.960
+but there's couple of settings that we
+need to delete.
+
+899791cd-0fe2-4d9f-a289-8eb133bff148-0
+00:00:42.080 --> 00:00:44.960
+That's what I was trying to delete the
+other day, right?
+
+e1ee4c59-1bca-4a8a-beca-2f4390841265-0
+00:00:45.240 --> 00:00:45.360
+Yep.
+
+17be794a-f392-4f03-9d44-d2b2f090d768-0
+00:00:45.480 --> 00:00:48.200
+Those two settings makes portal things.
+
+aa7c5e6b-53ba-4466-97c1-eddba0d904d9-0
+00:00:48.520 --> 00:00:50.680
+It has BTC, but it doesn't have BTC.
+
+903c6ccf-03d3-4131-9a17-3ddee5d527e0-0
+00:00:54.040 --> 00:00:58.640
+So I think we need to 1st delete those
+two settings and deactivate it.
+
+ccb925b9-ff03-4903-a7f1-a1dd15fa2420-0
+00:00:58.640 --> 00:01:01.160
+Instead of deleting it,
+shall we deactivate it?
+
+2c5cdaff-a8b3-4e59-88fa-cf70b06f372f-0
+00:01:01.160 --> 00:01:01.520
+Whatever.
+
+29bd632c-1cc2-4f6c-b126-f6dd84c98f6a-0
+00:01:01.600 --> 00:01:02.120
+Yeah, Yeah.
+
+cb0eabd5-765b-474e-ac32-47bafd1bea4c-0
+00:01:02.120 --> 00:01:03.920
+I don't know much about Portal.
+
+ebccf597-8469-45bc-ba24-40014eddec56-0
+00:01:03.920 --> 00:01:07.460
+So we need to yeah,
+get portal to not to use those two
+
+ebccf597-8469-45bc-ba24-40014eddec56-1
+00:01:07.460 --> 00:01:08.040
+settings.
+
+52640ccd-638f-4b49-846b-b47bb2db9d65-0
+00:01:12.520 --> 00:01:16.600
+And just a quick thing Dinaga like, yeah,
+we have Dev 02, right.
+
+f3c55ff0-19ce-414b-85c8-8263b79ef8a8-0
+00:01:16.720 --> 00:01:21.339
+It's going forward if they are asking us
+to share whatever we are doing for dev
+
+f3c55ff0-19ce-414b-85c8-8263b79ef8a8-1
+00:01:21.339 --> 00:01:23.938
+end,
+we have to do the similar thing for Dev
+
+f3c55ff0-19ce-414b-85c8-8263b79ef8a8-2
+00:01:23.938 --> 00:01:24.400
+02 also.
+
+bf4f2610-6429-44f2-b101-3baf01ff5f0d-0
+00:01:25.480 --> 00:01:26.520
+Yes, OK.
+
+5d335fdd-7262-418b-b4cc-35e21222444b-0
+00:01:26.720 --> 00:01:30.200
+Yes, we can use the Dev V to see.
+
+30fd7417-ccf0-45f0-97aa-8b0c592b951c-0
+00:01:31.480 --> 00:01:38.314
+And then so you need to work with Pradeep
+and there's your team to get a Web API
+
+30fd7417-ccf0-45f0-97aa-8b0c592b951c-1
+00:01:38.314 --> 00:01:42.280
+deployed into the Dev resource group in
+Azure.
+
+c188fc92-c3d2-42bc-a76b-a8f0c15da4ae-0
+00:01:42.960 --> 00:01:43.320
+OK.
+
+c77c7ed3-8d70-4209-8ee7-db181d966cd6-0
+00:01:44.240 --> 00:01:47.568
+And then, yeah,
+So then so whatever you done for Dev end,
+
+c77c7ed3-8d70-4209-8ee7-db181d966cd6-1
+00:01:47.568 --> 00:01:51.815
+that needs to be done by Pradeep,
+whatever the Azure side level and power
+
+c77c7ed3-8d70-4209-8ee7-db181d966cd6-2
+00:01:51.815 --> 00:01:56.120
+pages side, whatever we are doing now,
+we have to replicate it for Dev 02.
+
+a218e14f-9f6f-4b2d-9024-59336c1c5ccf-0
+00:01:56.600 --> 00:01:57.080
+Yes.
+
+9bef051a-61c2-45c8-87ca-cd37a1892221-0
+00:01:57.400 --> 00:02:01.440
+OK, So that's setting.
+
+969d3d39-0f07-47d0-bd98-f67a4822c784-0
+00:02:01.520 --> 00:02:02.040
+Yeah, yeah.
+
+7e0d501c-47e0-445a-a8da-96636170ca6b-0
+00:02:02.040 --> 00:02:03.880
+So copy that setting.
+
+04408e60-03d5-4ce3-bdbf-7b3030b31ec5-0
+00:02:03.920 --> 00:02:07.120
+We need to add that back, but temporary,
+we'll delete it.
+
+f139e1f6-8df0-4dd4-b114-62b7a096205b-0
+00:02:07.960 --> 00:02:10.360
+So deactivate it,
+you can activate it again.
+
+45f4e225-ec64-4000-9aa4-8d20f760b268-0
+00:02:13.880 --> 00:02:16.280
+K and values option.
+
+847c451b-95ac-413f-9871-bbb7874a1b26-0
+00:02:21.240 --> 00:02:23.960
+OK, deactivate.
+
+d2a48280-9540-47a4-b5f3-aae8b54af418-0
+00:02:25.800 --> 00:02:31.025
+And there's another setting called
+registration button type,
+
+d2a48280-9540-47a4-b5f3-aae8b54af418-1
+00:02:31.025 --> 00:02:34.280
+I think let's deactivate that as well.
+
+55051d7c-d461-4dd2-b0e0-3bd533d0729f-0
+00:02:37.920 --> 00:02:38.920
+Yeah, that one there.
+
+f0fb313a-fe35-4e5c-9ae4-ffda7e577289-0
+00:02:39.360 --> 00:02:39.840
+This one.
+
+226cbf60-6203-414c-8331-3955cb24848a-0
+00:02:40.120 --> 00:02:42.120
+Yeah, there are two.
+
+d0ddd7e4-ce21-4635-a481-f9a4a10a171b-0
+00:02:42.360 --> 00:02:46.360
+The one is linked with our site,
+so the other one, ignore it.
+
+2c778dc5-f382-4ddb-9644-74e29bd6001e-0
+00:02:46.480 --> 00:02:48.680
+Yeah, I'll copy this as well.
+
+10d7af8c-80a3-4818-ad1d-9230a4318ebd-0
+00:02:49.240 --> 00:02:50.840
+I don't think the setting is needed.
+
+238ce721-2836-48c4-bf47-3dcfb50e27da-0
+00:02:50.840 --> 00:02:53.200
+Just maybe deactivate it.
+
+00e303b2-a6c9-46d0-ab7d-89f3452ad0a5-0
+00:02:53.440 --> 00:02:54.280
+OK, Deactivate it.
+
+a5d48831-264a-46d1-86f7-5f07518738ff-0
+00:02:54.440 --> 00:02:54.640
+Yeah.
+
+d97ab427-23e6-4133-979f-044d8ff4ce06-0
+00:02:59.000 --> 00:02:59.240
+All right.
+
+1c8959a0-9067-46ac-b532-6af5d716baf5-0
+00:02:59.280 --> 00:03:04.682
+So if you sync it now and if you go to
+the browse the power portal,
+
+1c8959a0-9067-46ac-b532-6af5d716baf5-1
+00:03:04.682 --> 00:03:10.800
+I expect that sign in to not work anymore
+like OK, Yep, not not do anything.
+
+ca78cd66-4451-4ea9-a380-18a962bf5046-0
+00:03:17.250 --> 00:03:20.690
+Can we try browsing to it?
+
+7c6100aa-b83f-449c-aa8a-d1c172c612ed-0
+00:03:20.690 --> 00:03:20.810
+OK.
+
+db4c3628-516f-41ff-9451-9eaadf04d363-0
+00:03:40.360 --> 00:03:45.120
+OK, this one right, Yeah,
+it's still showing the button.
+
+383c81a7-6992-4f84-8f18-0979bdf53aa0-0
+00:03:46.240 --> 00:03:47.320
+It's going to the local.
+
+6e3ca100-dcb2-49af-b8b6-e3045d330c25-0
+00:03:47.360 --> 00:03:50.120
+Yeah, yeah,
+that because the sign in is enabled.
+
+0e63e6f5-9aa1-4a40-a254-4744b66381fc-0
+00:03:50.120 --> 00:03:51.520
+So it's Yep, now it's not going.
+
+350cbd20-bd61-4f84-bda8-d3aeea2510fa-0
+00:03:51.520 --> 00:03:54.680
+It was going to roam B to CURL before,
+right?
+
+c34e4f04-bdd5-4aae-b5de-4f998d12f6ca-0
+00:03:55.000 --> 00:03:55.200
+Yep.
+
+85b5acdb-4611-4942-a359-282e53789ae8-0
+00:03:56.040 --> 00:04:01.819
+So now let's configure the B to C Can we
+in another tab,
+
+85b5acdb-4611-4942-a359-282e53789ae8-1
+00:04:01.819 --> 00:04:04.760
+can we open the dev instance?
+
+c69f63ea-4d86-4f2d-9983-72bb1a8d5b4a-0
+00:04:04.760 --> 00:04:05.160
+This one?
+
+936592ff-50f9-4499-9cd1-74b1763cb77c-0
+00:04:05.160 --> 00:04:05.920
+Yeah, dev instance.
+
+34aa469f-03f1-4863-ab5f-033f2f91830e-0
+00:04:05.920 --> 00:04:08.200
+So, so we can just start copying.
+
+2f4463e1-98d6-4ca1-b2dd-c5bfb41e33eb-0
+00:04:09.680 --> 00:04:10.120
+Stop.
+
+5b9aec24-ffd2-4040-93ca-a39e4e1d30d5-0
+00:04:10.560 --> 00:04:10.920
+OK.
+
+d962c820-c0be-4e71-a696-3a4845d38f98-0
+00:04:11.000 --> 00:04:12.920
+This is not not the not the settings.
+
+2356fadb-a6e7-4753-8166-ae9c6e78e009-0
+00:04:13.360 --> 00:04:13.600
+Yep.
+
+0fbd04dc-8f8a-43d5-8fcc-82dbecc04b7b-0
+00:04:13.760 --> 00:04:14.760
+What do you call that?
+
+e6531b83-50bc-491b-bc02-476ab0abb823-0
+00:04:14.760 --> 00:04:18.600
+I don't know what that's called from make
+power pages.
+
+f6e7db95-6a60-4d65-a1f7-ddfffa29f273-0
+00:04:19.720 --> 00:04:21.360
+You mean the power pages Studio?
+
+241ef2a5-31c4-49e8-ba0e-991b392e08bb-0
+00:04:21.800 --> 00:04:23.920
+Yeah, that that's one this one.
+
+0cd2fb2b-cfbe-4bab-ba59-813acbcd67ce-0
+00:04:24.320 --> 00:04:24.600
+Yeah.
+
+f8cdfa4d-e340-40f1-9fb6-7d26bcd85947-0
+00:04:25.320 --> 00:04:26.360
+Could you go to security?
+
+9144e38b-66fd-41f3-9f10-884b1405854d-0
+00:04:27.320 --> 00:04:28.000
+Security.
+
+12f8a6be-52f7-4618-84c6-5963f88b4644-0
+00:04:28.000 --> 00:04:28.720
+OK, There.
+
+9455083e-effe-4714-a536-10f557fac2f1-0
+00:04:28.720 --> 00:04:31.240
+So this is DEVINT, Right?
+
+48d878b5-adfb-48c1-979e-71f04d65cff2-0
+00:04:31.680 --> 00:04:33.800
+So this is Dev and this is DEVINT.
+
+29fc9fa8-5ec1-4a63-8560-870368238415-0
+00:04:34.560 --> 00:04:34.680
+Yeah.
+
+3f1efc2a-18e1-4a4d-b802-20e79d5429a3-0
+00:04:34.680 --> 00:04:34.920
+OK.
+
+162297c7-3aaa-4279-b5ee-5dfda51cb19a-0
+00:04:36.320 --> 00:04:37.680
+Keep them side by side.
+
+c68e338b-c125-492a-bd21-aa594bc33d35-0
+00:04:37.880 --> 00:04:38.080
+Yep.
+
+9f6fe4c6-077b-469c-86b8-5db2f1bb6ce0-0
+00:04:42.600 --> 00:04:47.440
+So dev int still shows that B to C
+instance even though we deactivated it.
+
+87879e12-bce9-46cc-9587-896c5d9e8bb9-0
+00:04:48.280 --> 00:04:51.120
+It is not yet configured right?
+
+1878bff4-2ed4-4db6-a962-10cf5c55af31-0
+00:04:52.920 --> 00:04:53.240
+Yeah.
+
+1fd83ea3-e0c1-4fb1-8a75-b34dd70195e4-0
+00:04:53.240 --> 00:05:04.560
+So I I was hoping it not to show here,
+but anyway, let's try configuring it, OK,
+
+1fd83ea3-e0c1-4fb1-8a75-b34dd70195e4-1
+00:05:04.560 --> 00:05:14.344
+because I think it's still finding that
+deactivator setting this one,
+
+1fd83ea3-e0c1-4fb1-8a75-b34dd70195e4-2
+00:05:14.344 --> 00:05:16.720
+that one setting.
+
+0d9290ea-ca90-4fe4-9123-ab245c11bd6f-0
+00:05:18.040 --> 00:05:19.280
+Can you sync it Sindhu?
+
+80f5b39a-78da-4383-ab9b-029d56ad3ca7-0
+00:05:19.800 --> 00:05:21.680
+OK, probably that's the issue.
+
+c35a6674-ffeb-4d7f-8ba4-329b4e0a52c5-0
+00:05:21.680 --> 00:05:29.700
+OK, it's still there, but it's showing.
+
+85f4cb4e-976d-45ac-bcc3-0074aa831988-0
+00:05:29.980 --> 00:05:30.140
+Yep.
+
+221301aa-ff8e-40ea-b244-97af57ef936b-0
+00:05:31.860 --> 00:05:33.540
+OK, I'll configure.
+
+c51e4cf1-6f4f-484b-ae05-b7318acb5ff4-0
+00:05:34.140 --> 00:05:37.660
+Yeah, well, yeah, yeah, that's all.
+
+255cb030-2c3e-4551-8f90-72ce6382a0fc-0
+00:05:37.900 --> 00:05:44.000
+We can continue next and then you can get
+the URL from there.
+
+6e89c400-1ac2-487d-a63d-a67997b9ce54-0
+00:05:44.320 --> 00:05:56.450
+Yeah, Authority, there's a sorry,
+could you go back Sindhu?
+
+6209b980-e206-46a8-902a-7b005e1a8fd7-0
+00:05:56.450 --> 00:05:56.890
+Yep, Yep.
+
+dbe4425b-7a9e-49dd-996e-57368f2a66c4-0
+00:05:58.170 --> 00:06:03.170
+So in the URL scroll to the right, please.
+
+e5a38e79-26a6-4c5b-aeb0-6817dba69ec6-0
+00:06:03.930 --> 00:06:04.130
+Yeah.
+
+17625d9c-a4a3-4dd1-a604-e1edd6ba1315-0
+00:06:04.130 --> 00:06:05.970
+So there's dev, right?
+
+33ac83cb-dd7e-4242-b55f-323717047e75-0
+00:06:05.970 --> 00:06:10.200
+So that dev need to be replaced with dev
+int like this, right?
+
+fc6f4c0c-4ff3-4d5b-8fec-196d495f6332-0
+00:06:10.320 --> 00:06:11.200
+Yeah, like that.
+
+b9bca28a-12f6-48f6-83e7-5b1ebccbf90a-0
+00:06:11.200 --> 00:06:13.480
+OK, so you can copy the same URL.
+
+ce5c9bb4-9203-4a99-8438-77f39c5c947e-0
+00:06:13.800 --> 00:06:16.360
+It's the same URL for the last one valid
+issue.
+
+34cc1646-c0a4-4e2d-bbb4-e58a948d80bb-0
+00:06:16.360 --> 00:06:18.760
+It's the last.
+
+fc5491f3-cb67-4bc8-9bb6-d5c4f6fda504-0
+00:06:19.360 --> 00:06:26.280
+OK, yeah, Yep, client ID.
+
+e9165b17-7d2a-44d8-b1d5-23ca84711bb0-0
+00:06:26.280 --> 00:06:27.440
+So this is the problem, right?
+
+8f9bf922-e6bc-466d-9133-fb3f9dee877b-0
+00:06:27.440 --> 00:06:31.256
+So so yeah,
+so so the problem I think we need to get
+
+8f9bf922-e6bc-466d-9133-fb3f9dee877b-1
+00:06:31.256 --> 00:06:32.840
+instead of doing this.
+
+fa782962-74b1-4c01-b7e2-82ff2e3d0d18-0
+00:06:33.120 --> 00:06:36.400
+So you can see redirect URL right in the
+middle.
+
+9f1c3289-b071-47b6-a04f-d41c92bc4ae9-0
+00:06:36.400 --> 00:06:37.240
+OK yeah.
+
+b263c596-455f-4128-a555-80f358e51d19-0
+00:06:37.800 --> 00:06:41.680
+So that has_2, Yeah.
+
+15c46ad1-e730-4634-b423-182ccea8940b-0
+00:06:41.960 --> 00:06:47.620
+So what that means is portal things you
+are configuring the second B to C
+
+15c46ad1-e730-4634-b423-182ccea8940b-1
+00:06:47.620 --> 00:06:50.680
+provider, not the first B to C provider.
+
+b37970f2-348e-4ec0-a51b-35783af9cd35-0
+00:06:51.200 --> 00:06:54.805
+So it thinks there's already 1B to C
+provider because of that inactive
+
+b37970f2-348e-4ec0-a51b-35783af9cd35-1
+00:06:54.805 --> 00:06:55.720
+settings, I think.
+
+42a948cb-513f-488c-b2ef-adc221dd400f-0
+00:06:56.080 --> 00:06:58.160
+Oh, so we have to delete it then?
+
+e3f3ad4f-4505-4e08-b1a9-1d6037e5d44f-0
+00:06:58.480 --> 00:07:03.160
+Yeah,
+I think we need to get rid of it somehow
+
+e3f3ad4f-4505-4e08-b1a9-1d6037e5d44f-1
+00:07:03.160 --> 00:07:07.840
+or just rename that URL while
+deactivating it.
+
+c56d2411-31e1-4e0e-81df-4a67d49639b6-0
+00:07:07.840 --> 00:07:10.880
+If you go to the deactivate site settings.
+
+99cd1fcd-3426-4cf4-a55b-7b4322956782-0
+00:07:12.600 --> 00:07:12.720
+Indu.
+
+f8366812-e85b-4489-bfc0-95c2984c7f81-0
+00:07:12.720 --> 00:07:15.163
+OK,
+so I'm just trying to understand like
+
+f8366812-e85b-4489-bfc0-95c2984c7f81-1
+00:07:15.163 --> 00:07:15.920
+where we are.
+
+91dc07d5-a091-4785-b007-fe2447b24d59-0
+00:07:15.920 --> 00:07:21.699
+I think where it's picking up rather is
+that, Yeah, the middle part, right,
+
+91dc07d5-a091-4785-b007-fe2447b24d59-1
+00:07:21.699 --> 00:07:22.840
+the AADP to C1?
+
+31fa1319-ed9d-45ec-b922-3a6bc27cf70a-0
+00:07:22.920 --> 00:07:22.960
+Yeah.
+
+42e7de9d-657c-4f7f-80f0-56e82f45f962-0
+00:07:22.960 --> 00:07:27.901
+So I think that whole setting need to be
+if you're renaming it, yeah,
+
+42e7de9d-657c-4f7f-80f0-56e82f45f962-1
+00:07:27.901 --> 00:07:30.160
+just rename to something random.
+
+a591b18c-a2b7-49b5-bab2-b0bb1a42f38a-0
+00:07:30.160 --> 00:07:35.648
+Yes_1 put_old or remove the one to old or
+something or I'll just Remove this part
+
+a591b18c-a2b7-49b5-bab2-b0bb1a42f38a-1
+00:07:35.648 --> 00:07:36.720
+alone will that.
+
+1849514e-327d-4eff-87e4-a81e585ffeff-0
+00:07:36.720 --> 00:07:38.120
+Work yeah I?
+
+c25cf71b-a145-4c56-b97c-62447da73bb1-0
+00:07:38.360 --> 00:07:41.267
+I,
+THINK THAT'S the part it's picking up
+
+c25cf71b-a145-4c56-b97c-62447da73bb1-1
+00:07:41.267 --> 00:07:44.600
+yeah OK Because YEAH,
+open ID connect NO this.
+
+97e2a837-9103-4721-a056-57942f3df5de-0
+00:07:44.600 --> 00:07:46.564
+One,
+is coming from the previous screen I
+
+97e2a837-9103-4721-a056-57942f3df5de-1
+00:07:46.564 --> 00:07:47.360
+think DHANUKA if.
+
+a6f8dc4b-9a4c-469a-b309-d8eaf2164b4a-0
+00:07:47.360 --> 00:07:50.618
+You,
+go back the configuration screen what's
+
+a6f8dc4b-9a4c-469a-b309-d8eaf2164b4a-1
+00:07:50.618 --> 00:07:53.949
+in,
+this doing that power pages Studio sindhu
+
+a6f8dc4b-9a4c-469a-b309-d8eaf2164b4a-2
+00:07:53.949 --> 00:07:55.760
+Can You, go back OK yeah?
+
+0588dcd1-4f1d-41d8-8885-1cac4f27ccd8-0
+00:07:57.440 --> 00:07:57.880
+YEAH and can.
+
+a59c0b2c-8204-41cf-911b-c72aab783533-0
+00:07:57.880 --> 00:08:02.920
+You go to the back screen of this able to
+go this one.
+
+bf612045-107a-41d3-84ce-ee1233a3dd95-0
+00:08:03.560 --> 00:08:08.139
+Yeah, If you go to the No, no, no,
+this one configuration configure,
+
+bf612045-107a-41d3-84ce-ee1233a3dd95-1
+00:08:08.139 --> 00:08:11.524
+click it,
+click the configure and here you can see
+
+bf612045-107a-41d3-84ce-ee1233a3dd95-2
+00:08:11.524 --> 00:08:15.108
+Azure ADB to C,
+it's open ID connect and the provider
+
+bf612045-107a-41d3-84ce-ee1233a3dd95-3
+00:08:15.108 --> 00:08:15.440
+name.
+
+3305f9d4-0ea5-4768-9124-efbea130b3bf-0
+00:08:15.440 --> 00:08:16.560
+We are putting it right.
+
+a77189db-1750-4faf-927f-485a94cf5b97-0
+00:08:16.960 --> 00:08:20.320
+Yeah, but it's taking two there.
+
+20464dbf-03c8-4656-85b8-d6d82ff37680-0
+00:08:20.920 --> 00:08:21.360
+Yes, OK.
+
+e210ce04-4f9a-44b3-94b2-817db00ce79d-0
+00:08:21.760 --> 00:08:25.796
+It's taking two because it thinks there's
+already one configure because of that
+
+e210ce04-4f9a-44b3-94b2-817db00ce79d-1
+00:08:25.796 --> 00:08:26.200
+setting.
+
+9d9eb794-ef5b-4bb5-9ad7-5377d3c1d1c8-0
+00:08:26.200 --> 00:08:26.640
+Got it.
+
+11e8abdf-ba68-499a-9633-1d532a12754a-0
+00:08:27.320 --> 00:08:29.440
+So I think it's even inactive.
+
+f9d7bd18-19fc-4240-837d-d01c2bd70b7d-0
+00:08:29.440 --> 00:08:32.120
+It sort of picks it up as, yeah,
+still picks it up.
+
+38b390cd-392b-4683-b3a4-ed37ac630742-0
+00:08:32.880 --> 00:08:34.680
+OK, we'll remove that one.
+
+6c7469f6-0c24-406f-b30c-51b0eab1bf22-0
+00:08:34.720 --> 00:08:37.120
+And yeah, probably.
+
+6af9c293-bb2f-4172-9138-99027d593f09-0
+00:08:37.240 --> 00:08:38.480
+What if you delete it?
+
+dfc4a33d-b0cf-4594-966f-9ac896757a71-0
+00:08:39.000 --> 00:08:39.800
+Just delete it.
+
+8fb1f333-6c6b-4163-9c2f-95deb96c8f8f-0
+00:08:40.320 --> 00:08:42.840
+Yeah, OK.
+
+286c7be4-6ffc-4d5d-976b-aa2ca75d4825-0
+00:08:44.080 --> 00:08:45.160
+I don't want to tell it inside.
+
+1b03c72b-240b-4533-b4b0-c1be55136fb8-0
+00:08:45.280 --> 00:08:46.520
+I think delete it.
+
+a27c0a0b-942d-4642-98b1-ab78fec3e155-0
+00:08:46.640 --> 00:08:47.760
+Don't delete it from here.
+
+b809c8d9-c5fe-40c1-bc90-43285fbb4fcf-0
+00:08:47.960 --> 00:08:50.841
+Just go into it, into the setting,
+delete the value,
+
+b809c8d9-c5fe-40c1-bc90-43285fbb4fcf-1
+00:08:50.841 --> 00:08:52.200
+clear the value properly.
+
+e6cff094-f8d5-4b54-ad5e-45526fb23919-0
+00:08:52.520 --> 00:08:53.960
+No value won't help.
+
+a7e3d25b-83da-422c-ba4e-aad09d3e7c01-0
+00:08:54.760 --> 00:08:56.720
+Rather this one setting name is the issue.
+
+4c2d91a6-f8a1-479b-b046-2015db919d0d-0
+00:08:56.720 --> 00:09:01.484
+Just take it, take the name,
+put something else on random or hold it
+
+4c2d91a6-f8a1-479b-b046-2015db919d0d-1
+00:09:01.484 --> 00:09:02.520
+and then do it.
+
+4ec4a520-d2b4-4411-86fc-f7035922ed36-0
+00:09:02.560 --> 00:09:03.640
+Yeah, it's read only now.
+
+5babb511-ad67-4be1-99d3-fec3a30c112f-0
+00:09:03.760 --> 00:09:04.000
+Yeah.
+
+a2812321-b803-4280-a3f1-5bd1a9dffbdc-0
+00:09:04.880 --> 00:09:07.160
+So I'll just put it like that.
+
+9bba5f41-9008-4861-8fe1-34bb63f76bef-0
+00:09:07.160 --> 00:09:13.280
+And Sindhuja, hold B to C Yeah,
+all the VTC config.
+
+2456801d-ad16-4e63-b26b-f96bb69c0d1b-0
+00:09:14.000 --> 00:09:15.400
+OK, that's it.
+
+b4b5b5ec-356b-4e6e-b525-dbee268f1463-0
+00:09:17.440 --> 00:09:19.520
+Now I'll sync and see the other one.
+
+50058fe2-0875-4fb8-bd3b-8d11c259627c-0
+00:09:19.520 --> 00:09:20.960
+Also the login button one.
+
+8f04a386-4f88-4447-8b11-38eeafe8988e-0
+00:09:20.960 --> 00:09:21.640
+Do we need to?
+
+d7d8f799-6cbd-491f-bbcc-14db0000280d-0
+00:09:21.840 --> 00:09:23.000
+No, no, that's fine.
+
+a0fde8da-5ab6-4e75-bad7-391c662c1879-0
+00:09:23.000 --> 00:09:23.120
+Yeah.
+
+09045304-3c8c-43d1-bf86-243a2400d110-0
+00:09:23.640 --> 00:09:24.040
+OK.
+
+f10b7605-13f4-4450-a493-3ed0bb322396-0
+00:09:24.680 --> 00:09:26.520
+So could you do, do you need to sync?
+
+14641b1f-1810-4777-b2d4-7b2b32940a3b-0
+00:09:27.280 --> 00:09:27.920
+I'll sync it.
+
+fb30f7f5-f5f2-4100-ab39-e10716448c3c-0
+00:09:27.920 --> 00:09:35.240
+Yeah, yeah, yeah, it's gone.
+
+995245b8-7f0c-4e6a-ad68-6676e6e8be10-0
+00:09:35.320 --> 00:09:35.760
+Nice.
+
+e322d123-3182-4f6f-ace2-329683763a26-0
+00:09:36.400 --> 00:09:36.600
+OK.
+
+ba176de3-e037-447c-8c96-692e623d7c5c-0
+00:09:37.880 --> 00:09:38.240
+Yeah, yeah.
+
+7697785d-7368-4df2-ac84-80ad42e32ffe-0
+00:09:38.240 --> 00:09:38.520
+OK.
+
+3183bff3-81c0-4a66-bb31-b418d32bca8f-0
+00:09:38.960 --> 00:09:39.240
+Yeah.
+
+3f96eb34-ecbe-47bf-9c30-78416c4ab6f8-0
+00:09:39.240 --> 00:09:42.400
+Configure, configure need to see.
+
+9a566e96-86bf-442f-8bb7-6edcbba19fa6-0
+00:09:42.720 --> 00:09:44.840
+So now you can see it's back to one.
+
+d4ad20f8-5d42-4368-a8fa-3e547f8aca97-0
+00:09:44.920 --> 00:09:49.240
+Yeah, yeah, OK, they went OK, still there.
+
+8cdfecd5-1b61-4c22-9bbb-2e75449ba1f6-0
+00:09:51.920 --> 00:09:56.033
+And client ID, Yeah,
+client ID is get the same dev client ID,
+
+8cdfecd5-1b61-4c22-9bbb-2e75449ba1f6-1
+00:09:56.033 --> 00:09:57.560
+dev client ID OK, yeah.
+
+f810e127-8a71-4d2f-be3f-59f9866f658f-0
+00:10:03.000 --> 00:10:06.840
+That remains the same, Yeah,
+redirect your that's automatically
+
+f810e127-8a71-4d2f-be3f-59f9866f658f-1
+00:10:06.840 --> 00:10:08.040
+generated by portal.
+
+9e7e60a5-1f84-4bb3-8af6-aea21592b74e-0
+00:10:08.680 --> 00:10:10.040
+So this one will be deviant.
+
+eb6ba8b0-8684-426c-bd22-8130070cfb3e-0
+00:10:10.400 --> 00:10:11.280
+That's deviant.
+
+121db223-ae57-46c1-8a43-b493cd63cf74-0
+00:10:11.280 --> 00:10:29.550
+Yeah, that's it.
+
+1e883b25-c1e5-4399-9b28-e2e55fe82721-0
+00:10:30.590 --> 00:10:35.190
+I think here contact mapping with email
+need to be turned off.
+
+ae2180e0-c4c2-4156-b5b6-97826ee46958-0
+00:10:36.990 --> 00:10:37.510
+This one.
+
+8ce38d18-9759-4a84-85f6-ba99a0b60ae5-0
+00:10:37.790 --> 00:10:38.470
+Yeah, that one there.
+
+52e1f1b5-3e11-4d5f-8e3e-330abd8162ac-0
+00:10:38.750 --> 00:10:42.040
+OK, Yeah, other things fine, right.
+
+6624c206-43c5-4c82-9450-6fc5d7fcf55b-0
+00:10:42.280 --> 00:10:44.360
+Yeah, that we don't have any claims.
+
+8ac59b08-7bbc-40a0-b411-c5d1b066f5a6-0
+00:10:44.360 --> 00:10:47.200
+Yeah, OK, confirm.
+
+07086bbe-06f0-45e3-b11a-58579976f58d-0
+00:10:48.280 --> 00:10:49.000
+That's it.
+
+5783b104-bc87-48dd-b98c-774e722b8767-0
+00:10:49.360 --> 00:10:49.840
+Close.
+
+510a08c5-22e3-4f30-b9b1-ea94ac1d74ef-0
+00:10:50.440 --> 00:10:51.120
+That's it.
+
+ed10c08b-8531-4147-bc36-64c1b6745a8a-0
+00:10:52.080 --> 00:10:53.160
+You need another sync.
+
+2790a85e-cc1f-47ea-804d-6b9420815907-0
+00:10:53.320 --> 00:10:56.520
+Yeah,
+I'll sync it and and make it the default.
+
+8ca47628-94fd-4407-8945-c1be78a80d9f-0
+00:10:57.360 --> 00:11:00.930
+OK,
+so that's how we have have it configured
+
+8ca47628-94fd-4407-8945-c1be78a80d9f-1
+00:11:00.930 --> 00:11:02.120
+set as default.
+
+c19150c9-8c16-45ce-bc9f-61f24bea85ae-0
+00:11:02.240 --> 00:11:03.360
+Yeah, set as default.
+
+8215a6b6-3099-4fc1-9a65-8c6f2cfb37c8-0
+00:11:09.950 --> 00:11:11.230
+OK, sync.
+
+8cf204d8-b6a2-4bab-b76e-54e3106cf9f9-0
+00:11:12.070 --> 00:11:12.750
+Let's see.
+
+98c10223-b46d-4499-a09e-57ca5f610de5-0
+00:11:41.920 --> 00:11:43.080
+Still hasn't got it.
+
+4878c6c6-e8a0-4946-9726-977a6ce347f5-0
+00:11:45.360 --> 00:11:48.812
+So it yeah,
+it's B to C as you B to C you can see,
+
+4878c6c6-e8a0-4946-9726-977a6ce347f5-1
+00:11:48.812 --> 00:11:51.520
+but it should be defaulted, not default.
+
+4da41791-d313-424e-97dc-fbd040a37590-0
+00:11:52.120 --> 00:11:52.760
+Didn't pick it up.
+
+88cab6a8-02a4-4469-b0bb-66e49f2092c6-0
+00:11:52.760 --> 00:11:54.040
+It's not defaulting.
+
+2e1eb77e-ca31-4a15-be69-2689dadb08e6-0
+00:11:54.600 --> 00:11:59.820
+OK, it's defaulted,
+but I don't think the IT has synced,
+
+2e1eb77e-ca31-4a15-be69-2689dadb08e6-1
+00:11:59.820 --> 00:12:01.560
+hasn't been synced.
+
+eacd0ecb-2797-4b68-b261-9a2a5f0456b6-0
+00:12:01.960 --> 00:12:02.320
+I don't know.
+
+5122dfe2-fe1a-4a9f-8345-b89a86eed844-0
+00:12:03.240 --> 00:12:04.320
+Let me give it again.
+
+2387faf9-eadf-483b-b132-439315d80fd0-0
+00:12:04.320 --> 00:12:06.800
+Or should we need to restart the portal?
+
+dedf48d6-6190-4fed-a56b-3eeac7463d7e-0
+00:12:08.560 --> 00:12:09.800
+I don't think so.
+
+2486f00c-5cd4-4d40-b36f-18098c51f170-0
+00:12:09.880 --> 00:12:12.400
+OK, let me again.
+
+be7026f7-7566-4b0d-8717-123dc218607f-0
+00:12:21.650 --> 00:12:23.050
+Let let's see B to C part.
+
+02349070-8225-4f61-af27-279a722be61a-0
+00:12:23.170 --> 00:12:25.130
+Let's let's figure the default part out.
+
+2cc6d202-e9a2-4c8c-88c6-dad78cb35a69-0
+00:12:25.890 --> 00:12:33.800
+Yeah, Yeah.
+
+22ade4fa-2acc-4b0e-905c-7985f0b00c90-0
+00:12:33.840 --> 00:12:34.160
+All right.
+
+6616ba9c-1a87-4e49-a6da-b3ebfea22975-0
+00:12:34.360 --> 00:12:35.320
+It's going to Dev.
+
+80e48e52-101f-449d-ab4c-124dcecd6096-0
+00:12:35.320 --> 00:12:35.600
+Yes.
+
+5247bc09-f283-43f4-9a6f-eca06b433199-0
+00:12:35.600 --> 00:12:36.720
+Can you So.
+
+4bdf869e-f78b-4282-9b26-89bef97f43af-0
+00:12:36.720 --> 00:12:41.160
+So Dev, as I explained before,
+they're two different policies.
+
+8cab3273-ecb7-4302-8a8b-ae382bb004fd-0
+00:12:41.280 --> 00:12:43.120
+The policies can be in different version.
+
+bcce35ed-f7fd-46ec-bc7e-e129e2a3b42c-0
+00:12:43.120 --> 00:12:46.148
+Dev and Devin can have different versions
+of policies,
+
+bcce35ed-f7fd-46ec-bc7e-e129e2a3b42c-1
+00:12:46.148 --> 00:12:47.800
+but the user base is the same.
+
+d60f3303-09f3-42bc-97f8-24afe024174e-0
+00:12:47.800 --> 00:12:52.320
+So if you have a Dev account,
+you should be able to login in Dev.
+
+548c7def-04fa-475b-97e4-eb53390c8833-0
+00:12:52.440 --> 00:12:54.160
+The same account, same account.
+
+3ecddf83-7034-4a40-b820-d183c939551b-0
+00:12:54.560 --> 00:12:56.400
+OK, let me try that.
+
+996622e7-e336-4659-8987-2a1b6bbe48ec-0
+00:13:13.410 --> 00:13:15.130
+Yeah, it's going, Yeah.
+
+5ba147ac-297a-4c08-8ced-78b7d0f0e2a1-0
+00:13:34.720 --> 00:13:37.160
+Face version has been disabled.
+
+4be7396b-20d9-4f40-92ec-f673c2c490de-0
+00:13:39.600 --> 00:13:41.640
+There's some settings still in there.
+
+fbe1fdf7-e817-4637-a486-1c2ecaf9ec09-0
+00:13:42.240 --> 00:13:43.280
+Because it is.
+
+e6a5e633-3078-4a92-a74c-9b50e5bc1076-0
+00:13:43.640 --> 00:13:46.320
+It was having that redirect URL as sign
+in.
+
+f239a1d6-23e9-4367-b464-889dbe9a47cb-0
+00:13:46.600 --> 00:13:47.960
+It's coming back to here.
+
+ba86cfbb-fb55-4909-aabb-3679e26803b8-0
+00:13:47.960 --> 00:13:48.320
+Is it?
+
+d78b08cb-e5e7-4eb2-8ac1-b6ff20830bef-0
+00:13:48.920 --> 00:13:50.080
+No, I don't think so.
+
+86410303-cf2f-4f42-be96-c04ed08d6907-0
+00:13:50.160 --> 00:14:00.920
+I think it was a setting in B to not in
+portal.
+
+1644e785-45c3-427d-99d8-1917189ccf4d-0
+00:14:01.320 --> 00:14:05.760
+So it seems like so could you sign in
+again?
+
+7cd1785d-4318-4be1-87f8-e1c8c697a659-0
+00:14:05.760 --> 00:14:11.280
+What happens if you sign in again B to C?
+
+ec4830f2-e69d-44f7-af83-631a89c7fc33-0
+00:14:12.160 --> 00:14:14.680
+No,
+it says registration has been disabled.
+
+36b2d102-b00f-4a6d-ac15-a05ebee81831-0
+00:14:16.440 --> 00:14:18.040
+Registration has been disabled.
+
+ae7519a1-819c-4309-8ff9-6d630a7424d6-0
+00:14:18.120 --> 00:14:22.360
+I'm I'm pretty sure Pradeep we had this
+in dev.
+
+adaf2dc8-ff43-48fa-9061-29b6d9b472aa-0
+00:14:23.440 --> 00:14:28.480
+Pradeep did something in the portal to so
+could you go to settings?
+
+c5d3af40-73be-4ca6-a935-200d6c22428c-0
+00:14:29.040 --> 00:14:29.280
+Yep.
+
+49693f90-a5f9-42f9-be8d-1ac2c44728cd-0
+00:14:32.000 --> 00:14:32.600
+Advanced settings.
+
+6cabb798-07f5-4dbd-88fe-6c2de3b5de85-0
+00:14:32.720 --> 00:14:34.120
+No, no, sorry.
+
+12decc65-cf22-427b-8b3a-f66abab6605b-0
+00:14:35.320 --> 00:14:36.040
+Site settings.
+
+f90e8d0a-90c6-497d-bece-3d58e929ef63-0
+00:14:36.040 --> 00:14:36.800
+Site settings.
+
+af6959ce-b9f2-46a2-b108-8cbd079c4b7f-0
+00:14:36.800 --> 00:14:39.120
+OK, yeah, Yep.
+
+7a341e11-f10b-49ac-a94d-d4ca6a7787c2-0
+00:14:40.920 --> 00:14:42.240
+And search for registration.
+
+daa511a8-a12e-4216-822a-429ae05afac7-0
+00:14:42.240 --> 00:14:44.000
+Any any settings with registration?
+
+51cfc265-962d-4bcf-9eae-4dc1c05737c9-0
+00:14:44.360 --> 00:14:50.800
+OK, registration enabled.
+
+c9792de8-b56e-49d7-9945-45386fb15ebe-0
+00:14:52.960 --> 00:14:54.120
+It's B to C.
+
+54b35ca4-9473-403a-9daa-dadf7b8ec100-0
+00:14:54.560 --> 00:14:57.400
+Is there another one now?
+
+adcbebb6-2bb6-4345-b182-f949c0cf4b40-0
+00:14:57.400 --> 00:15:01.800
+This space station enabled folds down.
+
+4a4bc573-a76d-40ab-b2db-999864871def-0
+00:15:01.800 --> 00:15:02.120
+Down.
+
+1442d660-6c66-440d-8abf-81b9a4c4615e-0
+00:15:03.560 --> 00:15:03.920
+I'm sorry.
+
+4e2f1497-193c-4cb9-b63d-183f304121de-0
+00:15:03.920 --> 00:15:07.960
+It's put up to maybe to there's two
+registration enabled.
+
+f3d3ab6b-8a37-4bc5-a00c-4e2a37f53567-0
+00:15:07.960 --> 00:15:09.800
+1 is the old one, the new one.
+
+29a4febb-4404-4326-ba24-12dd47b24c9e-0
+00:15:10.440 --> 00:15:12.240
+New one is disabled, right?
+
+000742b1-2619-4452-902b-792f22db7977-0
+00:15:13.480 --> 00:15:13.760
+Yeah.
+
+6e535a36-7e20-4f29-8818-c1db2fa5c9e7-0
+00:15:13.760 --> 00:15:14.880
+New one is disabled.
+
+6b49ee83-87ed-403d-8ee5-acc6b78a3bbd-0
+00:15:15.560 --> 00:15:18.360
+It's in the fourth from the bottom,
+4th from bottom.
+
+21f40447-59c7-42d5-b750-3c20c73a0537-0
+00:15:18.360 --> 00:15:18.880
+This one.
+
+348c6c81-3ba4-4962-8aa9-70ce60042258-0
+00:15:19.120 --> 00:15:19.600
+Yeah.
+
+503ce0c5-70f4-4eff-8fdb-787338c6883a-0
+00:15:19.960 --> 00:15:20.840
+Can you enable this?
+
+d64b15a7-4533-4fec-a687-9b358b93296c-0
+00:15:21.640 --> 00:15:21.880
+True.
+
+981e09e9-7f1f-443f-aafc-fd9c5392eafc-0
+00:15:24.720 --> 00:15:25.480
+Seven close.
+
+f79eb535-635c-4a1f-8fa9-2477eefc85e9-0
+00:15:30.600 --> 00:15:31.240
+That's the old one.
+
+d29c0f46-9028-48a2-979e-06f659baa0e8-0
+00:15:31.240 --> 00:15:32.080
+That is the old one.
+
+016c43a1-d052-44a2-8780-47bc6b0eb458-0
+00:15:32.080 --> 00:15:34.619
+Yeah,
+sorry probably you philtre with our
+
+016c43a1-d052-44a2-8780-47bc6b0eb458-1
+00:15:34.619 --> 00:15:37.400
+website which is it will be only see our
+one.
+
+2d5c3ee3-a95d-4dff-b825-4d68ef26607b-0
+00:15:39.680 --> 00:15:44.640
+This one, Yeah, registration.
+
+def83f4b-8964-4324-a4d7-5dac36e35e9a-0
+00:15:44.640 --> 00:15:46.560
+OK, enabled this one, right?
+
+c3bb8b1f-9c6e-4ad5-a651-d528fe37e146-0
+00:15:46.560 --> 00:15:47.920
+Yeah, that is enabled.
+
+b91b7e8e-3c1c-4310-a848-853bf01ce8c2-0
+00:15:48.600 --> 00:15:49.320
+Yeah, OK.
+
+6f711d7b-d5b2-4624-a7f2-0d6f882f8c39-0
+00:15:49.320 --> 00:15:51.200
+We can sync it and check again.
+
+ae33b95c-1776-4ba3-a7bd-ecda148105a3-0
+00:15:51.800 --> 00:15:52.040
+Yeah.
+
+bba8450f-f5db-4536-9aa8-dbb3bbb33005-0
+00:15:52.040 --> 00:15:53.200
+And that is OK.
+
+18612c0a-dcc9-4ad6-92b2-a4486166d405-0
+00:15:53.240 --> 00:15:55.160
+OK, Azure ready, login disabled.
+
+e1d4a088-1cbc-42bd-bf4b-8cfa7e790f35-0
+00:15:55.240 --> 00:15:56.840
+I'm just quickly checking this one.
+
+b9f771ec-b699-4105-9f64-168d93cddfd6-0
+00:15:57.440 --> 00:15:58.120
+How about this one?
+
+ef1c2066-c194-40fc-b870-0a804ee3c5d5-0
+00:15:58.120 --> 00:16:02.785
+No, no, that is not we local,
+OK Local authentication invitation
+
+ef1c2066-c194-40fc-b870-0a804ee3c5d5-1
+00:16:02.785 --> 00:16:03.360
+enabled.
+
+5a4decbd-5dc0-4059-b4e8-6d175a61b2c7-0
+00:16:03.400 --> 00:16:04.960
+OK, that's not required now.
+
+d8fbddf2-c31b-4ee7-81cc-7f723067a410-0
+00:16:04.960 --> 00:16:06.760
+Open registration enabled.
+
+7d5aa985-f8fe-47d5-8748-2d74a5539b90-0
+00:16:08.240 --> 00:16:10.400
+Yeah, I think we can sync and check again.
+
+0bdc0f07-dbbc-43cc-ba51-b446eae30b07-0
+00:16:10.800 --> 00:16:10.960
+OK.
+
+a5490f2d-7ac1-49d8-9350-571a400241a5-0
+00:16:34.730 --> 00:16:37.330
+Oh, no, that's that's not,
+that's not the one.
+
+e7aea01a-12fe-4ccd-a6ee-a806e8e60733-0
+00:16:37.370 --> 00:16:38.650
+So it has now the.
+
+fadd1709-4298-4c16-9ffb-024bf781fbb6-0
+00:16:38.690 --> 00:16:39.970
+So it's the tab.
+
+f05e6ac6-fb3e-4cbb-a043-ae6961d36e95-0
+00:16:40.570 --> 00:16:42.770
+I think that's not the one we are after.
+
+6dd53bba-50e7-4333-87c2-37eda78551e8-0
+00:16:43.370 --> 00:16:44.890
+We can disable that again.
+
+ae8c77a6-6343-4e07-990f-d636b263d4fd-0
+00:16:45.170 --> 00:16:49.250
+Yeah, but this one is false, right?
+
+0126752d-e6f0-446a-ad82-5beaf1b7893f-0
+00:16:49.730 --> 00:16:50.010
+Yep.
+
+5b186481-f418-4753-9eda-07da3198adf7-0
+00:16:53.770 --> 00:16:55.410
+Is there any need to see?
+
+0b3be92c-61f1-434d-a726-62c1ec9c7b92-0
+00:16:56.690 --> 00:16:56.930
+Yeah.
+
+f485b280-889e-43db-8f54-c55a0b7900ce-0
+00:16:56.930 --> 00:17:02.464
+Could you go back to actually could you
+go back to the Dev B to C configuration
+
+f485b280-889e-43db-8f54-c55a0b7900ce-1
+00:17:02.464 --> 00:17:03.640
+in in the studio?
+
+8eb9f6cc-0a88-48ef-96b1-2f64fa230b5a-0
+00:17:04.560 --> 00:17:07.440
+Dev 1 is Dev one there.
+
+94f7eb7c-377c-4c83-a199-3041ae02a0c7-0
+00:17:07.440 --> 00:17:07.880
+Dev one.
+
+dc077f24-f5b6-480a-bb1f-6ccc53e9d043-0
+00:17:07.920 --> 00:17:08.280
+Yeah, Dev.
+
+4a9b7df8-df31-442d-a405-a6a16fa83784-0
+00:17:08.280 --> 00:17:10.520
+OK, this is Dev Yeah.
+
+8fa73585-2e79-4016-9412-67d810d46396-0
+00:17:10.640 --> 00:17:13.640
+So we have registration enabled here.
+
+31281ce3-afb1-4b3b-8297-2bf7fd425cfe-0
+00:17:17.120 --> 00:17:22.960
+Yeah, we have registration enabled there,
+local Azure AD disabled.
+
+5afaf128-48d4-4ef8-a6cb-89a168e98913-0
+00:17:24.040 --> 00:17:26.200
+Where you're saying registration is
+enabled?
+
+fffea40e-6784-4116-b328-101b9fb8546d-0
+00:17:26.640 --> 00:17:29.680
+No, in the in the configuration, OK,
+it's already there.
+
+c80774e5-325a-4505-afeb-64b7beac300a-0
+00:17:30.240 --> 00:17:37.560
+So I think not this one if you go down OK,
+OK.
+
+6a59cb4f-155e-4bc7-800b-7e4ed9e8f37b-0
+00:17:37.800 --> 00:17:45.160
+Can you go to dev int again and same B to
+C default one this one yeah, yeah.
+
+537ce16b-21ab-49b5-aefb-7869250e8f72-0
+00:17:55.400 --> 00:17:56.360
+Additional settings.
+
+804f972b-e017-44e5-81a4-4c75a1af14c0-0
+00:17:59.040 --> 00:18:09.667
+It's like when it comes to be,
+I can I know, I know now, OK,
+
+804f972b-e017-44e5-81a4-4c75a1af14c0-1
+00:18:09.667 --> 00:18:22.560
+now the problem here is actually there's
+a problem so to to login, right?
+
+843c1ac8-9c13-4ccc-939d-d14fa5ed0ad1-0
+00:18:22.920 --> 00:18:28.680
+So could you go to your contact in dev?
+
+d2b535be-7788-4dde-92dd-9d0d5f79ec11-0
+00:18:29.160 --> 00:18:32.963
+OK,
+could you open up the your your contact
+
+d2b535be-7788-4dde-92dd-9d0d5f79ec11-1
+00:18:32.963 --> 00:18:34.520
+in dev end, Right.
+
+20381dbb-d9b6-445c-95ab-d23dcf2cffb5-0
+00:18:35.120 --> 00:18:36.480
+Or in dev in dev?
+
+1d69625d-a5c6-4f19-b1b7-63d4d2a461de-0
+00:18:36.480 --> 00:18:38.400
+OK, let's let's have a look in dev first.
+
+98378cb0-2047-4b02-8b3b-822b98f248bf-0
+00:18:38.840 --> 00:18:39.080
+Yep.
+
+d385632b-37e2-421c-bd61-e273b95fd21b-0
+00:18:43.880 --> 00:18:46.480
+Yeah, I think I know what the issue is.
+
+9c5b3cd8-57f3-427e-87cd-b2f8d823f9a6-0
+00:18:56.240 --> 00:19:03.243
+It is going to be interesting how you for
+the contacts that we so can you there you
+
+9c5b3cd8-57f3-427e-87cd-b2f8d823f9a6-1
+00:19:03.243 --> 00:19:08.080
+can switch into portal contact mode,
+right, OK, Yep, Yep.
+
+b814ba18-96de-4466-a5d4-1213c4bf18fe-0
+00:19:09.040 --> 00:19:10.120
+Portal contact form.
+
+0251272d-53b4-4a06-a171-0937399fc569-0
+00:19:10.240 --> 00:19:17.523
+Yeah, yeah,
+I know some CRM now there is there should
+
+0251272d-53b4-4a06-a171-0937399fc569-1
+00:19:17.523 --> 00:19:21.840
+be a web authentication I think.
+
+fc33edf7-6afd-41d5-8426-cc5a90b51221-0
+00:19:22.120 --> 00:19:25.098
+Yeah,
+that's a portal contact this one port
+
+fc33edf7-6afd-41d5-8426-cc5a90b51221-1
+00:19:25.098 --> 00:19:25.640
+contact.
+
+b8c11d2a-e6b3-49d8-91e2-0409177fa82f-0
+00:19:25.640 --> 00:19:26.960
+Yeah, announced.
+
+1c7cde50-5e8b-41df-9c3d-3c644e84c064-0
+00:19:29.280 --> 00:19:30.840
+Yeah, yeah, web authentication.
+
+a5f1fef0-c284-4d0a-b301-5b81b37c9363-0
+00:19:31.760 --> 00:19:34.680
+So see here this in dev your account set
+up, right.
+
+a5c428dc-0fc0-4127-a388-d0468b36e080-0
+00:19:34.680 --> 00:19:40.600
+So you have a link to B to C account in
+here, right.
+
+911309ef-7f0b-491f-b4ea-0a8dee29ed57-0
+00:19:41.280 --> 00:19:43.160
+But I think in Devint you don't have that.
+
+d64437db-41ec-45cb-9863-68bce14772d8-0
+00:19:43.480 --> 00:19:44.760
+So that's why you can't log in.
+
+fba94494-7e76-4497-aa0e-fded0cdf84a9-0
+00:19:44.880 --> 00:19:47.120
+You're logged in to B to C Yep.
+
+f2cd845d-46dd-4478-aea3-137326cf7442-0
+00:19:47.720 --> 00:19:48.800
+But you don't have the link.
+
+70d01ded-4a3b-4002-90c3-51249084b76f-0
+00:19:50.560 --> 00:19:53.240
+So it should be a new registration Yeah.
+
+a273dd1f-2e8f-4d03-bb56-d7f9b5baf7d8-0
+00:19:53.520 --> 00:19:55.360
+And to create account right.
+
+11e50e52-7074-4c3e-9e89-1ef84af8c34e-0
+00:19:55.360 --> 00:19:59.827
+You you can't the the problem is you
+can't reregister because the your B to C
+
+11e50e52-7074-4c3e-9e89-1ef84af8c34e-1
+00:19:59.827 --> 00:20:00.400
+use exist.
+
+780dc5e6-172c-45df-bd65-e3f110f7f411-0
+00:20:02.160 --> 00:20:02.460
+Mm hmm.
+
+1110a2fd-879b-4d3e-b78e-885c70aabad3-0
+00:20:02.760 --> 00:20:05.400
+But it is again,
+it is using dev account only right.
+
+c58b50af-7870-4a56-9915-95551c45b154-0
+00:20:05.400 --> 00:20:08.120
+So you're just partitioning right.
+
+8ba814f2-297a-4621-8af5-784eb86e2193-0
+00:20:08.400 --> 00:20:11.280
+Let's go to your contact in Devin, right.
+
+ed02cd31-2092-438d-a403-8d629fef2ed0-0
+00:20:11.320 --> 00:20:12.960
+I don't have a contact.
+
+73a6ddfb-f9fb-4a9b-bec1-8d962b0c2369-0
+00:20:12.960 --> 00:20:13.760
+I think in Devin.
+
+d858a7e4-1bc3-46b7-8432-5c12048a42bc-0
+00:20:14.280 --> 00:20:15.040
+Let me check.
+
+1bef5dbc-2192-4f41-bbdc-b6ef480123bb-0
+00:20:15.040 --> 00:20:16.160
+Are you OK?
+
+e8ba43d0-4a7a-4982-b283-ac0a50556cc6-0
+00:20:16.680 --> 00:20:20.710
+Devint,
+I haven't created any account but I'll
+
+e8ba43d0-4a7a-4982-b283-ac0a50556cc6-1
+00:20:20.710 --> 00:20:27.571
+check it which one is that this is the
+thing right So then you need to register
+
+e8ba43d0-4a7a-4982-b283-ac0a50556cc6-2
+00:20:27.571 --> 00:20:28.000
+Yeah.
+
+9d99241c-b914-4c23-ba1a-e8024ec01566-0
+00:20:28.000 --> 00:20:33.816
+Oh, OK,
+contact you got registration with DEVINT
+
+9d99241c-b914-4c23-ba1a-e8024ec01566-1
+00:20:33.816 --> 00:20:35.360
+is not there.
+
+b626f8e9-91df-4794-a502-321e6916c319-0
+00:20:35.360 --> 00:20:36.280
+That's that's why.
+
+38688822-4297-4ce0-b4e1-fea0f7723003-0
+00:20:36.280 --> 00:20:40.626
+But The thing is you can't use the same
+email address there when you're
+
+38688822-4297-4ce0-b4e1-fea0f7723003-1
+00:20:40.626 --> 00:20:45.696
+registering into DEVINT because your your
+your account is already mapped to the dev
+
+38688822-4297-4ce0-b4e1-fea0f7723003-2
+00:20:45.696 --> 00:20:46.240
+instance.
+
+61a28689-286c-43b7-a60c-4dff9c066b3e-0
+00:20:46.240 --> 00:20:48.240
+Contact OK.
+
+4ce0090d-8c51-42d8-92b5-2bd135ac8a56-0
+00:20:50.720 --> 00:20:52.000
+Do you have a account?
+
+65791972-e2ca-4df9-9886-cbb77c231127-0
+00:20:52.600 --> 00:20:55.579
+I have one,
+but I don't think it'll have any
+
+65791972-e2ca-4df9-9886-cbb77c231127-1
+00:20:55.579 --> 00:20:56.440
+registration.
+
+32885444-cefb-4b30-a72d-bc156c59c6bc-0
+00:20:56.440 --> 00:20:59.556
+I think yeah,
+it won't have registration that that's
+
+32885444-cefb-4b30-a72d-bc156c59c6bc-1
+00:20:59.556 --> 00:21:03.320
+why it is keep so because Devin we never
+logged in with B to Z.
+
+53b70809-39a7-433a-8066-f63fcd3ba92d-0
+00:21:03.440 --> 00:21:05.956
+So yeah,
+Devin definitely would nobody has you
+
+53b70809-39a7-433a-8066-f63fcd3ba92d-1
+00:21:05.956 --> 00:21:06.760
+have something.
+
+d9b357cb-504c-42de-a975-6c994d783444-0
+00:21:06.840 --> 00:21:10.457
+Yeah,
+it is having probably it just created is
+
+d9b357cb-504c-42de-a975-6c994d783444-1
+00:21:10.457 --> 00:21:11.920
+this DEV or Devint?
+
+572ddc95-0f25-4031-be14-c61b62a3b3ba-0
+00:21:12.120 --> 00:21:13.320
+This is Devint.
+
+88325c7d-b315-49f9-901e-dab77ec30858-0
+00:21:16.400 --> 00:21:23.032
+How long have we have probably used any
+local authentication Devint we we were
+
+88325c7d-b315-49f9-901e-dab77ec30858-1
+00:21:23.032 --> 00:21:24.880
+using in dev 02 right.
+
+94c5c7b4-6360-42b8-8404-394ece33af1b-0
+00:21:24.880 --> 00:21:30.442
+DEVINT I have never used Devint is a
+backup of something else probably did
+
+94c5c7b4-6360-42b8-8404-394ece33af1b-1
+00:21:30.442 --> 00:21:36.375
+they sync up environment something like
+that or because of then showing created
+
+94c5c7b4-6360-42b8-8404-394ece33af1b-2
+00:21:36.375 --> 00:21:39.120
+it created 14 to 10 create one level.
+
+f7920292-fece-4d08-a5ee-a2f6090c8ee3-0
+00:21:39.160 --> 00:21:39.720
+It's just now.
+
+fcd78005-7f9e-4b6d-a6a9-dd747a1c5d02-0
+00:21:40.200 --> 00:21:42.520
+Yeah, it has created now actually.
+
+05bb236b-d8ce-42ee-ba3f-09ea83438143-0
+00:21:45.040 --> 00:21:48.680
+So you shouldn't have created because
+it's it you didn't register, right Yeah.
+
+b552e66f-5b7a-4944-80f8-0c9b8ebd48ae-0
+00:21:48.680 --> 00:21:49.680
+You just signed in.
+
+b53c6abf-3b04-46fd-834d-78fc7cb7babc-0
+00:21:50.200 --> 00:21:52.814
+Yeah,
+during sign in it doesn't do any any it
+
+b53c6abf-3b04-46fd-834d-78fc7cb7babc-1
+00:21:52.814 --> 00:21:54.520
+doesn't even talk to database.
+
+be011ea7-3bfd-4de8-b6f3-c3e68f9e433d-0
+00:21:54.960 --> 00:22:05.561
+How come it is creating then those thing
+it's interesting see just created just
+
+be011ea7-3bfd-4de8-b6f3-c3e68f9e433d-1
+00:22:05.561 --> 00:22:10.200
+now Who can you see who created it?
+
+62da2a4d-2d0f-4033-988b-9ff898912fbe-0
+00:22:10.760 --> 00:22:19.021
+Who who modified this created by created
+by this one owner is showing as per
+
+62da2a4d-2d0f-4033-988b-9ff898912fbe-1
+00:22:19.021 --> 00:22:26.640
+portal event portal is created anyway,
+so created by where is it back?
+
+a2478889-c605-4a38-8c0a-ac4281630029-0
+00:22:36.390 --> 00:22:39.950
+So is it the the contact was created by
+right?
+
+5047db14-d37b-44aa-92d6-78772f3d569d-0
+00:22:39.950 --> 00:22:40.470
+So yeah.
+
+d8431d18-dff1-4f74-b043-12c309c4c5b0-0
+00:22:41.350 --> 00:22:46.560
+Can you see updated by like a modified by
+or something like that?
+
+2b610e76-daf9-46bf-8eb4-40b8c8cd000a-0
+00:22:47.160 --> 00:22:47.680
+Modified.
+
+2c7bf48d-936a-4b8e-8e5c-b489327a4b75-0
+00:22:47.680 --> 00:22:53.840
+Yeah, that's the same account,
+Portal account.
+
+2109b9a5-5cc9-4607-9faa-721c68d86801-0
+00:22:53.840 --> 00:22:56.640
+So from Portal it has created.
+
+7c1ce7d6-1e60-4111-be61-1523b9bf2dac-0
+00:22:58.520 --> 00:22:59.960
+So portal created that.
+
+6954deaa-d34e-4e75-9da8-75812d32ce9d-0
+00:23:01.520 --> 00:23:06.037
+So I thought that, that, that,
+that in the B to C provider,
+
+6954deaa-d34e-4e75-9da8-75812d32ce9d-1
+00:23:06.037 --> 00:23:09.200
+we've turned off the email mapping, right?
+
+db79dfe5-67a5-4351-9211-410fbfbe0a4e-0
+00:23:10.560 --> 00:23:12.040
+Yeah, we did, yeah.
+
+e71bc0de-7153-48b3-b4f1-aaf1e72124f8-0
+00:23:12.040 --> 00:23:17.298
+So,
+so I expected it to not to create contact,
+
+e71bc0de-7153-48b3-b4f1-aaf1e72124f8-1
+00:23:17.298 --> 00:23:20.320
+contact mapping with email.
+
+7e1c78c9-8397-4553-8a10-c40badac8280-0
+00:23:20.320 --> 00:23:20.920
+Yeah, it is.
+
+64b19156-9a00-48ec-9e7a-97eb214bff89-0
+00:23:20.960 --> 00:23:22.120
+We we've disabled it.
+
+fddebeb0-98b8-4ce1-9a12-6a57d0552f15-0
+00:23:24.200 --> 00:23:27.896
+So I thought,
+I thought that's the whole reason why it
+
+fddebeb0-98b8-4ce1-9a12-6a57d0552f15-1
+00:23:27.896 --> 00:23:29.240
+was erroring, right.
+
+35875a7c-eca1-40a8-aa65-6dbaf508b264-0
+00:23:29.240 --> 00:23:33.520
+So it won't find the contact and the link
+between the contact and the BTC account.
+
+9b4e8f92-5364-4604-93ef-b98caf1d3b80-0
+00:23:35.600 --> 00:23:41.376
+So when I signed in right initially did
+it create that time registration failed,
+
+9b4e8f92-5364-4604-93ef-b98caf1d3b80-1
+00:23:41.376 --> 00:23:43.160
+It was saying right, yes.
+
+0b9833c4-6ed4-4b41-b49f-f720d59efe25-0
+00:23:43.520 --> 00:23:47.501
+So that's that's because it can't find
+the contact,
+
+0b9833c4-6ed4-4b41-b49f-f720d59efe25-1
+00:23:47.501 --> 00:23:51.560
+can't find the find your find you find
+your contact.
+
+86e63d98-8337-4000-a162-a3ab7021a0c3-0
+00:23:54.240 --> 00:23:58.575
+So,
+so it is saying registration is disabled,
+
+86e63d98-8337-4000-a162-a3ab7021a0c3-1
+00:23:58.575 --> 00:24:01.120
+therefore you can't log in.
+
+05a60a62-004b-4f3c-a25d-7b6db62c0849-0
+00:24:02.120 --> 00:24:02.520
+OK.
+
+f994dea3-049c-4149-bad4-071331f97e99-0
+00:24:03.160 --> 00:24:07.400
+In the code behind what we're seeing is
+the contact has been created, right?
+
+7749b72c-abcb-438c-88c9-c84ffce3794e-0
+00:24:07.480 --> 00:24:07.920
+Yeah.
+
+ec9b416a-9048-4785-9b4f-726b26193673-0
+00:24:08.840 --> 00:24:11.120
+So you didn't,
+you said you didn't even have have.
+
+56d2a979-df83-4b99-9158-2c58ffa3aa97-0
+00:24:11.280 --> 00:24:14.920
+So when the contact was created today,
+see.
+
+0c2bd531-f840-410f-a946-3f7ac9d0742d-0
+00:24:15.280 --> 00:24:17.680
+No, no, that's the,
+that's the external identity, right.
+
+5f3e5239-758b-4ef7-86a4-80dd9fee3174-0
+00:24:17.680 --> 00:24:19.200
+So when was the contact?
+
+459c1bff-4a7d-4a67-b8d3-2c4b038bf6e7-0
+00:24:19.960 --> 00:24:25.040
+That is also today because I have never
+used portal sign in here in the event.
+
+9c3e8741-427e-4e0a-8f28-eac9959ccb44-0
+00:24:27.480 --> 00:24:28.320
+That's interesting.
+
+8a06a84d-00b8-4f61-882d-36c0e9f8bb24-0
+00:24:30.720 --> 00:24:32.600
+So you should be able to login now.
+
+42c3da74-c38b-419d-8874-8e0f025dd462-0
+00:24:32.600 --> 00:24:34.560
+Now could could you try again?
+
+fb4b2886-d7a9-40a4-aee3-ef5dce9b0b07-0
+00:24:34.680 --> 00:24:35.560
+Could you try login?
+
+b69fa3af-fa3d-4bb7-b834-745e4831bdef-0
+00:24:35.960 --> 00:24:36.280
+Yeah.
+
+09edad38-120b-4dee-ae13-c3e5287b9c72-0
+00:24:36.640 --> 00:24:44.080
+OK, wait to see No sign.
+
+01ec80ed-7316-4935-a8bb-d5353836475b-0
+00:24:44.080 --> 00:24:44.400
+And Rick.
+
+aff807e0-807e-4ac1-9dbd-1827c3eebb43-0
+00:24:44.800 --> 00:24:48.800
+OK, it's going oh, it went in.
+
+4dd11708-27c7-4869-9b6a-abf05eb327f1-0
+00:24:51.040 --> 00:24:52.280
+Probably it's taking some time.
+
+6d56d4ce-e239-43df-9307-a97b3031aa91-0
+00:24:53.960 --> 00:24:54.520
+Yeah.
+
+ce316057-9109-439c-aec7-09d46ed7b52c-0
+00:24:54.840 --> 00:24:55.680
+I think that's weird.
+
+f2532cae-9f51-4b93-96f9-fbe028908073-0
+00:24:55.680 --> 00:25:00.000
+That's something you guys probably need
+to investigate it.
+
+1bf6c520-9bd6-4ee7-8598-602f02115ffe-0
+00:25:00.360 --> 00:25:04.560
+It should not it should not create it
+should not create a contact.
+
+ce6d41c5-0f55-416d-ad49-f790da0a876e-0
+00:25:04.560 --> 00:25:13.219
+It should how the because this So what
+happened was so you, you,
+
+ce6d41c5-0f55-416d-ad49-f790da0a876e-1
+00:25:13.219 --> 00:25:20.280
+your contact wasn't there,
+but you signed in, right?
+
+a0dbcb3b-0f9c-4173-8d62-0d7befd0ddbb-0
+00:25:21.280 --> 00:25:28.976
+And BTC you your account was found in B
+to C because it was registered in dev dev
+
+a0dbcb3b-0f9c-4173-8d62-0d7befd0ddbb-1
+00:25:28.976 --> 00:25:30.760
+environment, right?
+
+88346b1c-76a3-457f-9cd2-cbe4b080dccc-0
+00:25:30.880 --> 00:25:31.000
+Yep.
+
+78185ce3-0573-4eda-9db8-9d0c537e2efb-0
+00:25:31.600 --> 00:25:32.640
+So it picked up.
+
+1734da50-618e-488f-b083-53cd4934e21b-0
+00:25:32.800 --> 00:25:41.891
+So it was it redirected you to the portal
+with your access token and when it's
+
+1734da50-618e-488f-b083-53cd4934e21b-1
+00:25:41.891 --> 00:25:47.760
+stored access token,
+it couldn't find the contact.
+
+f0346640-18dc-4131-bd00-71581ad4a20e-0
+00:25:51.000 --> 00:25:53.040
+That's why it was throwing that error
+initially.
+
+2e23fca2-1a94-4cc2-895e-f32aa2d16934-0
+00:25:53.040 --> 00:25:54.520
+Yeah,
+that's why it was throwing the error.
+
+ad828508-43a2-47fe-965e-d07e20ea0307-0
+00:25:54.520 --> 00:25:54.640
+Yeah.
+
+a42a1adb-18ad-4758-b7ca-fe4137b995ce-0
+00:25:54.640 --> 00:25:57.983
+I thought it should throw and stop right
+there,
+
+a42a1adb-18ad-4758-b7ca-fe4137b995ce-1
+00:25:57.983 --> 00:26:03.625
+but it has to for some reason it yeah,
+it didn't stop and it went and create the
+
+a42a1adb-18ad-4758-b7ca-fe4137b995ce-2
+00:26:03.625 --> 00:26:06.760
+contact with all everything but B to C
+sent.
+
+2df8e923-d9b3-457f-89b8-206ee1eb4ef0-0
+00:26:06.880 --> 00:26:12.000
+So when when you are registering a new
+contact, right, B to C will not create it.
+
+c509ed17-93e4-4976-b47a-56f439216eb5-0
+00:26:12.000 --> 00:26:14.440
+It just cheques for the contact.
+
+4ef5a053-58d6-4fd1-bf12-9849a12ad3a1-0
+00:26:14.440 --> 00:26:16.640
+If it is yeah, there, it'll allow it.
+
+3ec10355-e30b-4dee-925d-40c94ba6babc-0
+00:26:16.680 --> 00:26:21.112
+OK, Yeah, yeah, I, I don't know,
+maybe this is a different,
+
+3ec10355-e30b-4dee-925d-40c94ba6babc-1
+00:26:21.112 --> 00:26:24.880
+maybe DEVINT has a different setting or
+something.
+
+99f0d8eb-79c6-4e14-8790-c6223d511716-0
+00:26:24.880 --> 00:26:28.880
+We've definitely tested this scenario in
+dev environment.
+
+92951bc2-5411-4304-bc7d-469e3a02bd0c-0
+00:26:28.880 --> 00:26:36.720
+Dev environment wasn't wasn't creating
+because we enabled it registration true.
+
+e01f22c9-ff9d-4e10-ab13-e530471eb3ed-0
+00:26:37.600 --> 00:26:38.840
+Did that create that time?
+
+eac47916-f1e6-4ebd-86cd-b05a57d9fa79-0
+00:26:38.840 --> 00:26:45.747
+Then maybe can we try to delete the
+contact and then try again or or maybe
+
+eac47916-f1e6-4ebd-86cd-b05a57d9fa79-1
+00:26:45.747 --> 00:26:52.840
+rather you don't have a do you have a
+contact in in Devin or maybe think so.
+
+4b6050d6-3426-4549-9a4f-811ac49f9de9-0
+00:26:53.440 --> 00:26:56.160
+I have you you you think so maybe I can
+try.
+
+1b56107b-5470-46a6-aecd-043f370b35f0-0
+00:26:56.280 --> 00:26:57.000
+Yeah, maybe.
+
+45807890-11ca-4e32-8089-f09d5c0314e4-0
+00:26:57.000 --> 00:26:57.480
+Let me try.
+
+2685bf4f-5534-4fc5-b293-db099d2a1382-0
+00:26:58.840 --> 00:27:00.732
+Well,
+first we'll check whether your contact is
+
+2685bf4f-5534-4fc5-b293-db099d2a1382-1
+00:27:00.732 --> 00:27:01.600
+there or not in Devin.
+
+e346e434-7b63-497e-98bc-5c8ed1ad6ea5-0
+00:27:01.600 --> 00:27:03.360
+Yeah, just check with them here.
+
+6136de1e-cfd2-4751-87a3-b647b587cf76-0
+00:27:03.440 --> 00:27:04.480
+I I don't think I'm here.
+
+868ea5bd-6f81-4110-a5a8-81317f578fa3-0
+00:27:06.640 --> 00:27:08.760
+Vinu, call it your ID.
+
+1575bcb4-f850-4da0-b8c7-0df454d8bdf0-0
+00:27:08.760 --> 00:27:10.040
+No, not on my.
+
+a0ab847e-7e94-4320-b9a7-27f7d333fc21-0
+00:27:10.720 --> 00:27:10.920
+Yeah.
+
+815a8ea2-4ad8-4257-aa3b-83748a7bbcf5-0
+00:27:10.920 --> 00:27:11.680
+Asqua, right?
+
+b4872671-4bf8-43d0-9a66-441e171fcb97-0
+00:27:11.720 --> 00:27:12.600
+Yeah, it is not there.
+
+4da48544-f00d-43c6-8015-46de5254b988-0
+00:27:12.600 --> 00:27:14.080
+So let me try as my Asqua.
+
+f7641a94-4a5c-4467-bfe0-50b4682323e8-0
+00:27:14.080 --> 00:27:14.200
+Yeah.
+
+31a7c534-ca19-4a40-8aa3-9d9b2dec1bc7-0
+00:27:14.680 --> 00:27:14.800
+OK.
+
+e7e206a7-bb9b-4249-b517-b14683b9b2b3-0
+00:27:17.680 --> 00:27:22.000
+All right, before we go there,
+so I'll show you something.
+
+8d97df18-113a-42d6-92a4-04585bd5e126-0
+00:27:22.000 --> 00:27:25.960
+Let's so I've created this for for Devin
+testing.
+
+d020d4d4-677d-4e1f-b153-7b072ae68637-0
+00:27:25.960 --> 00:27:30.120
+I've created this Inuka test one contact.
+
+3d7c1257-25a3-4134-967b-0410a388bbee-0
+00:27:30.440 --> 00:27:32.400
+Yeah, for sign up testing, right.
+
+b91860fc-6314-494f-9582-05bb9ee9f4a9-0
+00:27:33.000 --> 00:27:34.960
+So, so I'll show you something.
+
+2dcda05c-e805-428f-9118-c21da798ad29-0
+00:27:35.560 --> 00:27:40.000
+So if you go to the ARN table,
+so there should be ARN in there.
+
+01778106-d911-46f6-8ed3-1b8c74208d1e-0
+00:27:40.920 --> 00:27:43.240
+Let me go to the QA app qualification.
+
+33707b3f-feec-4c9d-b66a-bd8da6b95553-0
+00:27:48.400 --> 00:27:54.840
+Yep, Yeah, I've created ARN as well,
+so we can try signing up with this.
+
+401eb9f8-faa9-4311-be61-4191858b5240-0
+00:27:55.400 --> 00:27:57.480
+Yep, sign up will not work.
+
+6eb56a95-d63b-4e08-80d0-81f7f107eb51-0
+00:27:57.480 --> 00:28:02.320
+I'll show what what will happen, Right,
+OK, to sign up because sign up.
+
+a2653cc9-ccfd-4a6c-9cbb-db0a78452744-0
+00:28:03.120 --> 00:28:06.920
+So we still haven't completed the
+connectivity network in part.
+
+857f5a27-15eb-4da4-b3bb-f184b4e7aa85-0
+00:28:08.000 --> 00:28:17.080
+So B to C still can't connect to the API
+for Devint you mean?
+
+ab09c680-c470-4c7d-b11a-a9cdecdbd585-0
+00:28:17.560 --> 00:28:18.240
+Yeah, Devint.
+
+46b9a3c8-46f1-429d-b1ad-4cd0e44f00d9-0
+00:28:19.440 --> 00:28:23.600
+So if I'm logging in with that email,
+if you sign up with that.
+
+f2f28ff6-3ca3-4085-ac73-b4fde11f32c1-0
+00:28:24.480 --> 00:28:28.960
+OK, let me you can copy that ARN sign out.
+
+6a51d6da-27fa-45cc-9b8e-1c64e58d2d62-0
+00:28:29.480 --> 00:28:32.320
+Yeah, ARN.
+
+4043aeaa-6bb6-42de-b088-6867c0859cc5-0
+00:28:36.360 --> 00:28:43.640
+OK, OK, so if I click on sign in or yeah,
+sign in, sign in.
+
+a29c6450-9bf1-4fac-a5d6-1d197b5f9f66-0
+00:28:43.640 --> 00:28:51.040
+OK, this one right A2 bit OK &amp; up.
+
+03d4e222-4e5c-4a6c-89c0-b8aed10596e4-0
+00:28:51.760 --> 00:28:55.160
+Oh no, that's with your that ID sign up.
+
+df87e077-cea6-4f01-9634-ba9f2ef8dcb3-0
+00:28:55.160 --> 00:28:55.840
+Sorry, sign up.
+
+1c19c1da-1476-4a45-85b5-0de5b69b2d5d-0
+00:28:55.840 --> 00:28:55.960
+Yeah.
+
+877e77f0-ad23-44ca-84d8-34cfa6069e1b-0
+00:28:55.960 --> 00:28:56.640
+Sign up link.
+
+14f268cb-4038-4006-9a9d-bc35c168f8f8-0
+00:28:56.640 --> 00:28:56.800
+Yeah.
+
+85777049-f659-43e0-b0be-13542a4f3df3-0
+00:28:58.520 --> 00:29:04.880
+And then if you have a secondary email
+address, whatever this one.
+
+0e386b92-f9bf-498a-9b4e-3326b81a7f79-0
+00:29:05.880 --> 00:29:09.280
+No, you No,
+I can that's not a valid email address.
+
+d9d4a2a0-cb94-4ee5-862e-aea7ddda5b5b-0
+00:29:09.640 --> 00:29:09.760
+Yeah.
+
+f65b6f5d-9f88-4769-820d-7d6aec3e84da-0
+00:29:09.880 --> 00:29:16.832
+So you can use secondary email address if
+you have a secondary email address like
+
+f65b6f5d-9f88-4769-820d-7d6aec3e84da-1
+00:29:16.832 --> 00:29:17.680
+my own ID.
+
+e2fe722b-06e7-430f-b547-54ba84f05143-0
+00:29:17.800 --> 00:29:19.280
+Yeah, your own email address.
+
+3cf5a804-db10-41db-8aee-3578e68dcf4b-0
+00:29:19.360 --> 00:29:31.390
+OK, OK, OK.
+
+29733e20-0df1-4a60-9cd8-092f2a915036-0
+00:29:36.190 --> 00:29:36.590
+Here.
+
+22bcd5c1-9f33-48b1-97d9-38e3636d7526-0
+00:29:36.590 --> 00:29:38.110
+It won't check the email.
+
+c984ad0f-10b1-413a-9ed6-f24aaeac413b-0
+00:29:38.110 --> 00:29:40.030
+Is it it just sends the code.
+
+864760cc-ef96-4bae-bd88-b1cf5ee209f5-0
+00:29:40.150 --> 00:29:41.510
+That's the yes, OK.
+
+2226e8f5-238b-41dd-99de-608dfe991404-0
+00:29:45.270 --> 00:29:45.590
+Right.
+
+45aded36-18e5-497f-b713-9b0f025d98c8-0
+00:29:51.640 --> 00:29:57.040
+OK and you can set the password and you
+can put the air in.
+
+8cdd898e-09a8-467c-bd1d-86c40424f853-0
+00:30:00.120 --> 00:30:16.800
+OK OK Date of birth is the first of Jan
+2000.
+
+e36d1589-a70c-4ddc-97a8-108bebcc499f-0
+00:30:17.040 --> 00:30:25.110
+OK, 2000, sign up.
+
+51034c63-b963-4946-9763-b3eed43b10d9-0
+00:30:32.920 --> 00:30:33.880
+Failed to resolve.
+
+0a7b31be-e1a5-46c5-9dab-11e89cfc10a1-0
+00:30:34.160 --> 00:30:35.560
+That's the API error fail.
+
+eefe75a9-ff25-4f3a-b5d6-efa52f3a8019-0
+00:30:35.600 --> 00:30:37.600
+Yeah, so, so, so failed to resolve.
+
+f006197b-ce4c-4f02-95a5-a35e8d819984-0
+00:30:37.600 --> 00:30:44.224
+So it it can't you you see there's devint
+dot API so that DNS is not set it up yet,
+
+f006197b-ce4c-4f02-95a5-a35e8d819984-1
+00:30:44.224 --> 00:30:45.880
+but the API is there.
+
+07a952fe-8958-47fa-a8d1-0b3697e52d56-0
+00:30:47.040 --> 00:30:49.080
+It's all all functional.
+
+4294838b-cfdd-45de-b073-40c5614dbd92-0
+00:30:49.600 --> 00:30:56.620
+But once hopefully we get the DNS
+networking stuff configured tomorrow,
+
+4294838b-cfdd-45de-b073-40c5614dbd92-1
+00:30:56.620 --> 00:31:03.640
+tomorrow is get the guys supposed to do
+it, then the sign up will work.
+
+2a8b097c-1982-4026-86cf-70a8fbe54edf-0
+00:31:03.640 --> 00:31:06.920
+You can come back and test the Devin sign
+up here.
+
+5d24e6a3-ea9d-4ad9-ae8a-15fbb83fafb4-0
+00:31:07.640 --> 00:31:11.500
+OK,
+so I will let you guys know when it's
+
+5d24e6a3-ea9d-4ad9-ae8a-15fbb83fafb4-1
+00:31:11.500 --> 00:31:11.960
+done.
+
+264b035e-9916-47b9-9505-7f99d4fd748a-0
+00:31:12.000 --> 00:31:15.840
+So then Devin should be fully good.
+
+7c83aeb7-30d3-40dc-b05f-6bcdba42af1b-0
+00:31:17.440 --> 00:31:21.240
+OK, so let's test that.
+
+6bed394d-8d30-4a56-9ce3-1e8c3584a219-0
+00:31:23.560 --> 00:31:25.640
+I'll share my screen.
+
+959fec32-6518-47a4-a7b4-79ee3ccb88db-0
+00:31:26.160 --> 00:31:26.320
+Yep.
+
+07e191e4-3812-4b19-8093-d4cfdb96b635-0
+00:31:37.600 --> 00:32:00.250
+So go to the event,
+still it's not defaulting.
+
+721ff2c2-3b01-412e-b760-d814c7d815b5-0
+00:32:00.250 --> 00:32:02.770
+I don't know why should be defaulted.
+
+38241e6a-ebe7-469e-854e-83d82e3ce97a-0
+00:32:07.210 --> 00:32:08.490
+Yeah, sign up.
+
+40a06e25-5243-4157-974a-d4a8264a0953-0
+00:32:13.000 --> 00:32:14.720
+It's my email address.
+
+bfb1e329-d8a0-4c73-a3d2-864038994427-0
+00:32:28.290 --> 00:32:31.970
+But this is sign up, right, Anuka,
+we wanted to sign in and see here.
+
+1c420295-c4a6-4ed6-abf5-90de41664473-0
+00:32:31.970 --> 00:32:33.050
+You want to see sign in?
+
+22b29e14-4ec7-45a1-9ad0-9d05c8a456c0-0
+00:32:33.210 --> 00:33:00.880
+Yeah, doing password somewhere.
+
+07318312-ba1f-4ffc-88e0-e2047a9d2fad-0
+00:33:28.560 --> 00:33:30.280
+It should stop you there itself, right?
+
+2b14a9de-3fc4-4789-a3ea-f3b4da15f3e4-0
+00:33:30.360 --> 00:33:32.080
+Or no, it's after.
+
+b2c62789-7e9f-4119-b41b-e64068882b77-0
+00:33:32.720 --> 00:33:34.440
+So we're still in B to C, right?
+
+b9ea9ff3-3946-4d75-8836-a33e5c18eade-0
+00:33:34.440 --> 00:33:39.840
+So the issue is in portal B to C is like,
+yeah, I found, found you.
+
+90d0c4c5-d262-4ebe-9118-b5828c8fd02b-0
+00:33:39.840 --> 00:33:50.790
+I'm going to log you in,
+see what happens to me.
+
+aa7b204d-5822-4367-a41b-19379045aa5d-0
+00:33:54.600 --> 00:33:54.800
+Yeah.
+
+59509252-63fe-416b-972a-a2045655d545-0
+00:33:55.320 --> 00:33:55.560
+OK.
+
+91a1c653-aee3-470d-888f-dc9edea75309-0
+00:33:55.560 --> 00:33:57.960
+Let me check if it has created your
+account.
+
+628ddbb0-1d1d-46c9-95d7-a5df4b678b6a-0
+00:34:10.140 --> 00:34:12.420
+No, it hasn't created with a log.
+
+b8af6bf8-3907-4f2f-8b3f-5ef3b3572588-0
+00:34:12.420 --> 00:34:13.740
+So that's what I was expecting.
+
+6628fcae-e4d4-4b1e-abd9-6c98625fa98e-0
+00:34:15.020 --> 00:34:18.540
+So it shouldn't, it shouldn't create,
+it shouldn't create me in there.
+
+b8f101db-d0ce-4d2a-acfd-6c16afe85432-0
+00:34:20.460 --> 00:34:23.980
+Maybe we enabled that site setting for
+once and then tried it.
+
+0850096b-e438-4a62-8015-873b03086fda-0
+00:34:24.140 --> 00:34:28.040
+Probably that's why, yeah, so I think so.
+
+71c100e7-b1d0-400c-bbc4-a8c794094100-0
+00:34:28.040 --> 00:34:32.080
+So now I think this is important for for
+you guys to know, right.
+
+cc89a722-c913-4306-95ed-339adeb7e34c-0
+00:34:32.080 --> 00:34:39.205
+So if you log in into a account that
+already been registered with dev,
+
+cc89a722-c913-4306-95ed-339adeb7e34c-1
+00:34:39.205 --> 00:34:46.731
+then you need to sort of manually
+configure it manually create the contact
+
+cc89a722-c913-4306-95ed-339adeb7e34c-2
+00:34:46.731 --> 00:34:51.448
+you mean in Yes,
+I mean or or link to a sorry,
+
+cc89a722-c913-4306-95ed-339adeb7e34c-3
+00:34:51.448 --> 00:34:54.760
+link to contact already existing.
+
+2100956f-3dff-49e1-b583-f2ba242fbd7c-0
+00:35:11.630 --> 00:35:18.806
+So I think the issue is now,
+but it's interesting that how it in the
+
+2100956f-3dff-49e1-b583-f2ba242fbd7c-1
+00:35:18.806 --> 00:35:21.510
+yeah, I'm still concerned.
+
+341f12bc-c2df-49fa-b588-43c73f69883c-0
+00:35:27.320 --> 00:35:28.400
+Yours didn't come through.
+
+80846f90-9268-497d-a742-b14191cf4e99-0
+00:35:28.480 --> 00:35:31.560
+I was just thinking that it might come
+through after like couple of seconds.
+
+984befc8-5d9c-48de-bc30-2e34144eacb7-0
+00:35:31.720 --> 00:35:32.920
+But yeah, still no.
+
+29e67c1e-02ba-4de9-9c5c-4d12223cedc7-0
+00:35:33.760 --> 00:35:34.120
+Can you check?
+
+9df3295e-50af-4c97-936c-7bb51f308f47-0
+00:35:34.320 --> 00:35:35.760
+Can you check my account?
+
+1c01b640-ef5d-4997-9492-7dd897d60393-0
+00:35:35.760 --> 00:35:36.280
+Sindhu?
+
+81a16a73-70c0-465a-ba50-505d4358d798-0
+00:35:36.280 --> 00:35:37.360
+My ASCO account?
+
+fb1841c5-1ca0-478a-9e7e-b6d4d969486b-0
+00:35:37.600 --> 00:35:38.000
+Yeah.
+
+eb61050f-16e8-4ca0-8fb0-278000288973-0
+00:35:39.000 --> 00:35:40.160
+In Devint only, right?
+
+6dbbbed6-e8c1-4977-9129-27478fcca055-0
+00:35:40.400 --> 00:35:40.720
+Yeah.
+
+ba3cb5af-ada8-4696-84f2-dbe44c155e0a-0
+00:35:41.120 --> 00:35:43.480
+If it is ASCO account, I'm not sure.
+
+3ddbf834-1b90-4290-8728-e2a475013abf-0
+00:35:43.600 --> 00:35:44.400
+I'll double check it.
+
+d044ff7f-e368-4ace-bf04-4decea963c0b-0
+00:35:45.040 --> 00:35:47.680
+There are lot of contacts with your ASCO
+account in there.
+
+88ac0aec-c07b-413d-b2b3-75680885e31d-0
+00:35:47.680 --> 00:35:52.040
+Yeah,
+or we can delete the contact and contacts.
+
+5cb7d785-76f4-42a7-b54c-95eccc488438-0
+00:35:52.080 --> 00:35:57.872
+OK,
+maybe I can try to delete my contact
+
+5cb7d785-76f4-42a7-b54c-95eccc488438-1
+00:35:57.872 --> 00:35:58.720
+again.
+
+92d53b14-d34e-40f8-85dd-9d07ab6380cb-0
+00:35:59.360 --> 00:36:00.840
+Yeah, I went, yeah.
+
+8b96f1f2-9bad-42a2-9d5a-11af1fd9648c-0
+00:36:00.840 --> 00:36:03.302
+So I,
+I think the important thing is now it's
+
+8b96f1f2-9bad-42a2-9d5a-11af1fd9648c-1
+00:36:03.302 --> 00:36:04.320
+not doing it right.
+
+3bc576ba-97db-48ab-8971-666dd0e74754-0
+00:36:04.440 --> 00:36:08.866
+But yeah, I think for for one instance,
+it did it and one instated,
+
+3bc576ba-97db-48ab-8971-666dd0e74754-1
+00:36:08.866 --> 00:36:11.080
+but we have to do another one too.
+
+d55e5e3f-f59b-4e6f-866b-15532c073f52-0
+00:36:11.560 --> 00:36:16.560
+Yeah, it's to to have more,
+more instances in.
+
+cf9dfc3f-884a-43fb-bf7a-e94976f415b4-0
+00:36:20.720 --> 00:36:26.756
+So I think what's important here is so
+you guys probably need to do this
+
+cf9dfc3f-884a-43fb-bf7a-e94976f415b4-1
+00:36:26.756 --> 00:36:28.080
+manually, right?
+
+bb0c194b-d56b-4bdd-9a9d-ff69bcdda1c0-0
+00:36:33.120 --> 00:36:33.560
+Login.
+
+c35fbb76-160d-442d-9f94-4872a7548b7a-0
+00:36:33.600 --> 00:36:36.680
+I hope we can do it Email confirmed.
+
+435cef28-908b-4c62-a4bc-a03589800a4c-0
+00:36:40.480 --> 00:36:49.960
+So it doesn't allow you to I don't I'm
+thinking of no, just save the username.
+
+0dccfac1-58da-4ab7-b275-73a318ae3b56-0
+00:36:51.320 --> 00:36:53.440
+It'll create an external identity, right?
+
+66803b17-16f1-4d05-8d2e-e72f1f7445f0-0
+00:36:53.440 --> 00:36:56.480
+When you save this one, save this.
+
+1a900205-04bf-4d34-a90b-2a9f48dd66ea-0
+00:36:56.480 --> 00:36:58.680
+Let's let's create my one denote Yeah.
+
+cecaf573-34df-4e2b-9d69-d5daaee89c8b-0
+00:37:26.280 --> 00:37:27.480
+Let's save this right?
+
+5de18a8a-af00-4348-88d3-3beac0f53b58-0
+00:37:27.520 --> 00:37:34.731
+Yep, save and close just now to save OK,
+so here,
+
+5de18a8a-af00-4348-88d3-3beac0f53b58-1
+00:37:34.731 --> 00:37:46.126
+so I need to enable email and so it need
+to be like if I go to my dev 1I don't
+
+5de18a8a-af00-4348-88d3-3beac0f53b58-2
+00:37:46.126 --> 00:37:57.376
+know how you do it Is there so is it I
+can see the username field is disabled
+
+5de18a8a-af00-4348-88d3-3beac0f53b58-3
+00:37:57.376 --> 00:38:07.040
+when you create the external identity in
+the the grid below right?
+
+4407ce6f-4a38-4a14-896d-721f04fc85e0-0
+00:38:07.040 --> 00:38:11.326
+When you yeah,
+create it probably will it populate might
+
+4407ce6f-4a38-4a14-896d-721f04fc85e0-1
+00:38:11.326 --> 00:38:15.763
+be when you do that No,
+I think you need to have all those
+
+4407ce6f-4a38-4a14-896d-721f04fc85e0-2
+00:38:15.763 --> 00:38:18.320
+settings populated for it to work.
+
+a996225b-bd17-4194-8716-d04f9e4de359-0
+00:38:18.320 --> 00:38:19.760
+So I had issues before.
+
+40bf163b-61ab-43b4-8bf0-0ccef65eb4e7-0
+00:38:22.440 --> 00:38:30.080
+No,
+I don't want dev int want dev that's 01.
+
+b7324e4b-e100-43b5-be72-82ba5f53a8fb-0
+00:38:36.240 --> 00:38:37.640
+What's when Devin?
+
+37ae4d7b-eb07-4615-9a3c-eb212ec25149-0
+00:38:40.080 --> 00:38:42.160
+No, the site name is Devin, but it is.
+
+0a2aed6e-65d5-4f8a-82e1-e7face978c31-0
+00:38:43.200 --> 00:38:44.360
+That's how it is named.
+
+4c000015-b670-4b35-b976-c3f22549fb44-0
+00:38:44.400 --> 00:38:45.160
+Yeah, Yeah, right.
+
+5d694f55-4106-428c-b5d9-da5531a380fc-0
+00:38:45.160 --> 00:38:45.400
+OK.
+
+f380fb02-067f-4319-b939-537af04b3875-0
+00:39:21.630 --> 00:39:22.870
+Your contact is in there.
+
+f6a9f4ad-70c5-4f62-b8e6-58b2cb7729eb-0
+00:39:52.560 --> 00:39:57.880
+So I think, for example,
+can we edit this if you open?
+
+4367865f-ff90-4fe0-b928-ffec0c86d8f8-0
+00:39:57.880 --> 00:40:02.240
+Yes, I think so, yeah.
+
+6197e0ca-797c-49c1-8139-36f14ea5e07a-0
+00:40:02.240 --> 00:40:06.840
+So if I go copy this to yeah.
+
+b8ced0d9-2c29-40dc-a006-e9ee8ba44a63-0
+00:40:33.280 --> 00:40:45.890
+I didn't provider same.
+
+eb4e0d06-f527-4fb5-a425-e03c84f69ca2-0
+00:40:54.860 --> 00:40:58.620
+So what other settings should you pop?
+
+1b75fa05-f0ac-40de-a172-697cdceb1200-0
+00:40:59.220 --> 00:41:03.220
+Do you need to populate that username
+there in the local identity?
+
+73a35b5c-5443-45f8-8621-f20a516fd7ec-0
+00:41:03.300 --> 00:41:03.740
+How?
+
+39f316bb-7c11-40d7-9e41-6174d3867f38-0
+00:41:03.820 --> 00:41:05.180
+Yeah is the problem right?
+
+b749c011-0c54-4138-a99d-32899f8f9320-0
+00:41:05.180 --> 00:41:07.380
+So do you need special permissions?
+
+8b94ddd0-4de0-49e4-8098-1554350aef86-0
+00:41:08.060 --> 00:41:09.460
+Are you not able to edit that field?
+
+261b3f3c-f58e-47f5-a0ba-1aea4e0cf675-0
+00:41:09.460 --> 00:41:14.800
+Because I am able to UI but maybe you
+have different permissions.
+
+6bae3d9d-b155-49c5-a5c5-48eb83738544-0
+00:41:15.520 --> 00:41:19.920
+Can you can you set the username to be
+for me?
+
+f95d7d5d-faa8-4e35-a372-61d5fbf0867e-0
+00:41:20.000 --> 00:41:24.480
+Same as that one, same as this one.
+
+5d213b6a-dfdc-441a-a8fc-d7104c626b17-0
+00:41:24.480 --> 00:41:26.120
+OK, let me try that.
+
+db0e34a6-f888-4144-be27-5a31ad57ca52-0
+00:41:28.120 --> 00:41:28.240
+OK.
+
+98374bd4-c06f-4901-9811-1742f291bbdc-0
+00:41:41.760 --> 00:41:43.280
+Can you refresh your record now?
+
+87033c73-623c-4d3d-8f9a-d0350c70d4c1-0
+00:42:02.070 --> 00:42:02.310
+Yeah.
+
+f3ce018e-2937-4fa3-92d3-15a159fd39e1-0
+00:42:02.430 --> 00:42:04.550
+So it doesn't have a security timestamp.
+
+518c5b99-1f9e-4f54-8543-c665d6b4d931-0
+00:42:04.790 --> 00:42:05.710
+Yeah, I don't know.
+
+5b7a23f5-ad49-45cf-b994-53439831d561-0
+00:42:05.990 --> 00:42:09.950
+There's a problem that I also don't have
+the access to edit it.
+
+a1ff7c89-1bbd-44a9-a923-c0a84e22fa54-0
+00:42:11.150 --> 00:42:11.510
+Yeah.
+
+53ac4625-1f07-4a0b-ad5b-b95ca911eb4f-0
+00:42:12.430 --> 00:42:18.087
+So let's see whether I can log in now
+maybe what does the security's timestamp
+
+53ac4625-1f07-4a0b-ad5b-b95ca911eb4f-1
+00:42:18.087 --> 00:42:22.671
+value has to be Dinuka,
+Do you know like how it is in Dev 01 or
+
+53ac4625-1f07-4a0b-ad5b-b95ca911eb4f-2
+00:42:22.671 --> 00:42:27.040
+it is like something that B to C
+generates unique for every?
+
+befcb9fe-93f4-4006-b90d-1c0bb8d9c1d1-0
+00:42:27.040 --> 00:42:30.010
+Yeah,
+it's just generate a unique wait and put
+
+befcb9fe-93f4-4006-b90d-1c0bb8d9c1d1-1
+00:42:30.010 --> 00:42:30.200
+it.
+
+9982dd4d-ac0d-439d-9dc8-e807841fdc52-0
+00:42:30.320 --> 00:42:31.760
+It doesn't have any relation to it.
+
+66600854-574f-434e-9313-7e709682e7ff-0
+00:42:32.240 --> 00:42:33.520
+I can put that as well.
+
+ecf09739-080b-444b-8bd0-496880e81d64-0
+00:42:33.840 --> 00:42:35.280
+It's the same as in dev 01.
+
+83ff84b0-ea3b-490a-a954-de8a573b9012-0
+00:42:35.280 --> 00:42:40.080
+Is it or let's oh, oh, oh, what happened?
+
+ff49a721-87a8-4ffe-bd05-ef3f9a3af0ab-0
+00:42:58.200 --> 00:42:59.600
+Yes, sign in again.
+
+e803ce2c-9b55-44e5-bd6e-f68da81cbe65-0
+00:43:04.480 --> 00:43:05.480
+And maybe it isn't.
+
+d9e19bd0-07b0-44c7-a8da-758d17e1253e-0
+00:43:05.520 --> 00:43:08.840
+Can you put some GUID in into that
+timestamp?
+
+7be58904-ccb2-42fc-a669-f54b3dedbd86-0
+00:43:09.200 --> 00:43:10.160
+OK, timestamp.
+
+b3836046-2d0f-425d-92d2-290a7f973adc-0
+00:43:12.200 --> 00:43:15.920
+Let me get yours from dev 0.
+
+069fadfe-2ad5-41d8-a25e-579e9b7ad836-0
+00:43:16.960 --> 00:43:17.320
+Yeah.
+
+eb34e2fd-7125-4eb3-9873-a14701906456-0
+00:43:36.040 --> 00:43:37.200
+Yeah, that's done.
+
+673b5681-a8f5-4749-9ea5-09eb15338805-0
+00:43:50.680 --> 00:43:51.000
+OK.
+
+5b037462-051b-4c9a-b169-ace04610ea5a-0
+00:43:51.520 --> 00:43:52.960
+Yep, start again.
+
+a7a0e56d-cbad-45d1-a76b-21db51da772a-0
+00:44:01.380 --> 00:44:02.020
+Yeah, that's it.
+
+25429a0d-6ac8-48ff-af40-69390c41c3cb-0
+00:44:02.940 --> 00:44:04.340
+OK, it's logging in.
+
+4d35c993-b9f4-4105-9fe2-abaf7f40c122-0
+00:44:04.820 --> 00:44:05.900
+Yeah, it's logging in.
+
+cc245f9c-008f-4bb6-a844-591126ead9da-0
+00:44:06.700 --> 00:44:09.180
+So I think that's what you guys need to
+do, right.
+
+0195c704-36a4-4e1f-9bdc-9efdcb1092a1-0
+00:44:09.180 --> 00:44:13.064
+So if you have dev registered account
+already, Yep,
+
+0195c704-36a4-4e1f-9bdc-9efdcb1092a1-1
+00:44:13.064 --> 00:44:19.190
+if you wanted to log in into the dev int,
+you can't reregister because your email
+
+0195c704-36a4-4e1f-9bdc-9efdcb1092a1-2
+00:44:19.190 --> 00:44:20.460
+it is only there.
+
+22cd84d9-971c-4ce5-90c4-168a1c2ee197-0
+00:44:20.960 --> 00:44:26.280
+So you need to manually link your account.
+
+34689902-1ac1-41e9-87cb-957c1dd7fe6f-0
+00:44:26.720 --> 00:44:27.360
+Yeah, OK.
+
+091c06a2-4503-48f0-9f39-4a683f1573c5-0
+00:44:28.560 --> 00:44:32.276
+To your contact,
+create the contact how we did now and
+
+091c06a2-4503-48f0-9f39-4a683f1573c5-1
+00:44:32.276 --> 00:44:33.560
+then we can log in.
+
+b7fb5745-d67a-4339-804b-0851a9a2e7d5-0
+00:44:34.200 --> 00:44:35.000
+Yeah, yes.
+
+dc8be505-c008-44de-998d-fbc6a543b2c9-0
+00:44:35.160 --> 00:44:35.560
+All right.
+
+84e62b7d-eb06-45ff-898a-084eae3975d3-0
+00:44:35.640 --> 00:44:37.040
+Yeah, Yeah, that's it.
+
+709adcb0-7c21-4b26-847c-8a8ce159d99a-0
+00:44:37.480 --> 00:44:41.120
+So Devin should be working now fully.
+
+9173f9ec-dc48-4e87-a49a-4009a61e3a45-0
+00:44:42.920 --> 00:44:46.195
+And the only thing that sign up is when
+the DNS is ready,
+
+9173f9ec-dc48-4e87-a49a-4009a61e3a45-1
+00:44:46.195 --> 00:44:47.720
+sign up will start working.
+
+0bc650bb-1c5a-4b86-8c73-73cdb88c01f7-0
+00:44:48.360 --> 00:44:48.520
+OK.
+
+e62b74e3-78a5-463d-b430-59ea5747c69f-0
+00:44:48.520 --> 00:44:52.986
+And for,
+I think the the setting that we renamed
+
+e62b74e3-78a5-463d-b430-59ea5747c69f-1
+00:44:52.986 --> 00:44:56.360
+need to be put back for this to work.
+
+3786d0f5-674b-4886-91ca-a9ec7326b71f-0
+00:44:58.000 --> 00:45:03.752
+Which one, Danuka,
+That setting that we renamed deactivated
+
+3786d0f5-674b-4886-91ca-a9ec7326b71f-1
+00:45:03.752 --> 00:45:04.040
+it.
+
+4eb0a301-fe88-4ff1-b686-23bb9a169ebb-0
+00:45:04.360 --> 00:45:06.480
+I think this yeah, from dev.
+
+8d93de2f-9db7-45e6-80e3-541860e9f3db-0
+00:45:07.040 --> 00:45:08.280
+So let's, let's do it.
+
+0f71e672-9c8d-442f-a5e6-0d3cb316b66c-0
+00:45:08.360 --> 00:45:09.600
+Let's do it now.
+
+c4d0f98d-cd6f-4152-8ff7-a9db9df23114-0
+00:45:14.760 --> 00:45:15.960
+Which one was it?
+
+9ed99c50-7b54-4493-9912-403cd84ed837-0
+00:45:23.360 --> 00:45:24.680
+Something starts with old.
+
+6245b3ec-d563-4b5e-b231-22b6ea7d4e22-0
+00:45:25.120 --> 00:45:28.200
+Yeah, I'm renamed as old B2 CI think Yeah,
+yeah.
+
+2efcd581-8668-49b5-9bb3-8e390ed88bff-0
+00:45:28.200 --> 00:45:29.400
+What's the original one?
+
+7858ab3d-ca4e-48ef-b971-9643b237b29a-0
+00:45:29.440 --> 00:45:33.800
+I'm trying to put the additional
+authentication open ID connect.
+
+dc96365b-5cfd-49dd-8e12-4b77e1dd1261-0
+00:45:34.400 --> 00:45:35.640
+Yeah, that's yeah, OK.
+
+51a0e123-cab1-41ec-b74b-7d1fdc2880cd-0
+00:45:36.560 --> 00:45:36.760
+Yeah.
+
+213400bb-bbba-4d69-8143-dde72f21aa21-0
+00:45:36.760 --> 00:45:38.640
+So we need to put it back.
+
+45be9ce0-a005-4675-b021-69f4e444f104-0
+00:45:43.680 --> 00:45:46.640
+So that one, if we put it back, what does?
+
+b51e0f06-08fc-49bf-9e58-2857c1544dce-0
+00:45:46.640 --> 00:45:47.840
+No, we didn't put it back.
+
+bc781009-cc51-4f00-85e8-8440858809e7-0
+00:45:49.440 --> 00:45:51.240
+OK, let me rename it and put it back.
+
+bb0d4276-1e0c-40d1-94ad-74408a6d0a3b-0
+00:45:52.840 --> 00:45:54.800
+You have the you copied that value, right?
+
+16d7e7e9-035a-4e74-b4ff-2cb09e0cf635-0
+00:45:54.800 --> 00:45:55.480
+Yeah, yeah, yeah.
+
+0e77fae6-123c-4f44-b297-443efdcb3007-0
+00:45:55.520 --> 00:45:57.080
+You said I did ID, let's put it back.
+
+489d9e6e-2fcd-45bc-985d-1f33eb657c1a-0
+00:45:59.600 --> 00:46:05.680
+OK, they went still.
+
+322ac4dd-687a-4267-bfb3-1008b453ebbe-0
+00:46:05.760 --> 00:46:13.960
+For some reason there's not show the
+default is not working, right?
+
+4b530e56-8900-4c3b-8700-862be1b01345-0
+00:46:14.240 --> 00:46:18.343
+Yeah, I have renamed that,
+so still it should work,
+
+4b530e56-8900-4c3b-8700-862be1b01345-1
+00:46:18.343 --> 00:46:23.000
+right after putting that one,
+you need to sync after sync.
+
+45b29e37-44dd-4aa2-be7d-042a3b00fda0-0
+00:46:23.000 --> 00:46:28.280
+It should, Yeah, yeah, I have sync now.
+
+5b501ff9-5820-424f-bcd0-4a34310f3925-0
+00:46:29.720 --> 00:46:31.080
+Let me check.
+
+b44f40b7-42c1-47b6-815c-a0ab6121796b-0
+00:46:31.400 --> 00:46:38.440
+Yep, maybe it's fresh.
+
+98d167b5-2c59-400b-ae7d-c03ba7c3e57f-0
+00:46:49.760 --> 00:46:50.840
+Yeah, it's working.
+
+f2e6cd95-3a8e-4f90-b875-ca6e766c27d2-0
+00:46:52.160 --> 00:46:53.680
+Let's let me log out first.
+
+38b0fa89-0c3f-4f49-beab-95d1440c6e49-0
+00:46:53.760 --> 00:46:56.760
+Actually login is not a real test.
+
+a7b2e727-d698-43c1-9bb7-ef2ed09c0540-0
+00:47:06.820 --> 00:47:08.300
+Yeah, it's going to sign up straight.
+
+fa4f3dd5-60e9-45ac-a92f-3e0f15e6903d-0
+00:47:08.700 --> 00:47:16.453
+And one one thing also to remember is so
+you can see when you log in,
+
+fa4f3dd5-60e9-45ac-a92f-3e0f15e6903d-1
+00:47:16.453 --> 00:47:20.220
+it's going to profile page, right?
+
+0f25ce6d-b85a-470a-b2f7-dd5e26daaa21-0
+00:47:22.700 --> 00:47:22.860
+Yeah.
+
+5c483f90-e022-41da-bd5d-924135b8c686-0
+00:47:23.840 --> 00:47:28.520
+But in dev you don't get redirected to
+profile page, you get.
+
+4157e6a6-85d1-4d3a-9569-2bf8e89c24dc-0
+00:47:28.520 --> 00:47:37.800
+You get to either the home page or the OR
+the dashboard, whichever is.
+
+8e1640c7-87a2-4e29-841e-2a5b14092a0d-0
+00:47:38.320 --> 00:47:39.280
+Yeah, Yeah.
+
+b3450fe8-5c41-4cc9-a873-1b1bd0aa9bfa-0
+00:47:39.280 --> 00:47:47.040
+So that's because during the registration,
+I've set a setting check.
+
+d095bcf9-fb45-469e-be08-0eca2e4907a8-0
+00:47:47.200 --> 00:47:55.747
+Remember there's a setting that I said to
+say tell the portal that profile is
+
+d095bcf9-fb45-469e-be08-0eca2e4907a8-1
+00:47:55.747 --> 00:47:57.720
+already set it up.
+
+aff30bf0-8265-4b25-ab03-676f0b563b5d-0
+00:47:57.720 --> 00:48:04.024
+So don't redirect it,
+redirect me to profile page after signing
+
+aff30bf0-8265-4b25-ab03-676f0b563b5d-1
+00:48:04.024 --> 00:48:04.320
+in.
+
+f99d987e-9ff7-42e2-9470-ac4bfee595fd-0
+00:48:04.920 --> 00:48:06.840
+So that setting is somewhere.
+
+def97b2a-bd6c-4151-bb26-57a93d95e7a0-0
+00:48:08.760 --> 00:48:13.737
+So because so now you,
+you created a brand new contract contract,
+
+def97b2a-bd6c-4151-bb26-57a93d95e7a0-1
+00:48:13.737 --> 00:48:18.640
+but it's not wasn't created through
+registration process, right?
+
+e9dbec9d-f3c5-44cd-b3d5-c88fdece1691-0
+00:48:18.640 --> 00:48:22.200
+It was manually created so that now that
+setting is missing.
+
+1988a539-3408-4a8c-b558-87f9199535d3-0
+00:48:22.200 --> 00:48:25.080
+That's why it's keep going to profile.
+
+c88e5ec6-b8b3-4a0d-b782-d80f785e8fd1-0
+00:48:27.040 --> 00:48:32.400
+So the setting is I think the sign in
+configuration, right?
+
+13947a7c-08c3-4491-a55c-0ed85ab55264-0
+00:48:32.400 --> 00:48:36.480
+Tanuka, the top one,
+I think it is taking me to profile.
+
+77726204-9448-4432-869a-7e4c00b6fffd-0
+00:48:36.480 --> 00:48:40.257
+But if you click on the sign in from
+qualification integrity,
+
+77726204-9448-4432-869a-7e4c00b6fffd-1
+00:48:40.257 --> 00:48:43.000
+it goes straight to the sign in Page,
+right?
+
+f860c2d9-ad15-4c9d-9f9a-803d36eeae40-0
+00:48:43.600 --> 00:48:45.080
+I don't think it's a sign in Page.
+
+c434d27f-767e-421d-91ff-cbb9e86031bc-0
+00:48:45.280 --> 00:48:54.000
+It's I think it's done through a setting
+your attribute in your contact.
+
+d5514a56-2365-4ada-982f-7c9ac8b7d07f-0
+00:49:00.680 --> 00:49:12.920
+OK, date contact, we won't enable that.
+
+84c4dae3-0611-4e50-9521-c0de096a1af6-0
+00:49:16.120 --> 00:49:16.760
+This one here.
+
+39bc359b-c70b-4234-8c38-6b0b596f811d-0
+00:49:17.680 --> 00:49:19.000
+Profile modified on.
+
+9654ae7f-aadd-4492-a546-7253264c06cb-0
+00:49:20.000 --> 00:49:25.400
+So when you're doing the registration
+through the B to C, Yep.
+
+c1a915a7-c8de-4f66-9fe4-81e17d79056c-0
+00:49:25.400 --> 00:49:30.480
+So I set the profile modified on to the
+current data.
+
+cedadbcf-1fca-4811-8a28-c86212d51070-0
+00:49:30.480 --> 00:49:32.520
+OK, right.
+
+d6129e01-1f92-4f3f-9b33-81685be10303-0
+00:49:33.080 --> 00:49:39.097
+So if the profile modified on to profile
+modified on has a value,
+
+d6129e01-1f92-4f3f-9b33-81685be10303-1
+00:49:39.097 --> 00:49:43.200
+then portal won't direct you to the
+profile.
+
+2aaf6675-f2ae-4516-9a21-e0d5fd9ebb91-0
+00:49:43.560 --> 00:49:46.080
+So it thinks that you want the updated
+profile.
+
+33e634b4-97c5-4b74-8674-29efc90c62cf-0
+00:49:46.440 --> 00:49:48.240
+Yeah, you don't need to show the profile.
+
+e22f064c-7beb-4b8f-8426-63d742cf76cb-0
+00:49:48.240 --> 00:49:51.360
+So it'll get to wherever the user need to
+go to.
+
+84b17766-8ea3-4f79-adfd-aa9edbbd4dac-0
+00:49:52.160 --> 00:49:56.440
+But it's not happening because we created,
+we didn't set it.
+
+9a63f33f-3240-4c20-8360-ba5ddb4a7c35-0
+00:49:57.800 --> 00:49:59.520
+OK it right, It doesn't have to.
+
+863118ac-af5c-441a-b357-689acbd85a75-0
+00:49:59.520 --> 00:50:03.240
+But next time you update like for example,
+Yeah.
+
+e209f3e4-5589-4c66-ae0e-50880bfd77d9-0
+00:50:03.240 --> 00:50:09.600
+So now when I log in,
+I think I'm still logged in to B201.
+
+c6c58f9f-fa1c-48a0-9017-ff13023c0c57-0
+00:50:11.040 --> 00:50:12.920
+Hopefully it won't ask me to log in.
+
+ede38aab-ebb7-4132-8e0b-f857f75607ae-0
+00:50:23.400 --> 00:50:23.640
+Yeah.
+
+311fc721-17da-4e57-9853-818579440a94-0
+00:50:23.640 --> 00:50:26.200
+So if I login, it'll go,
+it'll take me to profile.
+
+5b2e7025-09ae-4229-8607-d321ac5e0348-0
+00:50:26.200 --> 00:50:30.520
+But if I update the profile,
+it won't take me to profile again.
+
+6553d5c4-5f0e-4191-8373-a03dbeb6a3d2-0
+00:50:31.400 --> 00:50:37.569
+It'll just populate that profile updated
+on and then next time won't won't be
+
+6553d5c4-5f0e-4191-8373-a03dbeb6a3d2-1
+00:50:37.569 --> 00:50:38.440
+redirected.
+
+a58c0e45-0c29-4a7e-a25f-129aaf573e88-0
+00:50:39.440 --> 00:50:39.720
+OK.
+
+c2a354a5-aec5-4ea2-a099-704ebceab11c-0
+00:50:43.400 --> 00:50:43.640
+Yeah.
+
+41898278-85fe-45f1-864e-2844eb44dc44-0
+00:50:43.640 --> 00:50:45.560
+So I think that's about it.
+
+f94da9f3-dce1-403c-9490-09ff52637f1d-0
+00:50:45.600 --> 00:50:49.640
+Regarding the event,
+the event should be good.
+
+62a138ed-547e-46e4-9829-8df6e021493d-0
+00:50:51.200 --> 00:50:55.720
+I think that's all the B2C stuff I wanted
+to show.
+
+14477b55-9f53-43cd-8060-a2cf7436943f-0
+00:50:56.800 --> 00:51:03.040
+So I've got,
+I've got RMA fully functional.
+
+af344f84-564a-44f6-8526-9bb273e874c5-0
+00:51:04.200 --> 00:51:13.520
+Maybe after stand up I'll show this to
+the team everyone.
+
+bd68bae8-1ecd-431c-bf2d-8a2dce4c9a80-0
+00:51:14.160 --> 00:51:14.320
+Yep.
+
+c1213508-b770-4961-a486-5ba64367d259-0
+00:51:15.000 --> 00:51:17.160
+So, so now you have the ARN.
+
+92432665-2549-4aa7-94ec-d4729aea3cf7-0
+00:51:17.800 --> 00:51:26.600
+So ARN can be either student ARN, Yep,
+or a contact ARN.
+
+4dae26f8-fd8b-4acc-bbef-66095134dd6c-0
+00:51:27.040 --> 00:51:28.720
+So that's how I, we've done it.
+
+dea3fffd-ce23-4e7a-8203-362d816cfda2-0
+00:51:28.720 --> 00:51:28.840
+Yep.
+
+69d9748c-faa9-4dff-be19-8078b3fc08d4-0
+00:51:29.560 --> 00:51:35.701
+So depending on if they enter student ARN
+or a contact ARN,
+
+69d9748c-faa9-4dff-be19-8078b3fc08d4-1
+00:51:35.701 --> 00:51:40.000
+it will be shown the correct sign up form.
+
+bd468395-cde4-4a60-9476-763246bb54e6-0
+00:51:40.360 --> 00:51:44.600
+And after sign up, it's just normal,
+right?
+
+a7b38f2a-7465-4240-898f-25ce7423f660-0
+00:51:45.120 --> 00:51:47.360
+Just redirect to the homepage for now.
+
+2d76ed9c-e3e6-49a0-a91a-561c0ca83763-0
+00:51:47.360 --> 00:51:47.480
+Yep.
+
+f6688185-79fa-4eaf-ae4f-07274b134b67-0
+00:51:47.480 --> 00:51:51.000
+OK, that'll redirect you to the home page.
+
+d6e9b495-4a40-45fb-bf4c-5f24fe4f6a5f-0
+00:51:51.480 --> 00:51:56.903
+If you want to change that page in future,
+please let us know where to configure it
+
+d6e9b495-4a40-45fb-bf4c-5f24fe4f6a5f-1
+00:51:56.903 --> 00:52:00.841
+probably after our No,
+that that's something for you guys to
+
+d6e9b495-4a40-45fb-bf4c-5f24fe4f6a5f-2
+00:52:00.841 --> 00:52:02.520
+show in the future, right?
+
+15cd5b47-e541-4818-9e27-8905934e89dd-0
+00:52:02.680 --> 00:52:03.120
+Yeah.
+
+8495821b-19d4-4978-a5b1-60863c30895b-0
+00:52:03.440 --> 00:52:10.128
+Because so in the portal,
+so when you enter the sign up,
+
+8495821b-19d4-4978-a5b1-60863c30895b-1
+00:52:10.128 --> 00:52:19.280
+when you get redirected to B to C,
+you don't know where it need to go, right?
+
+97ab4223-ee46-4993-a7e8-6c221a0abcba-0
+00:52:19.840 --> 00:52:24.377
+Yeah,
+B to C So B to C need a redirect URL to
+
+97ab4223-ee46-4993-a7e8-6c221a0abcba-1
+00:52:24.377 --> 00:52:31.480
+be provided to B to C to redirect user
+after sign up or sign in, right?
+
+2c0a01d0-a6fb-4379-8692-fac38817921b-0
+00:52:32.040 --> 00:52:32.280
+Yeah.
+
+2191b380-956a-41fa-b9e5-45f46f4f693a-0
+00:52:32.320 --> 00:52:38.880
+But B to C does not have permissions to
+modify the URL given to you, right?
+
+69342765-9816-46a1-a70e-5589074a7360-0
+00:52:40.040 --> 00:52:42.400
+B to CB to C will simply redirect the.
+
+d58d7f64-409c-47b6-8d39-3f1b32b328cb-0
+00:52:42.760 --> 00:52:47.320
+If you provide a default URL,
+it'll redirect to default URL right?
+
+3c9936be-d4a1-4320-bfd1-93488aad1923-0
+00:52:48.040 --> 00:52:53.680
+Even though B to C will know what the
+role is right during the sun yeah.
+
+91c5de69-2810-4046-a5c9-a06f646236f5-0
+00:52:54.520 --> 00:53:00.760
+So when you land on the default page,
+then you need to have logic in there to
+
+91c5de69-2810-4046-a5c9-a06f646236f5-1
+00:53:00.760 --> 00:53:07.480
+redirect to redirect you need to pull the
+contact and do what Jamie said right them
+
+91c5de69-2810-4046-a5c9-a06f646236f5-2
+00:53:07.480 --> 00:53:12.760
+said you will have in the profile you
+will have like preferences.
+
+dc5b3f70-607d-43f0-814e-691ccf452990-0
+00:53:14.560 --> 00:53:19.563
+So depending on the preferences,
+you'll get landed on to the preferred
+
+dc5b3f70-607d-43f0-814e-691ccf452990-1
+00:53:19.563 --> 00:53:20.480
+landing page.
+
+21cd4d39-047a-4293-b5cd-7577d43d7217-0
+00:53:21.120 --> 00:53:21.920
+OK, got it.
+
+00bc7038-3e6a-46ed-8e10-9a3e9227a873-0
+00:53:22.320 --> 00:53:22.840
+Yeah, yeah.
+
+f18eced2-57e0-46c3-a5e8-24b013b81882-0
+00:53:22.840 --> 00:53:30.524
+So that that logic purely need to be in
+portal or B to C only can redirect you to
+
+f18eced2-57e0-46c3-a5e8-24b013b81882-1
+00:53:30.524 --> 00:53:32.680
+a default landing page.
+
+18afb99a-639b-4c69-899b-20b82dc24cb6-0
+00:53:32.680 --> 00:53:38.200
+OK, OK,
+So there's a new policy called as per
+
+18afb99a-639b-4c69-899b-20b82dc24cb6-1
+00:53:38.200 --> 00:53:40.120
+sign in sign up.
+
+10cf03e4-c147-4a3a-b802-859d18ed52e0-0
+00:53:41.480 --> 00:53:47.408
+So that's so,
+so you can see there's there's if you go
+
+10cf03e4-c147-4a3a-b802-859d18ed52e0-1
+00:53:47.408 --> 00:53:47.840
+dev.
+
+4cad2eb6-57c4-4549-b996-a6e3dc0a07d8-0
+00:53:55.400 --> 00:53:57.480
+So there's,
+this is the one that we're using, right?
+
+64319118-0ef2-4540-b9ad-b6303ad1a3ad-0
+00:53:57.480 --> 00:53:59.480
+This is the one we configured the other
+day.
+
+61a7ff58-fb14-482c-8c19-a33895f5ddbf-0
+00:53:59.880 --> 00:54:01.440
+I, I sign in, sign up.
+
+64d221bd-3a3a-4cd8-bfdb-0fd77fac67d5-0
+00:54:02.400 --> 00:54:07.358
+And now there's As for sign in, sign up,
+dev As for sign in, sign up,
+
+64d221bd-3a3a-4cd8-bfdb-0fd77fac67d5-1
+00:54:07.358 --> 00:54:09.200
+which is a unified, right?
+
+cd3d9103-54ac-4d06-a3af-1e8311f3e689-0
+00:54:09.720 --> 00:54:11.520
+OK, so unified version of it.
+
+23816da2-bcdb-4337-8f3e-a2a441e2da15-0
+00:54:11.600 --> 00:54:18.360
+So both RMA and QY can sign up by
+entering there.
+
+3e5493a4-1e23-4955-83da-d00bc05dfa0d-0
+00:54:19.120 --> 00:54:19.320
+Yeah.
+
+8bf79a4d-959c-4122-ba73-0d6bf11a7cce-0
+00:54:20.600 --> 00:54:25.009
+So if we are going to deploy this policy
+and test,
+
+8bf79a4d-959c-4122-ba73-0d6bf11a7cce-1
+00:54:25.009 --> 00:54:29.160
+how do we do it in probably tomorrow
+after you?
+
+6925acc9-8b8e-4628-9f7e-0d7698e77fca-0
+00:54:29.600 --> 00:54:30.280
+Oh, it's all there.
+
+c2c419dd-8d08-4acc-ae12-0d068b8eb127-0
+00:54:30.760 --> 00:54:33.440
+It's already deployed to B to C, Yes,
+right.
+
+549495b6-b1f5-4bf5-bc5b-f67776585cf5-0
+00:54:33.440 --> 00:54:34.880
+The policy is there so you can run it.
+
+e54bf315-ca4f-4f1f-aac0-fcf1756477cc-0
+00:54:35.000 --> 00:54:38.200
+So that's why how I showed you before,
+right, So you can run the policy.
+
+92d26d6a-aab8-4c61-b2a7-fb5250948a88-0
+00:54:38.920 --> 00:54:45.067
+So what we need to do is go to dev
+environment and reconfigure the B to C
+
+92d26d6a-aab8-4c61-b2a7-fb5250948a88-1
+00:54:45.067 --> 00:54:49.720
+settings, Yes,
+to point the policy name to this policy.
+
+796d3712-9047-4000-9d58-f140607dd72a-0
+00:54:50.360 --> 00:54:50.880
+Exactly.
+
+17c0f999-86a7-4438-abad-408162548d43-0
+00:54:50.880 --> 00:54:51.120
+Yeah.
+
+a1bedd25-4932-4637-9cea-e8ece2bfd5c9-0
+00:54:52.040 --> 00:54:55.280
+And then the portal will redirect to this
+new one.
+
+d9d4eb6e-bad1-4750-8864-c60a3e6f5c7d-0
+00:54:55.920 --> 00:55:00.160
+OK, so I haven't done that.
+
+373c36de-60e4-4da2-932a-4b35053a7d3f-0
+00:55:00.200 --> 00:55:03.640
+I'll show it to the team tomorrow and
+then tomorrow.
+
+303a698a-8147-4d64-9ac9-e0775f3dbc8a-0
+00:55:03.680 --> 00:55:09.977
+And if they're happy before I finish up,
+we can configure the they have to use
+
+303a698a-8147-4d64-9ac9-e0775f3dbc8a-1
+00:55:09.977 --> 00:55:15.000
+this new policy instead of the impacted
+impact individual one.
+
+dd1aced3-33c4-4c0e-b3b9-a6d20f2617fb-0
+00:55:15.520 --> 00:55:17.880
+OK, sounds good.
+
+5eabd96a-aeba-4b7a-bd72-19572a32c1cf-0
+00:55:18.960 --> 00:55:19.480
+That's it.
+
+e4fe7355-85f8-4636-b9fa-23554f5b5308-0
+00:55:19.480 --> 00:55:22.480
+I don't think we need any.
+
+0b97118a-8925-4391-8d9c-e8a43e505c61-0
+00:55:22.560 --> 00:55:22.840
+I don't.
+
+7b118405-06b5-446d-bf02-c092b478e958-0
+00:55:23.480 --> 00:55:31.520
+I don't think we need any B to C handover
+sessions anymore tomorrow after the demo.
+
+6ccbb27c-4319-45e4-b01c-266fe5b390bb-0
+00:55:31.880 --> 00:55:33.320
+Just to give an idea like.

@@ -1,0 +1,3112 @@
+WEBVTT
+
+7f77b05a-0671-47a0-80f6-f62213597464-0
+00:00:02.040 --> 00:00:07.840
+Right, let me share my screen,
+maybe I'll share my whole screen.
+
+6f27ad1e-bd0a-4148-bff5-24a61e95a119-0
+00:00:10.640 --> 00:00:13.120
+Can you guys see this or these tools?
+
+bd3ac67a-cf61-430b-894f-55d779a5ebc8-0
+00:00:13.120 --> 00:00:13.240
+Yep.
+
+f7f897c7-1766-4856-9ed9-39bab091db28-0
+00:00:15.320 --> 00:00:17.080
+Would you be able to maximise it then ago?
+
+8facc124-2d65-441c-b59b-aeda4bc5b3df-0
+00:00:18.600 --> 00:00:29.520
+Maybe because I'm on my big screen,
+just I don't know what I can do.
+
+d53a611c-49e9-419b-99d7-0bfc1cc4eea2-0
+00:00:33.080 --> 00:00:33.960
+No, I can't.
+
+a244ab59-9cbc-4e89-935b-3fc548323562-0
+00:00:35.080 --> 00:00:39.000
+Maybe I'll reach on to my other screen.
+
+f2042dfe-e4cc-4251-80fd-96a86860c8cf-0
+00:00:46.320 --> 00:00:46.600
+Yeah.
+
+5c5d6be7-3fc3-426e-a535-6eedd63c9c0c-0
+00:00:47.720 --> 00:00:48.600
+Can you guys see now?
+
+08697b08-974b-44ee-bfcb-bcb7c0b0f464-0
+00:00:49.520 --> 00:00:49.920
+Better.
+
+35df351f-27d7-41b2-bf6b-4816f25001f9-0
+00:00:51.200 --> 00:00:51.400
+Yeah.
+
+8f10744b-a456-4e2b-8569-265ac963331b-0
+00:00:51.760 --> 00:00:51.960
+Better.
+
+8287b07e-e225-43f2-b670-4f84c6b5cf33-0
+00:00:52.560 --> 00:00:52.840
+Yeah.
+
+82f20db4-a305-47b6-ac67-7df48d402c57-0
+00:00:54.800 --> 00:00:55.160
+All right.
+
+b633d77c-1e3c-4235-8e68-c52da69cc4d0-0
+00:00:55.160 --> 00:00:55.480
+Cool.
+
+d1e2f2e7-71e3-4102-bb51-cbdb1a7308e2-0
+00:00:57.840 --> 00:00:58.440
+So.
+
+1984357f-2bf0-4930-863b-1b1d44e11f69-0
+00:01:00.200 --> 00:01:01.040
+So the API.
+
+74190482-e49a-4bcf-ae52-64a437592338-0
+00:01:01.040 --> 00:01:10.320
+So I think we were on API the other day,
+so I'll bring on my BS code here.
+
+39ac56b7-1583-4717-97a9-be2dc2cc8c9d-0
+00:01:16.160 --> 00:01:18.640
+So the API code is in here.
+
+06c889cb-af39-462f-b6a9-fe106c935fde-0
+00:01:19.480 --> 00:01:32.204
+So I think going back to the diagram,
+so you can see the API,
+
+06c889cb-af39-462f-b6a9-fe106c935fde-1
+00:01:32.204 --> 00:01:36.720
+API talks to database.
+
+0250828c-fea1-4a3f-804a-2cb567305ac0-0
+00:01:37.680 --> 00:01:41.200
+So I'll talk about Azure a little bit.
+
+0ff66890-cffb-42ae-8d7c-e1ce4473ecc3-0
+00:01:42.400 --> 00:01:52.650
+Let me go back to my browser.
+
+6512563e-3c50-4319-8c60-547fd3808a84-0
+00:01:54.050 --> 00:01:59.450
+So this is, for example,
+this is the Azure resource group that
+
+6512563e-3c50-4319-8c60-547fd3808a84-1
+00:01:59.450 --> 00:02:00.650
+we've got for.
+
+2e9cf991-1ebb-4070-b71d-412ecfb292d2-0
+00:02:00.650 --> 00:02:03.970
+So we got a separate resource group for
+Sam.
+
+4ec8a506-adfa-46b0-8f16-24565533cc50-0
+00:02:04.800 --> 00:02:07.320
+So this is the dev SIM resource group.
+
+39c23dd2-2445-4a73-bd09-f95aa619c37c-0
+00:02:08.160 --> 00:02:10.917
+So the, the,
+the there's a lot of networking stuff
+
+39c23dd2-2445-4a73-bd09-f95aa619c37c-1
+00:02:10.917 --> 00:02:13.080
+here that you don't need to worry about.
+
+23426dd8-2962-493a-8e4b-18f059d77a2e-0
+00:02:13.080 --> 00:02:16.120
+That's all Azure will.
+
+7e15ac3e-3bd3-43b7-8b07-dbe0eecadb5b-0
+00:02:16.440 --> 00:02:18.840
+You know, Azure team will take care of it.
+
+cf4b6a0a-7dfa-482a-aaaf-86a08249c512-0
+00:02:19.360 --> 00:02:23.320
+I think even the app Service plan you
+don't need to worry about.
+
+a1859e62-278b-455c-b272-89d31b3fd2b5-0
+00:02:23.320 --> 00:02:30.378
+I think the resources that you need to
+worry about is this is the app service,
+
+a1859e62-278b-455c-b272-89d31b3fd2b5-1
+00:02:30.378 --> 00:02:37.080
+so this is where the API is hosted and so
+this API talks to this keyboard.
+
+f5ddec39-11ad-4fa3-91cf-c486b5881860-0
+00:02:37.200 --> 00:02:43.825
+So all the secrets that it needs to
+integrate,
+
+f5ddec39-11ad-4fa3-91cf-c486b5881860-1
+00:02:43.825 --> 00:02:54.680
+it reads secrets from the keyboard and
+the way it authenticates to keyboard.
+
+aae9f492-a427-4cb1-a6d8-25a3d8b98676-0
+00:02:54.720 --> 00:02:56.400
+So you need to authenticate.
+
+527f588b-9478-4c12-85e4-4f198bd5b86f-0
+00:02:56.400 --> 00:02:58.960
+When you connect into keyword you need to
+authenticate to it.
+
+906245bd-8ab8-4627-b1ef-81043381f427-0
+00:02:59.480 --> 00:03:08.657
+So the way it connects is using Managed
+Service identity and the API logs to
+
+906245bd-8ab8-4627-b1ef-81043381f427-1
+00:03:08.657 --> 00:03:11.160
+Application insights.
+
+271b4fe1-eccd-4a2a-abd2-182ce2c1cc8b-0
+00:03:12.080 --> 00:03:17.131
+So I say the if you're having any issues
+with the API,
+
+271b4fe1-eccd-4a2a-abd2-182ce2c1cc8b-1
+00:03:17.131 --> 00:03:23.927
+the 1st place to go is go to this
+application insight and have a look the
+
+271b4fe1-eccd-4a2a-abd2-182ce2c1cc8b-2
+00:03:23.927 --> 00:03:26.040
+keyword authentication.
+
+206bd69a-23a0-4e50-8a57-7a4f7b10a852-0
+00:03:26.040 --> 00:03:29.440
+Is there any specific account we need to
+use it or do you have access to it?
+
+6f9ba225-8908-439a-92da-d66df0355837-0
+00:03:29.920 --> 00:03:30.680
+Personal account.
+
+3c8d3871-67e9-4b1d-b68b-39d28041eadb-0
+00:03:32.600 --> 00:03:39.720
+So, so for example, app service, yeah,
+have its own identity.
+
+5bc63576-049c-4b4a-af8e-ed25793f635f-0
+00:03:41.360 --> 00:03:49.278
+So if you go to settings identity,
+so you can see say it has its own
+
+5bc63576-049c-4b4a-af8e-ed25793f635f-1
+00:03:49.278 --> 00:03:53.640
+identity system assigned identity, OK.
+
+59d590e8-3bc4-48a5-9c80-72811eec2f98-0
+00:03:54.240 --> 00:04:03.021
+And if you go to keyboard,
+so you can see keyword has this access
+
+59d590e8-3bc4-48a5-9c80-72811eec2f98-1
+00:04:03.021 --> 00:04:06.880
+policy thing access policies.
+
+c68cf003-47c2-4559-8a55-b8e48aefe9fe-0
+00:04:07.280 --> 00:04:12.320
+So you can see that web app have access
+to this keyword.
+
+de0ae6f2-b46c-448f-85f0-b2efd2a1dcd4-0
+00:04:12.320 --> 00:04:16.680
+So it has the secret permissions to it.
+
+3146ab97-c3f5-4ee0-a4a7-3a03d9b27c64-0
+00:04:17.440 --> 00:04:24.880
+And you can see myself and Pradeep has it,
+so I'll while I'm at it,
+
+3146ab97-c3f5-4ee0-a4a7-3a03d9b27c64-1
+00:04:24.880 --> 00:04:26.960
+I'll let you do it.
+
+67421e83-deb1-427e-8a5f-66b364c02edf-0
+00:04:28.080 --> 00:04:32.400
+So if you so you you'll be able to add it.
+
+86c15dea-b925-4145-90e6-3eb4878fdc6c-0
+00:04:32.400 --> 00:04:32.720
+Is it?
+
+c792cc24-fa8c-4ada-86dc-08517788a103-0
+00:04:33.400 --> 00:04:33.560
+Yeah.
+
+8ce2c8f1-263d-40bb-ac36-1341d305e6ce-0
+00:04:33.560 --> 00:04:35.320
+You don't want any diver to do it?
+
+a3e2e2b0-1e7a-44a1-aaf8-50e249628583-0
+00:04:35.720 --> 00:04:36.520
+No, No, you don't.
+
+9d2c1f68-2d2b-4565-bc69-335d2d6bc151-0
+00:04:36.520 --> 00:04:38.600
+You don't need to do it.
+
+1be2c59f-8445-482b-a102-8cf17649c818-0
+00:04:38.720 --> 00:04:39.920
+OK, you can do it.
+
+174e7a98-d2df-41e2-b990-7fc12f1d26f0-0
+00:04:43.120 --> 00:04:45.840
+Secrets next.
+
+f6ff39fd-2988-4579-99bc-a8e53b6a8dfd-0
+00:04:54.320 --> 00:04:58.480
+So this one, now what's your account?
+
+5a3854e6-9c75-4c34-bd44-6db2cbe1d4bd-0
+00:04:58.480 --> 00:04:59.520
+This is the account, right?
+
+96672635-effd-4025-93fe-b6263256e85c-0
+00:04:59.520 --> 00:05:02.120
+3467, yeah, yeah.
+
+5cf4f2a7-e02c-48f1-8213-af303621fd36-0
+00:05:02.320 --> 00:05:05.400
+So it'll be the account,
+not your normal account.
+
+cb9c84a2-d8c2-426e-9674-53641bb27718-0
+00:05:05.720 --> 00:05:06.800
+Need to be added.
+
+7ccbd27c-cc23-4604-8d74-36e5c7eddc73-0
+00:05:13.560 --> 00:05:13.800
+Yeah.
+
+09cf4b3d-6bd2-444d-88da-1ae3e69e9805-0
+00:05:13.880 --> 00:05:21.187
+So now you should have access to this
+keyboard and if you go to the secrets tab
+
+09cf4b3d-6bd2-444d-88da-1ae3e69e9805-1
+00:05:21.187 --> 00:05:25.480
+here under objects,
+these are all the secrets.
+
+f2873a53-60d2-45e0-a885-cdf380bbdf33-0
+00:05:26.960 --> 00:05:27.520
+So.
+
+b90d6bf1-617c-4713-9c3f-1af19b922ed1-0
+00:05:27.560 --> 00:05:33.732
+So normally when you ask for app
+registration, the Azure team,
+
+b90d6bf1-617c-4713-9c3f-1af19b922ed1-1
+00:05:33.732 --> 00:05:36.280
+they put credentials here.
+
+6ef31181-3901-4093-9aa9-6698f825dad2-0
+00:05:37.000 --> 00:05:45.294
+So this is the first one is the app
+service for the Web API to connect to
+
+6ef31181-3901-4093-9aa9-6698f825dad2-1
+00:05:45.294 --> 00:05:46.640
+Databus Yep.
+
+c30deedc-0595-456f-a83d-7ac1644a1ef8-0
+00:05:46.680 --> 00:05:55.720
+And this is the app registration for B to
+C to connect to API.
+
+19ef621c-375c-4be0-9a7e-8b30105b2c7c-0
+00:05:57.600 --> 00:06:03.760
+And this service app registration is used
+for deployment.
+
+9a1bec2d-451a-4dd9-ab9a-cb4c6f3cc27c-0
+00:06:03.840 --> 00:06:09.942
+So when so I mentioned that the policies
+and content and everything get deployed
+
+9a1bec2d-451a-4dd9-ab9a-cb4c6f3cc27c-1
+00:06:09.942 --> 00:06:11.600
+from the pipeline Yep.
+
+6cdeb72b-659a-49aa-a4e8-143f9401385d-0
+00:06:11.600 --> 00:06:16.680
+So it uses this app registration to
+connect.
+
+d086147b-65dd-4714-ade7-e07e6d411a4a-0
+00:06:17.640 --> 00:06:22.737
+So if any app registration request,
+then we need to ask do you you I don't
+
+d086147b-65dd-4714-ade7-e07e6d411a4a-1
+00:06:22.737 --> 00:06:24.640
+think you need anything new.
+
+c475e6ec-629d-4133-8c14-4e18b86e7e96-0
+00:06:24.840 --> 00:06:27.400
+So yeah,
+everything is already provisioned here.
+
+80fa2e18-8e45-41db-b785-d1b464d9f387-0
+00:06:27.400 --> 00:06:30.040
+So OK, app IDs and secrets are here.
+
+b29c431f-10d6-4ee3-abf1-c7c3f9c973dc-0
+00:06:30.200 --> 00:06:34.720
+So if you go here,
+so you can see the app ID.
+
+7eb844fc-6d2e-4025-aeb4-fd3a1dba881c-0
+00:06:34.960 --> 00:06:39.840
+So this is the app registration that we
+use to connect to for the automation.
+
+b2839cac-38b6-4603-8d29-45596c27e46f-0
+00:06:39.840 --> 00:06:44.212
+All right,
+So basically for the Web API you created,
+
+b2839cac-38b6-4603-8d29-45596c27e46f-1
+00:06:44.212 --> 00:06:50.400
+this is mainly for linking that B to C
+user to the databus contact, is it?
+
+ccbea9a4-379c-46f0-8cda-2caf4c2fb26c-0
+00:06:52.400 --> 00:06:58.200
+So there is two things right from B to C
+to yeah, other things as well.
+
+db05a40e-5c72-46c5-92b1-c612ab59e121-0
+00:07:00.040 --> 00:07:05.853
+So the first thing it does is so when
+when the RN is entered,
+
+db05a40e-5c72-46c5-92b1-c612ab59e121-1
+00:07:05.853 --> 00:07:08.760
+it goes and verify the RN Yeah.
+
+dab5d679-cefe-4c8f-b2ce-77afe7d2375f-0
+00:07:09.240 --> 00:07:10.680
+So if you go back to the.
+
+f8c79451-6383-4de2-a8b0-92db8c7092a7-0
+00:07:18.320 --> 00:07:29.086
+API itself on the screen so you can see
+so impacted individual have few endpoints,
+
+f8c79451-6383-4de2-a8b0-92db8c7092a7-1
+00:07:29.086 --> 00:07:32.200
+so verify is 1 endpoint.
+
+b0305d06-48dd-4411-9f20-21d53523e69d-0
+00:07:32.200 --> 00:07:40.389
+So that's just purely get the RN and date
+of birth and find the contact and return
+
+b0305d06-48dd-4411-9f20-21d53523e69d-1
+00:07:40.389 --> 00:07:42.560
+the contact ID, right.
+
+19213c4a-c46e-4f58-8385-2af9c07d6173-0
+00:07:42.560 --> 00:07:44.640
+So that that's what it does.
+
+56dff501-e253-4c53-96fc-85a8e9d3ddc7-0
+00:07:46.040 --> 00:07:49.200
+And then there's also another endpoint
+called link.
+
+de260662-a24b-4d41-b641-269812ebb319-0
+00:07:49.480 --> 00:07:52.200
+So what link does is what you just
+mentioned, right?
+
+224aafde-c81b-40de-87eb-c2ade0530fa6-0
+00:07:52.200 --> 00:07:56.755
+So it goes and build the link between the
+BTC 2 database,
+
+224aafde-c81b-40de-87eb-c2ade0530fa6-1
+00:07:56.755 --> 00:08:00.840
+BTC GUID and the contact GUID right in in
+database.
+
+4e467504-6305-46bf-887c-e42d8bf525b0-0
+00:08:02.600 --> 00:08:05.840
+And also there are couple of other
+endpoints.
+
+48886e58-86fd-4c86-9974-69d026b31f04-0
+00:08:06.520 --> 00:08:09.360
+One endpoint is to update the email
+address.
+
+fbde0bc2-05d2-4c26-9487-fdd39035cc65-0
+00:08:11.600 --> 00:08:15.213
+So, so,
+so there's also so So what what happens
+
+fbde0bc2-05d2-4c26-9487-fdd39035cc65-1
+00:08:15.213 --> 00:08:18.600
+is when the email address is verified,
+Yeah,
+
+fbde0bc2-05d2-4c26-9487-fdd39035cc65-2
+00:08:18.600 --> 00:08:22.440
+email address is used as the primary
+email, right?
+
+946f554e-95b4-434e-9b86-4eb0d743e820-0
+00:08:22.440 --> 00:08:22.560
+Yep.
+
+799c6355-adf7-4593-a92d-5b1200f45aea-0
+00:08:22.560 --> 00:08:24.920
+And then the emails are getting shifted.
+
+cc42241a-195d-41cf-a41d-75030dd45ae1-0
+00:08:25.080 --> 00:08:29.000
+So if there's already a primary email,
+then that becomes secondary.
+
+d4a436bc-396c-4e09-8475-9816f242de1e-0
+00:08:29.320 --> 00:08:32.200
+So that logic lives in the update email.
+
+7da533ef-259d-438c-8059-b261f5dd9005-0
+00:08:33.160 --> 00:08:38.284
+So if they are using a primary email ID,
+signed up with B to C and then in CRM,
+
+7da533ef-259d-438c-8059-b261f5dd9005-1
+00:08:38.284 --> 00:08:41.680
+if they are changing the email ID,
+what will happen?
+
+eb77eca8-6fa6-4036-af02-f870fe71f5df-0
+00:08:42.320 --> 00:08:43.840
+Do we have any logic?
+
+3be8cc0d-9d1f-4bb3-a48f-5d068cd10a03-0
+00:08:43.840 --> 00:08:45.280
+No, we don't have that, right.
+
+c791d3f1-98ee-4497-a1e4-0d33291d16d9-0
+00:08:45.280 --> 00:08:48.480
+So that's something maybe you guys need
+to implement in the future, right.
+
+959fb714-ec62-4cfb-b086-695510497b2d-0
+00:08:48.480 --> 00:08:51.987
+So, so yeah,
+or we are not allowing them to modify the
+
+959fb714-ec62-4cfb-b086-695510497b2d-1
+00:08:51.987 --> 00:08:52.880
+primary email.
+
+508fbb27-b25b-479a-8cb7-7392811987d4-0
+00:08:52.880 --> 00:08:53.560
+That's right.
+
+dcf370f8-5479-49b1-b8de-9fea744b3cb4-0
+00:08:53.600 --> 00:08:56.701
+Yeah, we're not doing that now,
+but we may have to do it in the future,
+
+dcf370f8-5479-49b1-b8de-9fea744b3cb4-1
+00:08:56.701 --> 00:08:56.960
+right?
+
+eb039344-a154-4f5f-87f8-e9a75d76afbf-0
+00:08:56.960 --> 00:08:58.760
+So, so currently it's only one way.
+
+660768c4-58f7-4ceb-8d62-730be0876189-0
+00:08:58.800 --> 00:08:59.280
+So yeah.
+
+bd9bea79-0d31-4d7c-9c2a-ea8371428cb8-0
+00:08:59.360 --> 00:09:01.840
+So it only get set during sign up.
+
+0e11f251-50ea-4485-9937-299b94086098-0
+00:09:03.080 --> 00:09:06.728
+So whatever the login email address gets
+set as primary and the other email
+
+0e11f251-50ea-4485-9937-299b94086098-1
+00:09:06.728 --> 00:09:08.360
+addresses get shifted down, right?
+
+a73eee96-b4da-4eb4-b26a-429a6b5b5e59-0
+00:09:08.360 --> 00:09:11.600
+Yeah, same goes for mobile app, right.
+
+a057038a-d24e-4ec3-adcf-9d4b39e6b849-0
+00:09:11.600 --> 00:09:15.280
+So once the MFA is done, yeah.
+
+87ac6c63-0f34-40d9-b1f5-06793e466f0b-0
+00:09:16.040 --> 00:09:20.221
+So we set the mobile number as a primary
+mobile number and shift all the other
+
+87ac6c63-0f34-40d9-b1f5-06793e466f0b-1
+00:09:20.221 --> 00:09:21.280
+mobile numbers down.
+
+f3f68241-985d-49d7-8c70-c3c4215276e6-0
+00:09:21.880 --> 00:09:22.600
+OK, Yeah.
+
+c4d5b2ac-c7e5-4069-9634-5c542efa7f48-0
+00:09:23.080 --> 00:09:30.409
+So those endpoints are there,
+but I'll maybe another day I'll talk
+
+c4d5b2ac-c7e5-4069-9634-5c542efa7f48-1
+00:09:30.409 --> 00:09:35.880
+through we'll need to add more endpoints
+for RMA.
+
+84b99ce1-2cf7-4908-ad7f-9b570e689cc7-0
+00:09:36.160 --> 00:09:41.480
+So, so these two thing Danica,
+it's from the B to C screen.
+
+8c171712-6beb-46cf-8d38-48ff174a7f1a-0
+00:09:41.640 --> 00:09:47.080
+You're talking about change email,
+change phone number or in CRM.
+
+ee8aff1f-0afb-43e2-8289-5fa28b2a69ee-0
+00:09:47.320 --> 00:09:49.800
+I mean my power pages you're talking
+about.
+
+4f75d75e-9c6b-4ed7-bfa2-76d328ec101b-0
+00:09:50.040 --> 00:09:54.160
+No, no, no,
+it's from it's from these screens, right?
+
+8c23a6c1-811e-4f88-8267-9905af1058fb-0
+00:09:54.160 --> 00:09:57.400
+So it's from the B to C screens, right?
+
+b06c6dba-fbc4-4961-b1e0-01d3ce47e501-0
+00:09:57.400 --> 00:10:00.520
+Yeah, that's what I want to Yeah.
+
+d545a730-d525-4743-9229-175abee93504-0
+00:10:00.680 --> 00:10:04.308
+So,
+so when they verify the email address and
+
+d545a730-d525-4743-9229-175abee93504-1
+00:10:04.308 --> 00:10:06.280
+hit sign up, Yeah, right.
+
+869faed4-92dc-4167-897a-70cc22923a93-0
+00:10:06.720 --> 00:10:15.907
+So what the B to C back end will do first
+still we'll call the verify endpoint and
+
+869faed4-92dc-4167-897a-70cc22923a93-1
+00:10:15.907 --> 00:10:19.560
+verify the date of birth and ARN.
+
+c6d646b1-dc5b-40f4-80ff-64777c8b21d0-0
+00:10:19.600 --> 00:10:20.400
+Yeah, ARN, right.
+
+45f4ecf3-a7cf-4072-ae4c-80f33ce4873c-0
+00:10:20.400 --> 00:10:23.960
+And brings back the contact ID to B to C,
+Yep.
+
+b3af9f06-680d-4938-bf83-95318e8dbdee-0
+00:10:23.960 --> 00:10:29.600
+So then what B to C does is B to C will
+create the user in the B to C, OK, right.
+
+bfe6d501-4a32-4488-9a1f-36f5772a0f83-0
+00:10:29.600 --> 00:10:34.360
+So once if,
+if the AR contact is ARN is valid, right?
+
+8970a0fc-aa57-4c0f-93ca-61d61057193b-0
+00:10:34.680 --> 00:10:34.920
+Yes.
+
+48941031-03b5-4ecc-8a1f-1cbd82773752-0
+00:10:34.920 --> 00:10:39.125
+So once the new contact the user is
+created,
+
+48941031-03b5-4ecc-8a1f-1cbd82773752-1
+00:10:39.125 --> 00:10:45.480
+the next thing for B to C to do is update
+the email address, right?
+
+9c45c24f-1abd-444d-b318-46e74a6e7f7d-0
+00:10:45.480 --> 00:10:48.520
+So it'll update the email address as the
+primary email address.
+
+278efdd6-efea-4222-a216-30ea7043bc21-0
+00:10:49.680 --> 00:10:53.640
+And then the last thing for B to C to do
+is go and create the link.
+
+d0745574-e79c-47fc-9f72-6fbf1a6a1255-0
+00:10:54.120 --> 00:10:56.720
+Yeah, between contact and B to C Yeah.
+
+dde410e4-f92b-41b3-8bfb-ae4279cb7c3f-0
+00:10:57.080 --> 00:11:03.162
+So that all happens after clicking this
+button in the code behind, right,
+
+dde410e4-f92b-41b3-8bfb-ae4279cb7c3f-1
+00:11:03.162 --> 00:11:04.560
+B to C That's it.
+
+7c41b762-14a3-4ebe-babe-eb86dc1cac53-0
+00:11:05.080 --> 00:11:06.720
+It's a custom coding link.
+
+52887e27-cfc5-4c0e-a879-d4329156346a-0
+00:11:06.720 --> 00:11:07.760
+It's a custom coding, right?
+
+f6a193c5-ee0d-461c-8eb9-e07728dc45fa-0
+00:11:07.760 --> 00:11:07.880
+Yeah.
+
+497039ea-250c-41f5-99ad-ac044a92bbfe-0
+00:11:08.520 --> 00:11:10.920
+The B to C policy will call Bang, bang,
+bang.
+
+690c6f83-7076-46ef-b2f1-01102e448234-0
+00:11:10.920 --> 00:11:14.760
+These orchestrate these events in
+sequence.
+
+2ec9e001-d95d-4114-b861-588ec3620209-0
+00:11:15.120 --> 00:11:15.360
+Yeah.
+
+33cdf6a3-c179-4368-be18-90769b5aee7a-0
+00:11:16.560 --> 00:11:19.680
+And then next screen last for MFA.
+
+b41b5bcb-b4bc-464e-87db-36d69596a25b-0
+00:11:19.680 --> 00:11:25.003
+So once the MFA is verified,
+so when you go to the next screen,
+
+b41b5bcb-b4bc-464e-87db-36d69596a25b-1
+00:11:25.003 --> 00:11:30.160
+so once it's verified,
+it'll call the update mobile endpoint.
+
+eb59c37a-1551-4a98-9b2d-4fdfefa8798e-0
+00:11:31.080 --> 00:11:31.280
+OK.
+
+ba402860-bdd0-47b0-8fe6-e20cce73a10d-0
+00:11:32.760 --> 00:11:36.640
+It, it is from these three screens,
+not from Portal.
+
+2c85859f-976d-42ad-a94d-22b804dd4e4e-0
+00:11:37.560 --> 00:11:38.480
+Yeah, got it.
+
+89e50ebf-8b18-4271-902b-6781f5c383c1-0
+00:11:38.480 --> 00:11:40.960
+Yeah, Portal side,
+we haven't done anything right.
+
+7acb86bc-7eb1-4250-87d6-0ded13d876d1-0
+00:11:40.960 --> 00:11:44.731
+So,
+so this is where the user profile change
+
+7acb86bc-7eb1-4250-87d6-0ded13d876d1-1
+00:11:44.731 --> 00:11:49.760
+email address and mobile update mobile
+will come into play.
+
+1d637776-6b59-40d7-83ac-43e9cdfb37c7-0
+00:11:49.760 --> 00:11:53.080
+So you can call the you can have a
+separate policy.
+
+1c6adc83-ecb3-4ee5-ab77-9e854d74093c-0
+00:11:53.080 --> 00:11:57.261
+And so I,
+I think the way that we sort of decide we
+
+1c6adc83-ecb3-4ee5-ab77-9e854d74093c-1
+00:11:57.261 --> 00:12:03.613
+thought that would happen is so there
+will be a link in the profile page to go
+
+1c6adc83-ecb3-4ee5-ab77-9e854d74093c-2
+00:12:03.613 --> 00:12:08.760
+and update the login email address or the
+mobile number, right?
+
+74c148af-0a55-4203-acc2-7409e1d2c1f6-0
+00:12:08.760 --> 00:12:15.140
+So that link will redirect user to B to C
+and B to C will show a change email
+
+74c148af-0a55-4203-acc2-7409e1d2c1f6-1
+00:12:15.140 --> 00:12:19.640
+address field and a change mobile number
+field, right.
+
+bacb3def-9f94-4a36-84dd-a7d9e70290e8-0
+00:12:20.400 --> 00:12:27.076
+Once they change the B to C back end,
+similar to the sign up,
+
+bacb3def-9f94-4a36-84dd-a7d9e70290e8-1
+00:12:27.076 --> 00:12:30.200
+we'll call these APIs, right?
+
+6681e58a-19b9-47ee-a6c8-429fc0460b59-0
+00:12:30.200 --> 00:12:30.960
+OK, Yep.
+
+67e8c391-83fe-4b1a-ad15-fa77ee10acb8-0
+00:12:30.960 --> 00:12:37.127
+And we'll go and change the mobile number
+and the email address after changing it
+
+67e8c391-83fe-4b1a-ad15-fa77ee10acb8-1
+00:12:37.127 --> 00:12:37.880
+in B to C.
+
+8b3a0973-7486-4498-a840-2bf2bd5ab68d-0
+00:12:38.800 --> 00:12:44.480
+So B to C is sort of considered as the
+source of truth for the primary mobile
+
+8b3a0973-7486-4498-a840-2bf2bd5ab68d-1
+00:12:44.480 --> 00:12:46.520
+number and primary email ID.
+
+664b0827-f9c7-4cb9-9232-4f373fcb0506-0
+00:12:47.400 --> 00:12:53.402
+So so I think Jamie agreed to not to
+allow changing the primary email address
+
+664b0827-f9c7-4cb9-9232-4f373fcb0506-1
+00:12:53.402 --> 00:12:55.480
+and mobile number from CRM.
+
+c438e199-74da-4cb9-9483-dd74c53819a0-0
+00:12:55.800 --> 00:12:59.360
+So it it will always be a self service
+thing.
+
+b4879424-4b95-4397-9ad1-a00c2551a930-0
+00:12:59.920 --> 00:13:06.264
+So user will need to log in and change
+the change the login email address and
+
+b4879424-4b95-4397-9ad1-a00c2551a930-1
+00:13:06.264 --> 00:13:09.680
+the mobile which is not implemented right.
+
+91c0d86f-cb38-4043-8f4f-5cfbff073049-0
+00:13:09.680 --> 00:13:15.000
+So this is something probably you guys
+need to implement later down the track.
+
+501b6c98-4373-4ab2-aaf2-1ccb9d68b12f-0
+00:13:17.840 --> 00:13:23.736
+So we're so we we're on click of this
+create button in the BDC screen how the
+
+501b6c98-4373-4ab2-aaf2-1ccb9d68b12f-1
+00:13:23.736 --> 00:13:26.760
+code is LinkedIn the Azure back end yes.
+
+cbc2808d-8f70-4cfe-8a95-2ca049e512ac-0
+00:13:28.440 --> 00:13:29.880
+So let's get to that then.
+
+cd7fcdac-261f-4d3b-84ef-022476a4a8f1-0
+00:13:30.720 --> 00:13:36.397
+So, so you can see so,
+so as I mentioned in the other
+
+cd7fcdac-261f-4d3b-84ef-022476a4a8f1-1
+00:13:36.397 --> 00:13:42.600
+yesterday's session,
+so this is the starting point, right?
+
+9afed88a-ce24-486e-bb1a-6bf8bd22de92-0
+00:13:43.080 --> 00:13:45.120
+Yep, sign in sign up policy.
+
+a4e0e06b-ef26-47ac-aefd-b675cd55fd66-0
+00:13:45.440 --> 00:13:50.840
+So this is what renders the those screens
+I shared before, right?
+
+0e985582-6a01-4c24-8425-aaa134e1ebe8-0
+00:13:51.680 --> 00:13:53.680
+So this sort of the starting point.
+
+adae7125-b5ff-4350-b899-283ff31c6cb7-0
+00:13:53.680 --> 00:14:00.920
+And you can see, as I explained before,
+policies sort of have a hierarchy, right?
+
+4eb371b8-5897-48fe-973f-0bdcc075ae03-0
+00:14:01.440 --> 00:14:07.680
+So this is the, the sort of like the,
+the top level, the derived class.
+
+e276020f-0c6c-4e08-b813-1291177c4e5e-0
+00:14:07.680 --> 00:14:10.960
+If you, if you, if you think about it,
+right?
+
+e2d6ead4-81ce-449f-a24b-391f04287ce2-0
+00:14:10.960 --> 00:14:13.440
+So you can see there's a base policy.
+
+66292e59-8553-4d7a-98de-575c6b016b6c-0
+00:14:14.480 --> 00:14:14.760
+Yeah.
+
+6e0d806d-706f-4c06-8a04-75073dd87dbd-0
+00:14:14.760 --> 00:14:19.520
+And you,
+you can see a default journey here, right?
+
+a403b243-eb2a-4f37-b1a4-14fe70c32ae2-0
+00:14:19.600 --> 00:14:22.680
+So the BDC has this journey concept.
+
+1d7bfd36-1c40-4d9d-98cb-07072789e67a-0
+00:14:22.800 --> 00:14:29.840
+So all that is a sign up journey,
+sign in journey and passive reset journey.
+
+bbdc09ed-9171-4119-8483-dcf4e7261d50-0
+00:14:29.840 --> 00:14:31.640
+There are journeys, right?
+
+5e9c4a11-2582-4598-815a-b26474249f8b-0
+00:14:31.640 --> 00:14:34.320
+So journey consists of different steps.
+
+37831148-1335-439f-872d-e637f0e308e2-0
+00:14:34.960 --> 00:14:37.840
+So let's go to, let's go and find this.
+
+9f42058c-0bb4-4a64-9d6d-2336263e18f5-0
+00:14:38.920 --> 00:14:42.232
+So, so,
+so if you find the policy that you start
+
+9f42058c-0bb4-4a64-9d6d-2336263e18f5-1
+00:14:42.232 --> 00:14:45.274
+with,
+and then the next thing to look at is,
+
+9f42058c-0bb4-4a64-9d6d-2336263e18f5-2
+00:14:45.274 --> 00:14:47.640
+yeah, this is the extension policy.
+
+bc44f259-96b7-4310-9aac-076702e94819-0
+00:14:48.360 --> 00:14:52.360
+And extension policy you need to look for
+the journey.
+
+8a22a6e5-538f-41bd-ae40-68bef7c23715-0
+00:14:55.720 --> 00:14:56.400
+So here.
+
+fae30294-1852-42d7-98f8-64b91874de51-0
+00:14:56.400 --> 00:15:03.280
+So if I go to so you can see a user
+journey, right?
+
+0a8f6c72-4fcd-4d9e-a81e-d5e3fedbc11f-0
+00:15:03.600 --> 00:15:07.800
+Yeah, user journey is a bunch of steps,
+right?
+
+5966dee6-e59a-4ae9-a76e-795c8cb8abb8-0
+00:15:08.680 --> 00:15:10.680
+So you can see they're ordered.
+
+35eee44a-5477-430a-93fe-b782b19dfb27-0
+00:15:12.400 --> 00:15:20.853
+So first step in here is so you remember
+that when we actually browsed the default
+
+35eee44a-5477-430a-93fe-b782b19dfb27-1
+00:15:20.853 --> 00:15:23.400
+DNS, it was blocked, yes.
+
+2643d1d3-f32c-477d-a0d6-f20f56df1791-0
+00:15:23.400 --> 00:15:27.880
+And then we had to use the custom DNS to
+access it, right?
+
+4c88b8b1-7e76-4ec6-bf65-f29c268faa4e-0
+00:15:27.880 --> 00:15:33.640
+So these first three steps are there to
+handle that.
+
+b3aad6d9-1ae0-43f8-af32-648ec7c5dad7-0
+00:15:33.640 --> 00:15:41.333
+So just blocking the default DNS and only
+allowing the custom DNS to access the
+
+b3aad6d9-1ae0-43f8-af32-648ec7c5dad7-1
+00:15:41.333 --> 00:15:42.680
+policy, right.
+
+f31b9d9b-605e-4266-936d-3cd3131ec1ce-0
+00:15:45.480 --> 00:15:53.684
+And this Step 4 is you remember that we
+had a requirement so so in in in the
+
+f31b9d9b-605e-4266-936d-3cd3131ec1ce-1
+00:15:53.684 --> 00:15:58.160
+portal home page, we added sign up button.
+
+49480cbb-16b0-4f4a-965c-73ecb4d91ff3-0
+00:15:58.960 --> 00:15:59.240
+Yeah.
+
+46b6da3b-7d9d-47ad-96aa-74c359020a6a-0
+00:16:00.120 --> 00:16:02.976
+So,
+so that was done through a query string
+
+46b6da3b-7d9d-47ad-96aa-74c359020a6a-1
+00:16:02.976 --> 00:16:04.080
+parameter, right?
+
+6a188b12-9ee8-4977-9c99-2877dc7432ee-0
+00:16:04.080 --> 00:16:05.000
+So yes, correct.
+
+353f5b92-5dea-4004-8fe2-3b1a5948ae76-0
+00:16:05.520 --> 00:16:05.840
+Yeah.
+
+d06273e2-8378-4242-a933-85b04131719b-0
+00:16:06.040 --> 00:16:09.680
+So what portal did was it added the
+additional query string parameter.
+
+aac79cd2-d308-4c42-8513-b83026e73c14-0
+00:16:10.080 --> 00:16:13.440
+So this is actually this first step.
+
+b97aa0a8-d3e4-4228-873d-c0231bd3e938-0
+00:16:13.640 --> 00:16:16.480
+The Step 4 is reading that query string
+parameter.
+
+e73d6a13-cc84-4b15-98d2-a0dc8cbca84c-0
+00:16:17.520 --> 00:16:19.751
+OK,
+so we are passing some written URL or
+
+e73d6a13-cc84-4b15-98d2-a0dc8cbca84c-1
+00:16:19.751 --> 00:16:21.080
+something as well, right?
+
+ff1f39d8-9c7a-4e51-ac69-e9299d7c3f4e-0
+00:16:21.120 --> 00:16:21.440
+Yeah.
+
+9a29e3a0-de52-4933-ba36-f32d94608fd2-0
+00:16:21.440 --> 00:16:25.040
+So that that's it's default B to C
+behaviour, right.
+
+0553ddb6-638a-4056-a26c-dcce5c06fcdb-0
+00:16:25.040 --> 00:16:28.520
+So B to C behaviour from B from there,
+see.
+
+61ec2553-e26a-4f6b-aa55-219153f80e3c-0
+00:16:28.520 --> 00:16:35.920
+So you can actually see what actually
+happens here, like if you go to this here.
+
+f8baa356-2283-401c-8598-23dbb40d74ef-0
+00:16:46.440 --> 00:16:53.773
+Yeah,
+so it's pretty much reading options
+
+f8baa356-2283-401c-8598-23dbb40d74ef-1
+00:16:53.773 --> 00:16:55.520
+parameter.
+
+40bdf4a3-1ed1-4b46-b748-388186c01c27-0
+00:16:56.880 --> 00:17:00.680
+So I think we named it as option option.
+
+0f3a3878-38da-43b7-b9df-6b7bb314bce2-0
+00:17:00.680 --> 00:17:04.640
+And so,
+so there's a claims transformation.
+
+c706c7a9-66c9-41d3-b73c-dbc5aa9199d4-0
+00:17:04.880 --> 00:17:07.832
+I, I,
+I think I probably won't dig deep into
+
+c706c7a9-66c9-41d3-b73c-dbc5aa9199d4-1
+00:17:07.832 --> 00:17:08.160
+this.
+
+f638a173-8671-4ab7-84b1-d12cecdd7934-0
+00:17:08.160 --> 00:17:14.946
+This is more if I dig deep into it,
+we're going down the B to C sort of nitty
+
+f638a173-8671-4ab7-84b1-d12cecdd7934-1
+00:17:14.946 --> 00:17:16.600
+gritty path, right?
+
+8530678d-ba6b-41ef-9071-96d4e1669f06-0
+00:17:16.600 --> 00:17:19.498
+OK, yeah,
+it'll be too much information for you
+
+8530678d-ba6b-41ef-9071-96d4e1669f06-1
+00:17:19.498 --> 00:17:19.800
+guys.
+
+ab99bdb4-7f60-4b9e-b3e6-161820dac285-0
+00:17:20.120 --> 00:17:21.440
+I'll, I'll keep it high level.
+
+5e05cf95-e69b-4b7b-8eda-3317c7cd738f-0
+00:17:21.920 --> 00:17:30.246
+So this is pretty much checking whether
+the option is there and then if the
+
+5e05cf95-e69b-4b7b-8eda-3317c7cd738f-1
+00:17:30.246 --> 00:17:32.000
+option is there.
+
+df56e1c5-53d9-40ef-a10a-454919134a4a-0
+00:17:32.920 --> 00:17:35.922
+So,
+so these are sort of like for each step
+
+df56e1c5-53d9-40ef-a10a-454919134a4a-1
+00:17:35.922 --> 00:17:37.560
+there are preconditions.
+
+2aa45d7e-0a0e-467e-9b4a-6d6a0643bd18-0
+00:17:37.680 --> 00:17:45.840
+So you can say if this precondition is
+false, then skip this step, right?
+
+a6b79525-e07b-4600-93f3-a8b53f260560-0
+00:17:46.400 --> 00:17:53.149
+So this this pretty much says if the URL
+has the sign up flow,
+
+a6b79525-e07b-4600-93f3-a8b53f260560-1
+00:17:53.149 --> 00:17:58.720
+just go directly to the the sign up
+journey, right?
+
+2824ad17-1a9e-442b-991d-9701fc5d91bb-0
+00:18:00.880 --> 00:18:05.120
+And yeah.
+
+c807dca8-66b3-4966-af56-a3aa313f96a1-0
+00:18:05.120 --> 00:18:10.788
+So if it is not there,
+then go to we'll start from the sign in,
+
+c807dca8-66b3-4966-af56-a3aa313f96a1-1
+00:18:10.788 --> 00:18:11.320
+right?
+
+e399e37b-ab40-4ed9-9946-1797fbc208ae-0
+00:18:11.320 --> 00:18:16.353
+So that means that you get you'll have
+the sign in screen displayed and you have
+
+e399e37b-ab40-4ed9-9946-1797fbc208ae-1
+00:18:16.353 --> 00:18:18.280
+the sign up link at the bottom.
+
+327cd4e9-7348-4e58-bcf6-0868d69532ff-0
+00:18:20.320 --> 00:18:25.466
+But you can direct directly get
+redirected to the sign up page if that
+
+327cd4e9-7348-4e58-bcf6-0868d69532ff-1
+00:18:25.466 --> 00:18:29.960
+option URL present query string parameter
+presenting the URL.
+
+da859fa8-0307-481d-af8c-0935bf005922-0
+00:18:29.960 --> 00:18:37.320
+OK, and then so OK, so now let's go to.
+
+3ce381fb-d43c-4c9a-8dda-71ebf5e635b7-0
+00:18:37.760 --> 00:18:43.080
+So let's say that we've landed in the
+sign up, right?
+
+8a7c290d-950f-444c-baad-944d06fcca88-0
+00:18:43.080 --> 00:18:45.440
+So let's see what's the sign up does
+right?
+
+2f5af674-a470-46a0-9d3f-15debc828102-0
+00:18:46.560 --> 00:18:51.569
+So,
+so this is this this screen pretty much
+
+2f5af674-a470-46a0-9d3f-15debc828102-1
+00:18:51.569 --> 00:18:58.400
+so that that that output claims renders
+this screen, right?
+
+9f820962-b5f7-4d0d-9004-d93036c1adaa-0
+00:18:58.680 --> 00:19:04.791
+So if you go back to it,
+so you can see output claims,
+
+9f820962-b5f7-4d0d-9004-d93036c1adaa-1
+00:19:04.791 --> 00:19:12.346
+you can see email address,
+email address need to be verified and it
+
+9f820962-b5f7-4d0d-9004-d93036c1adaa-2
+00:19:12.346 --> 00:19:13.680
+is required.
+
+52d70054-8c50-4a15-9fa7-fddd46415543-0
+00:19:13.800 --> 00:19:19.303
+And there's the password message and then
+the new password need to be entered,
+
+52d70054-8c50-4a15-9fa7-fddd46415543-1
+00:19:19.303 --> 00:19:22.160
+password need to be reentered to confirm.
+
+ccecd08a-217e-4637-ae74-04b757d6fc20-0
+00:19:23.040 --> 00:19:25.840
+So that's, that's all that sign up page,
+right?
+
+2e2614b4-d7bf-4af4-9f3c-68ac3f02de07-0
+00:19:27.080 --> 00:19:36.425
+And then the ARN message,
+ARN field and date of birth field,
+
+2e2614b4-d7bf-4af4-9f3c-68ac3f02de07-1
+00:19:36.425 --> 00:19:42.400
+that's all the sign up controls, right?
+
+09bb473a-e81f-4119-8710-bcc151a5d0b6-0
+00:19:43.600 --> 00:19:55.256
+And so so this is that bit that I was
+talking about where B to C calls the Web
+
+09bb473a-e81f-4119-8710-bcc151a5d0b6-1
+00:19:55.256 --> 00:19:56.880
+API, right?
+
+45713b6a-ff4e-4c21-9815-c7ba61991165-0
+00:19:57.520 --> 00:19:57.920
+The press.
+
+d745bc4a-40c1-48d0-af75-d4f8b382637f-0
+00:19:57.960 --> 00:20:04.721
+So so we say so after so so this is the
+this is the bit that get run after
+
+d745bc4a-40c1-48d0-af75-d4f8b382637f-1
+00:20:04.721 --> 00:20:09.320
+hitting that create button,
+sign up button, right?
+
+9e7e52dc-191d-48a9-b977-56cec3ed933d-0
+00:20:09.920 --> 00:20:12.960
+So it says go and get the access token
+first.
+
+f5bfa0a6-a91a-4a83-b8df-d0d460b74a1d-0
+00:20:14.120 --> 00:20:23.707
+And then call verify endpoint and create
+write the B to C user into the B to C and
+
+f5bfa0a6-a91a-4a83-b8df-d0d460b74a1d-1
+00:20:23.707 --> 00:20:26.480
+then then create a link.
+
+68a2bf51-0126-43c7-88ce-665cc0a82f2c-0
+00:20:27.480 --> 00:20:32.146
+OK,
+this this this is this is that
+
+68a2bf51-0126-43c7-88ce-665cc0a82f2c-1
+00:20:32.146 --> 00:20:35.880
+orchestration piece of code.
+
+c23fd26d-1142-4dc9-b779-219b806f95af-0
+00:20:35.880 --> 00:20:41.120
+OK, so this reference ID,
+you put it here where we are getting it.
+
+ebfe8fc6-3036-4b08-a5a0-47615f529576-0
+00:20:41.720 --> 00:20:48.163
+Call API to verify you have some mapping
+or is this the name of the code like the
+
+ebfe8fc6-3036-4b08-a5a0-47615f529576-1
+00:20:48.163 --> 00:20:52.800
+rest get the reference IDs,
+the highlighter reference IDs.
+
+d31152a9-4bfc-48eb-9733-92831f2df644-0
+00:20:53.160 --> 00:20:56.440
+How we are getting this reference ID
+where we are mapping this?
+
+74d69a73-8c9d-43c6-ad1d-6e658ac91b56-0
+00:20:56.440 --> 00:20:59.800
+This is the mapping reference ID.
+
+3d0eb405-d0a9-4216-861f-db2f7addf380-0
+00:20:59.800 --> 00:21:00.880
+You mean this one here?
+
+12463148-47ac-4fcf-91ad-d4a21437435c-0
+00:21:01.160 --> 00:21:01.600
+Yeah.
+
+662614bc-9d41-4676-a31c-a334843a5873-0
+00:21:02.600 --> 00:21:04.080
+So getting the access token.
+
+9cd824c8-f78b-4334-b8d4-c994545b32da-0
+00:21:05.160 --> 00:21:09.000
+So if you deep dive into the access token
+so you can see it's.
+
+9a7fcfd7-0e2d-4901-933a-4c0a8e786b24-0
+00:21:10.080 --> 00:21:20.840
+So what it does is it calls the Azure ID
+or two endpoint to get the token.
+
+4d7f146a-52bc-4317-b9cc-a37552bc10eb-0
+00:21:21.600 --> 00:21:27.160
+So this is getting replaced right from
+the SMSI mentioned before.
+
+ff4fee95-ff95-4ec7-99e9-647d64414132-0
+00:21:27.160 --> 00:21:32.240
+So this is coming from the config right?
+
+84860e04-6881-47ad-a490-43be65a403a7-0
+00:21:32.240 --> 00:21:37.560
+So tenant ID is coming from tenant ID.
+
+b40ac577-103d-47cb-9624-dade157d2d69-0
+00:21:37.560 --> 00:21:38.400
+Is this right?
+
+7cf19179-73d8-4db0-8973-762bb08f329e-0
+00:21:38.960 --> 00:21:52.568
+So so that GUID get replaced here and you
+can see it reads the username which is
+
+7cf19179-73d8-4db0-8973-762bb08f329e-1
+00:21:52.568 --> 00:21:57.440
+the client ID and the secret.
+
+9715e77c-178b-432f-942d-b4dbc30fc945-0
+00:21:58.040 --> 00:22:00.160
+This is what I showed yesterday, right?
+
+58b1dce0-3209-43f2-87db-662380b1cf4c-0
+00:22:00.160 --> 00:22:08.080
+So if you go back to the,
+you go back to B to C.
+
+4fdbfd28-7f90-45f7-b7b6-02beb140ed0f-0
+00:22:20.510 --> 00:22:22.790
+Go back to.
+
+ee47ce98-859b-407c-b7a6-5bfabed42e69-0
+00:22:22.790 --> 00:22:24.950
+Maybe I'll go to test.
+
+0e500d86-2c84-4b8c-b845-a82fe52a212c-0
+00:22:25.190 --> 00:22:26.510
+Test is clear.
+
+c6adcc68-e99d-4374-89a7-faeba0576ccb-0
+00:23:00.720 --> 00:23:08.760
+You're going to the B to C so you can see.
+
+beb9fe71-16f9-414d-ac3e-b54f1237fb25-0
+00:23:08.840 --> 00:23:12.000
+So you need to get the client ID and the
+secret right?
+
+2cf91b37-fd00-4fa4-8e2a-080a3feebfb0-0
+00:23:12.000 --> 00:23:17.080
+So client ID and the secret is read from.
+
+1c851124-9e03-4c62-8fcc-3c91dee06d37-0
+00:23:17.720 --> 00:23:21.440
+Remember the policy keys.
+
+5a8c30b1-0afe-4cb9-8123-8b25a83308c8-0
+00:23:22.560 --> 00:23:25.360
+So policy keys hold the client ID and the
+secret.
+
+98851a4e-5328-4963-8cf4-692c8ca2209d-0
+00:23:26.840 --> 00:23:33.690
+So what it does it is it gets the client
+ID and the secret and call this token
+
+98851a4e-5328-4963-8cf4-692c8ca2209d-1
+00:23:33.690 --> 00:23:38.720
+endpoint and that token endpoint returns
+access token to.
+
+6621f93b-97a7-460f-845f-02a3bf4672e6-0
+00:23:38.720 --> 00:23:52.480
+Access token is saved to as a claim and
+you can see if I go to all API to verify.
+
+4d1dafa0-f798-4d2b-ad36-831d35f4a31d-0
+00:23:55.400 --> 00:23:57.840
+So this this is this is our endpoint,
+right.
+
+e3a581cc-f768-4409-b981-bc4c952ba72c-0
+00:23:57.840 --> 00:24:04.686
+So the second thing to do is call the
+verify endpoint and use the token as the
+
+e3a581cc-f768-4409-b981-bc4c952ba72c-1
+00:24:04.686 --> 00:24:08.760
+authentication header so BTC can
+authenticate.
+
+3100fd7e-e453-4d71-b08a-43433dbe66d9-0
+00:24:08.760 --> 00:24:12.480
+It's basically a mapping the XML where
+and what to get it.
+
+7a07a49d-9378-42d0-8cf3-b7153b791af5-0
+00:24:12.920 --> 00:24:13.320
+Yeah, right.
+
+f2dc1965-e89b-4b06-968a-7ff390d69eee-0
+00:24:13.560 --> 00:24:17.606
+Yeah, yeah, yeah,
+it's it's its own programming crappy
+
+f2dc1965-e89b-4b06-968a-7ff390d69eee-1
+00:24:17.606 --> 00:24:19.520
+programming language yeah.
+
+e9ecbee9-c2a1-40fc-916d-01ea387c9fa8-0
+00:24:19.640 --> 00:24:22.720
+And which is XML based.
+
+488e7877-5ecc-4003-bdcb-f88f1a1a3ebf-0
+00:24:23.280 --> 00:24:32.238
+This is all going to change in so B2 CS
+already deprecated so you can't create
+
+488e7877-5ecc-4003-bdcb-f88f1a1a3ebf-1
+00:24:32.238 --> 00:24:34.960
+new BTC tenants anymore.
+
+65f71de0-4c64-44dd-9522-d9f737d25c60-0
+00:24:35.000 --> 00:24:44.800
+So it's been sort sort of what do you
+call lifetime has been ended.
+
+75e63447-9502-498c-8d84-427863623a9a-0
+00:24:44.800 --> 00:24:50.377
+So there's,
+there's a new thing called new technology
+
+75e63447-9502-498c-8d84-427863623a9a-1
+00:24:50.377 --> 00:24:52.960
+called external inter ID.
+
+cf942926-c408-46d7-adcb-3867d0a8d0b2-0
+00:24:53.720 --> 00:24:56.280
+The B to C is replaced with external
+inter ID.
+
+225ab96b-c683-4680-b3d2-ac659ff2f4a8-0
+00:24:56.280 --> 00:24:58.840
+So are we going this B to C to prod or
+not?
+
+1fd94d44-a528-465e-9104-9d139d674897-0
+00:24:59.600 --> 00:25:07.520
+Do we we going because Pradeep needs to
+get the because external inter ID is new.
+
+5f5bb064-3bc7-44b9-b9c5-2089d135143a-0
+00:25:07.560 --> 00:25:12.280
+So it's needs approval from DUA to for us
+to use it.
+
+534b702e-f232-4af6-842c-b8c1c7ec5366-0
+00:25:13.240 --> 00:25:14.360
+So that takes time.
+
+fecfa158-17c1-4649-a7b5-ebe58be19d1a-0
+00:25:15.360 --> 00:25:18.797
+So,
+so we got three years to use B to C but
+
+fecfa158-17c1-4649-a7b5-ebe58be19d1a-1
+00:25:18.797 --> 00:25:23.720
+after three years we have to push the
+mark the new one, right?
+
+e43783e5-65de-41c0-8ad1-53bc1c82c949-0
+00:25:24.040 --> 00:25:24.160
+Yeah.
+
+e2d85444-2306-4bfb-a98b-a962da4157e3-0
+00:25:24.160 --> 00:25:24.840
+And then live.
+
+a5b445b5-e410-4dfa-bdb2-a0485e9bfe7c-0
+00:25:26.760 --> 00:25:26.880
+Yeah.
+
+ccb9ffca-5630-47b7-9be6-87b8b6c7b627-0
+00:25:26.880 --> 00:25:29.280
+This need to be converted into intro ID.
+
+34e77e31-5acc-4b12-b454-84f8163c0e88-0
+00:25:29.280 --> 00:25:33.400
+So that doesn't have this crappy XML
+language.
+
+0e091061-1eca-4f55-b94d-519ce2e764eb-0
+00:25:34.840 --> 00:25:37.080
+It's it's more API driven.
+
+6efbb3f5-a2ca-4956-945b-f6df5b58b99c-0
+00:25:37.840 --> 00:25:41.080
+OK, yeah.
+
+0e6c169e-1b89-4f86-86cf-d86313394eb4-0
+00:25:41.280 --> 00:25:45.783
+So anyway,
+so that's how you sort of navigate
+
+0e6c169e-1b89-4f86-86cf-d86313394eb4-1
+00:25:45.783 --> 00:25:47.840
+through the policies.
+
+3e9517c7-542d-459e-afdb-93ca95498b40-0
+00:25:49.360 --> 00:25:54.570
+So,
+so the place to start is the user journey
+
+3e9517c7-542d-459e-afdb-93ca95498b40-1
+00:25:54.570 --> 00:26:03.404
+and then so depending on the claims,
+some steps get skipped like for example,
+
+3e9517c7-542d-459e-afdb-93ca95498b40-2
+00:26:03.404 --> 00:26:10.880
+if you're doing a signing in,
+then sign up step will get skipped.
+
+51ce91cc-808e-4004-9f84-a7e48eff3fe1-0
+00:26:11.720 --> 00:26:20.680
+Or if you're directly browsing from the
+using a URL with a query string parameter,
+
+51ce91cc-808e-4004-9f84-a7e48eff3fe1-1
+00:26:20.680 --> 00:26:28.344
+then also the some of the steps are
+skipped, so this is this is again,
+
+51ce91cc-808e-4004-9f84-a7e48eff3fe1-2
+00:26:28.344 --> 00:26:37.412
+this is if you're coming from the sign in
+screen and hit the sign up link so you'll
+
+51ce91cc-808e-4004-9f84-a7e48eff3fe1-3
+00:26:37.412 --> 00:26:38.600
+get landed.
+
+ed0722da-e603-4f06-9a11-d3e0b5965bd1-0
+00:26:39.360 --> 00:26:45.040
+It uses the same function you can think
+of as a technical profile.
+
+9534c1af-5cd3-4bb4-ae99-d20cdf9fc637-0
+00:26:45.040 --> 00:26:55.000
+As a function it uses the same technical
+profile as what I showed before and after
+
+9534c1af-5cd3-4bb4-ae99-d20cdf9fc637-1
+00:26:55.000 --> 00:27:00.760
+sign in or sign up,
+it reads the complete user.
+
+ffd154c3-fd58-4492-befa-157ebd7db417-0
+00:27:01.920 --> 00:27:03.840
+So so object ID.
+
+c7c25c66-8ddb-486c-beb3-462b98f22b9e-0
+00:27:03.840 --> 00:27:06.520
+So you can see object ID in many places
+right?
+
+8c319624-81ef-4fe3-b41f-e38a6cdf8781-0
+00:27:06.880 --> 00:27:13.880
+So object ID is the ID of the user,
+that GUI that we linked to the contact ID.
+
+d8f7a0af-5f5b-4e58-9c64-c81e49dff1b1-0
+00:27:16.080 --> 00:27:20.680
+So we didn't have B to C in the B to C,
+Yes, OK, yeah, yeah.
+
+d1f03a2b-bbab-4568-a50f-3c59dc61a534-0
+00:27:21.440 --> 00:27:25.680
+So it uses the object ID to read the
+complete user again.
+
+a741bf39-be39-4b87-a201-1cc0c24a8e3a-0
+00:27:26.920 --> 00:27:33.982
+And so this user verification step is I
+think we're going to get rid of it in,
+
+a741bf39-be39-4b87-a201-1cc0c24a8e3a-1
+00:27:33.982 --> 00:27:38.720
+in RMS so that this user verification
+step is there.
+
+01862ead-dcb5-4bbd-a331-a62bab11d2e4-0
+00:27:40.040 --> 00:27:44.045
+For example,
+if the user goes through sign up and when
+
+01862ead-dcb5-4bbd-a331-a62bab11d2e4-1
+00:27:44.045 --> 00:27:48.560
+they presented with MFA,
+they leave without doing MFA, right?
+
+e42920cd-9eff-44c5-8f3b-e45e481b8a87-0
+00:27:49.280 --> 00:27:52.958
+And because by the time you get to the
+MFA screen,
+
+e42920cd-9eff-44c5-8f3b-e45e481b8a87-1
+00:27:52.958 --> 00:27:58.800
+your user account is already created,
+you you'll have a username and a password.
+
+b439843e-74bb-43a5-ad8c-0e6df32268a6-0
+00:27:58.800 --> 00:28:00.840
+So you can log in, right?
+
+c09c0908-9b28-4654-a865-b98602b65c22-0
+00:28:01.480 --> 00:28:06.120
+So because they haven't created the MFA,
+so we added the additional security step.
+
+8c011c96-4ac5-4e03-b784-65cc57fedc0f-0
+00:28:07.040 --> 00:28:11.405
+If they log it,
+try to log in without doing completing
+
+8c011c96-4ac5-4e03-b784-65cc57fedc0f-1
+00:28:11.405 --> 00:28:15.452
+the MFA,
+we'll ask the ARN and date of birth again
+
+8c011c96-4ac5-4e03-b784-65cc57fedc0f-2
+00:28:15.452 --> 00:28:22.040
+and then get them to do the force them to
+do MF MFA set up if they try to sign in.
+
+5a772f84-d9c2-4295-9e3e-2db90bfa68b7-0
+00:28:22.040 --> 00:28:24.720
+OK, Yeah.
+
+5348000c-9c60-43d9-8956-bd9064cbd01f-0
+00:28:24.720 --> 00:28:29.717
+But I don't know,
+you might not continue with that because
+
+5348000c-9c60-43d9-8956-bd9064cbd01f-1
+00:28:29.717 --> 00:28:34.037
+like for example,
+RMA RTO sign up doesn't have any
+
+5348000c-9c60-43d9-8956-bd9064cbd01f-2
+00:28:34.037 --> 00:28:36.240
+additional cheques, right?
+
+1668d974-1166-4a6c-b314-a1f1c23aa696-0
+00:28:36.240 --> 00:28:37.120
+Just the RN?
+
+be9a930d-84ef-4770-afbd-50c8ad3f2a24-0
+00:28:37.200 --> 00:28:42.280
+Yeah, you might not do that, Yeah.
+
+fc811eb8-6e93-4e62-a8fc-c263f632857d-0
+00:28:42.360 --> 00:28:46.480
+So the next step is, hey,
+before you move on to the next step.
+
+028a4fe5-5605-437b-8e3f-b851b5634a54-0
+00:28:46.480 --> 00:28:47.280
+Sorry, Tinuka.
+
+d0e2d443-c5cc-414b-aa17-26aaf52c6c43-0
+00:28:47.400 --> 00:28:47.600
+Yeah.
+
+482d200b-92f8-4b67-94fc-01245aa98d58-0
+00:28:47.600 --> 00:28:51.760
+So these XMLS, right,
+do they get generated when you create the
+
+482d200b-92f8-4b67-94fc-01245aa98d58-1
+00:28:51.760 --> 00:28:56.375
+policy like default and then you
+customise on top of those ones or you
+
+482d200b-92f8-4b67-94fc-01245aa98d58-2
+00:28:56.375 --> 00:28:58.000
+just create from scratch?
+
+6f999e67-c808-4834-ad31-935ad655c214-0
+00:28:58.080 --> 00:29:12.898
+These XML files create from scratch,
+but there there is a good repo B to C
+
+6f999e67-c808-4834-ad31-935ad655c214-1
+00:29:12.898 --> 00:29:21.000
+samples GitHub yeah, this this repo here.
+
+7b7e9005-958d-4a1b-8aad-1e359f3cbbe5-0
+00:29:21.160 --> 00:29:23.320
+So I'll put a link into this chat.
+
+1a5078e0-12f5-4021-a6a6-58a54e05b2e0-0
+00:29:24.400 --> 00:29:32.140
+So this has like so many policy examples
+for many different scenarios,
+
+1a5078e0-12f5-4021-a6a6-58a54e05b2e0-1
+00:29:32.140 --> 00:29:36.720
+right There is this this sort of examples?
+
+41694684-eabf-448e-b885-347e60f45e53-0
+00:29:40.160 --> 00:29:44.220
+Yeah,
+this least like the your go to place the
+
+41694684-eabf-448e-b885-347e60f45e53-1
+00:29:44.220 --> 00:29:46.640
+the documentation is crappy.
+
+efbe133e-722f-4304-bcb9-133f90800449-0
+00:29:49.560 --> 00:29:53.160
+So if you wanna do something,
+you start from here.
+
+9dfe2d25-8809-49db-8aaa-fd9e08844bf2-0
+00:29:55.360 --> 00:29:57.720
+OK, So once you create these XMLS, right?
+
+43d81785-2bcd-4c5e-8041-f773b3d33fef-0
+00:29:58.040 --> 00:29:58.360
+Yeah.
+
+ac36eb70-21af-4e82-b0fa-5b3f47945d3b-0
+00:29:58.360 --> 00:30:02.960
+How do you link with the policy in Azure
+portal?
+
+26a44faf-705c-436b-b3ca-6045c860051e-0
+00:30:04.440 --> 00:30:07.053
+So these are like you,
+you work on your local,
+
+26a44faf-705c-436b-b3ca-6045c860051e-1
+00:30:07.053 --> 00:30:10.000
+you have it on your Visual Studio yeah,
+repo, right.
+
+dfb6447d-9264-4d3b-a835-29675afe8a03-0
+00:30:10.280 --> 00:30:10.480
+So yeah.
+
+43e5c90f-4ecb-465b-b2b2-e5dbbe0a0cb1-0
+00:30:10.480 --> 00:30:14.804
+How do you link these ones with the
+policy that you create like or how do you
+
+43e5c90f-4ecb-465b-b2b2-e5dbbe0a0cb1-1
+00:30:14.804 --> 00:30:16.800
+link the policies into Azure portal?
+
+f0488f42-8d18-4a9d-b54a-f24122910fd2-0
+00:30:17.680 --> 00:30:17.880
+Yeah.
+
+e6ff2c4c-1d70-4ab7-82b1-4c14dd5e7a2b-0
+00:30:17.880 --> 00:30:27.263
+So you upload the policy like for example,
+say if you go to custom policies,
+
+e6ff2c4c-1d70-4ab7-82b1-4c14dd5e7a2b-1
+00:30:27.263 --> 00:30:30.920
+so and then you can upload it.
+
+f63258b2-aeda-4673-8bff-5af728f3c4a6-0
+00:30:31.600 --> 00:30:38.960
+OK, so you to XML, OK,
+but make sure that you don't.
+
+d1ec0714-7d2b-40bb-ae50-e122908ffb85-0
+00:30:41.040 --> 00:30:42.480
+So there's two folders, right.
+
+e6cc0ba1-b06d-4687-92cc-3a169efce3a1-0
+00:30:42.480 --> 00:30:48.480
+So as I said, so they are policies with.
+
+96a04462-ef5c-4755-bde2-1f9b1692ded5-0
+00:30:48.520 --> 00:30:53.560
+So at the road level,
+the policies are with placeholders, right.
+
+2b2a7173-44c5-469b-babe-06382fbe3f72-0
+00:30:53.560 --> 00:30:58.296
+So it won't accept those policies like
+for example,
+
+2b2a7173-44c5-469b-babe-06382fbe3f72-1
+00:30:58.296 --> 00:31:01.120
+if I try to upload this policy.
+
+75a118ef-d32b-4d64-b1c1-f384ecdd5fdf-0
+00:31:01.440 --> 00:31:02.000
+Yeah, right.
+
+26ab8a5b-16fb-4638-8e5a-079a2daec3e6-0
+00:31:02.240 --> 00:31:05.880
+So you can because it's only they existed.
+
+44fba293-d52f-483b-b97d-115577357d33-0
+00:31:06.280 --> 00:31:12.051
+And then there are it says like there's
+something called config tenant name,
+
+44fba293-d52f-483b-b97d-115577357d33-1
+00:31:12.051 --> 00:31:14.000
+which I don't know, right?
+
+a15c0230-b391-4528-a575-991437d3e10e-0
+00:31:14.560 --> 00:31:17.320
+You need to always up compile it first.
+
+ab9371e2-7b6f-4ca4-9e53-5f929fe2336f-0
+00:31:17.760 --> 00:31:22.880
+Yeah, OK,
+The compiled version is always in in the
+
+ab9371e2-7b6f-4ca4-9e53-5f929fe2336f-1
+00:31:22.880 --> 00:31:28.000
+environments folder and then upload it
+from there.
+
+5721322d-6b36-4133-a9e9-3f2f18ab5c4f-0
+00:31:28.520 --> 00:31:28.840
+OK.
+
+4d744c2a-f9b3-4d97-93e2-90813e9e9444-0
+00:31:30.640 --> 00:31:35.120
+It is used like this upload.
+
+18deeae5-7705-4211-9c34-732382770537-0
+00:31:35.760 --> 00:31:37.840
+That's a good validation, right?
+
+e5f38537-611d-4519-a702-80c196550a1a-0
+00:31:38.000 --> 00:31:41.080
+So, so you can see that there was error,
+right?
+
+6f014448-7206-4dd4-9320-842351361e3c-0
+00:31:41.320 --> 00:31:41.480
+Yeah.
+
+25d511f8-a877-49fe-817e-38bf631185bf-0
+00:31:43.040 --> 00:31:51.000
+So it'll tell you that if your policy
+have issues, OK.
+
+051d12c8-8003-43ae-b782-9727b3014d36-0
+00:31:53.040 --> 00:31:57.092
+So when you compile these variables that
+you have defined on the XML will be
+
+051d12c8-8003-43ae-b782-9727b3014d36-1
+00:31:57.092 --> 00:32:00.566
+replaced with the corresponding
+environment name and then it gets
+
+051d12c8-8003-43ae-b782-9727b3014d36-2
+00:32:00.566 --> 00:32:01.040
+uploaded.
+
+bc005e14-c39f-4e82-8e04-87e794428c7e-0
+00:32:01.040 --> 00:32:02.200
+OK, that's right.
+
+106df9e4-80a0-409e-bbb1-201919f25a63-0
+00:32:02.200 --> 00:32:04.840
+So that that was the command I was
+showing the other day.
+
+71f294d7-a109-4578-978e-3d6c65b07cbd-0
+00:32:05.200 --> 00:32:06.440
+Yeah, this command here, right.
+
+66e9ccb2-4aa9-4dbc-838e-a67275704586-0
+00:32:06.440 --> 00:32:12.475
+So this command the prepare B to C
+policies one when you provide environment
+
+66e9ccb2-4aa9-4dbc-838e-a67275704586-1
+00:32:12.475 --> 00:32:15.845
+name, yeah,
+compile it and put it into the
+
+66e9ccb2-4aa9-4dbc-838e-a67275704586-2
+00:32:15.845 --> 00:32:18.040
+environment policies folder.
+
+a0b0bca8-96e5-4fd6-91f2-9afa4d246222-0
+00:32:18.160 --> 00:32:21.720
+So which is which is the one need to get
+uploaded to B to C?
+
+94de3189-0b2f-4224-9592-3684b5000874-0
+00:32:24.720 --> 00:32:29.308
+If you do,
+we have reference of these commands
+
+94de3189-0b2f-4224-9592-3684b5000874-1
+00:32:29.308 --> 00:32:35.653
+somewhere stored in the report or like
+you don't have something,
+
+94de3189-0b2f-4224-9592-3684b5000874-2
+00:32:35.653 --> 00:32:38.679
+these ones have secrets, right?
+
+88d6646d-4843-4d83-ba08-a6346b72c91c-0
+00:32:38.680 --> 00:32:42.840
+So we don't put anything with secrets in
+here.
+
+557fefa8-bb6b-43d9-9c90-e6865c98641e-0
+00:32:45.200 --> 00:32:50.789
+But if you create some high level
+document then you just hide that,
+
+557fefa8-bb6b-43d9-9c90-e6865c98641e-1
+00:32:50.789 --> 00:32:52.680
+but you can mention it.
+
+a59719d7-2c94-4d2a-b5fe-ea94072653e9-0
+00:32:52.680 --> 00:32:56.120
+This needs to be a secret because we
+don't know these comments at all.
+
+42bb7758-2247-445d-89fc-b89f4636f76d-0
+00:32:57.920 --> 00:33:00.753
+So yeah,
+but but these commands are only needed
+
+42bb7758-2247-445d-89fc-b89f4636f76d-1
+00:33:00.753 --> 00:33:02.760
+for your local development, right?
+
+e6e4fc44-3799-49e9-8689-5e0b5d4cb41c-0
+00:33:02.760 --> 00:33:05.160
+So, yeah,
+we are not getting a planning for it.
+
+537a6de8-5dba-4c44-a413-6bd201caed1e-0
+00:33:05.720 --> 00:33:11.840
+Yeah, yeah, yeah, I can maybe.
+
+b6cc550f-65d2-4f2f-8dd4-c2709db1ada9-0
+00:33:13.200 --> 00:33:17.214
+OK, I'll, I'll,
+I'll think about how to yeah,
+
+b6cc550f-65d2-4f2f-8dd4-c2709db1ada9-1
+00:33:17.214 --> 00:33:19.920
+how to document these commands.
+
+69a77fdb-7e2b-42e3-9443-d31dad9b2f2f-0
+00:33:19.920 --> 00:33:23.461
+Yeah,
+that local development commands for you
+
+69a77fdb-7e2b-42e3-9443-d31dad9b2f2f-1
+00:33:23.461 --> 00:33:29.389
+guys to sort of running because I mean
+these all the secrets are coming from
+
+69a77fdb-7e2b-42e3-9443-d31dad9b2f2f-2
+00:33:29.389 --> 00:33:31.160
+keyboard anyway, right.
+
+1a3170de-c72f-4a8c-a2e1-ea6dc5f0d330-0
+00:33:31.160 --> 00:33:34.785
+So,
+so I can put keyboard references so you
+
+1a3170de-c72f-4a8c-a2e1-ea6dc5f0d330-1
+00:33:34.785 --> 00:33:40.800
+can read the keyboard and put the command
+together and then then run it.
+
+7687cd3c-fb9d-475f-b003-e6407c620052-0
+00:33:42.240 --> 00:33:43.080
+Yeah, sure.
+
+b4d39340-f426-4573-8f3c-10e9cd17740b-0
+00:33:43.360 --> 00:33:43.960
+Thanks Tanuka.
+
+0b3eb85e-dd98-424b-90c5-fa9daed9d95c-0
+00:33:45.440 --> 00:33:52.960
+And and one other thing was that so if I
+go to here, this is the compiled version.
+
+50d9effa-c6d6-422b-bc80-56b8a34840e6-0
+00:33:55.200 --> 00:34:04.920
+So you can see the policy can be run as
+in development mode.
+
+642ee348-de5a-496a-8780-7908d7708c75-0
+00:34:05.960 --> 00:34:07.800
+So which is also helpful, right?
+
+1b042ed1-eb37-4faf-a891-2e6f2821dc7d-0
+00:34:07.800 --> 00:34:14.214
+So when you're debugging your policies,
+so you may not have validation error,
+
+1b042ed1-eb37-4faf-a891-2e6f2821dc7d-1
+00:34:14.214 --> 00:34:18.080
+yeah, but your policy still could fail,
+right.
+
+10b35ff1-bd2b-48fb-a646-68e60dbafec7-0
+00:34:19.840 --> 00:34:21.840
+So,
+So what I've done is there's the
+
+10b35ff1-bd2b-48fb-a646-68e60dbafec7-1
+00:34:21.840 --> 00:34:22.760
+development mode.
+
+f111d98b-ffa6-42cd-ae33-270ef9a05634-0
+00:34:22.800 --> 00:34:28.216
+And if when you put policy into
+development mode,
+
+f111d98b-ffa6-42cd-ae33-270ef9a05634-1
+00:34:28.216 --> 00:34:33.200
+you can configure application inside
+logging.
+
+d8b8129c-4046-4602-a0fb-f93063ca9bc8-0
+00:34:33.640 --> 00:34:39.360
+So whatever the I'll maybe let's let's do
+that.
+
+2c374e7d-5805-42f6-87cf-669e95914da6-0
+00:34:44.240 --> 00:34:45.120
+Let's do a.
+
+7678ca89-12ae-4c7e-87de-a5fb45a50fbb-0
+00:34:47.440 --> 00:34:48.640
+It's going to be the C.
+
+852fc2de-79ec-4a5a-be67-309f370817e6-0
+00:35:00.800 --> 00:35:17.540
+It's new their portal it's to sign up in
+dev.
+
+b1f85143-9c73-4e1f-aec7-ea3fd82a0fbd-0
+00:35:42.120 --> 00:35:46.360
+Yeah, let's verify the email address.
+
+881f6c59-5794-4cfa-90ae-cf18e3e5609a-0
+00:35:46.360 --> 00:35:58.600
+Hopefully this I'll use my email address.
+
+d333dcf0-ccb5-48f1-8e38-7270e516bfa7-0
+00:36:24.240 --> 00:36:25.880
+And verify my email address.
+
+d59661b5-ae8d-4287-aedb-84e840f5d61b-0
+00:36:25.880 --> 00:36:28.840
+So we'll get a email soon.
+
+99d998f1-79e7-4214-ac82-13806e20a9cd-0
+00:36:42.210 --> 00:36:43.810
+How you're sending that email then?
+
+274550e2-04cf-493f-86fa-967ba600b16d-0
+00:36:43.810 --> 00:36:46.170
+OK, that's Microsoft.
+
+88ec571c-7ae9-4451-9c61-f14ae40456b2-0
+00:36:47.770 --> 00:36:51.890
+So we're not we don't have any custom
+email providers or anything like that.
+
+644e01c4-1fde-4c6d-8d8c-12f6e2d33c5d-0
+00:36:51.890 --> 00:36:53.210
+It's just out of the box.
+
+4a633195-a153-436a-b895-f445f386bd5c-0
+00:36:55.370 --> 00:36:58.290
+So from Azure you can connect to Exchange
+Server and then send it.
+
+9ab9812d-f033-4e9d-b5bd-9f9570eee6bc-0
+00:36:58.290 --> 00:37:00.930
+Is it or you have like templates that you
+send it?
+
+10a15971-a88a-49b3-b77f-e8b0e6fa9937-0
+00:37:01.520 --> 00:37:03.941
+No,
+the I mean out of the box 1 doesn't allow
+
+10a15971-a88a-49b3-b77f-e8b0e6fa9937-1
+00:37:03.941 --> 00:37:05.520
+you to do templates and stuff.
+
+476a20ee-8d6b-4667-8f8c-67bf3462f459-0
+00:37:05.520 --> 00:37:10.920
+It just gives you just vanilla OK
+template.
+
+5dcfdbc4-423d-4b16-98a6-aa0cc6225be9-0
+00:37:10.920 --> 00:37:14.223
+But if you wanna do custom template
+custom emails,
+
+5dcfdbc4-423d-4b16-98a6-aa0cc6225be9-1
+00:37:14.223 --> 00:37:18.240
+then you need to have like send grid or
+some custom provider.
+
+d14a25b6-5eb9-429a-bf6b-2bf48d1a43c5-0
+00:37:18.240 --> 00:37:19.880
+But we haven't gone down that path.
+
+dbbd3166-d46d-4a09-942f-c5970c17ac2e-0
+00:37:19.960 --> 00:37:23.800
+We just use out of the box speak email
+email service.
+
+3df446d3-9e21-4745-b307-c38d61ea26b9-0
+00:37:24.080 --> 00:37:28.775
+It's like an API you call and then it
+sends the email to the No BTC does all
+
+3df446d3-9e21-4745-b307-c38d61ea26b9-1
+00:37:28.775 --> 00:37:29.080
+that.
+
+ee1e6d6a-920d-4824-b207-158a032c63ca-0
+00:37:29.560 --> 00:37:34.773
+OK,
+that that remember that in the policy
+
+ee1e6d6a-920d-4824-b207-158a032c63ca-1
+00:37:34.773 --> 00:37:36.760
+that we had MFA?
+
+540f9235-11ba-4cfe-92e1-1852ec45cea8-0
+00:37:37.320 --> 00:37:43.606
+Yeah, step, yeah, that step that's all,
+all sending and verifying all that is
+
+540f9235-11ba-4cfe-92e1-1852ec45cea8-1
+00:37:43.606 --> 00:37:48.040
+done by B to C We don't have call any
+additional APIs.
+
+9831743b-d3b0-4cb0-b1ec-3a3b1646b954-0
+00:38:00.880 --> 00:38:16.564
+Let's put password and let's put a
+invalid random stuff,
+
+9831743b-d3b0-4cb0-b1ec-3a3b1646b954-1
+00:38:16.564 --> 00:38:24.820
+random date of birth &amp; up.
+
+9fbb0812-553d-40e1-8007-b1ef58be241d-0
+00:38:28.700 --> 00:38:30.780
+So now this will fail.
+
+0aa00d5d-8430-421e-8424-97f31e8088bb-0
+00:38:36.360 --> 00:38:40.280
+So what I'm going to show you is what
+actually happened.
+
+be25c0e0-0717-4708-8775-c51310a05af9-0
+00:38:42.880 --> 00:38:46.160
+So it's not a valid DRN.
+
+b629e67a-efa1-4b2c-a787-43202b63fff3-0
+00:38:47.080 --> 00:38:58.730
+So if you go back to Azure and
+Application Insights, go search,
+
+b629e67a-efa1-4b2c-a787-43202b63fff3-1
+00:38:58.730 --> 00:39:08.560
+maybe it would last 30 minutes,
+might take some time.
+
+246d4490-bf38-418e-ae52-0cabadb5e894-0
+00:39:08.560 --> 00:39:17.040
+So you can see these are logs from B to C
+so you can see.
+
+14ed0e7f-e470-475d-856e-9f30928d1658-0
+00:39:17.360 --> 00:39:19.880
+I mean I wouldn't deep dive into it.
+
+97a0e919-46c1-4882-bed3-ce10b1d28c24-0
+00:39:19.880 --> 00:39:27.360
+You need B to C understanding to figure
+out what's wrong and what's going on.
+
+c3af75c4-4c22-46ce-957f-348beaecf9a0-0
+00:39:27.640 --> 00:39:29.640
+But the logs are here.
+
+532ef482-1194-4998-a0ae-6156549d8364-0
+00:39:29.760 --> 00:39:35.840
+So if you know B to C what you've learned
+B to C, you can find the logs here.
+
+41335556-0ba6-4174-b4a9-21d7d0c1dc4f-0
+00:39:37.760 --> 00:39:43.200
+And also you should see the API logs.
+
+9eeb13ec-4800-45eb-aae0-717c976d9a7f-0
+00:39:45.520 --> 00:39:49.360
+Might take a couple of minutes for the
+logs to come through.
+
+25ed5fa4-85d5-48fc-ba45-c42f309f9716-0
+00:39:53.960 --> 00:39:56.240
+These logs are enabled in prod also.
+
+1008302b-1fab-40fc-86cf-5ad785cfc779-0
+00:39:57.440 --> 00:40:03.153
+Yeah, OK,
+it's but it it it has different log level,
+
+1008302b-1fab-40fc-86cf-5ad785cfc779-1
+00:40:03.153 --> 00:40:03.800
+right?
+
+2764365c-6504-4d25-a543-5a432fb87d8b-0
+00:40:04.120 --> 00:40:07.760
+As I showed you before,
+it doesn't have the development mode.
+
+b2820453-0540-4920-bbfc-c80ea7a7a1c7-0
+00:40:08.040 --> 00:40:09.320
+It has production mode.
+
+a61ea96c-daad-4f22-bb13-f0f021d93bae-0
+00:40:09.320 --> 00:40:13.120
+So you you won't see the these traces.
+
+5f06db72-5c93-4e8c-8c41-b177d93c0fa0-0
+00:40:13.120 --> 00:40:15.680
+You can't get to this this level of
+detail.
+
+eddd7c5a-1854-409b-86fe-792f35e95bcd-0
+00:40:15.680 --> 00:40:17.880
+But any errors it will log.
+
+ba78abc6-89bb-42ac-8ea3-40826d684147-0
+00:40:17.880 --> 00:40:21.040
+OK, so you can see.
+
+57610dc0-175f-486b-8312-df30b2a38f72-0
+00:40:22.960 --> 00:40:32.080
+There's, if you go to one of these, right,
+you can see verify fared with 400.
+
+8a4974b3-94ce-463c-aaf4-c2cc5b4150d1-0
+00:40:33.760 --> 00:40:43.857
+You can see it called the IT called the
+database ARN table yeah endpoint and it
+
+8a4974b3-94ce-463c-aaf4-c2cc5b4150d1-1
+00:40:43.857 --> 00:40:49.537
+returned 400 the the API itself written
+400,
+
+8a4974b3-94ce-463c-aaf4-c2cc5b4150d1-2
+00:40:49.537 --> 00:40:58.119
+but the erm code was successful because
+it was just squaring right.
+
+67412cdd-0b96-4cb4-bcff-7d11b2332439-0
+00:40:58.120 --> 00:41:05.571
+So it was just yeah,
+you can see so you can see what what it
+
+67412cdd-0b96-4cb4-bcff-7d11b2332439-1
+00:41:05.571 --> 00:41:07.160
+actually did.
+
+05cbfb01-08e5-48a5-a725-0ec2931fa1dc-0
+00:41:07.160 --> 00:41:14.560
+So this is this is the actual database
+code that the API made.
+
+e55433d2-b18f-4435-9ec7-c5bee61f40e0-0
+00:41:15.760 --> 00:41:17.520
+So you can you can fully debug.
+
+d810f9a7-ace9-4a6c-bfd4-727bd57b7c5e-0
+00:41:18.680 --> 00:41:23.440
+So you can write your custom log entries
+as well.
+
+a96494d6-d055-4006-945e-711f0e4a21c7-0
+00:41:23.600 --> 00:41:28.520
+Custom log entries will appear in the
+Application Insight as well.
+
+9aaa27fa-16b8-4b46-a1c3-4f778fdd1792-0
+00:41:30.200 --> 00:41:35.299
+So, so any,
+any issue with so you can see there's a
+
+9aaa27fa-16b8-4b46-a1c3-4f778fdd1792-1
+00:41:35.299 --> 00:41:39.909
+failed request,
+any issue with authentication,
+
+9aaa27fa-16b8-4b46-a1c3-4f778fdd1792-2
+00:41:39.909 --> 00:41:47.460
+the first place to go is Application
+Insight and come here and check whether
+
+9aaa27fa-16b8-4b46-a1c3-4f778fdd1792-3
+00:41:47.460 --> 00:41:49.520
+there are any errors.
+
+57eddd1a-bdc5-40f9-ae13-74ac81075cde-0
+00:41:50.640 --> 00:41:55.310
+And yeah,
+so you can see an exception message
+
+57eddd1a-bdc5-40f9-ae13-74ac81075cde-1
+00:41:55.310 --> 00:41:57.240
+written by the API.
+
+002d12d3-c126-4e1b-b27c-48b2d83af653-0
+00:41:58.520 --> 00:42:04.503
+And yeah,
+so you can see the verify codes like if I
+
+002d12d3-c126-4e1b-b27c-48b2d83af653-1
+00:42:04.503 --> 00:42:06.920
+go to production now.
+
+ca090b02-d5f9-42f9-a761-85f1030e2909-0
+00:42:21.280 --> 00:42:25.960
+So this this is because we have this is
+not a real error.
+
+6e51aef3-a3e1-43fd-9e35-7bb7681bf854-0
+00:42:25.960 --> 00:42:32.612
+It's it's it's returning four O 4 because
+it's it in in in production,
+
+6e51aef3-a3e1-43fd-9e35-7bb7681bf854-1
+00:42:32.612 --> 00:42:36.080
+we have keep alive setting turned on.
+
+0a627d99-4e58-46d7-9de0-5b3891f9df47-0
+00:42:36.160 --> 00:42:38.917
+So what,
+what when the keep alive setting is
+
+0a627d99-4e58-46d7-9de0-5b3891f9df47-1
+00:42:38.917 --> 00:42:41.920
+turned on,
+it doesn't let the API go into sleep.
+
+83461ec6-63d4-4763-95a9-30d339cde292-0
+00:42:42.720 --> 00:42:49.920
+And so the Azure keeps pinging it and
+that ping end point returns four O 4.
+
+cf30d080-e0ca-44fb-9a0f-de6fc505462b-0
+00:42:51.240 --> 00:42:53.560
+So that's why it's, it's,
+it's showing 404.
+
+f8b04ca5-9789-4f01-9fa1-bc64ab2ba162-0
+00:42:53.560 --> 00:42:58.411
+But so in in low environments,
+we don't have keep alive setting turned
+
+f8b04ca5-9789-4f01-9fa1-bc64ab2ba162-1
+00:42:58.411 --> 00:43:01.486
+on,
+but in production we do because we don't
+
+f8b04ca5-9789-4f01-9fa1-bc64ab2ba162-2
+00:43:01.486 --> 00:43:03.400
+want the API to go to sleep.
+
+6d89d06c-5a8b-433e-8881-796ce9d1632e-0
+00:43:03.400 --> 00:43:19.160
+And then BDC calls to sort of time out
+last 30 minutes.
+
+bc2fe72d-4769-4afb-9d9b-c3147fa869b4-0
+00:43:19.160 --> 00:43:23.440
+No one use the API, no one signed up.
+
+58f0dc25-2075-40ab-8a84-1856a95bc68e-0
+00:43:23.440 --> 00:43:25.640
+It'll be 24 hours.
+
+23559bf2-d429-4227-ad58-253efc1cd637-0
+00:43:28.120 --> 00:43:34.120
+Yeah, it's you can see this,
+you can see the sequence as well.
+
+579bfc57-27e8-472f-989a-86fa7956df9f-0
+00:43:36.000 --> 00:43:49.960
+You can see the verify happens 1st and
+then that person linked and.
+
+7e124791-23f9-4735-96b8-4baf84228273-0
+00:43:55.160 --> 00:44:01.080
+The next thing is they've done the MFA,
+yeah, things like that.
+
+63fdba1d-38d6-44f2-905b-f3ae89d1ff61-0
+00:44:01.240 --> 00:44:03.960
+So you can really we can figure out.
+
+9d2c508c-160b-4bd2-84ce-fc9b861c0b17-0
+00:44:03.960 --> 00:44:11.051
+So you can also see so who signed up so
+which you can get the contact guide if
+
+9d2c508c-160b-4bd2-84ce-fc9b861c0b17-1
+00:44:11.051 --> 00:44:15.720
+you have issues,
+then you can track it back to CRM.
+
+c5dafa12-95d8-4971-9b7c-ed1ad866467b-0
+00:44:17.720 --> 00:44:22.240
+And also so there's a Microsoft.
+
+6ef93e29-44f1-411a-8d13-ff6c0ef26602-0
+00:44:22.920 --> 00:44:25.440
+So you can see there are 717 exceptions,
+right?
+
+b270e1b5-87ae-4fb7-a585-d2cd8bd6908e-0
+00:44:25.440 --> 00:44:26.480
+Let's go to exceptions.
+
+e562fdff-70be-460e-92f3-22a6fb810b7b-0
+00:44:26.480 --> 00:44:34.279
+Now that's you can philtre,
+you can say I just want to look at the
+
+e562fdff-70be-460e-92f3-22a6fb810b7b-1
+00:44:34.279 --> 00:44:35.560
+exceptions.
+
+068c6ec3-a3a9-432e-a40a-b10dbd9e391f-0
+00:44:37.000 --> 00:44:39.000
+So these exceptions are fine, right?
+
+686a9c16-180a-4186-bc4e-792e06c5aed3-0
+00:44:39.640 --> 00:44:44.160
+So someone already signed up trying to
+sign up again.
+
+541007d5-a838-4517-9356-9d5ff24d4bf5-0
+00:44:46.600 --> 00:44:49.280
+So which is a valid error.
+
+9f22b3db-93a8-42da-80e7-e82f2a0710a9-0
+00:44:49.280 --> 00:44:57.160
+This is the era that we're investigating.
+
+8bc94435-3612-4d9f-a5ec-70bcd6950f5e-0
+00:44:57.160 --> 00:45:05.760
+This era is intermittent and I don't
+think it's impacting individuals.
+
+9de5145a-60eb-466c-a64f-46322fdc673a-0
+00:45:05.880 --> 00:45:15.228
+So what something for you guys to note is
+any exceptions logged by B to C,
+
+9de5145a-60eb-466c-a64f-46322fdc673a-1
+00:45:15.228 --> 00:45:19.840
+it will be under B to C_A RIGHT, and?
+
+1242429a-6879-4f3a-9a44-8ef978ecf157-0
+00:45:20.520 --> 00:45:24.920
+Correlation ID IS the most important
+thing so.
+
+08883612-97e7-47b1-b10e-2f7addd82bd0-0
+00:45:24.920 --> 00:45:30.240
+When you get the correlation ID YOU,
+can go into the B TO CB TO Co SO.
+
+5eae8f85-b58f-4341-895e-b21ac2c7e006-0
+00:45:30.240 --> 00:45:35.800
+These are all custom policy logging right,
+today's?
+
+920b001b-cb30-435d-9758-6df95b6be7fd-0
+00:45:35.800 --> 00:45:41.440
+Also another set of logs which I DON'T
+have access to Pradeep Have access so.
+
+c28a10f6-28d1-447b-b08f-134131be81c3-0
+00:45:41.440 --> 00:45:48.962
+You can go pick the correlation ID AND go
+query those logs like the audit logs &amp;
+
+c28a10f6-28d1-447b-b08f-134131be81c3-1
+00:45:48.962 --> 00:45:53.298
+in logs,
+they they're B to C out of the box logs
+
+c28a10f6-28d1-447b-b08f-134131be81c3-2
+00:45:53.298 --> 00:46:00.024
+in in in in B to C So Microsoft is
+currently investigating why this happens
+
+c28a10f6-28d1-447b-b08f-134131be81c3-3
+00:46:00.024 --> 00:46:04.361
+time to time,
+but seems like people can sign up,
+
+c28a10f6-28d1-447b-b08f-134131be81c3-4
+00:46:04.361 --> 00:46:05.600
+no complaints.
+
+cf10a70a-135e-4e32-84d8-3ad929727180-0
+00:46:07.920 --> 00:46:09.160
+They're also struggling.
+
+e783770c-1998-40e7-80dd-b0403ceccc7d-0
+00:46:09.160 --> 00:46:12.800
+What's going on with this exception?
+
+1d4df7d0-cb59-4c18-b5df-03c881dffd82-0
+00:46:13.000 --> 00:46:20.286
+Looks weird, but yeah,
+I think that's pretty much the diagnostic
+
+1d4df7d0-cb59-4c18-b5df-03c881dffd82-1
+00:46:20.286 --> 00:46:21.520
+side of it.
+
+8b090817-6ee1-4049-be0d-3f6de83e4c4f-0
+00:46:23.400 --> 00:46:26.736
+I'm sorry, Dinuka,
+if you've already mentioned that,
+
+8b090817-6ee1-4049-be0d-3f6de83e4c4f-1
+00:46:26.736 --> 00:46:31.520
+have you said like where we are enabling
+once you create the policy, right?
+
+c33bec4c-1596-4e4c-9b17-47b54b058472-0
+00:46:31.520 --> 00:46:33.440
+How we are enabling these logs?
+
+065f4f20-21c4-4265-8be7-d538b6a36afb-0
+00:46:34.840 --> 00:46:40.050
+Is there like when you create it,
+it it by default Azure keeps a trace or
+
+065f4f20-21c4-4265-8be7-d538b6a36afb-1
+00:46:40.050 --> 00:46:41.600
+log of these policies?
+
+bef5af9a-f06b-4138-84cc-18e53277ec66-0
+00:46:41.600 --> 00:46:44.960
+Or do you have a specific area where you
+go and enable it?
+
+ca53be2a-4298-45e1-b6bb-a0318f6cb192-0
+00:46:45.480 --> 00:46:47.915
+Yeah,
+So enable it is where I showed before,
+
+ca53be2a-4298-45e1-b6bb-a0318f6cb192-1
+00:46:47.915 --> 00:46:48.240
+right.
+
+2d03f71e-8de9-48f0-b00e-db80441d0dfd-0
+00:46:48.240 --> 00:46:51.520
+So if you go to the site, your policy,
+Yeah.
+
+f929bcbc-d75c-4be0-ba62-e59832ed144a-0
+00:46:51.560 --> 00:46:54.040
+So not, not not those base policies,
+right.
+
+99929355-8946-42cc-a7d8-49d55e364495-0
+00:46:54.440 --> 00:46:56.680
+Your root policy, OK, where you start.
+
+7395b343-3a45-4341-950b-9d598b61311f-0
+00:46:57.240 --> 00:47:00.880
+And so there's this connection string.
+
+d5a4cc3f-777d-4cc8-ab88-847927a78ee4-0
+00:47:01.920 --> 00:47:04.280
+Yeah,
+that's the application inside connection.
+
+463b0c95-6b09-4085-bfb6-714e8b22db9c-0
+00:47:04.280 --> 00:47:06.920
+You need to configure the application
+inside connection string here.
+
+060b0258-0470-410c-ac53-73a7ad5efeb9-0
+00:47:07.080 --> 00:47:07.720
+OK, OK.
+
+44bd9af4-a3b6-42a8-b7b3-e90dbe7f2eba-0
+00:47:09.240 --> 00:47:12.160
+So that links the policy and the
+application inside.
+
+18f70d26-e495-4738-9fbd-20101150270b-0
+00:47:14.440 --> 00:47:22.624
+And also this the the mode is also
+important because that sort of determines
+
+18f70d26-e495-4738-9fbd-20101150270b-1
+00:47:22.624 --> 00:47:25.600
+the level of logging, right?
+
+0bb8ade4-0e37-4897-a481-ddb69080895b-0
+00:47:25.600 --> 00:47:29.941
+So if you put it to development mode,
+then you can see all the debug traces,
+
+0bb8ade4-0e37-4897-a481-ddb69080895b-1
+00:47:29.941 --> 00:47:30.280
+right?
+
+4d11be2d-156d-48be-8ae2-7d5842a1b9dc-0
+00:47:30.760 --> 00:47:33.120
+So when you put it to production,
+you only see exceptions.
+
+3685e91b-92cf-4757-b1ba-c5c12e99d204-0
+00:47:33.120 --> 00:47:36.242
+OK, yeah,
+that that's that's why we can't really
+
+3685e91b-92cf-4757-b1ba-c5c12e99d204-1
+00:47:36.242 --> 00:47:41.085
+get to the bottom of the those production
+exceptions that those exceptions,
+
+3685e91b-92cf-4757-b1ba-c5c12e99d204-2
+00:47:41.085 --> 00:47:45.482
+they don't happen in non prod,
+but we don't want to put the policies
+
+3685e91b-92cf-4757-b1ba-c5c12e99d204-3
+00:47:45.482 --> 00:47:47.839
+into development state in production.
+
+91859c1f-c82f-4c07-b1e5-fa49d3cf780b-0
+00:47:49.280 --> 00:47:51.480
+So we can't really know.
+
+db6d1de5-a94d-4ffe-ab17-84d43c8b7b4f-0
+00:47:51.480 --> 00:47:55.875
+We don't know where the exception is
+actually is coming from because that that
+
+db6d1de5-a94d-4ffe-ab17-84d43c8b7b4f-1
+00:47:55.875 --> 00:47:58.880
+looking at that exception,
+that exception is useless.
+
+f1622532-dae1-4a12-91a6-df723e0e18e3-0
+00:47:59.000 --> 00:48:04.040
+It doesn't it doesn't say what happened.
+
+6b365157-7090-4e84-8779-86c8eae07e8d-0
+00:48:04.120 --> 00:48:06.560
+It just says an internal error occurred.
+
+c1bc721e-9e72-4202-a8c4-3f657ed45be3-0
+00:48:06.840 --> 00:48:07.320
+That's it.
+
+8e5b898d-aaa3-431d-b1f0-cbea842840b0-0
+00:48:08.440 --> 00:48:12.706
+So that's why we put it back to Microsoft,
+which is have a look and let us know
+
+8e5b898d-aaa3-431d-b1f0-cbea842840b0-1
+00:48:12.706 --> 00:48:15.800
+what's actually going on here,
+because they, they should,
+
+8e5b898d-aaa3-431d-b1f0-cbea842840b0-2
+00:48:15.800 --> 00:48:17.560
+they should know what's going on.
+
+0475b4c5-a4ff-4dfd-a6b7-52adc408f490-0
+00:48:18.200 --> 00:48:20.962
+You see, as I said,
+the most important thing is the
+
+0475b4c5-a4ff-4dfd-a6b7-52adc408f490-1
+00:48:20.962 --> 00:48:21.760
+correlation ID.
+
+e86e5bd9-4f30-4df1-a5ad-59c3abd437fe-0
+00:48:24.320 --> 00:48:26.926
+So we,
+we provided correlation ID to the
+
+e86e5bd9-4f30-4df1-a5ad-59c3abd437fe-1
+00:48:26.926 --> 00:48:28.960
+Microsoft, they can pinpoint it.
+
+96b4eaa2-8b0c-4b20-ac84-907121ebe763-0
+00:48:29.880 --> 00:48:34.591
+This exception,
+can we not enable that to development
+
+96b4eaa2-8b0c-4b20-ac84-907121ebe763-1
+00:48:34.591 --> 00:48:41.571
+mode for some time, capture the log in,
+then turn it off because it's it's just
+
+96b4eaa2-8b0c-4b20-ac84-907121ebe763-2
+00:48:41.571 --> 00:48:42.880
+sign in, right?
+
+45f08dde-4f3f-4981-a3c2-683b5a65283c-0
+00:48:42.960 --> 00:48:47.800
+So we don't want to be logging PII data
+into these logs, OK?
+
+3aac32b3-1404-4f6d-bbe3-218c0790fb52-0
+00:48:50.160 --> 00:48:53.720
+The, you know, date of births,
+things like that.
+
+f90665e8-5fab-429f-a791-03b5a5342f95-0
+00:48:54.520 --> 00:48:58.360
+We we don't want that log logged into our
+logs.
+
+297f3faf-0340-48e8-8a9f-686c50a18331-0
+00:48:59.080 --> 00:49:00.560
+So that's why I'm hesitant to.
+
+42622d28-f5f3-4cfa-950b-4fcb4da3051d-0
+00:49:00.560 --> 00:49:07.160
+All right, yeah, enable the face logging,
+OK.
+
+a14c784b-a67e-4a30-9ed7-aa599d546e74-0
+00:49:13.960 --> 00:49:14.600
+What else?
+
+87f8fc81-86d4-46f8-98e9-b541d5830db2-0
+00:49:16.200 --> 00:49:26.503
+So we got the, went through the policies,
+went through the logging and went to the
+
+87f8fc81-86d4-46f8-98e9-b541d5830db2-1
+00:49:26.503 --> 00:49:27.000
+API.
+
+cb5fecfb-93ee-4e80-ac17-2681961f65d4-0
+00:49:27.960 --> 00:49:30.880
+How do you configure the MFA in this XML,
+Linuka?
+
+89d62ad0-afbb-4201-98ea-9dac8f21a8c9-0
+00:49:31.840 --> 00:49:39.960
+So yeah, yeah,
+it's just B to C have these.
+
+daa14c02-228d-4227-85d2-944a6fe0923f-0
+00:49:40.800 --> 00:49:51.400
+So if you go back to that journey, right,
+So user journey, it's good here.
+
+7090775e-f542-425f-85eb-687a6a19dcf5-0
+00:49:54.920 --> 00:49:56.360
+So you can see.
+
+06b47d9b-48c3-40c9-a3e4-a0ff407a585c-0
+00:49:57.280 --> 00:50:06.520
+So we read the user verification and this
+is the one factor policy.
+
+7e411452-b920-4b74-ace7-1bcf0765ea53-0
+00:50:06.680 --> 00:50:08.640
+So you can see if you go into it.
+
+70f93bf9-79f9-469c-82b1-c423841b87e5-0
+00:50:14.640 --> 00:50:17.398
+OK,
+it's I think it's coming from a base
+
+70f93bf9-79f9-469c-82b1-c423841b87e5-1
+00:50:17.398 --> 00:50:19.080
+policy, so it's not here.
+
+cb287ed5-1f97-4080-a9f6-718a7c5c8e10-0
+00:50:21.240 --> 00:50:24.000
+Let's look this one in.
+
+f6296258-8f03-44b6-a786-af8d65ff7689-0
+00:50:33.560 --> 00:50:34.840
+Yeah, So you can see.
+
+d7b99f7c-c9e7-413c-8fbb-10b385db6490-0
+00:50:35.160 --> 00:50:35.440
+Yeah.
+
+b20d1eaf-a3a6-410d-bc2b-ec39c6d35a02-0
+00:50:36.280 --> 00:50:47.062
+So this is out of the box Microsoft MFA
+OK provider and we've just used it pretty
+
+b20d1eaf-a3a6-410d-bc2b-ec39c6d35a02-1
+00:50:47.062 --> 00:50:47.720
+much.
+
+d873eed9-3f24-4335-9058-304b18f4b515-0
+00:50:48.440 --> 00:50:49.520
+So this is how we use it.
+
+476f52a2-451f-4f9e-b055-8580540aad5b-0
+00:50:49.640 --> 00:50:51.040
+So that if you go.
+
+5bc86fed-b3ba-437c-9a9b-37428b8226cf-0
+00:50:51.040 --> 00:50:53.880
+So we basically enable that is anything.
+
+8e408ff2-7b03-4b39-b5d7-db518a47d6d2-0
+00:50:53.920 --> 00:50:55.600
+Yeah, that's it.
+
+b13f3ae4-d667-48ef-b7af-2aa51d7564e0-0
+00:50:56.480 --> 00:50:59.320
+We haven't done any customization which
+is enabled.
+
+014245cd-6d47-4908-a31a-773d14da4d08-0
+00:51:02.720 --> 00:51:05.520
+Yeah, it,
+it just works just out of the box.
+
+5a802f93-db2a-4b18-abe4-c60335a5248b-0
+00:51:06.080 --> 00:51:10.040
+So when you created the user policy
+itself, it will ask you to enable it.
+
+6a6f775f-132c-4589-b455-13f6c4785e3c-0
+00:51:10.040 --> 00:51:12.080
+Where where it will ask you to enable it.
+
+34ff07f8-78e9-431c-ad90-cd28e05f6177-0
+00:51:12.080 --> 00:51:13.800
+It's a user journey, right?
+
+a00adb5a-3281-4500-b969-545a5a08ea65-0
+00:51:13.920 --> 00:51:14.560
+Oh, user journey.
+
+1f24b846-c53f-4440-9a56-e200069a0e15-0
+00:51:14.640 --> 00:51:16.160
+Yeah, in the user journey.
+
+1d50ce41-cb31-462e-848f-6886bf2a32ce-0
+00:51:16.200 --> 00:51:21.120
+So we've enabled,
+we've said that use this profile.
+
+07080a89-d440-46aa-8bfe-17ab4a7fdcef-0
+00:51:22.160 --> 00:51:26.640
+When we use this profile, it does the MFA,
+ask for MFA.
+
+e52547af-240c-457f-a99b-ebfaab36f104-0
+00:51:26.640 --> 00:51:26.760
+OK.
+
+6c51d243-64e7-4c68-abd4-93213e0534fa-0
+00:51:29.040 --> 00:51:31.680
+That's how it pretty much works.
+
+fa94e8e7-97f8-4149-b85d-e0598dc03172-0
+00:51:32.440 --> 00:51:37.246
+If there is any issue,
+if the user doesn't receive the code,
+
+fa94e8e7-97f8-4149-b85d-e0598dc03172-1
+00:51:37.246 --> 00:51:37.640
+yeah.
+
+bc202ccc-944a-4fab-a3d5-c88c9b691917-0
+00:51:38.080 --> 00:51:42.277
+How do we,
+how do we handle that like debug it or I
+
+bc202ccc-944a-4fab-a3d5-c88c9b691917-1
+00:51:42.277 --> 00:51:47.040
+don't think we can handle it unless if
+you see any errors.
+
+68dab5e0-5f1f-4f90-97e6-5b746b165a1f-0
+00:51:47.040 --> 00:51:52.600
+So I think the first place to start is
+look at the BTC logs, right?
+
+700f8440-ad94-489e-9cdd-110538ca9399-0
+00:51:54.080 --> 00:51:57.920
+If you find error or something, yeah.
+
+0501d155-761c-44f0-bc1b-23570ffd4ee3-0
+00:51:59.120 --> 00:52:03.118
+Otherwise, raise a support ticket, OK,
+with Microsoft because because we we it's
+
+0501d155-761c-44f0-bc1b-23570ffd4ee3-1
+00:52:03.118 --> 00:52:04.600
+not our implementation, right?
+
+19a22302-ce4d-4612-8b25-303b865488ce-0
+00:52:04.600 --> 00:52:06.160
+It's yeah, Microsoft implementation.
+
+900af975-0f6a-4381-bfbd-e8c9fd5eff51-0
+00:52:06.160 --> 00:52:10.320
+And Microsoft that's sending the text and
+verifying it.
+
+2b54623e-cf30-4d7f-95dd-b239d7cc1792-0
+00:52:10.320 --> 00:52:12.200
+Yeah, that's all done by Microsoft.
+
+85a2d3a3-b5c9-4c25-a855-03efae525b1c-0
+00:52:12.200 --> 00:52:13.200
+You don't do it.
+
+865d959f-bcba-4cd3-971d-ea5effb58b91-0
+00:52:13.760 --> 00:52:13.960
+OK.
+
+3c7f89b4-cfb3-4c76-b683-fc85c355d369-0
+00:52:15.480 --> 00:52:22.520
+So any issue with the MFA,
+I would go to Microsoft.
+
+dc9b2d7c-5ae1-4b4d-a64f-b086338e968d-0
+00:52:23.000 --> 00:52:23.320
+All right.
+
+619b88fb-cbf7-466f-872a-3d8a3ac3afcb-0
+00:52:23.320 --> 00:52:23.520
+Yeah.
+
+a57bf4d1-f393-4721-9268-102c40a1fa3c-0
+00:52:24.680 --> 00:52:25.720
+It's been reliable.
+
+7f44dc76-0670-4711-89c1-7b109b0692d8-0
+00:52:25.720 --> 00:52:26.880
+I haven't seen any issues.
+
+921eb44d-3c66-4322-8afe-47b80221ddc3-0
+00:52:26.880 --> 00:52:32.445
+But if you see any issues,
+I think just look at the logs and if you
+
+921eb44d-3c66-4322-8afe-47b80221ddc3-1
+00:52:32.445 --> 00:52:38.747
+don't find it in anything, just raise,
+get the Azure team to raise a support
+
+921eb44d-3c66-4322-8afe-47b80221ddc3-2
+00:52:38.747 --> 00:52:39.320
+ticket.
+
+4087134f-cbcb-4b56-94dd-db139cf02459-0
+00:52:39.720 --> 00:52:46.320
+OK, yeah, I think we're up for time.
+
+f54b2820-4147-4d22-9a3e-0ca4578dcb45-0
+00:52:47.920 --> 00:52:50.760
+So I'm working on the dev end.
+
+0902426c-a45c-4d01-920b-2bca85024710-0
+00:52:51.680 --> 00:52:55.800
+So next,
+next session we'll go about the
+
+0902426c-a45c-4d01-920b-2bca85024710-1
+00:52:55.800 --> 00:53:03.840
+deployment side deep dive into the we
+haven't gone to the pipelines yet, right.
+
+76f25d12-252b-487b-a247-891c945e1c3b-0
+00:53:03.840 --> 00:53:11.888
+So we'll deep dive into the pipelines and
+how things get deployed and how the dev
+
+76f25d12-252b-487b-a247-891c945e1c3b-1
+00:53:11.888 --> 00:53:16.600
+in this configured and we'll do some
+debugging.
+
+4ff1fdbd-8ffa-4076-99f0-52276d1bbfa9-0
+00:53:16.600 --> 00:53:28.280
+And so I think pretty been pretty been
+myself's going to race so so is there.
+
+a1e30426-6b82-4538-873d-c60318b7f2dd-0
+00:53:33.880 --> 00:53:39.632
+Devint app service is still not created,
+so, so we,
+
+a1e30426-6b82-4538-873d-c60318b7f2dd-1
+00:53:39.632 --> 00:53:48.040
+we see resource group environment,
+but for Devint, we're going to share it.
+
+a0d6d1c1-2656-43bf-b5ca-0139040ed6cf-0
+00:53:51.320 --> 00:53:55.064
+So,
+so you can see there's a dev API and
+
+a0d6d1c1-2656-43bf-b5ca-0139040ed6cf-1
+00:53:55.064 --> 00:54:01.000
+there will be another API here called
+Devint and we'll use that.
+
+c13a85bf-d4da-47bd-ae43-feb23044e9f2-0
+00:54:01.120 --> 00:54:04.200
+So it, it's a slightly different pattern.
+
+1e94b2f2-0cd5-4454-bcd8-af1a4ebec138-0
+00:54:04.200 --> 00:54:10.603
+So I'll next session I'll take you
+through the standard pattern and then the
+
+1e94b2f2-0cd5-4454-bcd8-af1a4ebec138-1
+00:54:10.603 --> 00:54:12.600
+sharing pattern as well.
+
+6384b6bc-e08c-49b9-a776-b2c15ff37852-0
+00:54:15.560 --> 00:54:20.680
+Yeah, having will post for today.
+
+a1a7d4e4-6f20-426c-9bff-2baa135c6f84-0
+00:54:22.120 --> 00:54:22.560
+All right.

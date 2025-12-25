@@ -1,0 +1,1728 @@
+WEBVTT
+
+a3b52d8e-e2bd-4d21-bde7-05558eff2a5a-0
+00:00:02.160 --> 00:00:08.840
+The POC I've done for Am I sharing?
+
+89762109-eca3-4ef7-b575-36751fe84ece-0
+00:00:08.920 --> 00:00:09.840
+What am I sharing?
+
+f1a8c2b5-b678-4683-badc-9f308c0716f6-0
+00:00:12.440 --> 00:00:15.920
+OK,
+I'll move on to the screen and drag stuff.
+
+896d453a-2f23-47c2-ba5f-d9638527e5e2-0
+00:00:19.400 --> 00:00:23.800
+So I've created this policy called
+identity proofing.
+
+a92778f1-faec-45d4-b03f-8c38cea5f344-0
+00:00:26.720 --> 00:00:28.200
+So identity proofing.
+
+b5a38622-ed43-4b89-ae9e-3748aaea5eb3-0
+00:00:29.120 --> 00:00:33.800
+So let me share the VS Code as well.
+
+275056e2-8c5c-4c3f-b6f9-b06a46bef94b-0
+00:00:37.960 --> 00:00:44.960
+Yeah, so Azure B to C have the concept of.
+
+4bdca370-b875-4031-b8ae-62a704102ea4-0
+00:00:45.960 --> 00:00:49.863
+So Azure B to C is external identity
+provider,
+
+4bdca370-b875-4031-b8ae-62a704102ea4-1
+00:00:49.863 --> 00:00:54.680
+external identity provider to at least
+the portal, right?
+
+ca64fd24-7f6e-44c4-a566-c0c046fbcc68-0
+00:00:56.520 --> 00:01:03.713
+So B to C has the concept of you can plug
+in other external ID providers to B to C
+
+ca64fd24-7f6e-44c4-a566-c0c046fbcc68-1
+00:01:03.713 --> 00:01:10.126
+For example, you can plug in Facebook,
+you can plug in Google, Microsoft,
+
+ca64fd24-7f6e-44c4-a566-c0c046fbcc68-2
+00:01:10.126 --> 00:01:13.679
+you can plug in those external providers.
+
+bb5f964b-16e1-4d55-ad0b-160d67968b7b-0
+00:01:13.680 --> 00:01:20.924
+And then when it's when the users try to
+authenticate,
+
+bb5f964b-16e1-4d55-ad0b-160d67968b7b-1
+00:01:20.924 --> 00:01:26.720
+you can have those options to
+authenticate.
+
+699beeea-6620-4eaf-b1d5-952883ab9654-0
+00:01:28.280 --> 00:01:32.400
+So My ID will be integrated similarly.
+
+af36faec-8be2-4c09-9bef-75b04e4d6117-0
+00:01:33.400 --> 00:01:37.360
+So you can see there's a technical
+provider domain name Google.
+
+7f277cc7-933f-444b-91eb-630882d6b99e-0
+00:01:38.640 --> 00:01:40.160
+So there will be.
+
+414542d3-2b91-4907-a69e-8e4a9abb253d-0
+00:01:42.920 --> 00:01:51.280
+So the plan is there will be My ID domain,
+they won't be Google.
+
+f8bf4b7a-adaf-41d1-a7c2-9b19753b3b04-0
+00:01:51.280 --> 00:01:59.655
+So just for simulation,
+I've created that and then so you need to
+
+f8bf4b7a-adaf-41d1-a7c2-9b19753b3b04-1
+00:01:59.655 --> 00:02:09.680
+configure this technical profile to
+enable the IDP external identity provider.
+
+5a7b32b2-4913-44bf-9f8d-d0bd8a43ae41-0
+00:02:11.320 --> 00:02:15.747
+So,
+so there is key bit of information that
+
+5a7b32b2-4913-44bf-9f8d-d0bd8a43ae41-1
+00:02:15.747 --> 00:02:22.790
+we need to fill in the authorization
+endpoint, access token endpoint,
+
+5a7b32b2-4913-44bf-9f8d-d0bd8a43ae41-2
+00:02:22.790 --> 00:02:24.400
+claims endpoint.
+
+0c03a999-4316-4d9b-9672-5f831ad30cb6-0
+00:02:24.640 --> 00:02:32.880
+So these will be very similar to these
+settings for my ID.
+
+88008d5d-1490-4914-9f51-6c5fcf80d298-0
+00:02:33.040 --> 00:02:35.280
+My ID will have their own settings.
+
+e022c02d-e87b-43a3-b004-03e59b8fb757-0
+00:02:35.920 --> 00:02:48.880
+Actually maybe let me let me check the
+Pradeep shared this document with me.
+
+b14187f7-8ea1-4bb6-a76b-4e8d503a3a0f-0
+00:02:49.040 --> 00:02:51.880
+I'll Pradeep got this document.
+
+2cb2bd0c-c213-4c25-8611-1f81f2c5ae85-0
+00:02:54.160 --> 00:02:55.080
+Yeah, this one here.
+
+266263b3-b16c-4417-aa6b-1e26ab32c121-0
+00:02:55.640 --> 00:02:58.880
+So where do you get these information
+from Tanuka, all those.
+
+32232a1f-c71b-4256-9607-87b33f2c195b-0
+00:02:59.800 --> 00:03:07.160
+So for Google today's I'll I'll send you
+a link.
+
+284d6b48-dfd0-446d-86dc-ab84578a46eb-0
+00:03:07.160 --> 00:03:13.520
+So there's yeah, mistakes.
+
+a36fee32-a9ac-4058-acb0-c3175b502371-0
+00:03:15.600 --> 00:03:19.680
+Today's Microsoft documentation how to
+set up Google.
+
+ed7c8c08-a011-4061-b2ca-7d752dc7f6db-0
+00:03:20.080 --> 00:03:22.200
+Yeah, but there's also.
+
+6d8bd25a-0418-4734-91ee-cac87d7f8f50-0
+00:03:22.360 --> 00:03:24.280
+So that's just for simulation, right?
+
+2734189a-1ed9-4067-a071-a25a5b597099-0
+00:03:24.520 --> 00:03:27.000
+But our real thing is My ID.
+
+1c19d471-8fcc-45b6-87b3-e9bacac46fe3-0
+00:03:27.000 --> 00:03:32.480
+So you can see My ID has documentation.
+
+fec37a02-09de-4c23-9dbd-e5ab95664a92-0
+00:03:32.480 --> 00:03:36.920
+This is the technical documentation that
+Pradeep shared with me.
+
+4b89b778-6909-4542-b6b7-2964e6b19650-0
+00:03:38.920 --> 00:03:43.960
+To integrate with My ID,
+our application need to be on boarded
+
+4b89b778-6909-4542-b6b7-2964e6b19650-1
+00:03:43.960 --> 00:03:45.080
+onto my My ID.
+
+f91577f4-479d-46e3-9dab-fabd1172be0e-0
+00:03:45.560 --> 00:03:48.960
+So Pradeep and Jamie has done the
+onboarding part,
+
+f91577f4-479d-46e3-9dab-fabd1172be0e-1
+00:03:48.960 --> 00:03:51.560
+but we haven't got the credentials yet.
+
+c2f1dbc1-ff4f-4945-994f-31599146aa7c-0
+00:03:52.200 --> 00:03:57.295
+So to integrate,
+we need some credentials to talk to my ID,
+
+c2f1dbc1-ff4f-4945-994f-31599146aa7c-1
+00:03:57.295 --> 00:03:58.400
+the back end.
+
+e96d4343-5773-4888-b6a4-13d5a62ea341-0
+00:03:58.760 --> 00:04:01.160
+So that bit of information we don't have,
+right.
+
+d7010395-8b87-4be8-8004-94658a8cbe85-0
+00:04:02.800 --> 00:04:08.447
+But as is short, so,
+So what I was showing before here is how
+
+d7010395-8b87-4be8-8004-94658a8cbe85-1
+00:04:08.447 --> 00:04:10.360
+to connect to Google.
+
+ff2d2e6a-e254-4d56-b03b-e1868136b792-0
+00:04:10.360 --> 00:04:13.320
+So you have a client ID and you have a
+secret, right?
+
+4de459da-51c1-4b80-8221-245ab3e81d61-0
+00:04:13.320 --> 00:04:18.320
+So that's how BTC integrates to Google.
+
+9ddca796-b967-4974-8749-72a113459af7-0
+00:04:18.880 --> 00:04:26.234
+So similarly,
+so they've given in this document here,
+
+9ddca796-b967-4974-8749-72a113459af7-1
+00:04:26.234 --> 00:04:37.403
+there's a, there should be somewhere here,
+there should be that bit of policy XML
+
+9ddca796-b967-4974-8749-72a113459af7-2
+00:04:37.403 --> 00:04:46.120
+that need to be that you need to
+configure to connect to my ID.
+
+b107ad24-158d-4c10-a88f-c61ffca9a03e-0
+00:05:09.180 --> 00:05:11.300
+This is the registration form.
+
+665abe25-eaf7-4d72-a70e-cd892020c0be-0
+00:05:16.730 --> 00:05:45.740
+This is the XML this the Jason go to set
+XML in it.
+
+91515518-6dc6-48b0-8a40-eb0af383a2c4-0
+00:05:46.900 --> 00:05:56.380
+This is what's its generate the request
+URL token request.
+
+26814122-8528-47b4-b30f-7404f3695233-0
+00:06:06.400 --> 00:06:18.567
+You saying for sure If you want to get
+the using for that API call guide to
+
+26814122-8528-47b4-b30f-7404f3695233-1
+00:06:18.567 --> 00:06:22.090
+registration I'm sure.
+
+2ca72a3c-a198-4c16-9d89-d8236a0a4385-0
+00:06:22.090 --> 00:06:26.930
+Maybe it's the other document,
+not this one.
+
+fed810b5-9936-46ed-a447-977cfff8d53e-0
+00:06:28.320 --> 00:06:30.520
+Yeah, now this one is another document.
+
+7bf0470f-7ce2-45d9-ad7a-b180ee057358-0
+00:06:33.920 --> 00:06:35.440
+No, no, not this.
+
+64671bf7-598b-4a71-ac0d-3e9edffb7f29-0
+00:06:36.720 --> 00:06:44.720
+So this this dual prove different
+patterns of integration.
+
+7ee2cb5e-1951-48cd-a170-6e2be49d0c94-0
+00:06:49.600 --> 00:06:55.360
+I don't think this has examples in it.
+
+247966df-330a-4f88-9042-8450c9f65f26-0
+00:07:10.640 --> 00:07:11.080
+Yeah.
+
+e1a623aa-48f6-478c-8ed9-db1d0a3d6c41-0
+00:07:11.160 --> 00:07:19.601
+But it's good to go through these
+documents sort of have a mapping of what
+
+e1a623aa-48f6-478c-8ed9-db1d0a3d6c41-1
+00:07:19.601 --> 00:07:22.640
+P1, what P2 and what P3 is.
+
+d6d9be08-f7a7-4fe5-963c-cc84d5e09824-0
+00:07:22.640 --> 00:07:33.080
+And so it has different describes
+different levels of strength.
+
+87a359eb-e2a5-42b2-82ad-b36daf7c0e0f-0
+00:07:35.520 --> 00:07:42.513
+So this is the high confidence,
+this is what we want level 2 and this has
+
+87a359eb-e2a5-42b2-82ad-b36daf7c0e0f-1
+00:07:42.513 --> 00:07:45.160
+different patterns in there.
+
+a80e6f76-6eac-47f4-aec6-dc25ebe7a65a-0
+00:07:45.160 --> 00:07:49.718
+So, but I can recall,
+I've seen that policy XML,
+
+a80e6f76-6eac-47f4-aec6-dc25ebe7a65a-1
+00:07:49.718 --> 00:07:53.440
+but they they should be able to provide.
+
+87ab3a42-4dd5-432d-be6b-95e3b2ce511c-0
+00:07:53.440 --> 00:07:58.200
+So whatever you have configured there,
+right, Those yeah, information.
+
+0f373010-c855-4b13-a58a-302395bef377-0
+00:08:00.240 --> 00:08:02.960
+So there was a XML somewhere here.
+
+158c90d9-2b89-479e-9a81-3d4a84d8f0c9-0
+00:08:14.920 --> 00:08:26.880
+Exchange process, No, it's not here.
+
+a1ff28c0-5982-4125-a0ac-4745a31c3f8b-0
+00:08:26.880 --> 00:08:30.840
+I've seen it somewhere,
+maybe on the Internet.
+
+9ef6665c-159b-4577-a449-b4a8fb79bd0d-0
+00:08:33.480 --> 00:08:37.241
+But anyway,
+when you talk to them they they will let
+
+9ef6665c-159b-4577-a449-b4a8fb79bd0d-1
+00:08:37.241 --> 00:08:37.880
+you know.
+
+8a80b15c-c1a6-4fb1-9fdf-e7eb6c4ba716-0
+00:08:37.880 --> 00:08:44.568
+But again,
+so here the way it would work is that you
+
+8a80b15c-c1a6-4fb1-9fdf-e7eb6c4ba716-1
+00:08:44.568 --> 00:08:52.140
+need to pretty much provide this
+information configuration,
+
+8a80b15c-c1a6-4fb1-9fdf-e7eb6c4ba716-2
+00:08:52.140 --> 00:09:01.480
+my ID configuration and then a client ID
+and secret and then the sign in.
+
+a8cf1110-67b4-4d63-925d-1cd768c7609e-0
+00:09:01.560 --> 00:09:06.280
+I don't think we need to sign in because
+we won't be signing into it.
+
+13b1d054-69e7-4f05-b01b-91c96f18d4a1-0
+00:09:08.080 --> 00:09:16.285
+We'll be just so for example,
+again the starting point is the user
+
+13b1d054-69e7-4f05-b01b-91c96f18d4a1-1
+00:09:16.285 --> 00:09:25.594
+journey and is so that information then
+OK, what we have given here, right,
+
+13b1d054-69e7-4f05-b01b-91c96f18d4a1-2
+00:09:25.594 --> 00:09:33.800
+the provider name, authorization token,
+something like that, Yeah.
+
+e32db2fc-3101-4028-80bc-69f350c98aa8-0
+00:09:34.080 --> 00:09:37.440
+So that will be provided from Services
+Australia.
+
+9e294ef4-86ac-4ab2-b3cd-2df300fa55f5-0
+00:09:38.080 --> 00:09:42.600
+Which information are we waiting for from
+them to enable this like that?
+
+675fadd8-c835-4a5f-9e0e-e51ee0270535-0
+00:09:42.600 --> 00:09:50.373
+That information that I've,
+I've shared the technical profile before,
+
+675fadd8-c835-4a5f-9e0e-e51ee0270535-1
+00:09:50.373 --> 00:09:51.040
+right?
+
+190b416e-afb7-4cba-875b-cbbda84584e8-0
+00:09:51.040 --> 00:09:52.000
+So this one here.
+
+c1e9422c-8f31-4491-93e6-7b8182d8b7dc-0
+00:09:52.000 --> 00:09:55.720
+So we need all the information that it
+need.
+
+41de7b64-4a9b-4c4a-b352-a0ebe899b67c-0
+00:09:55.960 --> 00:09:56.720
+Where was it?
+
+771b3c3a-8ecd-41d5-86e1-77ca9fa879fd-0
+00:10:05.720 --> 00:10:06.080
+Yeah.
+
+8c38e64d-ed35-4d26-a7c7-e5cdb39943b3-0
+00:10:06.480 --> 00:10:10.178
+So you,
+we need to get all this information,
+
+8c38e64d-ed35-4d26-a7c7-e5cdb39943b3-1
+00:10:10.178 --> 00:10:11.000
+all right.
+
+17a6d0b0-37bd-4fa6-b766-15badb3a86b6-0
+00:10:11.000 --> 00:10:15.581
+So all these information will be given by
+them once they complete the onboarding
+
+17a6d0b0-37bd-4fa6-b766-15badb3a86b6-1
+00:10:15.581 --> 00:10:18.240
+for they they completed the onboarding,
+right?
+
+6e6edcd2-c2f1-4a22-ab0c-12567bb540c6-0
+00:10:18.240 --> 00:10:20.840
+They should have this information already
+available.
+
+da89c7af-49a8-481a-b3fe-e8b8e6c679e6-0
+00:10:21.080 --> 00:10:21.440
+OK.
+
+31dd1cd5-2512-4508-9032-91f4c1dbf5fc-0
+00:10:22.040 --> 00:10:28.398
+I think what we were struggling is to
+find a Service Australia contact to talk
+
+31dd1cd5-2512-4508-9032-91f4c1dbf5fc-1
+00:10:28.398 --> 00:10:28.640
+to.
+
+77988dd4-99ac-4ebe-a63d-86a04691950d-0
+00:10:30.200 --> 00:10:32.320
+So we've made some progress.
+
+b3d716c4-f8ad-4934-936c-423c48a79977-0
+00:10:32.400 --> 00:10:37.107
+Yeah, I think you, you,
+you guys need to work with Pradeep to get
+
+b3d716c4-f8ad-4934-936c-423c48a79977-1
+00:10:37.107 --> 00:10:38.320
+that information.
+
+b5bd7ca1-b958-43f8-adf7-47390faf6040-0
+00:10:38.320 --> 00:10:40.480
+He will get you this information.
+
+0406ab2b-1867-425c-b86a-1576c4f3b164-0
+00:10:40.720 --> 00:10:43.520
+But I think the mainly what we're looking
+at.
+
+4e22bf4a-7a3a-4711-b8b8-113db38fb70e-0
+00:10:43.520 --> 00:10:47.200
+So I think we can make up those
+information from that PDF.
+
+1c77fec6-c08c-4b6b-be3d-e35599756790-0
+00:10:47.200 --> 00:10:51.528
+Yeah,
+mainly what we after is the client ID and
+
+1c77fec6-c08c-4b6b-be3d-e35599756790-1
+00:10:51.528 --> 00:10:52.520
+the secret.
+
+9e08a8de-1264-4d26-8f5d-b988b59ebe72-0
+00:10:52.840 --> 00:10:53.720
+OK, got it.
+
+42d575fb-c23c-4463-bbb8-243e87e30423-0
+00:10:53.720 --> 00:10:54.880
+Those, those are the 2.
+
+1f9563b9-0354-4eac-8b86-b8f159263bbf-0
+00:10:55.160 --> 00:10:58.920
+So,
+so in in my ID there are two environments.
+
+4c127e78-cf75-464b-89dd-c12bebc9f809-0
+00:11:00.280 --> 00:11:04.450
+So they have a sort of like a sandbox
+environment and they have a production
+
+4c127e78-cf75-464b-89dd-c12bebc9f809-1
+00:11:04.450 --> 00:11:05.480
+environment, right.
+
+155c7cd3-febb-4634-85e1-cc164a1ed8a3-0
+00:11:05.880 --> 00:11:06.000
+OK.
+
+5e640981-7860-4002-b56a-77cd7baf7dc5-0
+00:11:06.480 --> 00:11:10.670
+So I think when we talk to them,
+we need to ask them because we have
+
+5e640981-7860-4002-b56a-77cd7baf7dc5-1
+00:11:10.670 --> 00:11:13.160
+multiple non product environments, right?
+
+5e9ef069-f075-4a99-b046-727d6b5720f8-0
+00:11:13.480 --> 00:11:13.680
+Yeah.
+
+374f2092-5624-4408-ae3f-073d86be44a5-0
+00:11:14.000 --> 00:11:19.931
+So we need to ask them how we can sort of
+have multiple environments connected to
+
+374f2092-5624-4408-ae3f-073d86be44a5-1
+00:11:19.931 --> 00:11:20.800
+the sandbox.
+
+df06fc80-6b3e-4ead-ba1f-d7fe0d1a23e3-0
+00:11:21.120 --> 00:11:24.632
+OK, yeah,
+because we want to test that in low
+
+df06fc80-6b3e-4ead-ba1f-d7fe0d1a23e3-1
+00:11:24.632 --> 00:11:26.160
+environments, right?
+
+683c92a2-70d6-469d-82cc-aecf00e4f013-0
+00:11:26.360 --> 00:11:27.280
+Yeah, yeah, that's right.
+
+f62cefa0-1354-4f21-83e7-3169b1b78dbe-0
+00:11:27.880 --> 00:11:28.120
+Yeah.
+
+a1876be5-859e-4f84-9388-77dfaaa680c4-0
+00:11:28.120 --> 00:11:33.200
+So that's that's a question OK for them.
+
+ccfd5a58-8617-45a6-9738-6a374f83d224-0
+00:11:34.680 --> 00:11:37.640
+But so this is very simple.
+
+9daae17a-8cd0-4e91-8eda-6b179a75abfa-0
+00:11:37.640 --> 00:11:47.040
+The the Google is configured so you can
+see step one combined.
+
+f3da1190-5620-449b-bc16-dbf13acdb27c-0
+00:11:47.440 --> 00:11:52.880
+So you have the sign in enabled.
+
+9d789851-dbcf-49c3-9d0a-1d5ce8aa5bd1-0
+00:11:52.920 --> 00:11:56.400
+So we have the local sign in available
+enabled.
+
+020df9b0-6cfb-4dec-b6d4-ca0ac81b4453-0
+00:11:56.400 --> 00:12:05.960
+So that means so we so for £100 ID check.
+
+5bd714fb-749d-43a8-8029-205d72902066-0
+00:12:06.120 --> 00:12:13.972
+So when we landed on this policy,
+so we expect the user to be already
+
+5bd714fb-749d-43a8-8029-205d72902066-1
+00:12:13.972 --> 00:12:15.880
+logged in, right?
+
+faaa2fe4-29bd-4337-85c1-5b047e0dadf7-0
+00:12:15.960 --> 00:12:23.278
+Because the way the £100 ID check is
+going to work is you either sign up or
+
+faaa2fe4-29bd-4337-85c1-5b047e0dadf7-1
+00:12:23.278 --> 00:12:27.900
+sign in,
+you go to the profile and you hit that
+
+faaa2fe4-29bd-4337-85c1-5b047e0dadf7-2
+00:12:27.900 --> 00:12:28.960
+link right.
+
+cfe52373-9f1d-4fee-85e4-91421630cab0-0
+00:12:28.960 --> 00:12:31.120
+So, so users already logged in.
+
+a0f866cb-de1d-4458-808f-840b2c784efe-0
+00:12:32.600 --> 00:12:37.900
+The first step for us to make sure is
+users logged in if it is not logged in,
+
+a0f866cb-de1d-4458-808f-840b2c784efe-1
+00:12:37.900 --> 00:12:39.600
+get them to log in right.
+
+575f8530-1cc7-4d46-985f-3ac00c1a2033-0
+00:12:41.600 --> 00:12:45.821
+If there's somehow like copy the URL or
+something and stuff hitting the profile
+
+575f8530-1cc7-4d46-985f-3ac00c1a2033-1
+00:12:45.821 --> 00:12:46.560
+button, right.
+
+ca76a7e8-eba0-4889-9074-922a97c65701-0
+00:12:48.000 --> 00:12:52.520
+So if they come from not from the portal,
+if they come directly.
+
+27a02a6c-6ec6-4f0d-b147-ba274afac14f-0
+00:12:52.520 --> 00:13:05.960
+So make sure that it's we've done that
+and then then we have a link to Google.
+
+5149eb5e-fed8-4165-b856-6a6a932ef759-0
+00:13:06.040 --> 00:13:11.120
+So so this will be there will be a link
+to my ID sort of thing, right.
+
+eafd0b0e-6d55-46b7-95cc-902ba668a3c7-0
+00:13:11.640 --> 00:13:15.927
+So if I run this policy,
+but unfortunately I was having some
+
+eafd0b0e-6d55-46b7-95cc-902ba668a3c7-1
+00:13:15.927 --> 00:13:20.566
+issues with this policy where I've
+created a test Google account,
+
+eafd0b0e-6d55-46b7-95cc-902ba668a3c7-2
+00:13:20.566 --> 00:13:23.800
+that test Google account,
+they've removed it.
+
+dd1a81ef-f294-4464-af37-ecf9fd918503-0
+00:13:24.080 --> 00:13:28.240
+So all the setup I had was lost.
+
+a946a153-7e4f-4927-bc14-b3fdec9e1aff-0
+00:13:29.160 --> 00:13:33.520
+But the policies who removed it, Google,
+Google has removed it.
+
+3b74d070-ddaa-4169-80a0-c9c1c35485db-0
+00:13:33.960 --> 00:13:36.520
+Yeah, the account was removed.
+
+db30d189-6729-469e-97a3-5d574b64cee4-0
+00:13:37.680 --> 00:13:41.760
+I I don't know why, but OK,
+It was a test Google account.
+
+f60fbe5e-a634-4a57-b0c2-04f82eb14208-0
+00:13:43.880 --> 00:13:47.025
+Yep,
+I tried to configure it just now with my
+
+f60fbe5e-a634-4a57-b0c2-04f82eb14208-1
+00:13:47.025 --> 00:13:50.240
+Google account,
+but it's still not functional.
+
+4ef9582a-fe87-4026-90b5-3d0d8684327d-0
+00:13:50.240 --> 00:13:53.080
+But we need to hide this.
+
+7042036a-5042-42d2-adc8-ef8920dfb002-0
+00:13:53.760 --> 00:13:55.880
+OK, yeah, we, we don't,
+we don't need this.
+
+58ceae4d-d854-426f-835b-74ec5ca92fcb-0
+00:13:56.400 --> 00:13:59.000
+So it's just local login, right?
+
+ec608a06-7eb3-4f82-a40d-632157776da3-0
+00:13:59.600 --> 00:13:59.720
+Yep.
+
+b1732003-512b-4b5b-961c-368e47284826-0
+00:14:00.320 --> 00:14:04.880
+So if I use a local login here.
+
+3f5514dc-ee99-41f4-bfc2-6c9489a8c87f-0
+00:14:30.520 --> 00:14:34.040
+So you have see,
+you see there's a link to Google, right?
+
+0c6312ce-19f8-4224-8b92-8fc1322eed34-0
+00:14:34.560 --> 00:14:41.220
+So I think the behaviour for my ID,
+there should be a link to my ID and there
+
+0c6312ce-19f8-4224-8b92-8fc1322eed34-1
+00:14:41.220 --> 00:14:43.440
+should be another link to.
+
+b4fad9b7-2316-4c75-866a-1fb6b8d3ce7b-0
+00:14:43.520 --> 00:14:49.043
+So we could ask the question,
+do you have a standard strength digital
+
+b4fad9b7-2316-4c75-866a-1fb6b8d3ce7b-1
+00:14:49.043 --> 00:14:49.280
+ID?
+
+9909911d-d9ee-4c25-9c36-38736e9528a1-0
+00:14:50.400 --> 00:14:54.360
+If it is, yes, click on My ID.
+
+094e9cb2-89fb-431e-be00-24d3202f0976-0
+00:14:55.200 --> 00:14:58.600
+If it is not click on the alternative
+service, right?
+
+3f1bc305-b434-4247-b173-1e3e901fb6d7-0
+00:14:59.560 --> 00:15:02.280
+So when you click on it,
+it should take you to Google.
+
+84b290e0-0e27-4ae5-9054-6635e486bb8c-0
+00:15:03.720 --> 00:15:05.080
+So this what happened, right?
+
+77ab5c57-719d-4525-b6ce-fba2ceb7a7d1-0
+00:15:05.080 --> 00:15:09.200
+So it's, it's,
+it's broken because it's removed.
+
+ac6987df-66b3-46a7-b336-bc988958736d-0
+00:15:09.320 --> 00:15:15.520
+Otherwise this would have taken me me to
+Google and asked me to log into Google.
+
+1ae7088d-6df4-4c85-b7c5-fc9e52202526-0
+00:15:17.240 --> 00:15:23.752
+So once I've logged into Google,
+it'll ask me for consent because so in
+
+1ae7088d-6df4-4c85-b7c5-fc9e52202526-1
+00:15:23.752 --> 00:15:27.280
+the profile, I asked few scopes, right?
+
+9797cef4-30f5-4974-bad1-e89d789a3d50-0
+00:15:28.800 --> 00:15:37.587
+I asked to read scopes,
+I asked to read the email and profile
+
+9797cef4-30f5-4974-bad1-e89d789a3d50-1
+00:15:37.587 --> 00:15:41.840
+from my Google account, right?
+
+cec2b370-37d5-4eeb-b3be-8f2b4b374065-0
+00:15:42.840 --> 00:15:46.929
+So once we land here,
+so once the users sign in,
+
+cec2b370-37d5-4eeb-b3be-8f2b4b374065-1
+00:15:46.929 --> 00:15:53.356
+they'll ask whether it's OK to give
+permissions to ask her to read the email
+
+cec2b370-37d5-4eeb-b3be-8f2b4b374065-2
+00:15:53.356 --> 00:15:55.360
+address and the profile.
+
+355693fa-a94b-4122-9053-ae13c620c89b-0
+00:15:55.360 --> 00:16:00.878
+So in in my ID case, we'll be reading,
+we might be reading email address,
+
+355693fa-a94b-4122-9053-ae13c620c89b-1
+00:16:00.878 --> 00:16:06.992
+first name, last name, this information,
+this information that you can read in in
+
+355693fa-a94b-4122-9053-ae13c620c89b-2
+00:16:06.992 --> 00:16:07.440
+there.
+
+7023c553-0554-4f26-a18d-694703312a79-0
+00:16:08.920 --> 00:16:12.600
+So, so we need to ask them permissions.
+
+f4f7691a-057d-4b41-ab93-9aa41a2eaae5-0
+00:16:13.920 --> 00:16:21.579
+I mean,
+they will ask because we requested the
+
+f4f7691a-057d-4b41-ab93-9aa41a2eaae5-1
+00:16:21.579 --> 00:16:27.120
+scopes and then once it completed.
+
+319677c8-ca61-4c2c-9fd1-9f087f1ba896-0
+00:16:30.680 --> 00:16:32.680
+So this is this is one thing, right?
+
+3d802dbc-c6fe-4040-8bd0-98dbcb29d1ae-0
+00:16:32.680 --> 00:16:41.760
+So the the, the Oh yeah,
+**** I think I removed that.
+
+2802cb96-1ba0-45d1-b3c0-45700e445e12-0
+00:16:44.480 --> 00:16:48.920
+So current POC profile POC policy.
+
+bf4fd317-ca4b-4143-bddd-edd2d6d7e000-0
+00:16:48.920 --> 00:16:51.160
+What it does is it adds.
+
+da650e43-e451-4e48-82dc-fa456f430d75-0
+00:16:52.960 --> 00:17:04.400
+So if I look for that user account,
+just unfortunate that it just it's broke.
+
+ff90ac9f-109a-4338-952f-8ac9b9b3cbe6-0
+00:17:04.560 --> 00:17:09.145
+I tried to reconfigure it,
+but I didn't I think I'm still missing
+
+ff90ac9f-109a-4338-952f-8ac9b9b3cbe6-1
+00:17:09.145 --> 00:17:09.840
+something.
+
+24198e6b-bf2c-4079-bd77-04da7e93b8cf-0
+00:17:10.200 --> 00:17:13.400
+Maybe if I get to reconfigure it,
+I'll do a demo.
+
+5a7467ec-1570-492b-a1fd-83f227c5fc20-0
+00:17:13.400 --> 00:17:15.920
+Again, a good demo for you guys.
+
+5aad0fa7-dcd8-4b88-ab87-19f8f119b176-0
+00:17:18.160 --> 00:17:19.080
+So here.
+
+f12672a2-c65a-4bb8-b1fc-cc1884bcc18f-0
+00:17:23.080 --> 00:17:28.253
+So by default,
+what it will do is you can see there's
+
+f12672a2-c65a-4bb8-b1fc-cc1884bcc18f-1
+00:17:28.253 --> 00:17:31.320
+one identity here for this user.
+
+3f990d6b-2614-4f60-89f3-7ff72a6da86d-0
+00:17:33.280 --> 00:17:38.040
+After you successfully give the consent,
+it'll add another identity here, right?
+
+82fefd26-39e9-4899-9388-a4e3da376807-0
+00:17:38.040 --> 00:17:42.194
+So this is your local identity using your
+email address,
+
+82fefd26-39e9-4899-9388-a4e3da376807-1
+00:17:42.194 --> 00:17:47.880
+and you'll add another Google identity,
+which is not the Gmail email address.
+
+cd4910ab-3ee2-4e7a-b1d7-b93e9a8e863c-0
+00:17:47.880 --> 00:17:50.960
+It'll be the Gmail email addresses.
+
+8614923d-8b2a-4582-9e3e-f19ddf985bdb-0
+00:17:51.040 --> 00:17:59.516
+GUID will be added here as a second
+identity provider, but we don't want that,
+
+8614923d-8b2a-4582-9e3e-f19ddf985bdb-1
+00:17:59.516 --> 00:18:00.160
+right?
+
+dcb2d5eb-a7b8-4a6d-bc47-6013d74525e1-0
+00:18:01.480 --> 00:18:08.197
+What happens is if we continue with that,
+if we let it add the second sign in
+
+dcb2d5eb-a7b8-4a6d-bc47-6013d74525e1-1
+00:18:08.197 --> 00:18:08.800
+method.
+
+12099c98-ab43-431c-9a75-11bf054b0493-0
+00:18:09.640 --> 00:18:18.480
+So we have the scenario where ACEO could
+be a governing person in two RT OS, right?
+
+bcdedc16-a170-4c06-8687-9353848bac20-0
+00:18:19.240 --> 00:18:24.160
+They probably want to keep the his to
+user.
+
+f89ef6eb-917a-448b-be19-3b153fd55a4e-0
+00:18:24.560 --> 00:18:28.120
+He probably want to keep 2 user accounts
+for those two RTOS, right?
+
+4eaef32e-7c1c-428b-b1f0-a8e610f6e115-0
+00:18:28.120 --> 00:18:32.360
+So probably use his company email
+addresses.
+
+e4548d08-4478-4e46-a3ec-09b964ce6a36-0
+00:18:32.960 --> 00:18:37.486
+He doesn't want to use his personal email
+address or he he doesn't want to share
+
+e4548d08-4478-4e46-a3ec-09b964ce6a36-1
+00:18:37.486 --> 00:18:40.840
+the one company email address with the
+other email address.
+
+0a61da6e-ccf8-40e4-bd88-5089aca5b13a-0
+00:18:40.840 --> 00:18:43.720
+So he will keep 2 user accounts, right?
+
+a0516e32-f3ed-4464-aa0e-a3021ea30274-0
+00:18:44.680 --> 00:18:48.640
+So for example,
+if you do 100 point ID check with one
+
+a0516e32-f3ed-4464-aa0e-a3021ea30274-1
+00:18:48.640 --> 00:18:53.920
+account if if then your digital ID is
+added as a second sign in method.
+
+896889df-33fb-4478-8b32-203ed7227608-0
+00:18:54.640 --> 00:19:04.153
+So when you try to do the £100 ID check,
+you'll complain that the user already
+
+896889df-33fb-4478-8b32-203ed7227608-1
+00:19:04.153 --> 00:19:05.840
+exists, right?
+
+2749b8f1-28e1-4a19-9f1f-4deca22e68b7-0
+00:19:06.480 --> 00:19:08.960
+So we need to modify that policy.
+
+2d830744-0264-4491-a3ea-78698a84292a-0
+00:19:09.480 --> 00:19:14.120
+So when the policy comes back,
+don't save it as a second identity method.
+
+7ef80232-21bc-405e-9c76-3ae9191eb4ec-0
+00:19:15.720 --> 00:19:17.240
+So we need to add A.
+
+423319ad-a7f6-42d5-89c7-1e96fae5dc2f-0
+00:19:19.040 --> 00:19:27.040
+So in in B to CB to C has this custom
+attributes, right?
+
+b81569ab-286b-44bf-9526-a6b179cbc0df-0
+00:19:27.040 --> 00:19:40.670
+Where's the custom attributes here, right?
+
+64b33d86-16a6-4390-9943-894a46388ded-0
+00:19:40.750 --> 00:19:44.990
+Edge user attributes, right.
+
+f0272e42-062c-405e-afc3-636701e36cf6-0
+00:19:45.910 --> 00:19:53.400
+So we already added OK, so,
+so there's few custom ones, right?
+
+96609e6c-c526-41b9-bf07-95aeeeddbcce-0
+00:19:53.400 --> 00:19:59.240
+So you can see, so we added that we,
+we have contact ID.
+
+71b1fcdc-22e9-45bf-91ae-cc03ca15ee10-0
+00:20:00.000 --> 00:20:06.353
+So we already stamped the contact ID into
+the B to C user account for tracking
+
+71b1fcdc-22e9-45bf-91ae-cc03ca15ee10-1
+00:20:06.353 --> 00:20:07.640
+purposes, right?
+
+8cd32568-d6ef-45ed-a752-0ff3065522f5-0
+00:20:07.640 --> 00:20:16.624
+Once you sign up you will link the link
+the contact in in in in CRM and once we
+
+8cd32568-d6ef-45ed-a752-0ff3065522f5-1
+00:20:16.624 --> 00:20:19.320
+get the contact back to.
+
+4a92f473-9b39-4ef0-89e6-8108d95fc391-0
+00:20:20.800 --> 00:20:25.492
+B to C,
+we stamp the contact ID into the user in
+
+4a92f473-9b39-4ef0-89e6-8108d95fc391-1
+00:20:25.492 --> 00:20:27.120
+B to C similarly.
+
+c1e6ac19-1579-48c3-9745-6e2aabb1fbcf-0
+00:20:28.120 --> 00:20:35.015
+So instead of adding a sign in method,
+we need to record the digital ID in in
+
+c1e6ac19-1579-48c3-9745-6e2aabb1fbcf-1
+00:20:35.015 --> 00:20:36.960
+this custom attribute.
+
+bd6706d8-7ad9-4da6-b5da-c661e07f7ea8-0
+00:20:40.320 --> 00:20:46.076
+And then also maybe we've added another
+flag called ID checked so ID checked
+
+bd6706d8-7ad9-4da6-b5da-c661e07f7ea8-1
+00:20:46.076 --> 00:20:46.600
+ticked.
+
+a078e2c0-82b2-4dcf-8657-3b1055afbe5b-0
+00:20:47.080 --> 00:20:51.720
+So what that allows is you can have one
+too many.
+
+3baf6666-6af0-4af8-a9cf-a954e1aa345c-0
+00:20:51.760 --> 00:20:55.600
+So you can have one digital ID connected
+with two user account.
+
+b6cdabf9-32b6-44fe-af76-825e09a26968-0
+00:20:58.760 --> 00:21:00.480
+So that's for limitation then.
+
+d45a143a-2847-4ea9-9f81-f3ea517e0789-0
+00:21:00.480 --> 00:21:00.680
+OK.
+
+e0000ddf-1aa5-4132-b48a-217165c0937e-0
+00:21:00.680 --> 00:21:03.320
+Like digital ID will be same, right?
+
+64d70823-78df-4b6f-b1cb-4b0ac285aded-0
+00:21:03.320 --> 00:21:08.200
+Like I will not be using a different
+digital ID for another RTO.
+
+64b377ce-e1ce-40f9-90ff-99e972ef663f-0
+00:21:08.200 --> 00:21:09.280
+So will that be allowed?
+
+165bf516-164a-4fea-8245-0644ac27599b-0
+00:21:09.280 --> 00:21:11.800
+Like I will have one digital ID, right?
+
+0014496a-250a-464f-8a2d-ffd3a36f4833-0
+00:21:11.800 --> 00:21:13.920
+So I'm a CEO with an RTO.
+
+84f3f66e-1c2f-43f9-8a66-98979a96f744-0
+00:21:14.280 --> 00:21:17.200
+I'll go do my 100 points verification
+with one RTO.
+
+cb63c939-8bd7-47cf-b17c-d8e523cfd033-0
+00:21:17.600 --> 00:21:23.905
+So in that case my digital ID against
+this user will be the same as doing for
+
+cb63c939-8bd7-47cf-b17c-d8e523cfd033-1
+00:21:23.905 --> 00:21:25.360
+another RTO right?
+
+f8462db0-e3ac-4fa6-9228-00ee6ebce13f-0
+00:21:25.520 --> 00:21:26.280
+Is that allowed?
+
+1c9fef4b-8bdd-4a4f-85b4-ffb2964499b6-0
+00:21:26.280 --> 00:21:29.960
+Like same digital ID 100 point
+verification is allowed across RTO?
+
+3bf437c7-5084-4f33-84d4-1a8f589112f9-0
+00:21:31.040 --> 00:21:35.200
+If you share the your user account with
+RTOS then you don't have problem right?
+
+3c6ac007-f527-4080-91e8-0c638cfa3e8b-0
+00:21:35.200 --> 00:21:41.280
+So because your digital ID is already
+done then CRM will be checked right?
+
+435317f1-0b7b-469f-ab9d-a3ed1da5d265-0
+00:21:41.800 --> 00:21:47.080
+So CRM won't ask them to use do the 100
+point ID check again, right.
+
+9f0f93e7-3397-4f4e-b3e1-a79db39a3de0-0
+00:21:47.080 --> 00:21:52.430
+But the problem is if you have two user
+accounts, so you have two contacts,
+
+9f0f93e7-3397-4f4e-b3e1-a79db39a3de0-1
+00:21:52.430 --> 00:21:54.120
+2 user accounts as well.
+
+c03063da-8952-482e-af20-e1e2f722ff3d-0
+00:21:55.880 --> 00:21:59.640
+Normally digital ID is using our personal
+email IDs, right?
+
+417dacc5-4e70-40be-b9c0-4e75110dbe97-0
+00:21:59.640 --> 00:22:04.360
+We won't be using official IDs like
+issued by companies or any other thing.
+
+75541541-2d6a-4a44-bfeb-c34d5f267d59-0
+00:22:04.880 --> 00:22:05.840
+Yeah, that's fine.
+
+a81434e7-8226-4af8-9f62-fe5ec444e16e-0
+00:22:05.840 --> 00:22:08.129
+So,
+so you don't have to use the same email
+
+a81434e7-8226-4af8-9f62-fe5ec444e16e-1
+00:22:08.129 --> 00:22:10.680
+address as the email address you sign in,
+Right.
+
+0b70d638-78b0-4988-93a5-5c27d331db5c-0
+00:22:10.680 --> 00:22:11.040
+OK.
+
+f4102174-8bfb-48b1-af55-9c40a9f0ff80-0
+00:22:11.600 --> 00:22:15.153
+So for example,
+I could be logging into
+
+f4102174-8bfb-48b1-af55-9c40a9f0ff80-1
+00:22:15.153 --> 00:22:19.240
+ascarusingmydinoco.germany@ascar.
+com dot AU.
+
+0829f132-c8b4-4882-8368-3abe80af7f71-0
+00:22:19.240 --> 00:22:19.560
+Yep.
+
+2e1ba106-ae4f-4275-b573-115468628c95-0
+00:22:20.760 --> 00:22:26.240
+But I can sign into my digital ID with my
+Gmail email address, right?
+
+36c83aaa-077b-43d3-9df2-aa50f25734c3-0
+00:22:26.880 --> 00:22:27.000
+OK.
+
+522e1e1a-c234-4baa-9ccd-9bae43de800c-0
+00:22:27.120 --> 00:22:27.240
+Yeah.
+
+7b6eda33-5db6-4957-95b9-a912196d15d0-0
+00:22:27.640 --> 00:22:31.640
+But when the request comes back,
+so I record.
+
+3b675ecb-c947-493f-9d08-a646c68730f8-0
+00:22:32.080 --> 00:22:33.320
+Yeah, not the email address.
+
+c4ddec4f-ce21-4c0e-87fe-ddf4f6da8898-0
+00:22:33.480 --> 00:22:35.280
+I mean,
+we can record the email address as well.
+
+0f751115-8de2-4bf9-8eb9-b7b4cb384569-0
+00:22:35.280 --> 00:22:38.080
+This is the, this is so we, we, we.
+
+4531dd0a-f796-422a-a739-710a06393586-0
+00:22:38.600 --> 00:22:41.200
+So I think this is for you guys to think,
+right?
+
+e5e7889a-92af-49ab-b22b-a29fdd82bb75-0
+00:22:42.360 --> 00:22:45.160
+How do we want to record the digital ID?
+
+46c22eaa-3d8c-4bed-ac9c-10c2b4061c87-0
+00:22:46.600 --> 00:22:51.913
+So are we going to record the digital ID
+as attributes of a contact or are we
+
+46c22eaa-3d8c-4bed-ac9c-10c2b4061c87-1
+00:22:51.913 --> 00:22:56.000
+going to have a separate entity link to
+the contact, right?
+
+90a28a31-2507-4e4a-8149-1f391a6bb872-0
+00:22:56.640 --> 00:23:00.687
+So,
+So what need to happen is after digital,
+
+90a28a31-2507-4e4a-8149-1f391a6bb872-1
+00:23:00.687 --> 00:23:08.242
+when the digital ID comes back to B to C,
+so we need B to C need to go make the API
+
+90a28a31-2507-4e4a-8149-1f391a6bb872-2
+00:23:08.242 --> 00:23:15.527
+calls to populate the digital ID entity
+or the additional attributes against the
+
+90a28a31-2507-4e4a-8149-1f391a6bb872-3
+00:23:15.527 --> 00:23:22.362
+contact so that that will have so we
+won't touch the contacts primary email
+
+90a28a31-2507-4e4a-8149-1f391a6bb872-4
+00:23:22.362 --> 00:23:25.960
+address that will remain whatever it is.
+
+b7e24ed9-c660-45a1-81d2-586c661f8f4b-0
+00:23:26.640 --> 00:23:29.960
+And you might have a digital ID email
+address, right?
+
+1fdeb8ce-7d1a-470a-8cf1-b0db17516dfa-0
+00:23:30.680 --> 00:23:33.400
+You might have a digital ID mobile number.
+
+dda43ef4-65de-4ac1-870f-da19967baafd-0
+00:23:39.520 --> 00:23:43.600
+Because you, you can't really,
+you had a good point, right?
+
+15970b9d-e246-4f4c-84f7-ac2846db405a-0
+00:23:43.600 --> 00:23:47.129
+You can't really replace the primary
+email address with the digital ID email
+
+15970b9d-e246-4f4c-84f7-ac2846db405a-1
+00:23:47.129 --> 00:23:49.880
+address because that could be separate,
+could be different.
+
+6ce538ba-d08e-4f75-804b-8f32f71ef1bf-0
+00:23:50.160 --> 00:23:50.480
+Yeah.
+
+698cc110-ad50-41bb-a894-8ae4761a4d31-0
+00:23:52.480 --> 00:23:56.286
+But then you can decide what are you
+going to do with the mobile number,
+
+698cc110-ad50-41bb-a894-8ae4761a4d31-1
+00:23:56.286 --> 00:23:59.520
+because that mobile number could be
+different as well, right.
+
+520b6434-7a1e-46ff-9290-305c5bb23b84-0
+00:23:59.520 --> 00:24:05.940
+So he could be logging in with the his
+mobile number to ask her,
+
+520b6434-7a1e-46ff-9290-305c5bb23b84-1
+00:24:05.940 --> 00:24:12.360
+but his digital ID might have his
+personal mobile number, right?
+
+fe920d57-4621-4403-bc01-79df29da91e1-0
+00:24:12.920 --> 00:24:16.400
+So I think it's best to keep it saved
+separately.
+
+b46bc8cd-308c-4b4e-a2a2-c9f4ac9d3eb4-0
+00:24:16.800 --> 00:24:17.160
+Yeah, yeah.
+
+1fb99aba-edb3-470d-974e-7b59813242ab-0
+00:24:17.160 --> 00:24:21.880
+This is the contact and this is digital
+ID and this is the link.
+
+6e3f93a2-b7d3-4a4c-ba8d-a9bd621e31bd-0
+00:24:25.240 --> 00:24:31.883
+And these are the attributes that we're
+going to save 4 digital ID, first name,
+
+6e3f93a2-b7d3-4a4c-ba8d-a9bd621e31bd-1
+00:24:31.883 --> 00:24:33.960
+last name, date of birth.
+
+c6cb369f-594a-49c9-b66a-85de7f4b89c9-0
+00:24:35.120 --> 00:24:40.431
+Maybe like some attributes like date of
+birth, it can be replaced in contact,
+
+c6cb369f-594a-49c9-b66a-85de7f4b89c9-1
+00:24:40.431 --> 00:24:40.840
+right?
+
+7517cd08-649d-439d-abf4-bb53c7ed3c6f-0
+00:24:40.840 --> 00:24:42.840
+Because you can't have 22 date of births.
+
+e706be80-9d39-437f-9b93-d08243679477-0
+00:24:43.720 --> 00:24:47.482
+Maybe first name, last name,
+you can replace as well because that's
+
+e706be80-9d39-437f-9b93-d08243679477-1
+00:24:47.482 --> 00:24:49.640
+the digital IDs, first name, last name.
+
+4509a979-9ff4-42e6-b844-47698ad620b7-0
+00:24:51.200 --> 00:24:54.040
+But some attributes,
+you may need to keep it separately.
+
+92bcbc19-0788-4484-be22-445f1f77246b-0
+00:24:55.920 --> 00:25:01.731
+And and then the ID, the digital ID,
+the GUID of the digital ID, yeah,
+
+92bcbc19-0788-4484-be22-445f1f77246b-1
+00:25:01.731 --> 00:25:06.560
+as you said that's need important to
+important to save it.
+
+16f522b1-81b4-476c-913d-6d3531bfb7f8-0
+00:25:13.640 --> 00:25:16.600
+I think that's pretty much it for
+digitally part.
+
+0a7a0f1a-123c-4979-829a-18dbc81c330b-0
+00:25:20.440 --> 00:25:25.018
+How do we configure this on the profile
+Denuka, like for sign up sign in,
+
+0a7a0f1a-123c-4979-829a-18dbc81c330b-1
+00:25:25.018 --> 00:25:29.720
+we go and enable Azure ADB to see right
+on the portal setting for this one.
+
+c9e95796-25f5-400e-b4ba-6c2add96e9ee-0
+00:25:29.880 --> 00:25:33.920
+How we are gonna do Yeah,
+So good question.
+
+23867375-6247-4369-a887-734871d0a863-0
+00:25:34.960 --> 00:25:40.520
+So if you go to your you guys call this
+Power Portal Studio, right?
+
+b4e22d9c-36f4-46a8-8835-9f6c029341cf-0
+00:25:40.520 --> 00:25:48.838
+Go to Power Portal Studio and add another
+manual planning,
+
+b4e22d9c-36f4-46a8-8835-9f6c029341cf-1
+00:25:48.838 --> 00:25:54.760
+not sharing because because it was stolen.
+
+55c5cf02-fe9f-4c86-914d-fe83329b0227-0
+00:25:55.000 --> 00:25:58.120
+So you can add multiple B to C providers,
+right?
+
+809e8ddc-500f-484f-891a-44f2cadc599c-0
+00:25:58.120 --> 00:25:58.360
+Yeah.
+
+8df8104b-bc33-42f1-84a9-6fa80a5dfde0-0
+00:26:00.920 --> 00:26:05.698
+So for example,
+now we have the policy that we've been
+
+8df8104b-bc33-42f1-84a9-6fa80a5dfde0-1
+00:26:05.698 --> 00:26:09.695
+using is from an annual planning
+perspective,
+
+8df8104b-bc33-42f1-84a9-6fa80a5dfde0-2
+00:26:09.695 --> 00:26:14.040
+the real goal is to stand brand priority
+budgets.
+
+a488c56e-2763-4102-a9e2-83e05bf1ddaa-0
+00:26:15.960 --> 00:26:26.880
+But yeah,
+define SOW to establish ticketed time.
+
+c2fb9a8e-7a5c-48ad-b5ce-a2808e154d0c-0
+00:26:26.880 --> 00:26:32.600
+We had the proofing as the policy, right?
+
+2ad0710f-af09-4ee8-843a-666d96651225-0
+00:26:33.120 --> 00:26:38.586
+If you go here and if you go to identity
+and the same thing that we did the other
+
+2ad0710f-af09-4ee8-843a-666d96651225-1
+00:26:38.586 --> 00:26:39.320
+day, right?
+
+3521999b-ee9a-4851-909c-fbcdc1a21b0f-0
+00:26:39.320 --> 00:26:46.263
+So, so you add,
+you can add another provider, OK,
+
+3521999b-ee9a-4851-909c-fbcdc1a21b0f-1
+00:26:46.263 --> 00:26:57.234
+So that could be AB to C and you can name
+it like proofing, right or whatever,
+
+3521999b-ee9a-4851-909c-fbcdc1a21b0f-2
+00:26:57.234 --> 00:27:00.290
+whatever it is, right.
+
+dd5157ca-08e1-4cc1-bd0f-9d3dbf87b7e9-0
+00:27:00.290 --> 00:27:01.890
+And then you fill out this information.
+
+990c50b2-4be4-4e91-a814-12ccbfa91c04-0
+00:27:01.890 --> 00:27:06.680
+You use the same plant ID as the one you
+use domain, right?
+
+8dd6a1ee-979f-4a0a-8fc4-a25d9b87c220-0
+00:27:07.400 --> 00:27:11.640
+And then you add authority URL.
+
+65e8a4b3-d240-40eb-9d76-a11c0803e4ea-0
+00:27:11.640 --> 00:27:13.960
+Remember that URL had the policy in
+between.
+
+6a0da064-0b56-4c68-b4a4-05f3483ff682-0
+00:27:18.280 --> 00:27:19.200
+Let's go back here.
+
+3f636ec5-60a2-49c6-804c-c40b92e4967a-0
+00:27:22.200 --> 00:27:22.800
+So here.
+
+afb7ea82-919b-4afa-8e70-aba838bc7e07-0
+00:27:23.240 --> 00:27:27.960
+So in the second one, you add so the,
+the these bits are the same.
+
+1f1cdca0-797a-4347-9f82-3630d0b3edc9-0
+00:27:28.120 --> 00:27:30.120
+This is the tenant ID.
+
+d366f129-b3d3-400f-b16f-c89f24efd006-0
+00:27:30.720 --> 00:27:34.640
+And what you need to change is the policy,
+this policy name, right?
+
+cf719877-ac28-47cb-8ffb-3863601d8a6c-0
+00:27:35.360 --> 00:27:36.640
+And ID is the same.
+
+4dec8910-5434-4bd7-8b63-71d4918db1ae-0
+00:27:36.680 --> 00:27:40.160
+So I guess and this is generated by
+portal, right?
+
+0f94e6ba-6808-4f9f-b633-31c0f8ea3d7c-0
+00:27:40.760 --> 00:27:40.880
+Yeah.
+
+aeb30944-6c86-49e6-b1ca-ced4a8a3644b-0
+00:27:40.880 --> 00:27:42.440
+And then you need to change this.
+
+8cbe8f2e-2b0f-4fae-9dd5-5edc8f9fe6f0-0
+00:27:42.480 --> 00:27:44.320
+You don't have a password reset for that.
+
+3d27d730-d91e-4e59-9070-4aeefb03ef29-0
+00:27:44.680 --> 00:27:51.953
+It's only the the proofing policy here
+and same thing here, proofing policy,
+
+3d27d730-d91e-4e59-9070-4aeefb03ef29-1
+00:27:51.953 --> 00:27:52.520
+right?
+
+7357a409-aced-45bb-86b5-caa6bd5fcabe-0
+00:27:53.000 --> 00:27:53.120
+Yeah.
+
+4b75ef6b-2ebd-4bef-bafc-aade075e149b-0
+00:27:53.120 --> 00:27:57.960
+And then I think in these settings you
+don't need external logout.
+
+2354dad6-029d-4955-be5e-004a2dfb5594-0
+00:27:58.480 --> 00:28:01.400
+None of these need to be enabled, right?
+
+8d1fb0ca-ac15-4eb9-8eea-e8a35ac2d52e-0
+00:28:02.200 --> 00:28:03.480
+It's just a provider.
+
+5c7948c7-99ac-4c4b-bd64-51f905ddbb45-0
+00:28:04.720 --> 00:28:11.157
+And so once you enable that,
+because you said this to default,
+
+5c7948c7-99ac-4c4b-bd64-51f905ddbb45-1
+00:28:11.157 --> 00:28:15.040
+it won't show up in the portal, right?
+
+709c87e1-0e57-444b-b866-019bf147bb74-0
+00:28:15.640 --> 00:28:16.560
+It will be hidden.
+
+f71df5af-3818-4df0-ac36-14a9cdfa9afd-0
+00:28:18.440 --> 00:28:22.320
+So you can follow the same logic that
+you've done here, right?
+
+3b2c122f-1cd0-4c4c-abc8-42a01d53adfb-0
+00:28:27.000 --> 00:28:29.840
+So I think rather rather did this.
+
+f18c42ae-e89e-48e9-924b-65eebf772edb-0
+00:28:31.000 --> 00:28:34.854
+So this link,
+the way that you generate the link here,
+
+f18c42ae-e89e-48e9-924b-65eebf772edb-1
+00:28:34.854 --> 00:28:40.320
+you can generate the link in the same way
+to redirect to the proofing policy.
+
+9fa77594-ebcc-43cd-aa0d-f8ab351c134d-0
+00:28:41.160 --> 00:28:42.520
+OK, yeah, right.
+
+0634ca82-33eb-4e1a-85d7-5b3febaa1e37-0
+00:28:42.520 --> 00:28:47.400
+So I I think the way that is done rather
+read the configuration.
+
+1549719f-0722-4028-b8f4-24769d08ddf8-0
+00:28:47.400 --> 00:28:50.989
+So these get saved,
+identity provider settings get saved into
+
+1549719f-0722-4028-b8f4-24769d08ddf8-1
+00:28:50.989 --> 00:28:51.800
+site settings.
+
+f3467477-79d5-45eb-b6f0-631a840b9d7b-0
+00:28:52.040 --> 00:28:57.242
+Yeah,
+I think she rented the this URL using the
+
+f3467477-79d5-45eb-b6f0-631a840b9d7b-1
+00:28:57.242 --> 00:28:58.760
+site settings.
+
+3162672c-ecfb-44be-9215-094c36cb13be-0
+00:28:59.240 --> 00:28:59.880
+OK, yeah.
+
+ae7aef52-39af-470b-9bd1-6523adbef0b2-0
+00:29:00.040 --> 00:29:04.303
+So so in in your profile page,
+you would have a button,
+
+ae7aef52-39af-470b-9bd1-6523adbef0b2-1
+00:29:04.303 --> 00:29:09.099
+similar button here,
+the link generated similar to the sign up
+
+ae7aef52-39af-470b-9bd1-6523adbef0b2-2
+00:29:09.099 --> 00:29:09.480
+link.
+
+99855bdf-091c-44e6-b8f3-c0baedaf34e9-0
+00:29:09.880 --> 00:29:10.200
+All right.
+
+28596e8a-5934-45b8-9a89-f5a5d4fb8fe7-0
+00:29:10.200 --> 00:29:11.800
+Yeah, for the proof proofing, right.
+
+87d2e8c5-9179-45d3-a752-8fffeca40416-0
+00:29:11.800 --> 00:29:15.346
+So,
+so when the user hit the proofing button,
+
+87d2e8c5-9179-45d3-a752-8fffeca40416-1
+00:29:15.346 --> 00:29:21.590
+so the user will land on that policy and
+by the time it won't ask you to So like
+
+87d2e8c5-9179-45d3-a752-8fffeca40416-2
+00:29:21.590 --> 00:29:24.519
+like here, it won't ask you to log in.
+
+0234f7ab-172d-4479-aa24-c9290c8b1ac2-0
+00:29:24.840 --> 00:29:27.234
+Yeah,
+it will land on that link page directly
+
+0234f7ab-172d-4479-aa24-c9290c8b1ac2-1
+00:29:27.234 --> 00:29:29.160
+because the user's already logged in.
+
+05de78c5-5e37-4e1b-84fc-ec173457c1de-0
+00:29:30.200 --> 00:29:30.440
+Yep.
+
+68f54efc-450e-4821-b809-210b017804d6-0
+00:29:33.520 --> 00:29:37.520
+Yeah,
+that's how the integration would happen.
+
+594a0dff-7dbc-4537-90ec-6b3a043e648d-0
+00:29:38.760 --> 00:29:47.320
+OK Yeah, if you guys have,
+I think that's all the.
+
+4c4d1ab0-9bfb-4c4d-9afc-62327d148852-0
+00:29:47.520 --> 00:29:54.693
+So I'm going to do a OK,
+because I was hoping to do the sort of
+
+4c4d1ab0-9bfb-4c4d-9afc-62327d148852-1
+00:29:54.693 --> 00:29:57.160
+the demo in 16 minute.
+
+45573d06-5bb7-49cc-a832-86b3d773c1a9-0
+00:29:57.160 --> 00:30:04.960
+So you guys have time to ask questions
+about the demo in this handover session.
+
+a94dcb6f-64b7-479e-91aa-ef7a33987cc0-0
+00:30:06.160 --> 00:30:08.440
+But unfortunately demo is after this.
+
+6f24605d-1205-4722-93fa-b861b2c2b91f-0
+00:30:09.160 --> 00:30:09.560
+Yeah.
+
+8489d23a-1ac3-48c5-bdd8-cf20e74b5cb7-0
+00:30:13.440 --> 00:30:17.920
+So maybe I mean, we have time tomorrow,
+we can set up another half an hour.
+
+799f2e1a-f5c9-4ba7-bf65-a3ce2d2715b6-0
+00:30:18.320 --> 00:30:18.440
+Yeah.
+
+71cebf73-5c46-49ef-947c-4425bb0d5e85-0
+00:30:19.240 --> 00:30:23.080
+Because there's there's no point of doing
+the demo here right now because I have to
+
+71cebf73-5c46-49ef-947c-4425bb0d5e85-1
+00:30:23.080 --> 00:30:23.720
+do demo again.
+
+03faf9ed-5d42-42c7-9716-3b942ffe5417-0
+00:30:24.120 --> 00:30:27.987
+Yeah,
+we can probably if you guys think you you
+
+03faf9ed-5d42-42c7-9716-3b942ffe5417-1
+00:30:27.987 --> 00:30:33.305
+need, you have questions,
+We'll set up another half an hour to go
+
+03faf9ed-5d42-42c7-9716-3b942ffe5417-2
+00:30:33.305 --> 00:30:35.320
+through tomorrow morning.
+
+16231188-bdd4-46d2-80a0-9ef743c132ca-0
+00:30:35.520 --> 00:30:39.800
+We'll do another half an hour Tanuka
+recording that demo tomorrow morning.
+
+a2855397-fa98-4adb-a5d6-144dddb26881-0
+00:30:40.120 --> 00:30:45.200
+I have a physio appointment,
+so I'll be away for probably one hour.
+
+1adcbc40-8de6-4ff3-a6c2-ae3ec8157cd1-0
+00:30:45.640 --> 00:30:46.080
+That's OK.
+
+ea3f2bfe-bdd2-4c53-a9ba-6dca93f29530-0
+00:30:46.080 --> 00:30:46.680
+Whenever you're on.
+
+a678404c-daf2-4502-b659-66c20cc585e2-0
+00:30:46.680 --> 00:30:48.520
+Maybe if you can do afternoon.
+
+70266434-9f3e-4b4c-990a-edaac6296bd4-0
+00:30:49.520 --> 00:30:50.560
+Yeah, I can do afternoon.
+
+3e1098a0-354a-48a8-8cf1-650be28c7162-0
+00:30:50.760 --> 00:30:51.760
+OK, we can do that.
