@@ -1,0 +1,1194 @@
+KING-SMITH,Jamie
+0 minutes 3 seconds0:03
+KING-SMITH,Jamie 0 minutes 3 seconds
+I was making sure they were 1159, but I felt like they were previously. Anyway. I was just changing the date and so I just want to make sure that, like Tian, I don't know whether we whether Matt provided us a different time or explicitly provided the time in the import files.
+C
+Charmaine
+0 minutes 3 seconds0:03
+Charmaine 0 minutes 3 seconds
+Yes.
+V
+VO,Tien
+0 minutes 21 seconds0:21
+VO,Tien 0 minutes 21 seconds
+Let me check.
+K
+KING-SMITH,Jamie
+0 minutes 22 seconds0:22
+KING-SMITH,Jamie 0 minutes 22 seconds
+Yeah, just have a double check.
+C
+Charmaine
+0 minutes 23 seconds0:23
+Charmaine 0 minutes 23 seconds
+I think the import files were just the date, not the date time, So what? That's why it defaulted to the the you know the 1212 o'clock.
+K
+KING-SMITH,Jamie
+0 minutes 26 seconds0:26
+KING-SMITH,Jamie 0 minutes 26 seconds
+Yeah, it's just, yeah.
+KING-SMITH,Jamie 0 minutes 31 seconds
+Right. Keep, keep talking. Just keep going down. It's just maybe we'll start with the date of birth. I'll just go and do a bit of double checking to see whether it was imported correctly for ones I didn't touch.
+C
+Charmaine
+0 minutes 40 seconds0:40
+Charmaine 0 minutes 40 seconds
+So in in the pipeline where we do a, it's kind of like a transformation to I think the Azure data like storage where we import the first name, last name and then this.
+M
+MILLS,Grant
+0 minutes 40 seconds0:40
+MILLS,Grant 0 minutes 40 seconds
+Yeah.
+MILLS,Grant 0 minutes 51 seconds
+Yeah.
+C
+Charmaine
+0 minutes 55 seconds0:55
+Charmaine 0 minutes 55 seconds
+Some attributes relating to one of the records. Forgive me if I forget what they were, but they've obviously got five different components to the pipeline when we pick up that information. Some of the things that we do.
+Charmaine 1 minute 13 seconds
+Trans not transposes changes the data in terms of UTC. So where we've got that code in the pipeline, we could do a search in the the code on the right hand side of the.
+Charmaine 1 minute 32 seconds
+As a Azure data factory, we can we can find that in those five different pipelines and then we could probably remove the ones that are transforming the UTC value and then we can do the same type of search on kind of that that date transformation.
+Charmaine 1 minute 51 seconds
+Or the date pick up, at least for the expiry of of record or something like that. There's like an expiry attribute and if we transform that with the time stamp appended with it with I I. This was one of the solutions of ideas.
+Charmaine 2 minutes 11 seconds
+With like T, you know 1159, that should actually. I was just thinking about that. If you're processing the information.
+Charmaine 2 minutes 26 seconds
+From like a different part of the of the country and you've got that Australia daytime situation, it's probably best to kind of look at the current time and then just go back one minute.
+Charmaine 2 minutes 42 seconds
+Rather than actually put time 11:59 and then at least then when it gets uploaded, as you know, 2020, 531st of December, it'll actually be the 11:59 if you go back a minute.
+Charmaine 2 minutes 58 seconds
+Does that make sense? And if it doesn't, yeah.
+
+KING-SMITH,Jamie
+3 minutes3:00
+KING-SMITH,Jamie 3 minutes
+Yeah, that made sense to me. Just deal with the time bit. Don't worry about the the rest of it, just at the end, just subtract a minute. Yeah.
+C
+Charmaine
+3 minutes 7 seconds3:07
+Charmaine 3 minutes 7 seconds
+Yeah, yeah. So still import it, but tag on the time stamp at the end and then go back one minute.
+K
+KING-SMITH,Jamie
+3 minutes 16 seconds3:16
+KING-SMITH,Jamie 3 minutes 16 seconds
+Yep.
+KING-SMITH,Jamie 3 minutes 19 seconds
+Interesting Yep.
+V
+VO,Tien
+3 minutes 21 seconds3:21
+VO,Tien 3 minutes 21 seconds
+OK, so I'm looking at the RT credential qualification file and it has got a date and time stamp and it's this is the latest file. It's default to 1159 P 1159 or 2359 I should say.
+C
+Charmaine
+3 minutes 30 seconds3:30
+Charmaine 3 minutes 30 seconds
+Mm-hmm.
+Charmaine 3 minutes 39 seconds
+OK.
+M
+MILLS,Grant
+3 minutes 39 seconds3:39
+MILLS,Grant 3 minutes 39 seconds
+Tim, Tim, can you share your screen, is that OK?
+V
+VO,Tien
+3 minutes 41 seconds3:41
+VO,Tien 3 minutes 41 seconds
+Sure.
+K
+KING-SMITH,Jamie
+3 minutes 43 seconds3:43
+KING-SMITH,Jamie 3 minutes 43 seconds
+That's. I just feel like that was consistent with. I didn't have to update every record to have the right time. I was shifting the date and I made sure that the time was still 1159 for the records I was updating. But I felt like it was already set to 11:59 and I saw the 2359 as part of importing.
+M
+MILLS,Grant
+3 minutes 44 seconds3:44
+MILLS,Grant 3 minutes 44 seconds
+OK.
+C
+Charmaine
+4 minutes 2 seconds4:02
+Charmaine 4 minutes 2 seconds
+OK, so this is different to when I received that instruction to update. So it looks like Matt's taking that role on now of doing OK. So then that's yeah, that's off the table then.
+K
+KING-SMITH,Jamie
+4 minutes 7 seconds4:07
+KING-SMITH,Jamie 4 minutes 7 seconds
+Hmm.
+KING-SMITH,Jamie 4 minutes 15 seconds
+That's what I felt like. I felt like, Matt added. The time to the file and we've imported it and it actually worked OK.
+C
+Charmaine
+4 minutes 16 seconds4:16
+Charmaine 4 minutes 16 seconds
+Yeah.
+M
+MILLS,Grant
+4 minutes 22 seconds4:22
+MILLS,Grant 4 minutes 22 seconds
+So there's been 2 rounds.
+C
+Charmaine
+4 minutes 22 seconds4:22
+Charmaine 4 minutes 22 seconds
+Yeah. Are we are we considered though the when that's up imported if you're importing it from like Brisbane, you might be off by, oh, actually no. It'll it'll be fine because it's hard coded there.
+
+MILLS,Grant
+4 minutes 26 seconds4:26
+MILLS,Grant 4 minutes 26 seconds
+Yeah.
+K
+KUMAR,Pradeep
+4 minutes 33 seconds4:33
+KUMAR,Pradeep 4 minutes 33 seconds
+It shouldn't be because you just take you taking the you know as as input from the CSV shouldn't be should be taking what you supply.
+C
+Charmaine
+4 minutes 41 seconds4:41
+Charmaine 4 minutes 41 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+4 minutes 43 seconds4:43
+KING-SMITH,Jamie 4 minutes 43 seconds
+It's almost like a reverse conversion, Pradeep. It's like if it needs to convert it, it'll convert it back, but it's still going to equate to 1159. Yep.
+K
+KUMAR,Pradeep
+4 minutes 46 seconds4:46
+KUMAR,Pradeep 4 minutes 46 seconds
+Yep. Yep. Yep. Yep. Yep. Yep, that's right.
+C
+Charmaine
+4 minutes 48 seconds4:48
+Charmaine 4 minutes 48 seconds
+OK.
+Charmaine 4 minutes 51 seconds
+Yes, exactly. Yeah.
+M
+MILLS,Grant
+4 minutes 54 seconds4:54
+MILLS,Grant 4 minutes 54 seconds
+So.
+C
+Charmaine
+4 minutes 54 seconds4:54
+Charmaine 4 minutes 54 seconds
+And so the other one is also.
+K
+KUMAR,Raj
+4 minutes 54 seconds4:54
+KUMAR,Raj 4 minutes 54 seconds
+And the account, sorry. And the account which is being used to import data.
+KUMAR,Raj 5 minutes 5 seconds
+So the authenticated account.
+KUMAR,Raj 5 minutes 9 seconds
+That account must have a time zone set to it.
+V
+VO,Tien
+5 minutes 14 seconds5:14
+VO,Tien 5 minutes 14 seconds
+Yes, it's a service account, right? So that the the the yeah the upload is run by a service account.
+K
+KING-SMITH,Jamie
+5 minutes 14 seconds5:14
+KING-SMITH,Jamie 5 minutes 14 seconds
+Got it.
+K
+KUMAR,Raj
+5 minutes 16 seconds5:16
+KUMAR,Raj 5 minutes 16 seconds
+Yeah. So yeah.
+KUMAR,Raj 5 minutes 21 seconds
+Yeah, that will have a time zone and.
+K
+KUMAR,Pradeep
+5 minutes 22 seconds5:22
+KUMAR,Pradeep 5 minutes 22 seconds
+Can I? Yeah. Can I, can I ask one thing, Raj?
+KUMAR,Pradeep 5 minutes 27 seconds
+Have we got all the users in the the right time zone settings? Because if the user is not on the right settings, they'll see the times different doesn't matter what system being set to. It's a user setting I'm talking about, not the the the not the system setting.
+K
+KUMAR,Raj
+5 minutes 37 seconds5:37
+KUMAR,Raj 5 minutes 37 seconds
+Yeah, time zone is actually, yeah, because usually time zones.
+KUMAR,Raj 5 minutes 45 seconds
+Yeah, user said it takes the time from Office 365. Same whatever is for the user for dynamics so but they can even if they yeah.
+
+Yeah, there's one additional settings needs to be done for for the users to set them into the the right time zone.
+K
+KUMAR,Raj
+6 minutes 3 seconds6:03
+KUMAR,Raj 6 minutes 3 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+6 minutes 4 seconds6:04
+KING-SMITH,Jamie 6 minutes 4 seconds
+Yeah, I don't know what we do now, but in asquinet, what we did was everybody was on the East Coast, right? So so every user had their settings set to the East Coast because something like a submitted date and time if it's submitted at at at at you know 8:00 in Melbourne.
+K
+KUMAR,Pradeep
+6 minutes 4 seconds6:04
+KUMAR,Pradeep 6 minutes 4 seconds
+OK.
+M
+MILLS,Grant
+6 minutes 7 seconds6:07
+MILLS,Grant 6 minutes 7 seconds
+Yeah.
+K
+KUMAR,Pradeep
+6 minutes 16 seconds6:16
+KUMAR,Pradeep 6 minutes 16 seconds
+Hmm hmm.
+K
+KING-SMITH,Jamie
+6 minutes 22 seconds6:22
+KING-SMITH,Jamie 6 minutes 22 seconds
+It was submitted at 8:00 and so it was weird for people to have a look like sometimes days would shift if they are in WA, it would actually show a different date and time. People are going oh, that doesn't show what I submitted it at, so we sent everybody to the same time zone in the system, but we might need to unpack that a little bit more about what the default is.
+K
+KUMAR,Pradeep
+6 minutes 26 seconds6:26
+KUMAR,Pradeep 6 minutes 26 seconds
+Hmm.
+KUMAR,Pradeep 6 minutes 30 seconds
+Hmm.
+KUMAR,Pradeep 6 minutes 37 seconds
+Yeah.
+KUMAR,Pradeep 6 minutes 40 seconds
+Yes, that's right, because I have seen that happening a lot. So I I I think it would be good to go through the users and there's a we we can update all in bulk.
+K
+KING-SMITH,Jamie
+6 minutes 41 seconds6:41
+KING-SMITH,Jamie 6 minutes 41 seconds
+Yeah.
+KING-SMITH,Jamie 6 minutes 53 seconds
+Yeah. So.
+C
+Charmaine
+6 minutes 53 seconds6:53
+Charmaine 6 minutes 53 seconds
+So I just saw 10:10 AM. Does that mean that?
+Charmaine 6 minutes 58 seconds
+It has converted it in the dynamics.
+K
+KING-SMITH,Jamie
+7 minutes 2 seconds7:02
+KING-SMITH,Jamie 7 minutes 2 seconds
+Dynamics will display it based on your time zone, right, Raj? So kind of I think it is behind the scenes. It is actually like a UTC time and then it applies your time zone to give you the current time, but if you.
+K
+KUMAR,Pradeep
+7 minutes 5 seconds7:05
+KUMAR,Pradeep 7 minutes 5 seconds
+Hmm.
+KUMAR,Pradeep 7 minutes 7 seconds
+Yeah.
+K
+KUMAR,Raj
+7 minutes 8 seconds7:08
+KUMAR,Raj 7 minutes 8 seconds
+Yes.
+K
+KUMAR,Pradeep
+7 minutes 14 seconds7:14
+KUMAR,Pradeep 7 minutes 14 seconds
+Hmm.
+C
+Charmaine
+7 minutes 15 seconds7:15
+Charmaine 7 minutes 15 seconds
+Ah.
+K
+KING-SMITH,Jamie
+7 minutes 17 seconds7:17
+KING-SMITH,Jamie 7 minutes 17 seconds
+What were you saying something else, Sharman?
+C
+Charmaine
+7 minutes 19 seconds7:19
+Charmaine 7 minutes 19 seconds
+Oh no. So if the user has their time zone displayed as their current time, then it'll display as yeah, what they would expect.
+
+KING-SMITH,Jamie
+7 minutes 28 seconds7:28
+KING-SMITH,Jamie 7 minutes 28 seconds
+Yeah, yeah, yeah. Absolutely. Yeah. So Yep.
+K
+KUMAR,Pradeep
+7 minutes 32 seconds7:32
+KUMAR,Pradeep 7 minutes 32 seconds
+Yeah.
+C
+Charmaine
+7 minutes 32 seconds7:32
+Charmaine 7 minutes 32 seconds
+OK.
+K
+KING-SMITH,Jamie
+7 minutes 34 seconds7:34
+KING-SMITH,Jamie 7 minutes 34 seconds
+So I think if I think if you're in WA and you looked at the response expiry date and time, you'd actually probably see a different time if your time zone is just defaulting to WA, it'll. I can't remember if it slides it back or moves it forward, but it'll be three hours difference, right?
+M
+MILLS,Grant
+7 minutes 34 seconds7:34
+MILLS,Grant 7 minutes 34 seconds
+So I think.
+MILLS,Grant 7 minutes 36 seconds
+Yeah.
+K
+KUMAR,Raj
+7 minutes 42 seconds7:42
+KUMAR,Raj 7 minutes 42 seconds
+Yeah.
+K
+KUMAR,Pradeep
+7 minutes 45 seconds7:45
+KUMAR,Pradeep 7 minutes 45 seconds
+Hmm.
+K
+KUMAR,Raj
+7 minutes 49 seconds7:49
+KUMAR,Raj 7 minutes 49 seconds
+Yeah, yeah.
+C
+Charmaine
+7 minutes 49 seconds7:49
+Charmaine 7 minutes 49 seconds
+Yeah.
+K
+KUMAR,Pradeep
+7 minutes 50 seconds7:50
+KUMAR,Pradeep 7 minutes 50 seconds
+Hmm.
+K
+KING-SMITH,Jamie
+7 minutes 51 seconds7:51
+KING-SMITH,Jamie 7 minutes 51 seconds
+Yeah. And that's why it gets confusing for users because especially if someone submitted near midnight and someone go, we will take a regulatory action because it's like you submitted a day late and it's like, no, no, no. Your time zone's pushed it forward 3 hours or whatever it is. So it's a tricky one for us to unpack.
+C
+Charmaine
+7 minutes 56 seconds7:56
+Charmaine 7 minutes 56 seconds
+Did you?
+M
+MILLS,Grant
+8 minutes 8 seconds8:08
+MILLS,Grant 8 minutes 8 seconds
+So Jamie.
+K
+KING-SMITH,Jamie
+8 minutes 8 seconds8:08
+KING-SMITH,Jamie 8 minutes 8 seconds
+But I think that's all front end stuff.
+M
+MILLS,Grant
+8 minutes 10 seconds8:10
+MILLS,Grant 8 minutes 10 seconds
+Jamie, we've had two RTO runs now. You've done the second one. The first one that went through, I was referring to at the start where I said they were sort of 12:00 PM appearing in my time.
+
+KING-SMITH,Jamie
+8 minutes 13 seconds8:13
+KING-SMITH,Jamie 8 minutes 13 seconds
+Yep.
+KING-SMITH,Jamie 8 minutes 17 seconds
+Yeah.
+KING-SMITH,Jamie 8 minutes 21 seconds
+They absolutely where you're 100% right? Yep.
+M
+MILLS,Grant
+8 minutes 24 seconds8:24
+MILLS,Grant 8 minutes 24 seconds
+Yeah. And is that because in the first run the time wasn't provided in the field, but the second time it was? So the second time it has been and it's now set to the correct, so there's no work around needed.
+K
+KING-SMITH,Jamie
+8 minutes 30 seconds8:30
+KING-SMITH,Jamie 8 minutes 30 seconds
+That's my suspicion. Yes, that's my suspicion. Yeah. Yeah.
+C
+Charmaine
+8 minutes 31 seconds8:31
+Charmaine 8 minutes 31 seconds
+Yep.
+Charmaine 8 minutes 33 seconds
+Alright, that is exactly right, yeah.
+K
+KING-SMITH,Jamie
+8 minutes 42 seconds8:42
+KING-SMITH,Jamie 8 minutes 42 seconds
+I'm 95% sure that's a correct statement.
+M
+MILLS,Grant
+8 minutes 48 seconds8:48
+MILLS,Grant 8 minutes 48 seconds
+OK. So it sounds like we don't need to make a change in the pipeline to address this. If Matthew Barb is including the time 11:59 in the import file itself.
+K
+KUMAR,Pradeep
+8 minutes 58 seconds8:58
+KUMAR,Pradeep 8 minutes 58 seconds
+Yeah.
+KUMAR,Pradeep 9 minutes
+Yeah.
+K
+KING-SMITH,Jamie
+9 minutes9:00
+KING-SMITH,Jamie 9 minutes
+Yep.
+M
+MILLS,Grant
+9 minutes 3 seconds9:03
+MILLS,Grant 9 minutes 3 seconds
+OK.
+K
+KING-SMITH,Jamie
+9 minutes 3 seconds9:03
+KING-SMITH,Jamie 9 minutes 3 seconds
+Yeah, I'd park that one for now. That last 5% of confidence, I think we can take that offline, not deal with charmaine's time here. I think we just focus on the date of birth 1 the The thing is I think the contacts I looked at a couple of the contacts that didn't have a date of birth and they were kind of manually created.
+V
+VO,Tien
+9 minutes 3 seconds9:03
+VO,Tien 9 minutes 3 seconds
+It's.
+VO,Tien 9 minutes 9 seconds
+Yeah.
+M
+MILLS,Grant
+9 minutes 10 seconds9:10
+MILLS,Grant 9 minutes 10 seconds
+Got it.
+MILLS,Grant 9 minutes 13 seconds
+OK.
+MILLS,Grant 9 minutes 16 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+9 minutes 21 seconds9:21
+KING-SMITH,Jamie 9 minutes 21 seconds
+And I don't know whether it was part of like requests for information or something. Raj maybe the businesses created some manually and they didn't have date of birth because they didn't really need it. And so that's why I think the correct first name, last name and e-mail address existed because they were doing like an RFI for them.
+M
+MILLS,Grant
+9 minutes 25 seconds9:25
+MILLS,Grant 9 minutes 25 seconds
+Play song.
+K
+KUMAR,Raj
+9 minutes 28 seconds9:28
+KUMAR,Raj 9 minutes 28 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+9 minutes 38 seconds9:38
+KING-SMITH,Jamie 9 minutes 38 seconds
+And so when our logic came through and found the contact, we'd never built something to go and update the date of birth, but it wasn't like the first Qi run didn't bring in the date of birth. These were sort of manually created contacts. Yeah. And so we just need to update the logic that if you find the contact and it doesn't have a.
+
+KUMAR,Raj
+9 minutes 39 seconds9:39
+KUMAR,Raj 9 minutes 39 seconds
+Yeah.
+KUMAR,Raj 9 minutes 46 seconds
+Yeah.
+C
+Charmaine
+9 minutes 51 seconds9:51
+Charmaine 9 minutes 51 seconds
+Yeah.
+K
+KUMAR,Raj
+9 minutes 51 seconds9:51
+KUMAR,Raj 9 minutes 51 seconds
+Manually, yeah.
+M
+MILLS,Grant
+9 minutes 55 seconds9:55
+MILLS,Grant 9 minutes 55 seconds
+Yeah.
+K
+KUMAR,Raj
+9 minutes 56 seconds9:56
+KUMAR,Raj 9 minutes 56 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+9 minutes 58 seconds9:58
+KING-SMITH,Jamie 9 minutes 58 seconds
+Date of birth then stick the date of birth on the contact.
+K
+KUMAR,Raj
+9 minutes 58 seconds9:58
+KUMAR,Raj 9 minutes 58 seconds
+Yes.
+KUMAR,Raj 10 minutes
+Yes, that's correct.
+K
+KING-SMITH,Jamie
+10 minutes 2 seconds10:02
+KING-SMITH,Jamie 10 minutes 2 seconds
+Ankle.
+V
+VO,Tien
+10 minutes 4 seconds10:04
+VO,Tien 10 minutes 4 seconds
+Can I confirm this before we move to that? The date of birth issue. Yeah. Right. You were saying? Because this one is it says four of the the 2nd 261159.
+C
+Charmaine
+10 minutes 5 seconds10:05
+Charmaine 10 minutes 5 seconds
+And.
+K
+KING-SMITH,Jamie
+10 minutes 7 seconds10:07
+KING-SMITH,Jamie 10 minutes 7 seconds
+Social.
+V
+VO,Tien
+10 minutes 18 seconds10:18
+VO,Tien 10 minutes 18 seconds
+Because we kick off the job from that one time, does that mean that this time is 11:59 PM?
+VO,Tien 10 minutes 29 seconds
+Relating to the time that this service account is is a part of. Yeah, OK, so if these guys configure Melbourne time then that's Melbourne time. If the guys configured Brisbane time for chamber that would be Brisbane time, right? OK.
+K
+KUMAR,Raj
+10 minutes 33 seconds10:33
+KUMAR,Raj 10 minutes 33 seconds
+Yes.
+KUMAR,Raj 10 minutes 35 seconds
+Yes, yes.
+KUMAR,Raj 10 minutes 44 seconds
+Yeah. Yeah, because that account is creating the record. So that's why the time applies.
+V
+VO,Tien
+10 minutes 48 seconds10:48
+VO,Tien 10 minutes 48 seconds
+Yes.
+VO,Tien 10 minutes 51 seconds
+Yeah. Hi.
+M
+MILLS,Grant
+10 minutes 56 seconds10:56
+MILLS,Grant 10 minutes 56 seconds
+OK, now date of birth. Did we want to talk about that? So I know there was a question, Jamie around are we selecting the right contact and there are potentially some tricky scenarios that can come up. For example, if they're using a family or another type of shared address.
+
+KING-SMITH,Jamie
+11 minutes 8 seconds11:08
+KING-SMITH,Jamie 11 minutes 8 seconds
+Yep.
+M
+MILLS,Grant
+11 minutes 12 seconds11:12
+MILLS,Grant 11 minutes 12 seconds
+We're choosing the right one, that sort of thing. Or is it as simple as just simply we know we're selecting a contact. We're assuming it's the right contact and if they don't have a date of birth set, we we need to update the date of birth that's provided in the file.
+K
+KING-SMITH,Jamie
+11 minutes 29 seconds11:29
+KING-SMITH,Jamie 11 minutes 29 seconds
+Yeah, I think it's the 2nd and here was my thinking on that because the existing contact that was manually created, it has first name, last name and e-mail address and then the import file that we've got has first name, last name, e-mail address. It is finding the correct.
+M
+MILLS,Grant
+11 minutes 45 seconds11:45
+MILLS,Grant 11 minutes 45 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+11 minutes 48 seconds11:48
+KING-SMITH,Jamie 11 minutes 48 seconds
+Correct contact, so it's not. It's not finding one that was kind of a generic one. So So what should end up happening, let's say two people were using the same e-mail address effectively what the logics going to come through with the second person when in the Qi import, it'll have charmaine's name and Raja's name?
+K
+KUMAR,Raj
+11 minutes 57 seconds11:57
+KUMAR,Raj 11 minutes 57 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+12 minutes 8 seconds12:08
+KING-SMITH,Jamie 12 minutes 8 seconds
+But it won't find Charmaine. It will find Raj. So it'll update Raj with the right date of birth and then it'll create Charmaine as a contact. And they'll both be sharing the same e-mail address. But they become unique contacts. And so I think the logic just by default kind of handles that scenario.
+K
+KUMAR,Raj
+12 minutes 25 seconds12:25
+KUMAR,Raj 12 minutes 25 seconds
+Yeah, yeah, yeah. So two things play part in this one. One is the duplicate detection rule, Jamie. It works on import also. So we can disable it and it will allow.
+K
+KING-SMITH,Jamie
+12 minutes 33 seconds12:33
+KING-SMITH,Jamie 12 minutes 33 seconds
+Yep, Yep.
+KING-SMITH,Jamie 12 minutes 35 seconds
+Yep.
+KING-SMITH,Jamie 12 minutes 41 seconds
+Yeah.
+K
+KUMAR,Raj
+12 minutes 41 seconds12:41
+KUMAR,Raj 12 minutes 41 seconds
+But again, it will create duplicate data in the system so that is not recommend.
+K
+KING-SMITH,Jamie
+12 minutes 44 seconds12:44
+KING-SMITH,Jamie 12 minutes 44 seconds
+Yeah, I was confused about that because when I was manually changing and updating, it was kind of like, oh, there's two of these you want to merge them. And then I was like, I don't know if I want to merge them.
+K
+KUMAR,Raj
+12 minutes 51 seconds12:51
+KUMAR,Raj 12 minutes 51 seconds
+Yeah, yeah, yeah.
+C
+Charmaine
+12 minutes 52 seconds12:52
+Charmaine 12 minutes 52 seconds
+I was experiencing the same. I was getting duplicates and I thought well if the first e-mail primary e-mail is is not correct and and it's actually the secondary e-mail but the date of birth there's like a mismatch. Do you take the primary e-mail? Do you take the secondary e-mail?
+
+KUMAR,Raj
+13 minutes 1 second13:01
+KUMAR,Raj 13 minutes 1 second
+Yeah.
+K
+KING-SMITH,Jamie
+13 minutes 10 seconds13:10
+KING-SMITH,Jamie 13 minutes 10 seconds
+Yeah.
+C
+Charmaine
+13 minutes 11 seconds13:11
+Charmaine 13 minutes 11 seconds
+And so I had a number of I was kind of, you know, kind of looking at different type of tiers, whether it's a single match and the day of birth matches, then we're good. But if the date of birth is null and we've got, you know, two different.
+K
+KUMAR,Raj
+13 minutes 15 seconds13:15
+KUMAR,Raj 13 minutes 15 seconds
+Yeah.
+C
+Charmaine
+13 minutes 29 seconds13:29
+Charmaine 13 minutes 29 seconds
+Possible emails. You know, they go into a bucket of error handling and then we need to confirm with, you know, the business that they're the right people. And then I think that was more on the multiple matches like potential multiple matches.
+Charmaine 13 minutes 45 seconds
+And then there's another tier that talks about like mismatches. Like I wrote a couple of little potentials scenarios. And so yeah, just yeah.
+K
+KUMAR,Raj
+13 minutes 54 seconds13:54
+KUMAR,Raj 13 minutes 54 seconds
+So yeah, so question, TNO, Sharmin, can we do upsert commands on such records?
+V
+VO,Tien
+13 minutes 55 seconds13:55
+VO,Tien 13 minutes 55 seconds
+Ah.
+VO,Tien 14 minutes 3 seconds
+We certainly can, but the the The thing is, it sounds like the the has the requirements being changed since I last touched the code. So in order to look up the, the contact you you only need 3 variables, right? First name, last name and e-mail.
+K
+KUMAR,Raj
+14 minutes 3 seconds14:03
+KUMAR,Raj 14 minutes 3 seconds
+Sure.
+K
+KING-SMITH,Jamie
+14 minutes 18 seconds14:18
+KING-SMITH,Jamie 14 minutes 18 seconds
+Yep.
+V
+VO,Tien
+14 minutes 18 seconds14:18
+VO,Tien 14 minutes 18 seconds
+And so if if any of them is not matching then it'll be a a new contact basically right? So being said into the system as a new contact.
+K
+KUMAR,Raj
+14 minutes 18 seconds14:18
+KUMAR,Raj 14 minutes 18 seconds
+Amen. Yeah.
+K
+KING-SMITH,Jamie
+14 minutes 23 seconds14:23
+KING-SMITH,Jamie 14 minutes 23 seconds
+OK.
+K
+KUMAR,Raj
+14 minutes 23 seconds14:23
+KUMAR,Raj 14 minutes 23 seconds
+New new code, correct. Yeah.
+C
+Charmaine
+14 minutes 27 seconds14:27
+Charmaine 14 minutes 27 seconds
+But if you've got duplicate people in the system with first name, last name and then the e-mail which which do you update date of birth? Could be the family member that's that's where I was.
+K
+KUMAR,Raj
+14 minutes 28 seconds14:28
+KUMAR,Raj 14 minutes 28 seconds
+Yeah.
+
+Charmaine
+14 minutes 43 seconds14:43
+Charmaine 14 minutes 43 seconds
+Probably get needed a bit more assurance.
+K
+KING-SMITH,Jamie
+14 minutes 47 seconds14:47
+KING-SMITH,Jamie 14 minutes 47 seconds
+Yeah. So that's an interesting scenario, right. So let's say we've manually added two contacts, first name, last name, e-mail address was the same. Ignore duplicate detection for now. But let's say there is a date of birth on that on one of the contacts, right? So when this logic comes along, not only does it find 2 contacts, one's got.
+K
+KUMAR,Raj
+14 minutes 57 seconds14:57
+KUMAR,Raj 14 minutes 57 seconds
+Yeah.
+C
+Charmaine
+15 minutes 3 seconds15:03
+Charmaine 15 minutes 3 seconds
+Yes.
+Charmaine 15 minutes 7 seconds
+That's exactly right, yes. Yeah, yeah.
+K
+KING-SMITH,Jamie
+15 minutes 7 seconds15:07
+KING-SMITH,Jamie 15 minutes 7 seconds
+A date of birth 1 doesn't, and the date of birth is different. It's like what do we do? Do we update that date of birth? Do we pick the other contact and update that one? Why have we got duplicates? So there is some scenarios in here. Tien, I don't think the rules have changed as much as we've kind of uncovered a couple of things. It's like we didn't know that would happen.
+C
+Charmaine
+15 minutes 14 seconds15:14
+Charmaine 15 minutes 14 seconds
+Exactly.
+Charmaine 15 minutes 17 seconds
+Mm-hmm.
+K
+KING-SMITH,Jamie
+15 minutes 27 seconds15:27
+KING-SMITH,Jamie 15 minutes 27 seconds
+And so it's like, how do we wanna deal with it?
+V
+VO,Tien
+15 minutes 29 seconds15:29
+VO,Tien 15 minutes 29 seconds
+Is that as a result of one is manually entered and the other one is entered through the the process OK.
+K
+KING-SMITH,Jamie
+15 minutes 33 seconds15:33
+KING-SMITH,Jamie 15 minutes 33 seconds
+Yeah, yeah, yeah, absolutely.
+C
+Charmaine
+15 minutes 34 seconds15:34
+Charmaine 15 minutes 34 seconds
+Let's see.
+K
+KUMAR,Raj
+15 minutes 35 seconds15:35
+KUMAR,Raj 15 minutes 35 seconds
+Yeah, because duplicate detection rule is still allowing but it is showing the not error. It's showing the dialogue warning message that and but you can still ignore and save so we can.
+K
+KING-SMITH,Jamie
+15 minutes 52 seconds15:52
+KING-SMITH,Jamie 15 minutes 52 seconds
+Yeah. Yep.
+K
+KUMAR,Raj
+15 minutes 55 seconds15:55
+KUMAR,Raj 15 minutes 55 seconds
+You can force it that it doesn't allow it, but from existing configuration it's you can ignore and save 2 duplicate records.
+K
+KING-SMITH,Jamie
+15 minutes 55 seconds15:55
+KING-SMITH,Jamie 15 minutes 55 seconds
+Yeah.
+KING-SMITH,Jamie 16 minutes 2 seconds
+Yeah. And I think our preference is, is to not ignore it, right? It's to merge them together. It's just if we've got functions hanging off these contacts and then we merge 2 together and something happened on the other one. And what if we don't pick pick the primary correctly like I just didn't know how it it kind of.
+
+KUMAR,Raj
+16 minutes 7 seconds16:07
+KUMAR,Raj 16 minutes 7 seconds
+Yeah, yeah.
+M
+MILLS,Grant
+16 minutes 14 seconds16:14
+MILLS,Grant 16 minutes 14 seconds
+Yeah.
+MILLS,Grant 16 minutes 15 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+16 minutes 20 seconds16:20
+KING-SMITH,Jamie 16 minutes 20 seconds
+You know, spread out throughout the different functions in the system, so it's probably one for us to work through duplicate detection a little bit more.
+C
+Charmaine
+16 minutes 22 seconds16:22
+Charmaine 16 minutes 22 seconds
+And.
+V
+VO,Tien
+16 minutes 26 seconds16:26
+VO,Tien 16 minutes 26 seconds
+We we can export these records right and and we can do a a a clean up if you like we can we can work out the duplicates what they are and and then we can manually just fix them.
+K
+KING-SMITH,Jamie
+16 minutes 32 seconds16:32
+KING-SMITH,Jamie 16 minutes 32 seconds
+Yeah.
+KING-SMITH,Jamie 16 minutes 36 seconds
+Yeah.
+K
+KUMAR,Raj
+16 minutes 38 seconds16:38
+KUMAR,Raj 16 minutes 38 seconds
+It's not that easy, Dean, because it has some reference records, so example one may have cases, other may have enquiries. It's ideally to merge and but there are possibilities. We can merge it.
+K
+KING-SMITH,Jamie
+16 minutes 42 seconds16:42
+KING-SMITH,Jamie 16 minutes 42 seconds
+Yeah.
+KING-SMITH,Jamie 16 minutes 46 seconds
+Exactly and.
+K
+KUMAR,Raj
+16 minutes 56 seconds16:56
+KUMAR,Raj 16 minutes 56 seconds
+But we need to, yeah, yeah.
+K
+KUMAR,Pradeep
+16 minutes 56 seconds16:56
+KUMAR,Pradeep 16 minutes 56 seconds
+But you need to merge everything. Reference. Yeah, yeah, yeah.
+K
+KING-SMITH,Jamie
+16 minutes 58 seconds16:58
+KING-SMITH,Jamie 16 minutes 58 seconds
+Yeah, because course accreditation might have created a contact and it's got their applications associated to it. Then they called service delivery and they created a contact and it's got a an activity associated to it. Now, QI's created one, it's like I'm happy with them being one, but every single relationship from those other contacts has to go to whatever our prime.
+
+KUMAR,Raj
+17 minutes 1 second17:01
+KUMAR,Raj 17 minutes 1 second
+Yeah, yeah.
+K
+KUMAR,Pradeep
+17 minutes 1 second17:01
+KUMAR,Pradeep 17 minutes 1 second
+Hmm.
+V
+VO,Tien
+17 minutes 2 seconds17:02
+VO,Tien 17 minutes 2 seconds
+MMM.
+M
+MILLS,Grant
+17 minutes 3 seconds17:03
+MILLS,Grant 17 minutes 3 seconds
+Yeah.
+K
+KUMAR,Raj
+17 minutes 4 seconds17:04
+KUMAR,Raj 17 minutes 4 seconds
+Yeah.
+KUMAR,Raj 17 minutes 10 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+17 minutes 18 seconds17:18
+KING-SMITH,Jamie 17 minutes 18 seconds
+Memory one is and I think that's the extra bit of thinking we need to work through.
+K
+KUMAR,Raj
+17 minutes 18 seconds17:18
+KUMAR,Raj 17 minutes 18 seconds
+Yeah, yeah.
+M
+MILLS,Grant
+17 minutes 18 seconds17:18
+MILLS,Grant 17 minutes 18 seconds
+Yeah.
+MILLS,Grant 17 minutes 19 seconds
+Yeah.
+K
+KUMAR,Raj
+17 minutes 21 seconds17:21
+KUMAR,Raj 17 minutes 21 seconds
+Yeah. So in the.
+C
+Charmaine
+17 minutes 22 seconds17:22
+Charmaine 17 minutes 22 seconds
+And I think that's what I was developing towards the back end was like, let's put them in a another kind of bucket so that we can highlight with the business. Is this legit? Yeah. That yeah, like an error handling kind of code. Yeah.
+M
+MILLS,Grant
+17 minutes 23 seconds17:23
+MILLS,Grant 17 minutes 23 seconds
+Yeah.
+MILLS,Grant 17 minutes 28 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+17 minutes 30 seconds17:30
+KING-SMITH,Jamie 17 minutes 30 seconds
+Yeah, yeah. Deal. Deal with this problem before we deal with it. Yeah, yeah, yeah.
+K
+KUMAR,Pradeep
+17 minutes 37 seconds17:37
+KUMAR,Pradeep 17 minutes 37 seconds
+Demi, I'm just thinking before we even do the upload of this starter, should we just do a kind of a quick, you know, run into the system and see how many matches we have found and what we want to do before you upload? Because once you run the load right it's it's harder to to deal with.
+K
+KING-SMITH,Jamie
+17 minutes 47 seconds17:47
+KING-SMITH,Jamie 17 minutes 47 seconds
+Yeah.
+KING-SMITH,Jamie 17 minutes 49 seconds
+Yeah.
+KING-SMITH,Jamie 17 minutes 50 seconds
+Yeah, yeah.
+KING-SMITH,Jamie 17 minutes 53 seconds
+Yep.
+KING-SMITH,Jamie 17 minutes 55 seconds
+Yep.
+K
+KUMAR,Pradeep
+17 minutes 55 seconds17:55
+KUMAR,Pradeep 17 minutes 55 seconds
+Because it it becomes messy. It just has a suggestion, right? Yeah.
+C
+Charmaine
+17 minutes 56 seconds17:56
+Charmaine 17 minutes 56 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+17 minutes 57 seconds17:57
+KING-SMITH,Jamie 17 minutes 57 seconds
+Yeah, you're 100% right. So I've already talked to prava about the danuka solution, which was meant to be able to deal with the the one line file and do the splitting stuff itself. But but it was about doing some form validation there to go. You have 26 records missing date of birth. We're not importing the file, right?
+
+
+MILLS,Grant
+18 minutes18:00
+MILLS,Grant 18 minutes
+Yeah.
+K
+KUMAR,Pradeep
+18 minutes 3 seconds18:03
+KUMAR,Pradeep 18 minutes 3 seconds
+Mm-hmm.
+C
+Charmaine
+18 minutes 3 seconds18:03
+Charmaine 18 minutes 3 seconds
+Yeah.
+K
+KUMAR,Pradeep
+18 minutes 8 seconds18:08
+KUMAR,Pradeep 18 minutes 8 seconds
+Hmm.
+KUMAR,Pradeep 18 minutes 12 seconds
+Hmm.
+KUMAR,Pradeep 18 minutes 15 seconds
+Hmm.
+K
+KING-SMITH,Jamie
+18 minutes 16 seconds18:16
+KING-SMITH,Jamie 18 minutes 16 seconds
+You get.
+KING-SMITH,Jamie 18 minutes 17 seconds
+That source file, right? We're not importing it and maybe we could layer that you've already got three contacts that match this. We're not going to know which one you want to associate this with. Go and deal with the contacts before you import the file. So I think there is some additional error handling for the future, but we didn't know about any of this when we built it, right we just.
+K
+KUMAR,Pradeep
+18 minutes 18 seconds18:18
+KUMAR,Pradeep 18 minutes 18 seconds
+Hmm.
+KUMAR,Pradeep 18 minutes 26 seconds
+Hmm.
+KUMAR,Pradeep 18 minutes 29 seconds
+Yeah.
+KUMAR,Pradeep 18 minutes 31 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+18 minutes 37 seconds18:37
+KING-SMITH,Jamie 18 minutes 37 seconds
+Built it on the fly with emerging requirements. So yeah, I'm pretty comfortable that that we should pick that up as part of transitioning to the longer term solution.
+C
+Charmaine
+18 minutes 40 seconds18:40
+Charmaine 18 minutes 40 seconds
+Thanks.
+K
+KUMAR,Pradeep
+18 minutes 47 seconds18:47
+KUMAR,Pradeep 18 minutes 47 seconds
+That's good.
+M
+MILLS,Grant
+18 minutes 49 seconds18:49
+MILLS,Grant 18 minutes 49 seconds
+But in the interim though, Jamie, we need to, does that mean we need to apply workarounds until we've got that?
+K
+KING-SMITH,Jamie
+18 minutes 56 seconds18:56
+KING-SMITH,Jamie 18 minutes 56 seconds
+Yeah. Look, I think if we said to the business, if we find a contact that it already exists and it's got a date of birth, do you want us to update the date of birth with the information you're providing in the Qi? If they go? Oh, no, then I don't know how we'll deal with that. Right. Do we create new contact?
+
+KUMAR,Pradeep
+18 minutes 58 seconds18:58
+KUMAR,Pradeep 18 minutes 58 seconds
+When is.
+C
+Charmaine
+18 minutes 59 seconds18:59
+Charmaine 18 minutes 59 seconds
+OK.
+M
+MILLS,Grant
+18 minutes 59 seconds18:59
+MILLS,Grant 18 minutes 59 seconds
+Yeah.
+MILLS,Grant 19 minutes 1 second
+Yeah.
+MILLS,Grant 19 minutes 3 seconds
+Yeah.
+MILLS,Grant 19 minutes 11 seconds
+Yeah.
+MILLS,Grant 19 minutes 12 seconds
+Yeah.
+C
+Charmaine
+19 minutes 14 seconds19:14
+Charmaine 19 minutes 14 seconds
+OK.
+M
+MILLS,Grant
+19 minutes 15 seconds19:15
+MILLS,Grant 19 minutes 15 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+19 minutes 15 seconds19:15
+KING-SMITH,Jamie 19 minutes 15 seconds
+Beauty of this is all the Qi records that are created as children. Of that, the credentials and all those things. It's always related to the right contact. It's just we might end up with duplicates in there or we might have two that are the same with different date of births. But whatever we create for Qi works OK and technically speaking that should.
+M
+MILLS,Grant
+19 minutes 17 seconds19:17
+MILLS,Grant 19 minutes 17 seconds
+Yeah.
+MILLS,Grant 19 minutes 23 seconds
+Yeah.
+MILLS,Grant 19 minutes 25 seconds
+Yeah.
+MILLS,Grant 19 minutes 29 seconds
+Yeah.
+MILLS,Grant 19 minutes 31 seconds
+Yeah.
+C
+Charmaine
+19 minutes 35 seconds19:35
+Charmaine 19 minutes 35 seconds
+Thank you.
+K
+KING-SMITH,Jamie
+19 minutes 35 seconds19:35
+KING-SMITH,Jamie 19 minutes 35 seconds
+Probably become the master for that contact and the other stuff gets merged into it. Yeah. So we yeah, we just need to unpack that a little bit more, I think.
+M
+MILLS,Grant
+19 minutes 37 seconds19:37
+MILLS,Grant 19 minutes 37 seconds
+Yeah.
+C
+Charmaine
+19 minutes 38 seconds19:38
+Charmaine 19 minutes 38 seconds
+Aye.
+M
+MILLS,Grant
+19 minutes 38 seconds19:38
+MILLS,Grant 19 minutes 38 seconds
+Yeah.
+MILLS,Grant 19 minutes 40 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+19 minutes 58 seconds19:58
+KING-SMITH,Jamie 19 minutes 58 seconds
+Yep.
+C
+Charmaine
+20 minutes20:00
+Charmaine 20 minutes
+USB.
+K
+KING-SMITH,Jamie
+20 minutes 5 seconds20:05
+KING-SMITH,Jamie 20 minutes 5 seconds
+Yeah.
+M
+MILLS,Grant
+20 minutes 5 seconds20:05
+MILLS,Grant 20 minutes 5 seconds
+We we've got your understanding of the problem. And so yeah, really do appreciate you made the time today.
+
+KING-SMITH,Jamie
+20 minutes 12 seconds20:12
+KING-SMITH,Jamie 20 minutes 12 seconds
+Yes, time.
+C
+Charmaine
+20 minutes 12 seconds20:12
+Charmaine 20 minutes 12 seconds
+No worries. Thanks so much, guys. And obviously, yeah, we chat if you haven't need anything. I'm on the Microsoft side. So I guess so you know I'm here.
+K
+KING-SMITH,Jamie
+20 minutes 16 seconds20:16
+KING-SMITH,Jamie 20 minutes 16 seconds
+Yes, right.
+KING-SMITH,Jamie 20 minutes 18 seconds
+Yeah, we'll hit you up for the back door entries, yes.
+V
+VO,Tien
+20 minutes 19 seconds20:19
+VO,Tien 20 minutes 19 seconds
+Play song.
+C
+Charmaine
+20 minutes 22 seconds20:22
+Charmaine 20 minutes 22 seconds
+I'll say I think I'm with ART anyway, so I guess, yeah, it's all all connected.
+V
+VO,Tien
+20 minutes 22 seconds20:22
+VO,Tien 20 minutes 22 seconds
+Yeah.
+K
+KING-SMITH,Jamie
+20 minutes 28 seconds20:28
+KING-SMITH,Jamie 20 minutes 28 seconds
+Perfect. Does everyone else want to stay on except Charmaine? We'll just quickly wrap that up.
+C
+Charmaine
+20 minutes 33 seconds20:33
+Charmaine 20 minutes 33 seconds
+Yeah. Adios, guys. All the best. Bye.
+M
+MILLS,Grant
+20 minutes 33 seconds20:33
+MILLS,Grant 20 minutes 33 seconds
+Yeah. Thanks, Charmaine. Thanks, everyone. Thanks, Charmaine. Thank you.
+K
+KING-SMITH,Jamie
+20 minutes 33 seconds20:33
+KING-SMITH,Jamie 20 minutes 33 seconds
+Sorry. OK.
+K
+KUMAR,Raj
+20 minutes 34 seconds20:34
+KUMAR,Raj 20 minutes 34 seconds
+Thank you. Thanks Evan. Bye.
+M
+MILLS,Grant
+20 minutes 36 seconds20:36
+MILLS,Grant 20 minutes 36 seconds
+Bye.
+K
+KUMAR,Raj
+20 minutes 39 seconds20:39
+KUMAR,Raj 20 minutes 39 seconds
+Yeah.
+M
+MILLS,Grant
+20 minutes 43 seconds20:43
+MILLS,Grant 20 minutes 43 seconds
+Yeah.
