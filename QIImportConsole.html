@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QI Import Console (Sample)</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { background: #f6f7fb; }
+    .app-header { background: #111827; color: #fff; }
+    .badge-soft { background: rgba(13,110,253,.1); color: #0d6efd; border: 1px solid rgba(13,110,253,.2); }
+    .card { border: 0; box-shadow: 0 6px 18px rgba(17,24,39,.08); border-radius: 14px; }
+    .nav-pills .nav-link.active { background: #111827; }
+    .kpi { font-size: 1.6rem; font-weight: 700; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .table thead th { color:#6b7280; font-weight: 600; border-bottom: 1px solid #e5e7eb; }
+    .table tbody td { border-top: 1px solid #eef2f7; vertical-align: middle; }
+    .status-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+    .status-Uploaded { background: #6c757d; }
+    .status-Validating { background: #0d6efd; }
+    .status-ReadyForReview { background: #20c997; }
+    .status-Approved { background: #198754; }
+    .status-Importing { background: #fd7e14; }
+    .status-Completed { background: #198754; }
+    .status-CompletedWithErrors { background: #dc3545; }
+    .status-Rejected { background: #343a40; }
+    .pointer { cursor: pointer; }
+  </style>
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="app-header py-3">
+    <div class="container-fluid px-4 d-flex align-items-center justify-content-between">
+      <div>
+        <div class="h4 mb-0">QI Import Console</div>
+        <div class="small text-white-50">Business-friendly preview + approve + fast batch import</div>
+      </div>
+      <div class="d-flex gap-2 align-items-center">
+        <span class="small text-white-50">Signed in as:</span>
+        <span class="badge bg-light text-dark">Sarah (Data Steward)</span>
+        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#uploadModal">
+          + New Import
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid px-4 py-4">
+
+    <!-- View switch -->
+    <div id="viewRuns">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <div>
+          <div class="h5 mb-0">Import Runs</div>
+          <div class="text-muted small">Upload CSV → validate in SQL → business review → approve → batch upload to Dataverse</div>
+        </div>
+
+        <div class="d-flex gap-2">
+          <input id="searchRuns" class="form-control form-control-sm" style="width:260px" placeholder="Search by file / status / user">
+          <select id="filterStatus" class="form-select form-select-sm" style="width:220px">
+            <option value="">All statuses</option>
+            <option>Uploaded</option>
+            <option>Validating</option>
+            <option>ReadyForReview</option>
+            <option>Approved</option>
+            <option>Importing</option>
+            <option>Completed</option>
+            <option>CompletedWithErrors</option>
+            <option>Rejected</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table align-middle mb-0" id="runsTable">
+              <thead>
+                <tr>
+                  <th style="width: 160px;">Run</th>
+                  <th>File</th>
+                  <th>Status</th>
+                  <th class="text-end">Total</th>
+                  <th class="text-end">Valid</th>
+                  <th class="text-end">Duplicate</th>
+                  <th class="text-end">Error</th>
+                  <th>Uploaded By</th>
+                  <th>Uploaded On</th>
+                  <th class="text-end" style="width: 140px;">Action</th>
+                </tr>
+              </thead>
+              <tbody id="runsTbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-muted small mt-3">
+        Tip: Click <b>View</b> to open dashboard. Status <span class="badge badge-soft">ReadyForReview</span> means business can review and approve.
+      </div>
+    </div>
+
+    <!-- Dashboard view -->
+    <div id="viewDashboard" class="d-none">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <div>
+          <div class="h5 mb-0">Import Run Dashboard</div>
+          <div class="text-muted small" id="dashSubTitle"></div>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-secondary btn-sm" id="btnBack">← Back</button>
+          <button class="btn btn-outline-dark btn-sm" id="btnRefresh">Refresh</button>
+        </div>
+      </div>
+
+      <!-- Header card -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="row g-3 align-items-center">
+            <div class="col-lg-5">
+              <div class="d-flex align-items-start justify-content-between">
+                <div>
+                  <div class="small text-muted">Run</div>
+                  <div class="h5 mb-1 mono" id="dashRunId"></div>
+                  <div class="text-muted small" id="dashFileName"></div>
+                </div>
+                <div class="text-end">
+                  <div class="small text-muted">Status</div>
+                  <div class="d-flex align-items-center justify-content-end gap-2">
+                    <span id="dashStatusDot" class="status-dot"></span>
+                    <span class="fw-semibold" id="dashStatus"></span>
+                  </div>
+                  <div class="text-muted small" id="dashTimes"></div>
+                </div>
+              </div>
+
+              <hr class="my-3">
+
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="small text-muted">Progress</div>
+                <div class="small text-muted"><span id="dashProcessed"></span>/<span id="dashTotal"></span> rows</div>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Import progress" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" id="dashProgressBar" style="width: 0%"></div>
+              </div>
+
+              <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-success btn-sm" id="btnProceed">Proceed to Import</button>
+                <button class="btn btn-outline-danger btn-sm" id="btnReject">Reject</button>
+                <button class="btn btn-outline-primary btn-sm" id="btnDownloadErrors">Download Errors CSV</button>
+              </div>
+
+              <div class="small text-muted mt-2" id="dashHint"></div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="row g-3">
+                <div class="col-md-3">
+                  <div class="card bg-light">
+                    <div class="card-body">
+                      <div class="small text-muted">Total Rows</div>
+                      <div class="kpi" id="kpiTotal">0</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card bg-light">
+                    <div class="card-body">
+                      <div class="small text-muted">Valid</div>
+                      <div class="kpi text-success" id="kpiValid">0</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card bg-light">
+                    <div class="card-body">
+                      <div class="small text-muted">Duplicates</div>
+                      <div class="kpi text-warning" id="kpiDup">0</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card bg-light">
+                    <div class="card-body">
+                      <div class="small text-muted">Errors</div>
+                      <div class="kpi text-danger" id="kpiErr">0</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                          <div class="fw-semibold">What will happen if you approve?</div>
+                          <div class="text-muted small">
+                            Only <b>Valid</b> rows will be batch uploaded to Dataverse. Duplicates and Errors stay in report.
+                          </div>
+                        </div>
+                        <span class="badge badge-soft">Fast batch upload</span>
+                      </div>
+                      <hr>
+                      <div class="row g-2 small">
+                        <div class="col-md-6">✅ Create new contacts (no match)</div>
+                        <div class="col-md-6">✅ Update existing contacts (DOB missing, etc.)</div>
+                        <div class="col-md-6">⚠️ Duplicates → not imported (needs business decision)</div>
+                        <div class="col-md-6">❌ Errors → not imported (fix CSV or lookup)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!-- row -->
+            </div><!-- col -->
+          </div><!-- row -->
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="card">
+        <div class="card-body">
+          <ul class="nav nav-pills mb-3" id="dashTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tabErrors" type="button" role="tab">
+                Errors <span class="badge bg-light text-dark ms-1" id="badgeErr">0</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tabDup" type="button" role="tab">
+                Duplicates <span class="badge bg-light text-dark ms-1" id="badgeDup">0</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tabValid" type="button" role="tab">
+                Valid Rows <span class="badge bg-light text-dark ms-1" id="badgeValid">0</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tabLog" type="button" role="tab">
+                Audit Log
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <!-- Errors -->
+            <div class="tab-pane fade show active" id="tabErrors" role="tabpanel">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="text-muted small">Rows that will fail if you proceed (missing lookup / invalid fields)</div>
+                <input id="searchErrors" class="form-control form-control-sm" style="width:260px" placeholder="Search error rows">
+              </div>
+              <div class="table-responsive">
+                <table class="table table-sm mb-0">
+                  <thead>
+                    <tr>
+                      <th>Row</th>
+                      <th>Email</th>
+                      <th>Error Code</th>
+                      <th>Error Message</th>
+                    </tr>
+                  </thead>
+                  <tbody id="errorsTbody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Duplicates -->
+            <div class="tab-pane fade" id="tabDup" role="tabpanel">
+              <div class="text-muted small mb-2">Potential duplicates (multiple matches in Dataverse) — business must decide.</div>
+              <div class="table-responsive">
+                <table class="table table-sm mb-0">
+                  <thead>
+                    <tr>
+                      <th>Row</th>
+                      <th>Email</th>
+                      <th>Matches</th>
+                      <th>Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody id="dupTbody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Valid -->
+            <div class="tab-pane fade" id="tabValid" role="tabpanel">
+              <div class="text-muted small mb-2">Rows ready to import (create/update). Only these will be uploaded.</div>
+              <div class="table-responsive">
+                <table class="table table-sm mb-0">
+                  <thead>
+                    <tr>
+                      <th>Row</th>
+                      <th>Email</th>
+                      <th>Action</th>
+                      <th>Matched Contact</th>
+                    </tr>
+                  </thead>
+                  <tbody id="validTbody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Log -->
+            <div class="tab-pane fade" id="tabLog" role="tabpanel">
+              <div class="text-muted small mb-2">System steps (good for audit + support runbook)</div>
+              <div class="bg-light rounded p-3 mono small" id="logBox" style="min-height: 160px; white-space: pre-wrap;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- dashboard -->
+  </main>
+
+  <!-- Upload Modal -->
+  <div class="modal fade" id="uploadModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content" style="border-radius: 14px;">
+        <div class="modal-header">
+          <h5 class="modal-title">New Import</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-info small mb-3">
+            Upload your 6k CSV. System will validate in SQL first. No Dataverse update until you approve.
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Import Name</label>
+              <input class="form-control" id="newImportName" placeholder="QI Import - Jan 2026" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Uploaded By</label>
+              <input class="form-control" id="newUploadedBy" value="Sarah" />
+            </div>
+            <div class="col-12">
+              <label class="form-label">CSV File</label>
+              <input type="file" class="form-control" id="newFile" accept=".csv" />
+              <div class="form-text">Sample: contacts + credentials flattened.</div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="d-flex gap-2">
+            <button class="btn btn-primary" id="btnUploadFake">Upload & Start Validation</button>
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // ===== Sample data (replace with your SQL/API) =====
+    const runs = [
+      {
+        runId: "IMP-0001",
+        file: "QI_Extract_2026-01-10.csv",
+        status: "ReadyForReview",
+        total: 6000,
+        valid: 5782,
+        dup: 140,
+        err: 78,
+        uploadedBy: "Matt",
+        uploadedOn: "2026-01-10 11:22",
+        startedOn: "2026-01-10 11:23",
+        finishedOn: "2026-01-10 11:29",
+        processed: 6000,
+        logs: [
+          "[11:23] Upload received → stored in SQL staging",
+          "[11:24] Snapshot contacts by email (Dataverse) → 5,521 matches loaded",
+          "[11:25] Snapshot lookups (RTO/Credentials) loaded",
+          "[11:27] Validation completed → ReadyForReview"
+        ],
+        errors: [
+          { row: 44, email:"bad@email", code:"InvalidEmail", msg:"Email format invalid" },
+          { row: 108, email:"john@abc.com", code:"MissingRTO", msg:"RTO code 'RTO-999' not found" },
+          { row: 1009, email:"", code:"MissingEmail", msg:"Email is mandatory for matching" }
+        ],
+        duplicates: [
+          { row: 120, email:"shared@email.com", matches: 2, notes:"2 contacts exist with same email. Needs merge decision." },
+          { row: 955, email:"sam@org.com", matches: 3, notes:"Multiple matches by email + name variation." }
+        ],
+        validRows: [
+          { row: 1, email:"lucy@test.com", action:"Create", matched:"-" },
+          { row: 2, email:"maria@test.com", action:"Update DOB", matched:"6f2b...a91c" },
+          { row: 3, email:"john.d@test.com", action:"Update Credentials", matched:"8aa1...d110" }
+        ]
+      },
+      {
+        runId: "IMP-0002",
+        file: "QI_Extract_2026-01-12.csv",
+        status: "Importing",
+        total: 6000,
+        valid: 5900,
+        dup: 60,
+        err: 40,
+        uploadedBy: "Matt",
+        uploadedOn: "2026-01-12 09:05",
+        startedOn: "2026-01-12 09:06",
+        finishedOn: "",
+        processed: 2100,
+        logs: [
+          "[09:06] Approved by Sarah",
+          "[09:06] Import started (batch size=200, concurrency=3)",
+          "[09:08] Batch 1 OK (200)",
+          "[09:09] Batch 2 OK (200)"
+        ],
+        errors: [],
+        duplicates: [],
+        validRows: []
+      },
+      {
+        runId: "IMP-0003",
+        file: "QI_Extract_2026-01-07.csv",
+        status: "CompletedWithErrors",
+        total: 500,
+        valid: 460,
+        dup: 20,
+        err: 20,
+        uploadedBy: "Matt",
+        uploadedOn: "2026-01-07 14:10",
+        startedOn: "2026-01-07 14:11",
+        finishedOn: "2026-01-07 14:16",
+        processed: 500,
+        logs: [
+          "[14:11] Validation completed",
+          "[14:12] Approved",
+          "[14:12] Importing...",
+          "[14:16] CompletedWithErrors (20 failed rows)"
+        ],
+        errors: [
+          { row: 77, email:"x@y.com", code:"LookupMissing", msg:"Credential code not found" }
+        ],
+        duplicates: [],
+        validRows: []
+      }
+    ];
+
+    // ===== UI Helpers =====
+    const el = (id) => document.getElementById(id);
+
+    function statusDotClass(status){
+      return "status-dot status-" + status;
+    }
+
+    function renderRunsTable(){
+      const q = el("searchRuns").value.trim().toLowerCase();
+      const fs = el("filterStatus").value;
+
+      const filtered = runs.filter(r => {
+        const hay = `${r.runId} ${r.file} ${r.status} ${r.uploadedBy}`.toLowerCase();
+        const matchQ = !q || hay.includes(q);
+        const matchS = !fs || r.status === fs;
+        return matchQ && matchS;
+      });
+
+      const tbody = el("runsTbody");
+      tbody.innerHTML = "";
+
+      filtered.forEach(r => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="mono">${r.runId}</td>
+          <td>${r.file}</td>
+          <td>
+            <span class="${statusDotClass(r.status)}"></span>
+            <span class="fw-semibold">${r.status}</span>
+          </td>
+          <td class="text-end">${r.total}</td>
+          <td class="text-end text-success fw-semibold">${r.valid}</td>
+          <td class="text-end text-warning fw-semibold">${r.dup}</td>
+          <td class="text-end text-danger fw-semibold">${r.err}</td>
+          <td>${r.uploadedBy}</td>
+          <td class="text-muted">${r.uploadedOn}</td>
+          <td class="text-end">
+            <button class="btn btn-sm btn-outline-dark" onclick="openDashboard('${r.runId}')">View</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function openDashboard(runId){
+      const r = runs.find(x => x.runId === runId);
+      if(!r) return;
+
+      // switch view
+      el("viewRuns").classList.add("d-none");
+      el("viewDashboard").classList.remove("d-none");
+
+      // header
+      el("dashRunId").textContent = r.runId;
+      el("dashFileName").textContent = r.file;
+      el("dashStatus").textContent = r.status;
+      el("dashStatusDot").className = statusDotClass(r.status);
+      el("dashSubTitle").textContent = `Uploaded by ${r.uploadedBy} · ${r.uploadedOn}`;
+
+      el("dashTimes").textContent = `Start: ${r.startedOn || "-"} · End: ${r.finishedOn || "-"}`;
+
+      // progress
+      el("dashTotal").textContent = r.total;
+      el("dashProcessed").textContent = r.processed;
+      const pct = r.total ? Math.round((r.processed / r.total) * 100) : 0;
+      el("dashProgressBar").style.width = pct + "%";
+      el("dashProgressBar").textContent = pct + "%";
+
+      // KPIs
+      el("kpiTotal").textContent = r.total;
+      el("kpiValid").textContent = r.valid;
+      el("kpiDup").textContent = r.dup;
+      el("kpiErr").textContent = r.err;
+
+      // badges
+      el("badgeErr").textContent = r.errors.length || r.err;
+      el("badgeDup").textContent = r.duplicates.length || r.dup;
+      el("badgeValid").textContent = r.validRows.length ? r.validRows.length : r.valid;
+
+      // hint + buttons enable
+      const canProceed = r.status === "ReadyForReview";
+      el("btnProceed").disabled = !canProceed;
+      el("btnReject").disabled = !(r.status === "ReadyForReview" || r.status === "Uploaded");
+      el("dashHint").innerHTML = canProceed
+        ? "✅ Status is <b>ReadyForReview</b>. Business can approve to start Dataverse upload."
+        : "ℹ️ Proceed button is disabled because run is not in ReadyForReview state.";
+
+      // render tabs
+      renderErrors(r);
+      renderDup(r);
+      renderValid(r);
+      renderLog(r);
+
+      // store current
+      window.__currentRunId = runId;
+    }
+
+    function renderErrors(r){
+      const tbody = el("errorsTbody");
+      tbody.innerHTML = "";
+      const list = r.errors.length ? r.errors : [];
+      list.forEach(e => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="mono">${e.row}</td>
+          <td>${e.email || "<span class='text-muted'>(blank)</span>"}</td>
+          <td><span class="badge bg-danger-subtle text-danger">${e.code}</span></td>
+          <td>${e.msg}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+      if(!list.length){
+        tbody.innerHTML = `<tr><td colspan="4" class="text-muted">No sample error rows loaded.</td></tr>`;
+      }
+    }
+
+    function renderDup(r){
+      const tbody = el("dupTbody");
+      tbody.innerHTML = "";
+      const list = r.duplicates.length ? r.duplicates : [];
+      list.forEach(d => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="mono">${d.row}</td>
+          <td>${d.email}</td>
+          <td><span class="badge bg-warning-subtle text-warning">${d.matches}</span></td>
+          <td>${d.notes}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+      if(!list.length){
+        tbody.innerHTML = `<tr><td colspan="4" class="text-muted">No sample duplicate rows loaded.</td></tr>`;
+      }
+    }
+
+    function renderValid(r){
+      const tbody = el("validTbody");
+      tbody.innerHTML = "";
+      const list = r.validRows.length ? r.validRows : [];
+      list.forEach(v => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td class="mono">${v.row}</td>
+          <td>${v.email}</td>
+          <td><span class="badge bg-success-subtle text-success">${v.action}</span></td>
+          <td class="mono">${v.matched}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+      if(!list.length){
+        tbody.innerHTML = `<tr><td colspan="4" class="text-muted">Valid rows are not loaded in sample for this run.</td></tr>`;
+      }
+    }
+
+    function renderLog(r){
+      el("logBox").textContent = (r.logs || []).join("\n") || "No logs.";
+    }
+
+    // ===== Actions (sample) =====
+    el("btnBack").addEventListener("click", () => {
+      el("viewDashboard").classList.add("d-none");
+      el("viewRuns").classList.remove("d-none");
+      renderRunsTable();
+    });
+
+    el("btnRefresh").addEventListener("click", () => {
+      if(window.__currentRunId) openDashboard(window.__currentRunId);
+    });
+
+    el("btnProceed").addEventListener("click", () => {
+      const r = runs.find(x => x.runId === window.__currentRunId);
+      if(!r) return;
+      if(r.status !== "ReadyForReview") return;
+
+      r.status = "Approved";
+      r.logs.push(`[${new Date().toTimeString().slice(0,5)}] Approved by Sarah`);
+      r.logs.push(`[${new Date().toTimeString().slice(0,5)}] Import queued for worker`);
+      openDashboard(r.runId);
+
+      alert("Approved! (Sample) In real system, worker will start Dataverse batch upload now.");
+    });
+
+    el("btnReject").addEventListener("click", () => {
+      const r = runs.find(x => x.runId === window.__currentRunId);
+      if(!r) return;
+      r.status = "Rejected";
+      r.logs.push(`[${new Date().toTimeString().slice(0,5)}] Rejected by Sarah`);
+      openDashboard(r.runId);
+      alert("Rejected! (Sample)");
+    });
+
+    el("btnDownloadErrors").addEventListener("click", () => {
+      alert("Sample: This would download a CSV generated from SQL ImportRow_Result where Classification='Error'.");
+    });
+
+    el("searchRuns").addEventListener("input", renderRunsTable);
+    el("filterStatus").addEventListener("change", renderRunsTable);
+
+    el("btnUploadFake").addEventListener("click", () => {
+      // Create a fake run and close modal
+      const name = el("newImportName").value || "QI Import";
+      const who = el("newUploadedBy").value || "User";
+      const newId = "IMP-" + String(runs.length + 1).padStart(4, "0");
+
+      runs.unshift({
+        runId: newId,
+        file: `${name.replace(/\s+/g,'_')}.csv`,
+        status: "Validating",
+        total: 6000,
+        valid: 0,
+        dup: 0,
+        err: 0,
+        uploadedBy: who,
+        uploadedOn: "2026-01-14 16:00",
+        startedOn: "2026-01-14 16:00",
+        finishedOn: "",
+        processed: 0,
+        logs: [
+          "[16:00] Upload received → stored in SQL staging",
+          "[16:00] Validation started..."
+        ],
+        errors: [],
+        duplicates: [],
+        validRows: []
+      });
+
+      renderRunsTable();
+
+      const modalEl = document.getElementById('uploadModal');
+      const modal = bootstrap.Modal.getInstance(modalEl);
+      modal.hide();
+
+      alert("Uploaded! (Sample) Worker will validate and move status to ReadyForReview.");
+    });
+
+    // ===== Init =====
+    renderRunsTable();
+  </script>
+</body>
+</html>
